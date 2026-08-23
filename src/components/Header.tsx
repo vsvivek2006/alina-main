@@ -6,8 +6,7 @@ import { siteConfig } from '@/data/siteConfig';
 const navLinks = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
-  { name: 'Escort Services', path: '/services' },
-  { name: 'Call Girls', path: '/call-girls' },
+  { name: 'Escorts', path: '/services' },
   { name: 'Locations', path: '/locations' },
   { name: 'Gallery', path: '/gallery' },
   { name: 'Blog', path: '/blog' },
@@ -66,14 +65,6 @@ export default function Header() {
               <Phone size={16} className="text-gold-500" />
               <span className="tracking-wider">{siteConfig.phoneDisplay}</span>
             </a>
-            <a
-              href="https://alinavip.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-charcoal-200 hover:text-gold-500 transition-colors"
-            >
-              ALINAVIP.com
-            </a>
           </div>
 
           <button
@@ -110,14 +101,6 @@ export default function Header() {
           >
             <Phone size={18} />
             {siteConfig.phoneDisplay}
-          </a>
-          <a
-            href="https://alinavip.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold-400 hover:text-gold-300 text-sm font-sans tracking-wider"
-          >
-            ALINAVIP.com
           </a>
         </div>
       </div>
