@@ -15,7 +15,10 @@ export default function Footer() {
               ALINA <span className="text-gold-500 font-light">VIP</span>
             </h3>
             <p className="text-sm text-charcoal-400 leading-relaxed mb-6">
-              {siteConfig.tagline}. Premium luxury companionship services in Gurgaon for discerning gentlemen.
+              {siteConfig.tagline}. Premium <Link to="/services" className="text-gold-400 hover:text-gold-300 transition-colors">escort service in Gurgaon</Link> 
+              with verified <Link to="/call-girls" className="text-gold-400 hover:text-gold-300 transition-colors">call girls</Link>, 
+              <Link to="/russian-escorts" className="text-gold-400 hover:text-gold-300 transition-colors"> Russian escorts</Link>, and 
+              <Link to="/model-escorts" className="text-gold-400 hover:text-gold-300 transition-colors"> model escorts</Link>.
             </p>
             <div className="flex gap-4">
               {siteConfig.socialLinks.map((social) => {
@@ -34,6 +37,11 @@ export default function Footer() {
                 );
               })}
             </div>
+            <div className="mt-4">
+              <a href="https://alinavip.com" target="_blank" className="text-xs text-gold-400 hover:text-gold-300 transition-colors">
+                Visit ALINAVIP.com
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -43,7 +51,8 @@ export default function Footer() {
               {[
                 { name: 'Home', path: '/' },
                 { name: 'About Us', path: '/about' },
-                { name: 'Our Services', path: '/services' },
+                { name: 'Escort Services', path: '/services' },
+                { name: 'Call Girls', path: '/call-girls' },
                 { name: 'Gallery', path: '/gallery' },
                 { name: 'Blog', path: '/blog' },
                 { name: 'Contact', path: '/contact' },
@@ -63,7 +72,7 @@ export default function Footer() {
 
           {/* Categories */}
           <div>
-            <h4 className="font-sans text-xs tracking-ultra uppercase text-gold-500 mb-5">Categories</h4>
+            <h4 className="font-sans text-xs tracking-ultra uppercase text-gold-500 mb-5">Call Girls Categories</h4>
             <ul className="space-y-3">
               {categories.slice(0, 7).map((cat) => (
                 <li key={cat.slug}>
@@ -115,13 +124,19 @@ export default function Footer() {
                   {siteConfig.email}
                 </a>
               </li>
+              <li>
+                <a href="https://alinavip.com" target="_blank" className="flex items-center gap-3 text-sm text-charcoal-400 hover:text-gold-500 transition-colors">
+                  <span className="text-gold-500 flex-shrink-0">🌐</span>
+                  ALINAVIP.com
+                </a>
+              </li>
             </ul>
           </div>
         </div>
 
         {/* Locations strip */}
         <div className="border-t border-charcoal-700 pt-8 mb-8">
-          <h4 className="font-sans text-xs tracking-ultra uppercase text-gold-500 mb-4">Our Locations</h4>
+          <h4 className="font-sans text-xs tracking-ultra uppercase text-gold-500 mb-4">Escort Service Locations</h4>
           <div className="flex flex-wrap gap-x-4 gap-y-2">
             {locations.map((loc) => (
               <Link
@@ -129,7 +144,7 @@ export default function Footer() {
                 to={`/locations/${loc.slug}`}
                 className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors"
               >
-                Escorts in {loc.name}
+                {loc.name} Call Girls
               </Link>
             ))}
           </div>
@@ -149,6 +164,9 @@ export default function Footer() {
 
         <p className="text-xs text-charcoal-600 mt-6 text-center max-w-3xl mx-auto leading-relaxed">
           This website is intended for adults aged 18 and above. By accessing this site, you confirm that you are of legal age and that such content is legal in your jurisdiction.
+        </p>
+        <p className="text-xs text-charcoal-600 mt-2 text-center">
+          Visit <a href="https://alinavip.com" target="_blank" className="text-gold-400 hover:text-gold-300 transition-colors">ALINAVIP.com</a>
         </p>
       </div>
     </footer>
