@@ -22,20 +22,20 @@ export const generalFaqs = [
     answer: 'ALINA VIP is a premium luxury escort service based in Gurgaon, India. We provide verified, elite call girls for social events, dinner dates, travel, and private engagements. Our service is designed for discerning gentlemen who value discretion, quality, and sophistication.',
   },
   {
-    question: 'How do I book a call girl?',
-    answer: 'Booking a call girl is simple. You can call us directly at +91-9996265679 or fill out the contact form on our website. Our booking team will confirm availability, discuss your requirements, and arrange everything discreetly. We recommend booking 2-3 hours in advance when possible.',
+    question: 'How to book an escort service in Gurgaon?',
+    answer: 'Booking an escort service in Gurgaon with ALINA VIP is simple and 100% confidential. Call our booking desk directly at +91-9996265679 or WhatsApp us with your preferred location, timing, and companion preferences. Our concierge confirms availability within minutes and coordinates discreet outcall dispatch to your luxury hotel or residence.',
   },
   {
     question: 'Are all profiles verified?',
     answer: 'Yes, every profile on ALINA VIP undergoes a thorough verification process. We verify identity, photos, and background to ensure authenticity and quality. This process is fundamental to our commitment to providing a safe and premium experience for our clients.',
   },
   {
-    question: 'Is the service discreet and confidential?',
-    answer: 'Absolutely. Discretion and confidentiality are the cornerstones of our service. All client information is kept strictly private and never shared with third parties. Our call girls are trained to maintain the highest standards of discretion in all interactions.',
+    question: 'Is private escort booking in Gurgaon discreet and confidential?',
+    answer: 'Yes, absolute discretion and confidentiality are guaranteed. All client details are strictly protected with zero digital footprint. Our verified companions arrive in unmarked executive vehicles and observe the strictest privacy standards for five-star hotel suites and private residences across Gurgaon.',
   },
   {
-    question: 'What areas do you cover?',
-    answer: 'We cover all major areas of Gurgaon including DLF Phases 1-5, Cyber City, MG Road, Golf Course Road, Sohna Road, Sushant Lok, and all major sectors. We also serve Dwarka and Mahipalpur in New Delhi. For other locations, please contact us directly.',
+    question: 'What areas of Gurgaon does your escort service cover?',
+    answer: 'Our Gurgaon escort service covers all prime areas including DLF Phases 1–5, Cyber City, Cyber Hub, Golf Course Road, Sohna Road, MG Road, Sushant Lok, and Sectors 14, 29, 43, 44, 49, 56, and 57, as well as Aerocity and South Delhi.',
   },
   {
     question: 'What are your operating hours?',
@@ -64,5 +64,21 @@ export const generalFaqs = [
   {
     question: 'What if I need to cancel or reschedule?',
     answer: 'We understand that plans can change. Please inform us as early as possible if you need to cancel or reschedule. Our cancellation policy is fair and designed to accommodate genuine situations. Contact our booking team for specific terms.',
+  },
+  {
+    question: 'What is the outcall procedure for five-star luxury hotels in Gurgaon?',
+    answer: 'Our outcall escort service regularly dispatches to premier 5-star hotels including The Oberoi, The Trident, The Leela Ambience, Grand Hyatt Gurgaon, and ITC Grand Bharat. When booking, provide your hotel name and room or suite number. Our companions arrive dressed in elegant, understated attire that blends seamlessly with upscale hotel environments, maintaining absolute discretion upon entry.',
+  },
+  {
+    question: 'Do you offer cash on delivery (COD) payment for escort service in Gurgaon?',
+    answer: 'Yes, we support cash on delivery directly upon your companion’s arrival. We believe in transparent, honest service without deceptive advance fee demands. You may inspect and confirm your companion before settling the agreed companionship fee in person.',
+  },
+  {
+    question: 'How does ALINA VIP protect client confidentiality and personal data?',
+    answer: 'Client privacy is our foundational commitment. We operate on a strict zero-trace data policy: phone numbers, messages, and inquiry details are never stored, logged, or shared with third parties. All booking correspondence is handled through secure, ephemeral communications that are cleared immediately following the engagement.',
+  },
+  {
+    question: 'How do I ensure I am booking verified call girls and avoid common scams in Gurgaon?',
+    answer: 'Always book through an established agency like ALINA VIP that provides authentic, untouched profile photographs and explicit outcall terms. Avoid operators demanding untraceable upfront digital transfers before meeting. With ALINA VIP, our companions are verified in person, guaranteeing that the companion who arrives matches the profile you selected.',
   },
 ];

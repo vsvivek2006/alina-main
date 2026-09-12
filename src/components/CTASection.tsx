@@ -15,13 +15,13 @@ export default function CTASection() {
         </span>
 
         <h2 className="font-serif text-3xl md:text-5xl lg:text-6xl font-light text-white mb-6 leading-tight">
-          Experience Unrivalled <span className="text-gradient-gold font-normal">Luxury &amp; Discretion</span>
+          Book Escort Service in <span className="text-gradient-gold font-normal">Gurgaon 24/7</span>
         </h2>
 
         <div className="gold-divider mx-auto mb-6" />
 
         <p className="text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed text-base md:text-lg font-light">
-          Contact ALINA VIP concierge now to coordinate verified call girls, Russian escorts, and VIP companions across Gurgaon &amp; Delhi NCR hotels. Available 24 hours a day, 7 days a week.
+          Book premier escort service in Gurgaon with total confidentiality. Our luxury escort agency coordinates verified call girls, Russian escorts, and VIP companions across all Gurgaon 5-star hotels &amp; private residences.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-10">

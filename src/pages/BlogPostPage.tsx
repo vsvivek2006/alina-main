@@ -28,7 +28,7 @@ export default function BlogPostPage() {
   if (!post) {
     return (
       <div className="pt-32 pb-20 text-center bg-white text-gray-800">
-        <h1 className="section-title mb-4 text-[#1a1a2e]">Article Not Found</h1>
+        <h2 className="section-title mb-4 text-[#1a1a2e]">Article Not Found</h2>
         <p className="text-gray-600 mb-6">The blog post you&apos;re looking for doesn&apos;t exist.</p>
         <Link
           to="/blog"

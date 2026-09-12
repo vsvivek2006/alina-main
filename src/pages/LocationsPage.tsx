@@ -1,8 +1,8 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import {
-  ArrowRight, Search, MapPin, Building2, Sparkles, Compass,
-  Phone, Clock, ShieldCheck, CheckCircle2, ChevronRight,
+  ArrowRight, Search, MapPin, Compass,
+  Phone, Clock, ShieldCheck, CheckCircle2,
 } from 'lucide-react';
 import SEO from '@/components/SEO';
 import Breadcrumb from '@/components/Breadcrumb';

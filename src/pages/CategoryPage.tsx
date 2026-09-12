@@ -14,6 +14,7 @@ import {
   Lock,
   Clock,
   MapPin,
+  CheckCircle2,
 } from 'lucide-react';
 import SEO from '@/components/SEO';
 import Breadcrumb from '@/components/Breadcrumb';
@@ -61,7 +62,7 @@ export default function CategoryPage() {
   if (!category) {
     return (
       <div className="pt-32 pb-20 text-center bg-white text-gray-800">
-        <h1 className="section-title mb-4 text-[#1a1a2e]">Category Not Found</h1>
+        <h2 className="section-title mb-4 text-[#1a1a2e]">Category Not Found</h2>
         <p className="text-gray-600 mb-6">The escort service category you&apos;re looking for doesn&apos;t exist.</p>
         <Link
           to="/services"
@@ -234,6 +235,119 @@ export default function CategoryPage() {
                       </p>
                     </div>
                   </div>
+                </div>
+              </div>
+
+              {/* Selection Standards & Verification */}
+              <div className="space-y-4">
+                <h3 className="text-2xl font-bold text-[#1a1a2e] font-serif">
+                  Selection Standards &amp; Quality Assurance for {category.name}
+                </h3>
+                <p className="text-gray-700 leading-relaxed text-sm md:text-base">
+                  At <strong>ALINA VIP</strong>, our {category.name.toLowerCase()} represent the highest standard of elegance, poise, and companionship. We understand that discerning gentlemen and corporate executives require absolute assurance when making a reservation. That is why every profile in this collection undergoes an in-person vetting process to authenticate credentials, appearance, and social etiquette.
+                </p>
+                <div className="grid sm:grid-cols-2 gap-4 pt-2">
+                  <div className="p-4 bg-[#faf6f2] rounded-xl border border-gold-200/40">
+                    <h4 className="font-bold text-[#1a1a2e] text-sm mb-1 flex items-center gap-2">
+                      <CheckCircle2 className="w-4 h-4 text-gold-600" /> Untouched Real Photography
+                    </h4>
+                    <p className="text-xs text-gray-600 leading-relaxed">
+                      We never use misleading stock photos or artificial imagery. Every photo in our gallery accurately portrays your companion’s natural appearance.
+                    </p>
+                  </div>
+                  <div className="p-4 bg-[#faf6f2] rounded-xl border border-gold-200/40">
+                    <h4 className="font-bold text-[#1a1a2e] text-sm mb-1 flex items-center gap-2">
+                      <CheckCircle2 className="w-4 h-4 text-gold-600" /> Conversational Fluency
+                    </h4>
+                    <p className="text-xs text-gray-600 leading-relaxed">
+                      Our companions possess exceptional communication skills, emotional intelligence, and cosmopolitan charm suited for high-society engagements.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Occasion & Etiquette Guide */}
+              <div className="space-y-4">
+                <h3 className="text-2xl font-bold text-[#1a1a2e] font-serif">
+                  Ideal Occasions &amp; Companion Etiquette
+                </h3>
+                <p className="text-gray-700 leading-relaxed text-sm md:text-base">
+                  Whether you are attending an exclusive business dinner at Cyber Hub, hosting an intimate corporate gala on Golf Course Road, or unwinding in the private sanctuary of a luxury hotel suite, our {category.name.toLowerCase()} seamlessly adapt to your schedule and setting.
+                </p>
+                <ul className="space-y-2.5 text-sm text-gray-700">
+                  <li className="flex items-start gap-2.5">
+                    <span className="w-1.5 h-1.5 bg-gold-600 rounded-full mt-2 flex-shrink-0" />
+                    <span><strong>Fine Dining &amp; Gala Evenings:</strong> Impeccable formal dressing, graceful social etiquette, and engaging conversation at Gurgaon&apos;s finest Michelin-star and luxury restaurants.</span>
+                  </li>
+                  <li className="flex items-start gap-2.5">
+                    <span className="w-1.5 h-1.5 bg-gold-600 rounded-full mt-2 flex-shrink-0" />
+                    <span><strong>Executive Travel &amp; Retreats:</strong> Dependable, well-travelled accompaniment for business conferences, luxury resorts, and weekend getaways across NCR and beyond.</span>
+                  </li>
+                  <li className="flex items-start gap-2.5">
+                    <span className="w-1.5 h-1.5 bg-gold-600 rounded-full mt-2 flex-shrink-0" />
+                    <span><strong>Private Hotel Outcalls:</strong> Effortless, confidential companionship tailored for relaxing stays at premier five-star hospitality suites.</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Discreet Outcall & Safety Protocols */}
+              <div className="p-6 bg-[#faf6f2] rounded-2xl border border-gold-200/60 space-y-4">
+                <h3 className="text-xl font-bold text-[#1a1a2e] font-serif">
+                  Discreet Outcall Coordination Across Gurgaon
+                </h3>
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  We specialize in prompt, confidential outcall dispatch to all luxury destinations across Gurgaon, including DLF Phase 1–5, Cyber City, Golf Course Road, Sohna Road, MG Road, and Aerocity. Our companions arrive punctually via private executive transport, blending seamlessly into high-end hotel lobbies and private residential complexes.
+                </p>
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  To ensure complete trust, ALINA VIP adheres to a strict zero-advance policy: you settle the agreed companionship fee directly in person upon arrival. Your personal details, contact number, and booking records are never shared, logged, or retained, guaranteeing complete peace of mind.
+                </p>
+              </div>
+
+              {/* Category FAQs */}
+              <div className="space-y-4">
+                <h3 className="text-2xl font-bold text-[#1a1a2e] font-serif">
+                  Frequently Asked Questions – {category.name}
+                </h3>
+                <div className="space-y-3">
+                  <details className="bg-white rounded-xl border border-gray-200 p-4 group">
+                    <summary className="font-semibold text-[#1a1a2e] text-sm cursor-pointer list-none flex items-center justify-between">
+                      <span>How do I book a {category.name.toLowerCase()} in Gurgaon?</span>
+                      <span className="text-gold-600 text-lg group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p className="text-xs text-gray-600 mt-3 leading-relaxed border-t border-gray-100 pt-3">
+                      Booking is simple and 100% confidential. Call our private booking concierge at +91-9996265679 or message us via WhatsApp with your preferred timing, location, and companion choice. We confirm availability and dispatch within minutes.
+                    </p>
+                  </details>
+
+                  <details className="bg-white rounded-xl border border-gray-200 p-4 group">
+                    <summary className="font-semibold text-[#1a1a2e] text-sm cursor-pointer list-none flex items-center justify-between">
+                      <span>Are {category.name.toLowerCase()} photos 100% genuine?</span>
+                      <span className="text-gold-600 text-lg group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p className="text-xs text-gray-600 mt-3 leading-relaxed border-t border-gray-100 pt-3">
+                      Yes. Every companion is photographed and verified in person by our management team. We guarantee that the companion who arrives at your suite matches the profile you selected.
+                    </p>
+                  </details>
+
+                  <details className="bg-white rounded-xl border border-gray-200 p-4 group">
+                    <summary className="font-semibold text-[#1a1a2e] text-sm cursor-pointer list-none flex items-center justify-between">
+                      <span>What is the typical outcall arrival time in Gurgaon?</span>
+                      <span className="text-gold-600 text-lg group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p className="text-xs text-gray-600 mt-3 leading-relaxed border-t border-gray-100 pt-3">
+                      Companions typically arrive within 20 to 30 minutes for central Gurgaon locations like Cyber City, DLF Phases 1–5, and Golf Course Road. For extended corridors like Sohna Road or Manesar, arrival is usually within 35 to 45 minutes.
+                    </p>
+                  </details>
+
+                  <details className="bg-white rounded-xl border border-gray-200 p-4 group">
+                    <summary className="font-semibold text-[#1a1a2e] text-sm cursor-pointer list-none flex items-center justify-between">
+                      <span>Is my personal information kept confidential?</span>
+                      <span className="text-gold-600 text-lg group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p className="text-xs text-gray-600 mt-3 leading-relaxed border-t border-gray-100 pt-3">
+                      Absolutely. We maintain a zero-trace privacy policy. Client phone numbers, names, and booking details are never saved in permanent databases and are discarded immediately following the booking.
+                    </p>
+                  </details>
                 </div>
               </div>
 

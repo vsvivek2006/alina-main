@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Phone, Home, Compass, Sparkles, MessageCircle, ArrowRight } from 'lucide-react';
+import { Phone, Home, Compass, Sparkles, MessageCircle } from 'lucide-react';
 import SEO from '@/components/SEO';
 import { siteConfig } from '@/data/siteConfig';
 

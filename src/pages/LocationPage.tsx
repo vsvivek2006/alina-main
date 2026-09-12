@@ -9,11 +9,9 @@ import {
   Star,
   MessageCircle,
   Building2,
-  Sparkles,
   ArrowRight,
   CheckCircle2,
   Hotel,
-  Compass,
 } from 'lucide-react';
 import SEO from '@/components/SEO';
 import Breadcrumb from '@/components/Breadcrumb';
@@ -31,7 +29,7 @@ export default function LocationPage() {
   if (!location) {
     return (
       <div className="pt-32 pb-20 text-center bg-white text-gray-800">
-        <h1 className="section-title mb-4 text-[#1a1a2e]">Location Not Found</h1>
+        <h2 className="section-title mb-4 text-[#1a1a2e]">Location Not Found</h2>
         <p className="text-gray-600 mb-6">The location page you are looking for does not exist.</p>
         <Link
           to="/locations"
@@ -89,9 +87,9 @@ export default function LocationPage() {
   return (
     <>
       <SEO
-        title={location.metaTitle}
+        title={location.region === 'Gurgaon' ? `Escort Service in ${location.name} Gurgaon | VIP Call Girls | ALINA VIP` : location.metaTitle}
         description={location.metaDescription}
-        keywords={`escorts in ${location.name}, ${location.name} call girls, luxury escorts ${location.name}, VIP call girls ${location.name}`}
+        keywords={`escort service in ${location.name} Gurgaon, escorts in ${location.name}, ${location.name} call girls, luxury escorts ${location.name}, VIP call girls ${location.name}`}
         canonical={`${siteConfig.url}/locations/${location.slug}`}
         jsonLd={[faqSchema, placeSchema]}
         breadcrumbs={[
@@ -119,7 +117,7 @@ export default function LocationPage() {
             ★ {location.city} • {location.region}
           </span>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-serif tracking-wide">
-            Escorts in <span className="text-gradient-gold">{location.name}</span>
+            Escort Service in <span className="text-gradient-gold">{location.name}</span>{location.region === 'Gurgaon' ? ', Gurgaon' : `, ${location.region}`}
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed font-light">
             {location.shortDescription} ALINA VIP provides verified, discreet, and premium{' '}
@@ -330,6 +328,42 @@ export default function LocationPage() {
                   </div>
                 </div>
               )}
+
+              {/* Hotel Outcall Protocol & Booking Safety */}
+              <div className="p-8 bg-[#faf6f2] rounded-2xl border border-gold-200/60 shadow-sm space-y-4">
+                <h3 className="text-2xl font-bold text-[#1a1a2e] font-serif flex items-center gap-2">
+                  <ShieldCheck className="text-gold-600 w-6 h-6" />
+                  Private Outcall Protocol &amp; Hotel Etiquette in {location.name}
+                </h3>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Booking an outcall escort service in {location.name} with <strong>ALINA VIP</strong> is organized to provide maximum convenience, privacy, and peace of mind. Whether you are staying at an executive business hotel, a five-star luxury suite, or a private serviced residence, our companions arrive punctually and conduct themselves with refined social poise.
+                </p>
+                <div className="grid sm:grid-cols-2 gap-4 pt-2">
+                  <div className="bg-white p-4 rounded-xl border border-gray-100">
+                    <h4 className="font-bold text-[#1a1a2e] text-xs uppercase tracking-wider mb-1 text-gold-700">
+                      Discreet Arrival
+                    </h4>
+                    <p className="text-xs text-gray-600 leading-relaxed">
+                      Companions arrive via private, unmarked executive chauffeur directly at your chosen venue in {location.name}, ensuring your meeting remains strictly confidential from reception to suite.
+                    </p>
+                  </div>
+                  <div className="bg-white p-4 rounded-xl border border-gray-100">
+                    <h4 className="font-bold text-[#1a1a2e] text-xs uppercase tracking-wider mb-1 text-gold-700">
+                      Zero Advance Fees
+                    </h4>
+                    <p className="text-xs text-gray-600 leading-relaxed">
+                      To protect you from fraud and deceptive advance-fee schemes, ALINA VIP supports Cash on Delivery. You meet and verify your companion in person before settling the booking fee.
+                    </p>
+                  </div>
+                </div>
+                <p className="text-xs text-gray-500 pt-2 border-t border-gold-200/40">
+                  Need assistance with reservations in {location.name}? Contact our 24/7 concierge desk at{' '}
+                  <a href={`tel:${siteConfig.phone}`} className="text-gold-600 font-bold hover:underline">
+                    {siteConfig.phoneDisplay}
+                  </a>{' '}
+                  or chat directly on WhatsApp.
+                </p>
+              </div>
 
               {/* Master Hub Links if Applicable */}
               {location.isHub && location.hubDetails && (

@@ -146,6 +146,57 @@ export default function FAQPage() {
                 ))}
               </div>
 
+              {/* Client Guidelines & Booking Etiquette Guide */}
+              <div className="mt-12 p-8 bg-[#faf6f2] rounded-2xl border border-gold-200/60 shadow-sm space-y-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-[#1a1a2e] font-serif mb-2">
+                    Client Guidelines &amp; Etiquette for Escort Service in Gurgaon
+                  </h3>
+                  <div className="gold-divider mb-4" />
+                  <p className="text-gray-700 leading-relaxed text-sm md:text-base">
+                    At <strong>ALINA VIP</strong>, our goal is to deliver an unforgettable companionship experience built upon mutual courtesy, elegance, and unyielding privacy. Whether you are reserving an outcall companion for a high-profile corporate function, a romantic dinner date on Golf Course Road, or private suite relaxation in Cyber City, adhering to standard etiquette ensures seamless satisfaction.
+                  </p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
+                  <div className="bg-white p-5 rounded-xl border border-gray-100 shadow-xs">
+                    <h4 className="font-bold text-[#1a1a2e] mb-1.5 flex items-center gap-2">
+                      <ShieldCheck className="w-4 h-4 text-gold-600" /> Transparent Communication
+                    </h4>
+                    <p className="text-xs text-gray-600 leading-relaxed">
+                      Be clear about your schedule, chosen venue, and any special dress code preferences (e.g. evening gown, smart casual, or business chic) when speaking with our booking concierge.
+                    </p>
+                  </div>
+
+                  <div className="bg-white p-5 rounded-xl border border-gray-100 shadow-xs">
+                    <h4 className="font-bold text-[#1a1a2e] mb-1.5 flex items-center gap-2">
+                      <Clock className="w-4 h-4 text-gold-600" /> Punctuality &amp; Coordination
+                    </h4>
+                    <p className="text-xs text-gray-600 leading-relaxed">
+                      Our companions arrive punctually via private chauffeur. For hotel bookings, ensure your room key card or reception authorization is arranged to avoid unnecessary waiting in lobbies.
+                    </p>
+                  </div>
+
+                  <div className="bg-white p-5 rounded-xl border border-gray-100 shadow-xs">
+                    <h4 className="font-bold text-[#1a1a2e] mb-1.5 flex items-center gap-2">
+                      <Star className="w-4 h-4 text-gold-600" /> Mutual Dignity &amp; Respect
+                    </h4>
+                    <p className="text-xs text-gray-600 leading-relaxed">
+                      Our call girls and elite models are educated, refined individuals. Treating your companion with genuine gentlemanly respect creates a warm, authentic, and memorable atmosphere.
+                    </p>
+                  </div>
+
+                  <div className="bg-white p-5 rounded-xl border border-gray-100 shadow-xs">
+                    <h4 className="font-bold text-[#1a1a2e] mb-1.5 flex items-center gap-2">
+                      <CheckCircle2 className="w-4 h-4 text-gold-600" /> Zero Advance Payment Trap
+                    </h4>
+                    <p className="text-xs text-gray-600 leading-relaxed">
+                      We never ask for irreversible digital transfers before meeting. Settle your agreed booking fee directly in person, guaranteeing safety, confidence, and peace of mind.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               {/* Direct Call & Contact Card */}
               <div className="text-center mt-12 p-8 bg-[#faf6f2] rounded-2xl border border-gold-200/60 shadow-sm">
                 <p className="text-gray-700 font-semibold mb-4 text-base">

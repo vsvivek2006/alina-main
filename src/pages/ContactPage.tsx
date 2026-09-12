@@ -9,7 +9,6 @@ import {
   CheckCircle2,
   ArrowRight,
   Building2,
-  Sparkles,
 } from 'lucide-react';
 import SEO from '@/components/SEO';
 import Breadcrumb from '@/components/Breadcrumb';
@@ -565,7 +564,84 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <p className="text-sm text-gray-500 pt-4 border-t border-gold-200/60">
+              {/* Privacy & Zero-Trace Policy */}
+              <div className="mt-8 pt-6 border-t border-gold-200/60 space-y-4">
+                <h3 className="text-xl font-bold text-[#1a1a2e] font-serif">
+                  Zero-Trace Privacy &amp; Data Safeguards
+                </h3>
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  Discretion is the core tenet of ALINA VIP. We understand that our clientele includes high-ranking corporate leaders, diplomats, entrepreneurs, and discerning individuals who require total confidentiality. We implement an ephemeral data workflow: your contact information, messages, and meeting specifics are never stored in permanent databases, marketing mailing lists, or shared with third parties. Once your engagement concludes, all communication history is promptly purged.
+                </p>
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  Furthermore, our companions arrive in unmarked, private executive vehicles. They dress in sophisticated contemporary attire appropriate for luxury hotel lobbies or fine residential buildings, ensuring your privacy is safeguarded from doorstep to suite.
+                </p>
+              </div>
+
+              {/* Five-Star Hotel Arrival Procedures */}
+              <div className="mt-8 pt-6 border-t border-gold-200/60 space-y-4">
+                <h3 className="text-xl font-bold text-[#1a1a2e] font-serif">
+                  Five-Star Hotel Outcall Protocols
+                </h3>
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  For clients residing in premier hospitality properties such as The Oberoi Gurgaon, The Trident, The Leela Ambience, Grand Hyatt, or ITC Grand Bharat, our concierge coordinates seamless outcall dispatch. When submitting your reservation, simply mention your hotel property and room or suite number. Our companions are well-versed in luxury hospitality environments and know how to navigate hotel elevator key systems, concierge checkpoints, and private floors with effortless grace.
+                </p>
+              </div>
+
+              {/* Cash on Delivery & Fraud Protection */}
+              <div className="mt-8 pt-6 border-t border-gold-200/60 space-y-4">
+                <h3 className="text-xl font-bold text-[#1a1a2e] font-serif">
+                  Transparent Pricing &amp; Cash on Delivery Protection
+                </h3>
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  The escort industry in Gurgaon unfortunately has unregulated actors who demand advance booking deposits or gift cards and then fail to deliver. At ALINA VIP, we maintain an ethical, transparent booking process. We support direct Cash on Delivery (COD), allowing you to verify your companion upon arrival before settling the booking fee. No hidden surcharges, no misleading photos, and no advance payment traps.
+                </p>
+              </div>
+
+              {/* Concierge Reservation FAQ */}
+              <div className="mt-8 pt-6 border-t border-gold-200/60 space-y-4">
+                <h3 className="text-xl font-bold text-[#1a1a2e] font-serif">
+                  Concierge Booking Assistance &amp; FAQs
+                </h3>
+                <div className="space-y-3">
+                  <div className="p-4 bg-white rounded-xl border border-gray-200 shadow-xs">
+                    <h4 className="font-bold text-[#1a1a2e] text-sm mb-1">
+                      How far in advance should I confirm my booking?
+                    </h4>
+                    <p className="text-xs text-gray-600 leading-relaxed">
+                      While we accommodate immediate on-demand dispatches within 20 to 30 minutes across central Gurgaon, we recommend placing your reservation 1 to 2 hours in advance. For specific high-demand profiles such as Russian escorts, celebrity escorts, or overnight travel companions, booking 4 to 6 hours ahead guarantees companion availability.
+                    </p>
+                  </div>
+
+                  <div className="p-4 bg-white rounded-xl border border-gray-200 shadow-xs">
+                    <h4 className="font-bold text-[#1a1a2e] text-sm mb-1">
+                      Are late-night and 24/7 outcalls supported across all Gurgaon sectors?
+                    </h4>
+                    <p className="text-xs text-gray-600 leading-relaxed">
+                      Yes. Our concierge operates continuously 24 hours a day, 7 days a week. We arrange safe, punctual chauffeur transport to luxury hotels, corporate guest suites, and gated condominiums in DLF Phases 1–5, Golf Course Road, Sohna Road, and Cyber City at any hour of the night.
+                    </p>
+                  </div>
+
+                  <div className="p-4 bg-white rounded-xl border border-gray-200 shadow-xs">
+                    <h4 className="font-bold text-[#1a1a2e] text-sm mb-1">
+                      Can I book companion accompaniment for multi-day travel or conferences?
+                    </h4>
+                    <p className="text-xs text-gray-600 leading-relaxed">
+                      Yes, many of our companions are experienced travel partners available for weekend getaways, outstation business conferences, and resort stays. Please contact our desk directly with your travel itinerary to arrange travel logistics and bespoke packages with absolute confidentiality.
+                    </p>
+                  </div>
+
+                  <div className="p-4 bg-white rounded-xl border border-gray-200 shadow-xs">
+                    <h4 className="font-bold text-[#1a1a2e] text-sm mb-1">
+                      What is the policy for rescheduling or modifying a reservation?
+                    </h4>
+                    <p className="text-xs text-gray-600 leading-relaxed">
+                      We understand that corporate meetings and flight itineraries change. If you need to adjust your meeting time, venue, or companion preference, simply notify our concierge desk via phone or WhatsApp at least 45 minutes prior to dispatch. We accommodate schedule shifts seamlessly without penalties.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <p className="text-sm text-gray-500 pt-6 border-t border-gold-200/60">
                 Official Reservation Portal:{' '}
                 <a
                   href={siteConfig.url}

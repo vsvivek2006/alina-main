@@ -2,8 +2,7 @@ import { Link } from 'react-router-dom';
 import {
   Phone, ShieldCheck, BadgeCheck, Clock, Lock, Star, Crown, Gem, GraduationCap,
   User, Plane, Camera, Award, Luggage, Sparkles, UtensilsCrossed, Calendar,
-  PartyPopper, Briefcase, MapPin, ArrowRight, CheckCircle2, MessageCircle,
-  Building2, HeartHandshake,
+  PartyPopper, Briefcase, MapPin, ArrowRight, Building2,
 } from 'lucide-react';
 import SEO from '@/components/SEO';
 import CTASection from '@/components/CTASection';
@@ -189,9 +188,9 @@ export default function HomePage() {
   return (
     <>
       <SEO
-        title="Escort Service in Gurgaon | VIP Call Girls | ALINA VIP"
-        description="ALINA VIP offers premium escort service in Gurgaon. Book verified VIP call girls, Russian escorts, model escorts, and more. 100% discreet. Call +91-9996265679. 24/7 service."
-        keywords="escort service Gurgaon, call girls Gurgaon, VIP escorts Gurgaon, Russian escorts Gurgaon, model escorts Gurgaon, premium call girls, escort service, call girls, VIP escort service Gurgaon"
+        title="Escort Service in Gurgaon | Premium VIP Call Girls | ALINA VIP"
+        description="ALINA VIP offers premium escort service in Gurgaon. Book verified VIP call girls, Russian escorts, model escorts & independent companions. 100% discreet 24/7."
+        keywords="escort service in Gurgaon, escort services in Gurgaon, Gurgaon escort service, escorts in Gurgaon, Gurgaon escorts, call girl service in Gurgaon, call girls in Gurgaon, verified escorts in Gurgaon, book escort service in Gurgaon"
         canonical={`${siteConfig.url}/`}
         jsonLd={[organizationSchema, websiteSchema, localBusinessSchema, faqSchema]}
         breadcrumbs={[{ name: 'Home', url: siteConfig.url }]}
@@ -214,9 +213,9 @@ export default function HomePage() {
           </p>
 
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-light text-white leading-none mb-6 animate-fade-up">
-            Premium
+            #1 Premium
             <br />
-            <span className="shimmer-text font-medium text-gradient-gold">Escort Service</span>
+            <span className="shimmer-text font-medium text-gradient-gold">Escort Service in Gurgaon</span>
           </h1>
 
           <p
@@ -431,7 +430,7 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Verified Call Girls</p>
             <h2 className="section-title mb-4 text-[#1a1a2e]">
-              Authenticated &amp; <span className="text-gradient-gold">Verified Escorts</span>
+              Authenticated &amp; <span className="text-gradient-gold">Verified Escorts in Gurgaon</span>
             </h2>
             <div className="gold-divider" />
             <p className="text-gray-600 max-w-2xl mx-auto mt-6 leading-relaxed">
@@ -595,9 +594,9 @@ export default function HomePage() {
       <section className="py-20 md:py-28 bg-[#faf6f2]">
         <div className="container-luxury">
           <div className="text-center mb-14">
-            <p className="section-subtitle text-gold-600">Premium Locations</p>
+            <p className="section-subtitle text-gold-600">Prime Locations</p>
             <h2 className="section-title mb-4 text-[#1a1a2e]">
-              Escort Service in <span className="text-gradient-gold">Gurgaon</span>
+              Escort Service Across <span className="text-gradient-gold">Gurgaon Corridors</span>
             </h2>
             <div className="gold-divider" />
             <p className="text-gray-600 max-w-2xl mx-auto mt-6 leading-relaxed">
@@ -766,7 +765,7 @@ export default function HomePage() {
         <div className="container-luxury">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6">
-              Premium Escort Service in Gurgaon
+              Professional &amp; Luxury Escort Service in Gurgaon
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
               <strong className="text-[#1a1a2e]">ALINA VIP</strong> is the leading{' '}
