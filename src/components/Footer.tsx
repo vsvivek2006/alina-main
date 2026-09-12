@@ -150,6 +150,7 @@ export default function Footer() {
                 <Link
                   key={loc.slug}
                   href={`/locations/${loc.slug}`}
+                  prefetch={false}
                   className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors"
                 >
                   Escorts in {loc.name}
@@ -165,6 +166,7 @@ export default function Footer() {
                 <Link
                   key={loc.slug}
                   href={`/locations/${loc.slug}`}
+                  prefetch={false}
                   className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors"
                 >
                   Escorts in {loc.name}
@@ -180,9 +182,9 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link href="/privacy-policy" className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors">Privacy Policy</Link>
-            <Link href="/disclaimer" className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors">Disclaimer</Link>
-            <Link href="/terms" className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors">Terms &amp; Conditions</Link>
+            <Link href="/privacy-policy" prefetch={false} className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors">Privacy Policy</Link>
+            <Link href="/disclaimer" prefetch={false} className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors">Disclaimer</Link>
+            <Link href="/terms" prefetch={false} className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors">Terms &amp; Conditions</Link>
           </div>
         </div>
 

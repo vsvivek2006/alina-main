@@ -148,7 +148,7 @@ export default function BlogPage() {
                   src="/images/featured-blog.jpg"
                   alt="Best Escort Service in Gurgaon - VIP Call Girls Guide"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1024px) calc(100vw - 48px), 584px"
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />

@@ -577,7 +577,7 @@ export default function HomePage() {
                       src={imageSrc}
                       alt={`${cat.name} - Escort Service in Gurgaon`}
                       fill
-                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                      sizes="(max-width: 640px) 45vw, (max-width: 1024px) 33vw, 286px"
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
                       loading="lazy"
                     />
@@ -719,7 +719,7 @@ export default function HomePage() {
                     src={post.image || `/images/blog/${post.slug}.jpg`}
                     alt={`${post.title} - Escort Service in Gurgaon`}
                     fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1024px) 50vw, 390px"
                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                     loading="lazy"
                   />

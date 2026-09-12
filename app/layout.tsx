@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Cormorant_Garamond, Jost, Great_Vibes } from 'next/font/google';
+import { Cormorant_Garamond, Jost } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -17,13 +17,6 @@ const jost = Jost({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
   variable: '--font-jost',
-  display: 'swap',
-});
-
-const greatVibes = Great_Vibes({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-great-vibes',
   display: 'swap',
 });
 
@@ -101,7 +94,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${jost.variable} ${greatVibes.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${jost.variable}`}>
       <body className="bg-charcoal-900 text-charcoal-100 font-sans antialiased">
         <div className="min-h-screen flex flex-col bg-luxury-gradient overflow-x-hidden">
           <Header />

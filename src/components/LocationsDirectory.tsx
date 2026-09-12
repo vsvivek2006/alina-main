@@ -154,6 +154,7 @@ export default function LocationsDirectory({ locations }: LocationsDirectoryProp
                 <Link
                   key={loc.slug}
                   href={`/locations/${loc.slug}`}
+                  prefetch={false}
                   className="luxury-card p-7 group hover:border-gold-500 hover:shadow-xl hover:shadow-gold-500/10 flex flex-col justify-between transition-all duration-300 rounded-sm bg-charcoal-850/80 border border-charcoal-700"
                 >
                   <div>

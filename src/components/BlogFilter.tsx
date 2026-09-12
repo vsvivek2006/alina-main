@@ -60,7 +60,7 @@ export default function BlogFilter({ posts, categories }: BlogFilterProps) {
                   src={post.image || `/images/blog/${post.slug}.jpg`}
                   alt={`${post.title} - Escort Service in Gurgaon | Call Girls`}
                   fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1024px) 50vw, 390px"
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />

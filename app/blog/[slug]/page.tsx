@@ -160,7 +160,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
               alt={`${post.title} - Escort Service in Gurgaon | Call Girls Guide`}
               fill
               priority
-              sizes="(max-width: 1024px) 100vw, 896px"
+              sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1024px) 848px, 832px"
               className="object-cover"
             />
           </div>
@@ -293,7 +293,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                         src={rp.image || `/images/blog/${rp.slug}.jpg`}
                         alt={`${rp.title} - Escort Service Gurgaon`}
                         fill
-                        sizes="(max-width: 768px) 100vw, 33vw"
+                        sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 768px) calc(100vw - 48px), 280px"
                         className="object-cover group-hover:scale-105 transition-transform duration-700"
                         loading="lazy"
                       />

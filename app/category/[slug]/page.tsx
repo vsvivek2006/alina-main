@@ -214,7 +214,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                 alt={`${category.name} - Escort Service in Gurgaon | Call Girls`}
                 fill
                 priority
-                sizes="(max-width: 1024px) 100vw, 50vw"
+                sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1024px) calc(100vw - 48px), 584px"
                 className="object-cover group-hover:scale-105 transition-transform duration-700"
               />
             </div>
