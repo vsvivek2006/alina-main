@@ -145,7 +145,7 @@ export default function BlogPage() {
 
               <div className="relative h-64 rounded-2xl overflow-hidden shadow-2xl border border-gold-200/60 bg-neutral-900 group">
                 <Image
-                  src="/images/featured-blog.jpg"
+                  src="/images/featured-blog.webp"
                   alt="Best Escort Service in Gurgaon - VIP Call Girls Guide"
                   fill
                   sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1024px) calc(100vw - 48px), 584px"

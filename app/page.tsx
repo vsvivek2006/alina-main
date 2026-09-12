@@ -37,17 +37,17 @@ const iconMap: Record<string, LucideIcon> = {
 };
 
 const homeCategoryImageMap: Record<string, string> = {
-  'russian-call-girls': '/images/categories/russian-escorts.jpg',
-  'vip-call-girls': '/images/categories/vip-escorts.jpg',
-  'high-profile-girls': '/images/categories/high-profile-girls.jpg',
-  'college-girls': '/images/categories/college-girls.jpg',
-  'independent-girls': '/images/categories/independent-escorts.jpg',
-  'air-hostess': '/images/categories/air-hostess.jpg',
-  'model-escorts': '/images/categories/model-escorts.jpg',
-  'celebrity-escorts': '/images/categories/celebrity-escorts.jpg',
-  'travel-escorts': '/images/categories/travel-escorts.jpg',
-  'housewife-escorts': '/images/categories/housewife-escorts.jpg',
-  'premium-escorts': '/images/categories/default.jpg',
+  'russian-call-girls': '/images/categories/russian-escorts.webp',
+  'vip-call-girls': '/images/categories/vip-escorts.webp',
+  'high-profile-girls': '/images/categories/high-profile-girls.webp',
+  'college-girls': '/images/categories/college-girls.webp',
+  'independent-girls': '/images/categories/independent-escorts.webp',
+  'air-hostess': '/images/categories/air-hostess.webp',
+  'model-escorts': '/images/categories/model-escorts.webp',
+  'celebrity-escorts': '/images/categories/celebrity-escorts.webp',
+  'travel-escorts': '/images/categories/travel-escorts.webp',
+  'housewife-escorts': '/images/categories/housewife-escorts.webp',
+  'premium-escorts': '/images/categories/default.webp',
 };
 
 const whyChooseUs = [
@@ -565,7 +565,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {categories.slice(0, 8).map((cat) => {
-              const imageSrc = homeCategoryImageMap[cat.slug] || '/images/categories/default.jpg';
+              const imageSrc = homeCategoryImageMap[cat.slug] || '/images/categories/default.webp';
               return (
                 <Link
                   key={cat.slug}

@@ -677,7 +677,7 @@ export default function AboutPage() {
               <div className="rounded-2xl overflow-hidden shadow-2xl border border-neutral-200/80 bg-neutral-900 group">
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <Image
-                    src="/images/about-hero.jpg"
+                    src="/images/about-hero.webp"
                     alt="ALINA VIP - Premium Escort Service in Gurgaon | Call Girls"
                     fill
                     sizes="(max-width: 1024px) 100vw, 450px"
@@ -703,7 +703,7 @@ export default function AboutPage() {
                 <div className="rounded-xl overflow-hidden shadow-lg border border-neutral-200/80 bg-neutral-900 group">
                   <div className="relative h-48 overflow-hidden">
                     <Image
-                      src="/images/about-1.jpg"
+                      src="/images/about-1.webp"
                       alt="VIP Call Girls Gurgaon | Russian Escorts"
                       fill
                       sizes="(max-width: 1024px) 50vw, 220px"
@@ -719,7 +719,7 @@ export default function AboutPage() {
                 <div className="rounded-xl overflow-hidden shadow-lg border border-neutral-200/80 bg-neutral-900 group">
                   <div className="relative h-48 overflow-hidden">
                     <Image
-                      src="/images/about-2.jpg"
+                      src="/images/about-2.webp"
                       alt="Escort Service Cyber City Gurgaon | Model Escorts"
                       fill
                       sizes="(max-width: 1024px) 50vw, 220px"

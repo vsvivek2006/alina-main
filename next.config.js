@@ -36,6 +36,9 @@ const nextConfig = {
       { source: '/category/celebrity-call-girls', destination: '/category/celebrity-escorts', permanent: true },
       { source: '/travel-escorts', destination: '/category/travel-escorts', permanent: true },
       { source: '/vip-call-girls', destination: '/category/vip-call-girls', permanent: true },
+      { source: '/category', destination: '/services', permanent: true },
+      { source: '/robot.txt', destination: '/robots.txt', permanent: true },
+      { source: '/llm.txt', destination: '/llms.txt', permanent: true },
     ];
   },
 };

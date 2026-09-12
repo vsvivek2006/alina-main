@@ -35,20 +35,20 @@ import { siteConfig } from '@/data/siteConfig';
 import { categories } from '@/data/categories';
 
 const categoryImages: Record<string, string> = {
-  'russian-call-girls': '/images/gallery/russian-escorts.jpg',
-  'russian-escorts': '/images/gallery/russian-escorts.jpg',
-  'vip-call-girls': '/images/gallery/vip-escorts.jpg',
-  'vip-escorts': '/images/gallery/vip-escorts.jpg',
-  'high-profile-girls': '/images/gallery/high-profile-girls.jpg',
-  'model-escorts': '/images/gallery/model-escorts.jpg',
-  'housewife-escorts': '/images/gallery/housewife-escorts.jpg',
-  'college-girls': '/images/gallery/college-girls.jpg',
-  'independent-girls': '/images/gallery/independent-escorts.jpg',
-  'independent-escorts': '/images/gallery/independent-escorts.jpg',
-  'air-hostess': '/images/gallery/air-hostess.jpg',
-  'air-hostess-escorts': '/images/gallery/air-hostess.jpg',
-  'celebrity-escorts': '/images/gallery/celebrity-escorts.jpg',
-  'travel-escorts': '/images/gallery/travel-escorts.jpg',
+  'russian-call-girls': '/images/gallery/russian-escorts.webp',
+  'russian-escorts': '/images/gallery/russian-escorts.webp',
+  'vip-call-girls': '/images/gallery/vip-escorts.webp',
+  'vip-escorts': '/images/gallery/vip-escorts.webp',
+  'high-profile-girls': '/images/gallery/high-profile-girls.webp',
+  'model-escorts': '/images/gallery/model-escorts.webp',
+  'housewife-escorts': '/images/gallery/housewife-escorts.webp',
+  'college-girls': '/images/gallery/college-girls.webp',
+  'independent-girls': '/images/gallery/independent-escorts.webp',
+  'independent-escorts': '/images/gallery/independent-escorts.webp',
+  'air-hostess': '/images/gallery/air-hostess.webp',
+  'air-hostess-escorts': '/images/gallery/air-hostess.webp',
+  'celebrity-escorts': '/images/gallery/celebrity-escorts.webp',
+  'travel-escorts': '/images/gallery/travel-escorts.webp',
 };
 
 const categoryIcons: Record<string, React.ElementType> = {
@@ -133,7 +133,7 @@ export default function GalleryPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {categories.map((cat) => {
               const IconComponent = categoryIcons[cat.slug] || Star;
-              const imageSrc = categoryImages[cat.slug] || '/images/gallery/default.jpg';
+              const imageSrc = categoryImages[cat.slug] || '/images/gallery/default.webp';
 
               return (
                 <Link

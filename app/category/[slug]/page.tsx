@@ -30,19 +30,19 @@ interface CategoryPageProps {
 }
 
 const categoryImageMap: Record<string, string> = {
-  'russian-call-girls': '/images/categories/russian-escorts.jpg',
-  'russian-escorts': '/images/categories/russian-escorts.jpg',
-  'vip-call-girls': '/images/categories/vip-escorts.jpg',
-  'vip-escorts': '/images/categories/vip-escorts.jpg',
-  'high-profile-girls': '/images/categories/high-profile-girls.jpg',
-  'model-escorts': '/images/categories/model-escorts.jpg',
-  'college-girls': '/images/categories/college-girls.jpg',
-  'housewife-escorts': '/images/categories/housewife-escorts.jpg',
-  'independent-girls': '/images/categories/independent-escorts.jpg',
-  'independent-escorts': '/images/categories/independent-escorts.jpg',
-  'air-hostess': '/images/categories/air-hostess.jpg',
-  'celebrity-escorts': '/images/categories/celebrity-escorts.jpg',
-  'travel-escorts': '/images/categories/travel-escorts.jpg',
+  'russian-call-girls': '/images/categories/russian-escorts.webp',
+  'russian-escorts': '/images/categories/russian-escorts.webp',
+  'vip-call-girls': '/images/categories/vip-escorts.webp',
+  'vip-escorts': '/images/categories/vip-escorts.webp',
+  'high-profile-girls': '/images/categories/high-profile-girls.webp',
+  'model-escorts': '/images/categories/model-escorts.webp',
+  'college-girls': '/images/categories/college-girls.webp',
+  'housewife-escorts': '/images/categories/housewife-escorts.webp',
+  'independent-girls': '/images/categories/independent-escorts.webp',
+  'independent-escorts': '/images/categories/independent-escorts.webp',
+  'air-hostess': '/images/categories/air-hostess.webp',
+  'celebrity-escorts': '/images/categories/celebrity-escorts.webp',
+  'travel-escorts': '/images/categories/travel-escorts.webp',
 };
 
 const categoryIconMap: Record<string, React.ElementType> = {
@@ -78,7 +78,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   const title = `${category.name} | Escort Service in Gurgaon | VIP Call Girls | ALINA VIP`;
   const description = `${category.shortDescription} ALINA VIP offers verified ${category.name.toLowerCase()} in Gurgaon. Premium escort service, 100% discreet. Call now for booking.`;
   const canonicalUrl = `https://escort.alinavip.com/category/${category.slug}`;
-  const imageSrc = categoryImageMap[category.slug] || '/images/categories/default.jpg';
+  const imageSrc = categoryImageMap[category.slug] || '/images/categories/default.webp';
   const ogImageUrl = imageSrc.startsWith('http') ? imageSrc : `${siteConfig.url}${imageSrc}`;
 
   return {
@@ -111,7 +111,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
   }
 
   const IconComponent = categoryIconMap[category.slug] || Crown;
-  const imageSrc = categoryImageMap[category.slug] || '/images/categories/default.jpg';
+  const imageSrc = categoryImageMap[category.slug] || '/images/categories/default.webp';
 
   const faqSchema = {
     '@context': 'https://schema.org',

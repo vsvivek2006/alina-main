@@ -349,7 +349,7 @@ export default function FAQPage() {
               {/* Sidebar Image */}
               <div className="relative h-48 rounded-2xl overflow-hidden shadow-xl border border-gold-200/60 bg-neutral-900">
                 <Image
-                  src="/images/faq-sidebar.jpg"
+                  src="/images/faq-sidebar.webp"
                   alt="Escort Service in Gurgaon - VIP Call Girls FAQ"
                   fill
                   sizes="(max-width: 1024px) 100vw, 384px"
