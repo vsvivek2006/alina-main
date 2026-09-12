@@ -1,15 +1,37 @@
 import type { Metadata, Viewport } from 'next';
+import { Cormorant_Garamond, Jost, Great_Vibes } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import { siteConfig } from '@/data/siteConfig';
 
+const cormorant = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-cormorant',
+  display: 'swap',
+});
+
+const jost = Jost({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-jost',
+  display: 'swap',
+});
+
+const greatVibes = Great_Vibes({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-great-vibes',
+  display: 'swap',
+});
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
     default: 'ALINA VIP | Premium Luxury Escort Service in Gurgaon',
-    template: '%s | ALINA VIP',
+    template: '%s',
   },
   description:
     'ALINA VIP offers premium luxury escort service in Gurgaon. Verified profiles, VIP escorts, Russian call girls, 100% discreet hotel & residence outcalls. Available 24/7.',
@@ -79,14 +101,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-      </head>
+    <html lang="en" className={`${cormorant.variable} ${jost.variable} ${greatVibes.variable}`}>
       <body className="bg-charcoal-900 text-charcoal-100 font-sans antialiased">
-        <div className="min-h-screen flex flex-col bg-luxury-gradient">
+        <div className="min-h-screen flex flex-col bg-luxury-gradient overflow-x-hidden">
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />

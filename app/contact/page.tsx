@@ -16,7 +16,7 @@ import ContactForm from '@/components/ContactForm';
 import { siteConfig } from '@/data/siteConfig';
 
 export const metadata: Metadata = {
-  title: 'Contact ALINA VIP | Book Luxury Escort Service in Gurgaon',
+  title: 'Contact Us | Book Luxury Escort Service in Gurgaon | ALINA VIP',
   description:
     'Contact ALINA VIP for premium luxury escort service in Gurgaon. Call +91-9996265679 or book online. Available 24/7 with 100% discretion and rapid hotel outcall.',
   keywords:
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     canonical: 'https://escort.alinavip.com/contact',
   },
   openGraph: {
-    title: 'Contact ALINA VIP | Book Luxury Escort Service in Gurgaon',
+    title: 'Contact Us | Book Luxury Escort Service in Gurgaon | ALINA VIP',
     description:
       'Contact ALINA VIP for premium luxury escort service in Gurgaon. Call +91-9996265679 or book online. Available 24/7 with 100% discretion and rapid hotel outcall.',
     url: 'https://escort.alinavip.com/contact',

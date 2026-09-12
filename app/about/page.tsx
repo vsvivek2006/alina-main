@@ -1,12 +1,12 @@
 export const metadata: Metadata = {
-  title: 'About ALINA VIP | Premium Luxury Escort Agency in Gurgaon',
+  title: 'About Us | Premium Luxury Escort Agency in Gurgaon | ALINA VIP',
   description: 'Learn about ALINA VIP, Gurgaon\'s premier luxury escort agency. 10+ years of excellence, 100% verified call girls, strict confidentiality & elite companion services.',
   keywords: 'about ALINA VIP, luxury escort agency Gurgaon, verified call girls agency, premium escort service Gurgaon, VIP companion agency',
   alternates: {
     canonical: 'https://escort.alinavip.com/about',
   },
   openGraph: {
-    title: 'About ALINA VIP | Premium Luxury Escort Agency in Gurgaon',
+    title: 'About Us | Premium Luxury Escort Agency in Gurgaon | ALINA VIP',
     description: 'Learn about ALINA VIP, Gurgaon\'s premier luxury escort agency. 10+ years of excellence, 100% verified call girls, strict confidentiality & elite companion services.',
     url: 'https://escort.alinavip.com/about',
     type: 'website',

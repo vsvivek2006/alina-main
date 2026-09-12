@@ -30,9 +30,9 @@ export default {
         },
       },
       fontFamily: {
-        serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
-        sans: ['"Jost"', 'system-ui', 'sans-serif'],
-        script: ['"Great Vibes"', 'cursive'],
+        serif: ['var(--font-cormorant)', '"Cormorant Garamond"', 'Georgia', 'serif'],
+        sans: ['var(--font-jost)', '"Jost"', 'system-ui', 'sans-serif'],
+        script: ['var(--font-great-vibes)', '"Great Vibes"', 'cursive'],
       },
       letterSpacing: {
         widest: '0.2em',

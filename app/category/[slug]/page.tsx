@@ -74,7 +74,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     };
   }
 
-  const title = `${category.name} | Escort Service in Gurgaon | VIP Call Girls`;
+  const title = `${category.name} | Escort Service in Gurgaon | VIP Call Girls | ALINA VIP`;
   const description = `${category.shortDescription} ALINA VIP offers verified ${category.name.toLowerCase()} in Gurgaon. Premium escort service, 100% discreet. Call now for booking.`;
   const canonicalUrl = `https://escort.alinavip.com/category/${category.slug}`;
   const imageSrc = categoryImageMap[category.slug] || '/images/categories/default.jpg';
