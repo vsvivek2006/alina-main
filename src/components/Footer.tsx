@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Phone, MessageCircle, MapPin, Mail, Instagram, Twitter, Facebook } from 'lucide-react';
 import { siteConfig } from '@/data/siteConfig';
 import { categories } from '@/data/categories';
@@ -51,7 +51,7 @@ export default function Footer() {
               ].map((link) => (
                 <li key={link.path}>
                   <Link
-                    to={link.path}
+                    href={link.path}
                     className="text-sm text-charcoal-400 hover:text-gold-500 transition-colors"
                   >
                     {link.name}
@@ -68,7 +68,7 @@ export default function Footer() {
               {categories.slice(0, 7).map((cat) => (
                 <li key={cat.slug}>
                   <Link
-                    to={`/category/${cat.slug}`}
+                    href={`/category/${cat.slug}`}
                     className="text-sm text-charcoal-400 hover:text-gold-500 transition-colors"
                   >
                     {cat.name}
@@ -123,7 +123,7 @@ export default function Footer() {
         <div className="border-t border-charcoal-700 pt-8 mb-8 space-y-6">
           <div className="flex items-center justify-between">
             <h4 className="font-sans text-xs tracking-ultra uppercase text-gold-500">Service Locations Directory</h4>
-            <Link to="/locations" className="text-xs text-gold-400 hover:text-gold-300 underline underline-offset-4">
+            <Link href="/locations" className="text-xs text-gold-400 hover:text-gold-300 underline underline-offset-4">
               View All 100+ Locations &rarr;
             </Link>
           </div>
@@ -134,7 +134,7 @@ export default function Footer() {
               {locations.filter((l) => l.isHub).map((loc) => (
                 <Link
                   key={loc.slug}
-                  to={`/locations/${loc.slug}`}
+                  href={`/locations/${loc.slug}`}
                   className="text-xs text-gold-400/90 hover:text-gold-300 font-medium transition-colors"
                 >
                   {loc.name} Escorts
@@ -149,7 +149,7 @@ export default function Footer() {
               {locations.filter((l) => l.region === 'Gurgaon' && !l.isHub).map((loc) => (
                 <Link
                   key={loc.slug}
-                  to={`/locations/${loc.slug}`}
+                  href={`/locations/${loc.slug}`}
                   className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors"
                 >
                   Escorts in {loc.name}
@@ -164,7 +164,7 @@ export default function Footer() {
               {locations.filter((l) => l.region !== 'Gurgaon' && !l.isHub).map((loc) => (
                 <Link
                   key={loc.slug}
-                  to={`/locations/${loc.slug}`}
+                  href={`/locations/${loc.slug}`}
                   className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors"
                 >
                   Escorts in {loc.name}
@@ -180,9 +180,9 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link to="/privacy-policy" className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors">Privacy Policy</Link>
-            <Link to="/disclaimer" className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors">Disclaimer</Link>
-            <Link to="/terms" className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors">Terms &amp; Conditions</Link>
+            <Link href="/privacy-policy" className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors">Privacy Policy</Link>
+            <Link href="/disclaimer" className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors">Disclaimer</Link>
+            <Link href="/terms" className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors">Terms &amp; Conditions</Link>
           </div>
         </div>
 

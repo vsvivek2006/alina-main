@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { siteConfig } from '@/data/siteConfig';
 import { Phone, MessageCircle, ArrowRight, ShieldCheck, Clock, Hotel } from 'lucide-react';
 
@@ -40,7 +40,7 @@ export default function CTASection() {
             <MessageCircle size={16} className="text-emerald-400" /> WhatsApp
           </a>
           <Link
-            to="/contact"
+            href="/contact"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-gold-500/50 text-gold-400 hover:bg-gold-500/10 px-8 py-4 rounded-full font-semibold text-sm transition-all"
           >
             Book Online <ArrowRight size={16} />

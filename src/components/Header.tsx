@@ -1,5 +1,8 @@
+'use client';
+
 import { useEffect, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Menu, X, Phone } from 'lucide-react';
 import { siteConfig } from '@/data/siteConfig';
 
@@ -17,7 +20,7 @@ const navLinks = [
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const location = useLocation();
+  const pathname = usePathname();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 30);
@@ -27,7 +30,7 @@ export default function Header() {
 
   useEffect(() => {
     setMobileOpen(false);
-  }, [location.pathname]);
+  }, [pathname]);
 
   return (
     <>
@@ -37,7 +40,7 @@ export default function Header() {
         }`}
       >
         <div className="container-luxury flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2 group">
+          <Link href="/" className="flex items-center gap-2 group">
             <span className="font-serif text-2xl md:text-3xl font-medium tracking-wider text-white group-hover:text-gold-500 transition-colors">
               ALINA
             </span>
@@ -46,12 +49,12 @@ export default function Header() {
             </span>
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-7">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
-                to={link.path}
-                className={`nav-link ${location.pathname === link.path ? 'text-gold-500' : ''}`}
+                href={link.path}
+                className={`nav-link ${pathname === link.path ? 'text-gold-500' : ''}`}
               >
                 {link.name}
               </Link>
@@ -67,17 +70,17 @@ export default function Header() {
               <span className="tracking-wider">{siteConfig.phoneDisplay}</span>
             </a>
             <Link
-              to="/contact"
-              className="px-4 py-2 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-neutral-950 font-bold text-xs uppercase tracking-wider rounded-sm shadow-md transition-all hover:shadow-gold-500/20"
+              href="/contact"
+              className="btn-gold !py-2.5 !px-6 text-[11px] rounded-full"
             >
-              Book VIP
+              Book Now
             </Link>
           </div>
 
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden text-gold-500 p-2"
-            aria-label="Toggle menu"
+            className="lg:hidden text-white hover:text-gold-500 transition-colors p-2"
+            aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
           >
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -94,9 +97,9 @@ export default function Header() {
           {navLinks.map((link) => (
             <Link
               key={link.path}
-              to={link.path}
+              href={link.path}
               className={`font-serif text-2xl tracking-wider transition-colors ${
-                location.pathname === link.path ? 'text-gold-500' : 'text-white hover:text-gold-500'
+                pathname === link.path ? 'text-gold-500' : 'text-white hover:text-gold-500'
               }`}
             >
               {link.name}
