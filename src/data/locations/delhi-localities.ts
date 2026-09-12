@@ -84,7 +84,7 @@ export const delhiLocalities: LocationData[] = [
   createDelhiPage({
     slug: 'delhi',
     name: 'Delhi',
-    shortDescription: 'Premier luxury escort and companion service across Delhi. Verified call girls for five-star hotels, diplomatic suites, and upscale enclaves.',
+    shortDescription: 'Premier luxury escort and companion service across Delhi. Verified call girls providing elite outcall companionship to prestigious five-star hotels, diplomatic suites, and upscale private residences throughout Central and South Delhi.',
     metaTitle: 'Escorts in Delhi | Luxury Call Girls New Delhi | ALINA VIP',
     metaDescription: 'Book verified call girls in Delhi. Discreet outcalls to 5-star hotels in South Delhi, Central Delhi, and Aerocity. 24/7 service. Call +91-9996265679.',
     targetKeywords: ['escorts in Delhi', 'Delhi call girls', 'escort service Delhi', 'companionship Delhi', 'luxury escorts New Delhi'],

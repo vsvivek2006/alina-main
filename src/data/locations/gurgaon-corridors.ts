@@ -373,7 +373,7 @@ export const gurgaonCorridors: LocationData[] = [
       ],
     },
     serviceCategories: ['vip-call-girls', 'high-profile-girls', 'independent-girls', 'model-escorts', 'college-girls'],
-    nearbyAreas: ['dlf-phase-1', 'dlf-phase-2', 'dlf-phase-5', 'golf-course-road', 'sushant-lok', 'sector-27'],
+    nearbyAreas: ['dlf-phase-1', 'dlf-phase-2', 'dlf-phase-5', 'golf-course-road', 'sushant-lok', 'sector-29'],
     howItWorks: {
       steps: [
         { step: '01', title: 'Browse Profiles', desc: 'Select from our verified roster of elegant call girls and models available in DLF Phase 4.' },
@@ -569,7 +569,7 @@ export const gurgaonCorridors: LocationData[] = [
       ],
     },
     serviceCategories: ['vip-call-girls', 'high-profile-girls', 'russian-call-girls', 'model-escorts', 'independent-girls'],
-    nearbyAreas: ['dlf-phase-5', 'dlf-phase-4', 'golf-course-extension-road', 'sector-42', 'sector-43', 'sector-54', 'cyber-city'],
+    nearbyAreas: ['dlf-phase-5', 'dlf-phase-4', 'golf-course-extension-road', 'sector-53', 'sector-43', 'sector-54', 'cyber-city'],
     howItWorks: {
       steps: [
         { step: '01', title: 'Browse Golf Course Road Models', desc: 'Review authenticated companion profiles featuring detailed attributes and photos.' },
@@ -1157,7 +1157,7 @@ export const gurgaonCorridors: LocationData[] = [
       ],
     },
     serviceCategories: ['vip-call-girls', 'high-profile-girls', 'russian-call-girls', 'college-girls', 'independent-girls', 'model-escorts'],
-    nearbyAreas: ['sector-47', 'sector-48', 'sector-49', 'sector-50', 'golf-course-extension-road', 'south-city', 'manesar'],
+    nearbyAreas: ['sector-47', 'sector-45', 'sector-49', 'sector-50', 'golf-course-extension-road', 'south-city', 'manesar'],
     howItWorks: {
       steps: [
         { step: '01', title: 'Browse Profiles', desc: 'Select from our verified gallery of VIP call girls, Russian companions, and college models.' },

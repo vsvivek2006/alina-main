@@ -718,7 +718,7 @@ export const gurgaonSectorsNewExpressway: LocationData[] = [
     slug: 'sector-103',
     name: 'Sector 103',
     corridor: 'Dwarka Expressway',
-    shortDescription: 'Luxury escort service in Sector 103, Gurgaon. Verified call girls near Indiabulls Centrum Park, Oxirich Chintamanis, and Dwarka Expressway.',
+    shortDescription: 'Luxury VIP escort service in Sector 103, Gurgaon. Verified call girls offering prompt outcall companionship to residents and visitors at Indiabulls Centrum Park, Oxirich Chintamanis, and along the Dwarka Expressway.',
     metaTitle: 'Escorts in Sector 103 | Luxury Call Girls Gurugram | ALINA VIP',
     metaDescription: 'Book luxury call girls in Sector 103, Gurgaon. Discreet outcalls near Indiabulls Centrum Park, Oxirich, and Dwarka Expressway. Call +91-9996265679.',
     targetKeywords: ['escorts in Sector 103', 'Sector 103 call girls', 'escort service Sector 103 Gurgaon', 'Indiabulls Centrum Park companions'],

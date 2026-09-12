@@ -10,6 +10,7 @@ const navLinks = [
   { name: 'Locations', path: '/locations' },
   { name: 'Gallery', path: '/gallery' },
   { name: 'Blog', path: '/blog' },
+  { name: 'FAQ', path: '/faq' },
   { name: 'Contact', path: '/contact' },
 ];
 
@@ -101,14 +102,6 @@ export default function Header() {
               {link.name}
             </Link>
           ))}
-          <Link
-            to="/faq"
-            className={`font-serif text-2xl tracking-wider transition-colors ${
-              location.pathname === '/faq' ? 'text-gold-500' : 'text-white hover:text-gold-500'
-            }`}
-          >
-            FAQ
-          </Link>
 
           <div className="flex flex-col gap-3 w-full max-w-xs mt-4">
             <a

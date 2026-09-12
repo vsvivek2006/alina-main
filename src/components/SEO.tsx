@@ -69,12 +69,15 @@ export default function SEO({
     updateMeta('robots', noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
 
     if (canonical) updateLink('canonical', canonical);
+    updateMeta('og:url', canonical || window.location.href, 'property');
+    updateMeta('og:site_name', 'ALINA VIP', 'property');
 
     updateMeta('og:title', ogTitle || title, 'property');
     updateMeta('og:description', ogDescription || description, 'property');
     updateMeta('og:type', ogType, 'property');
     if (ogImage) updateMeta('og:image', ogImage, 'property');
 
+    updateMeta('twitter:card', 'summary_large_image');
     updateMeta('twitter:title', ogTitle || title);
     updateMeta('twitter:description', ogDescription || description);
     if (ogImage) updateMeta('twitter:image', ogImage);

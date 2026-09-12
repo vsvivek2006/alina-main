@@ -177,7 +177,7 @@ export const gurgaonSectorsInner: LocationData[] = [
     slug: 'sector-17',
     name: 'Sector 17',
     corridor: 'Central Gurgaon',
-    shortDescription: 'Discreet escort and companion service in Sector 17, Gurgaon. Verified call girls near IFFCO Chowk, Bata Chowk, and Sukhrali.',
+    shortDescription: 'Discreet escort and companion service in Sector 17, Gurgaon. Verified call girls providing polished, confidential companionship near IFFCO Chowk, Bata Chowk, Sector 14 market, and surrounding executive residential societies.',
     metaTitle: 'Escorts in Sector 17 | Verified Call Girls Gurugram | ALINA VIP',
     metaDescription: 'Book verified call girls in Sector 17, Gurgaon. Discreet outcalls near IFFCO Chowk, Bata Chowk, and NH-48. 24/7 service. Call +91-9996265679.',
     targetKeywords: ['escorts in Sector 17', 'Sector 17 call girls', 'escort service Sector 17 Gurgaon', 'companionship Sector 17 Gurugram'],
@@ -705,7 +705,7 @@ export const gurgaonSectorsInner: LocationData[] = [
     privacyOverview: 'We maintain the highest privacy standards for our high-profile Sector 43 clientele.',
     protocols: ['Unmarked luxury sedans for all drop-offs', 'Encrypted messaging channels with zero data logging', 'Direct room-door rendezvous to eliminate lobby visibility', 'Companions dressed in designer cocktail or evening attire'],
     serviceCategories: ['vip-call-girls', 'russian-call-girls', 'model-escorts', 'high-profile-girls', 'independent-girls'],
-    nearbyAreas: ['golf-course-road', 'dlf-phase-5', 'dlf-phase-4', 'sushant-lok', 'sector-42', 'sector-53'],
+    nearbyAreas: ['golf-course-road', 'dlf-phase-5', 'dlf-phase-4', 'sushant-lok', 'sector-54', 'sector-53'],
     faqs: [
       { question: 'Do you deliver outcalls to hotels on Golf Course Road in Sector 43?', answer: 'Yes, we regularly provide outcalls to The Anya Hotel, DoubleTree by Hilton, and luxury serviced suites in Sector 43.' },
       { question: 'How quickly can an escort reach Sector 43?', answer: 'Companions can arrive at any Sector 43 property within 20 to 25 minutes of booking confirmation.' },
@@ -886,7 +886,7 @@ export const gurgaonSectorsInner: LocationData[] = [
     privacyOverview: 'We maintain strict privacy protocols in Sector 47 to ensure complete discretion in gated communities.',
     protocols: ['Unmarked executive vehicles for all drop-offs', 'Encrypted messaging channels with zero data logging', 'Direct villa-door rendezvous to eliminate visibility', 'Companions dressed in refined smart-casual or evening wear'],
     serviceCategories: ['vip-call-girls', 'high-profile-girls', 'russian-call-girls', 'model-escorts', 'independent-girls'],
-    nearbyAreas: ['sector-48', 'sector-49', 'sector-46', 'sohna-road', 'south-city'],
+    nearbyAreas: ['sector-50', 'sector-49', 'sector-46', 'sohna-road', 'south-city'],
     faqs: [
       { question: 'Do you deliver outcalls to Malibu Towne in Sector 47?', answer: 'Yes, Malibu Towne is one of our most frequently served luxury gated communities in Sector 47.' },
       { question: 'Can a companion join me for dinner at Good Earth City Centre?', answer: 'Yes, our companions are stylish and socially refined, perfect for dining at Good Earth City Centre restaurants.' },
@@ -932,7 +932,7 @@ export const gurgaonSectorsInner: LocationData[] = [
     privacyOverview: 'We maintain strict privacy protocols in Sector 49 to protect client discretion.',
     protocols: ['Discreet drop-offs via unmarked private vehicles', 'Encrypted messaging for booking coordination', 'Direct apartment-door rendezvous to eliminate lobby visibility', 'Automated data deletion post-session'],
     serviceCategories: ['vip-call-girls', 'college-girls', 'high-profile-girls', 'independent-girls', 'model-escorts'],
-    nearbyAreas: ['sector-47', 'sector-48', 'sector-50', 'sohna-road', 'golf-course-extension-road'],
+    nearbyAreas: ['sector-47', 'sector-46', 'sector-50', 'sohna-road', 'golf-course-extension-road'],
     faqs: [
       { question: 'Do you deliver outcalls to Orchid Petals and South City 2 in Sector 49?', answer: 'Yes, we regularly provide discrete outcalls to Orchid Petals, South City 2, and surrounding residential societies.' },
       { question: 'How quickly can a companion arrive in Sector 49?', answer: 'Companions generally arrive within 25 to 35 minutes of booking confirmation.' },

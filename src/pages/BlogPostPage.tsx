@@ -71,6 +71,10 @@ export default function BlogPostPage() {
     ? relatedPosts
     : blogPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
 
+  const ogImageUrl = post.image
+    ? (post.image.startsWith('http') ? post.image : `${siteConfig.url}${post.image}`)
+    : `${siteConfig.url}/og-image.jpg`;
+
   return (
     <>
       <SEO
@@ -78,6 +82,7 @@ export default function BlogPostPage() {
         description={post.excerpt}
         keywords={`${post.category}, escort service Gurgaon, call girls Gurgaon, VIP escort service, Russian escorts, model escorts, luxury lifestyle Gurgaon`}
         canonical={`${siteConfig.url}/blog/${post.slug}`}
+        ogImage={ogImageUrl}
         ogType="article"
         jsonLd={articleSchema}
         breadcrumbs={[

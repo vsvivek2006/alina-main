@@ -76,6 +76,46 @@ export default function CategoryPage() {
 
   const IconComponent = categoryIconMap[category.slug] || Crown;
   const imageSrc = categoryImageMap[category.slug] || '/images/categories/default.jpg';
+  const ogImageUrl = imageSrc.startsWith('http') ? imageSrc : `${siteConfig.url}${imageSrc}`;
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `How do I book a ${category.name.toLowerCase()} in Gurgaon?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Booking is simple and 100% confidential. Call our private booking concierge at ${siteConfig.phone} or message us via WhatsApp with your preferred timing, location, and companion choice. We confirm availability and dispatch within minutes.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `Are ${category.name.toLowerCase()} photos 100% genuine?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. Every companion is photographed and verified in person by our management team. We guarantee that the companion who arrives at your suite matches the profile you selected.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What is the typical outcall arrival time in Gurgaon?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Companions typically arrive within 20 to 30 minutes for central Gurgaon locations like Cyber City, DLF Phases 1–5, and Golf Course Road. For extended corridors like Sohna Road or Manesar, arrival is usually within 35 to 45 minutes.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Is my personal information kept confidential?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Absolutely. We maintain a zero-trace privacy policy. Client phone numbers, names, and booking details are never saved in permanent databases and are discarded immediately following the booking.',
+        },
+      },
+    ],
+  };
 
   return (
     <>
@@ -84,6 +124,8 @@ export default function CategoryPage() {
         description={`${category.shortDescription} ALINA VIP offers verified ${category.name.toLowerCase()} in Gurgaon. Premium escort service, 100% discreet. Call now for booking.`}
         keywords={`${category.name.toLowerCase()} Gurgaon, ${category.name.toLowerCase()} escorts, premium ${category.name.toLowerCase()}, call girls Gurgaon, VIP escort service Gurgaon`}
         canonical={`${siteConfig.url}/category/${category.slug}`}
+        ogImage={ogImageUrl}
+        jsonLd={faqSchema}
         breadcrumbs={[
           { name: 'Home', url: siteConfig.url },
           { name: 'Services', url: `${siteConfig.url}/services` },

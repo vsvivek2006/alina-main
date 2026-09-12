@@ -175,7 +175,7 @@ export const noidaSectors: LocationData[] = [
   createNoidaSectorPage({
     slug: 'noida-sector-29',
     name: 'Noida Sector 29',
-    shortDescription: 'Classic escort service in Noida Sector 29. Verified call girls near Brahmaputra Market, Ganga Shopping Complex, and Botanical Garden.',
+    shortDescription: 'Classic luxury escort service in Noida Sector 29. Verified call girls delivering confidential companionship to private suites and apartments near Brahmaputra Market, Ganga Shopping Complex, and the Botanical Garden metro corridor.',
     metaTitle: 'Escorts in Noida Sector 29 | Verified Call Girls | ALINA VIP',
     metaDescription: 'Book verified call girls in Noida Sector 29. Discreet outcalls near Brahmaputra Market, Ganga Shopping Complex, and Botanical Garden. Call +91-9996265679.',
     targetKeywords: ['escorts in Noida Sector 29', 'Noida Sector 29 call girls', 'escort service Noida Sector 29', 'Brahmaputra Market companions'],
@@ -309,7 +309,7 @@ export const noidaSectors: LocationData[] = [
     slug: 'noida-sector-63',
     name: 'Noida Sector 63',
     corridor: 'Institutional & IT Corridor',
-    shortDescription: 'Corporate escort service in Noida Sector 63. Verified call girls near Electronic City IT corridor, Ginger Hotel, and NH-24.',
+    shortDescription: 'Corporate VIP escort service in Noida Sector 63. Verified call girls offering executive companionship and discreet hotel outcalls near the Electronic City IT hub, Ginger Hotel, and the NH-24 expressway corridor.',
     metaTitle: 'Escorts in Noida Sector 63 | Corporate Call Girls | ALINA VIP',
     metaDescription: 'Book verified call girls in Noida Sector 63. Discreet outcalls near Ginger Hotel, Electronic City, and Delhi-Meerut Expressway. Call +91-9996265679.',
     targetKeywords: ['escorts in Noida Sector 63', 'Noida Sector 63 call girls', 'escort service Noida Sector 63', 'Electronic City companions'],
