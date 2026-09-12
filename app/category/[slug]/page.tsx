@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import {
   Phone,
@@ -207,12 +208,14 @@ export default function CategoryPage({ params }: CategoryPageProps) {
               </div>
             </div>
 
-            <div className="rounded-2xl overflow-hidden shadow-2xl border border-gold-200/50 bg-neutral-900 group">
-              <img
+            <div className="relative h-80 md:h-96 rounded-2xl overflow-hidden shadow-2xl border border-gold-200/50 bg-neutral-900 group">
+              <Image
                 src={imageSrc}
                 alt={`${category.name} - Escort Service in Gurgaon | Call Girls`}
-                className="w-full h-80 md:h-96 object-cover group-hover:scale-105 transition-transform duration-700"
-                loading="lazy"
+                fill
+                priority
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover group-hover:scale-105 transition-transform duration-700"
               />
             </div>
           </div>

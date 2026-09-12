@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import Breadcrumb from '@/components/Breadcrumb';
 import CTASection from '@/components/CTASection';
@@ -142,11 +143,13 @@ export default function BlogPage() {
                 </div>
               </div>
 
-              <div className="rounded-2xl overflow-hidden shadow-2xl border border-gold-200/60 bg-neutral-900 group">
-                <img
+              <div className="relative h-64 rounded-2xl overflow-hidden shadow-2xl border border-gold-200/60 bg-neutral-900 group">
+                <Image
                   src="/images/featured-blog.jpg"
                   alt="Best Escort Service in Gurgaon - VIP Call Girls Guide"
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-700"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />
               </div>

@@ -8,7 +8,7 @@ import {
 } from 'lucide-react';
 import Breadcrumb from '@/components/Breadcrumb';
 import CTASection from '@/components/CTASection';
-import LocationsDirectory from '@/components/LocationsDirectory';
+import LocationsDirectory, { CompactLocation } from '@/components/LocationsDirectory';
 import { siteConfig } from '@/data/siteConfig';
 import { locations } from '@/data/locations';
 
@@ -65,7 +65,19 @@ export default function LocationsPage() {
             near you with rapid 20-30 minute hotel suite dispatch.
           </p>
 
-          <LocationsDirectory locations={locations} />
+          {(() => {
+            const compactLocations: CompactLocation[] = locations.map((loc) => ({
+              slug: loc.slug,
+              name: loc.name,
+              area: loc.area,
+              city: loc.city,
+              region: loc.region,
+              corridor: loc.corridor,
+              isHub: loc.isHub,
+              shortDescription: loc.shortDescription,
+            }));
+            return <LocationsDirectory locations={compactLocations} />;
+          })()}
         </div>
       </section>
 

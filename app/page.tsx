@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 };
 
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 import HomeBookingForm from '@/components/HomeBookingForm';
 import {
@@ -572,10 +573,12 @@ export default function HomePage() {
                   className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl border border-gray-100 hover:border-gold-300 transition-all duration-500 group flex flex-col"
                 >
                   <div className="relative aspect-[4/5] overflow-hidden bg-gray-900">
-                    <img
+                    <Image
                       src={imageSrc}
                       alt={`${cat.name} - Escort Service in Gurgaon`}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                      fill
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-700"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
@@ -712,10 +715,12 @@ export default function HomePage() {
                 className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border border-gray-100 hover:border-gold-300 group flex flex-col"
               >
                 <div className="aspect-[16/10] bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center relative overflow-hidden">
-                  <img
+                  <Image
                     src={post.image || `/images/blog/${post.slug}.jpg`}
                     alt={`${post.title} - Escort Service in Gurgaon`}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
                     loading="lazy"
                   />
                   <span className="absolute top-4 left-4 bg-gold-600 text-white text-xs font-bold px-4 py-2 rounded-full uppercase tracking-wider shadow-lg">

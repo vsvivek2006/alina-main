@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   ArrowRight,
   Phone,
@@ -208,10 +209,12 @@ export default function ServicesPage() {
                   className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl border border-gold-200/60 hover:border-gold-400 transition-all duration-300 group flex flex-col justify-between"
                 >
                   <div className="relative aspect-[16/10] overflow-hidden bg-gray-900">
-                    <img
+                    <Image
                       src={imageSrc}
                       alt={`${cat.name} - Escort Service Gurgaon`}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-700"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />

@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   Phone,
   ArrowRight,
@@ -346,11 +347,13 @@ export default function FAQPage() {
               </div>
 
               {/* Sidebar Image */}
-              <div className="rounded-2xl overflow-hidden shadow-xl border border-gold-200/60 bg-neutral-900">
-                <img
+              <div className="relative h-48 rounded-2xl overflow-hidden shadow-xl border border-gold-200/60 bg-neutral-900">
+                <Image
                   src="/images/faq-sidebar.jpg"
                   alt="Escort Service in Gurgaon - VIP Call Girls FAQ"
-                  className="w-full h-48 object-cover"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 384px"
+                  className="object-cover"
                   loading="lazy"
                 />
               </div>

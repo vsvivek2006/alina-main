@@ -3,7 +3,18 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { Search, MapPin, Compass, ArrowRight } from 'lucide-react';
-import { LocationData } from '@/data/locations';
+import { LocationRegion } from '@/data/locations';
+
+export interface CompactLocation {
+  slug: string;
+  name: string;
+  area: string;
+  city: string;
+  region: LocationRegion;
+  corridor?: string;
+  isHub?: boolean;
+  shortDescription: string;
+}
 
 const filterTabs = [
   { id: 'all', label: 'All Locations' },
@@ -14,7 +25,7 @@ const filterTabs = [
 ];
 
 interface LocationsDirectoryProps {
-  locations: LocationData[];
+  locations: CompactLocation[];
 }
 
 export default function LocationsDirectory({ locations }: LocationsDirectoryProps) {

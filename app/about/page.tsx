@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   ShieldCheck,
   Lock,
@@ -675,10 +676,12 @@ export default function AboutPage() {
               {/* Main Hero Card */}
               <div className="rounded-2xl overflow-hidden shadow-2xl border border-neutral-200/80 bg-neutral-900 group">
                 <div className="relative aspect-[4/3] overflow-hidden">
-                  <img
+                  <Image
                     src="/images/about-hero.jpg"
                     alt="ALINA VIP - Premium Escort Service in Gurgaon | Call Girls"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 450px"
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6">
@@ -699,10 +702,12 @@ export default function AboutPage() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="rounded-xl overflow-hidden shadow-lg border border-neutral-200/80 bg-neutral-900 group">
                   <div className="relative h-48 overflow-hidden">
-                    <img
+                    <Image
                       src="/images/about-1.jpg"
                       alt="VIP Call Girls Gurgaon | Russian Escorts"
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      fill
+                      sizes="(max-width: 1024px) 50vw, 220px"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-3">
@@ -713,10 +718,12 @@ export default function AboutPage() {
 
                 <div className="rounded-xl overflow-hidden shadow-lg border border-neutral-200/80 bg-neutral-900 group">
                   <div className="relative h-48 overflow-hidden">
-                    <img
+                    <Image
                       src="/images/about-2.jpg"
                       alt="Escort Service Cyber City Gurgaon | Model Escorts"
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      fill
+                      sizes="(max-width: 1024px) 50vw, 220px"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-3">

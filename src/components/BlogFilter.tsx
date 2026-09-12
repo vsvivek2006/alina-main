@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Calendar, Clock, Eye, User, ArrowRight } from 'lucide-react';
 import { BlogPost } from '@/data/blogs';
 
@@ -55,10 +56,12 @@ export default function BlogFilter({ posts, categories }: BlogFilterProps) {
           >
             <Link href={`/blog/${post.slug}`} className="block">
               <div className="relative aspect-[16/10] overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900">
-                <img
+                <Image
                   src={post.image || `/images/blog/${post.slug}.jpg`}
                   alt={`${post.title} - Escort Service in Gurgaon | Call Girls`}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />
                 <span className="absolute top-4 left-4 bg-gold-600 text-white text-xs font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider shadow-lg">

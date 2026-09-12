@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import {
   Calendar,
@@ -153,12 +154,14 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           </div>
 
           {/* Featured Hero Image */}
-          <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl mb-10 bg-gradient-to-br from-gray-800 to-gray-900 border border-gold-200/50">
-            <img
+          <div className="relative aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl mb-10 bg-gradient-to-br from-gray-800 to-gray-900 border border-gold-200/50">
+            <Image
               src={post.image || `/images/blog/${post.slug}.jpg`}
               alt={`${post.title} - Escort Service in Gurgaon | Call Girls Guide`}
-              className="w-full h-full object-cover"
-              loading="lazy"
+              fill
+              priority
+              sizes="(max-width: 1024px) 100vw, 896px"
+              className="object-cover"
             />
           </div>
 
@@ -285,11 +288,13 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                   className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border border-gray-100 hover:border-gold-300 flex flex-col justify-between"
                 >
                   <div>
-                    <div className="aspect-[16/10] overflow-hidden bg-gray-800">
-                      <img
+                    <div className="relative aspect-[16/10] overflow-hidden bg-gray-800">
+                      <Image
                         src={rp.image || `/images/blog/${rp.slug}.jpg`}
                         alt={`${rp.title} - Escort Service Gurgaon`}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                        fill
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-700"
                         loading="lazy"
                       />
                     </div>
