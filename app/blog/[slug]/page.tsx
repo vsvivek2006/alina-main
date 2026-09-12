@@ -23,6 +23,8 @@ interface BlogPostPageProps {
   params: { slug: string };
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
     slug: post.slug,
@@ -32,9 +34,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
   const post = getBlogPost(params.slug);
   if (!post) {
-    return {
-      title: 'Article Not Found | ALINA VIP',
-    };
+    notFound();
   }
 
   const title = `${post.title} | Escort Service Blog | ALINA VIP`;

@@ -60,6 +60,8 @@ const categoryIconMap: Record<string, React.ElementType> = {
   'travel-escorts': Plane,
 };
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return categories.map((cat) => ({
     slug: cat.slug,
@@ -69,9 +71,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
   const category = getCategory(params.slug);
   if (!category) {
-    return {
-      title: 'Category Not Found | ALINA VIP',
-    };
+    notFound();
   }
 
   const title = `${category.name} | Escort Service in Gurgaon | VIP Call Girls | ALINA VIP`;

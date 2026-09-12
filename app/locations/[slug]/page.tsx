@@ -25,6 +25,8 @@ interface LocationPageProps {
   params: { slug: string };
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return locations.map((loc) => ({
     slug: loc.slug,
@@ -34,9 +36,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: LocationPageProps): Promise<Metadata> {
   const location = getLocation(params.slug);
   if (!location) {
-    return {
-      title: 'Location Not Found | ALINA VIP',
-    };
+    notFound();
   }
 
   const title =
