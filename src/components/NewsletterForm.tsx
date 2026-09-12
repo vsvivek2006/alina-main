@@ -1,20 +1,26 @@
 'use client';
 
 import { useState } from 'react';
-import { Sparkles } from 'lucide-react';
+import { Sparkles, AlertCircle } from 'lucide-react';
 import Link from 'next/link';
 import { siteConfig } from '@/data/siteConfig';
+import {
+  submitNewsletterSubscription,
+  type SubmissionStatus,
+} from '@/lib/formSubmission';
 
 export default function NewsletterForm() {
-  const [subscribed, setSubscribed] = useState(false);
+  const [submissionStatus, setSubmissionStatus] = useState<SubmissionStatus>('idle');
+  const [statusMessage, setStatusMessage] = useState<string>('');
   const [email, setEmail] = useState('');
 
-  const handleSubscribe = (e: React.FormEvent) => {
+  const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email.trim()) {
-      setSubscribed(true);
-      setEmail('');
-    }
+    if (!email.trim()) return;
+    setSubmissionStatus('submitting');
+    const result = await submitNewsletterSubscription({ email });
+    setSubmissionStatus(result.status);
+    setStatusMessage(result.message);
   };
 
   return (
@@ -37,28 +43,30 @@ export default function NewsletterForm() {
         , and exclusive VIP offers.
       </p>
 
-      {subscribed ? (
-        <div className="p-4 bg-gold-100 text-gold-800 rounded-full font-semibold max-w-md mx-auto">
-          ✓ Thank you for subscribing! Discretion assured.
+      {submissionStatus === 'not_configured' && (
+        <div className="mb-4 p-3.5 bg-amber-500/10 border border-amber-600/40 text-amber-950 rounded-2xl text-xs max-w-lg mx-auto flex items-center justify-center gap-2">
+          <AlertCircle className="w-4 h-4 text-amber-600 flex-shrink-0" />
+          <span>{statusMessage || 'Newsletter subscription is currently unavailable.'}</span>
         </div>
-      ) : (
-        <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Enter your private email"
-            required
-            className="flex-1 px-6 py-3.5 rounded-full border-2 border-gray-300 focus:border-gold-500 focus:outline-none transition-colors text-sm"
-          />
-          <button
-            type="submit"
-            className="bg-gold-600 hover:bg-gold-700 text-white px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg hover:shadow-xl whitespace-nowrap"
-          >
-            Subscribe
-          </button>
-        </form>
       )}
+
+      <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Enter your private email"
+          required
+          className="flex-1 px-6 py-3.5 rounded-full border-2 border-gray-300 focus:border-gold-500 focus:outline-none transition-colors text-sm text-gray-800"
+        />
+        <button
+          type="submit"
+          disabled={submissionStatus === 'submitting'}
+          className="bg-gold-600 hover:bg-gold-700 text-white px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg hover:shadow-xl whitespace-nowrap disabled:opacity-75"
+        >
+          {submissionStatus === 'submitting' ? 'Subscribing...' : 'Subscribe'}
+        </button>
+      </form>
 
       <p className="text-xs text-gray-500 mt-4">
         100% privacy. No spam. Unsubscribe anytime.
