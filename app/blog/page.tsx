@@ -6,15 +6,12 @@ import Breadcrumb from '@/components/Breadcrumb';
 import CTASection from '@/components/CTASection';
 import BlogFilter from '@/components/BlogFilter';
 import NewsletterForm from '@/components/NewsletterForm';
-import { siteConfig } from '@/data/siteConfig';
 import { blogPosts, blogCategories } from '@/data/blogs';
 
 export const metadata: Metadata = {
   title: 'Escort Service Blog | Call Girls Tips & Lifestyle | ALINA VIP',
   description:
     'Read our blog for insights on escort service in Gurgaon, VIP call girls, Russian escorts, nightlife, dating tips, and luxury lifestyle. Expert guides and articles for discerning gentlemen.',
-  keywords:
-    'escort service Gurgaon blog, call girls Gurgaon tips, VIP escort blog, Russian escort guide, luxury lifestyle Gurgaon, dating tips Gurgaon, nightlife Gurgaon, premium escort service',
   alternates: {
     canonical: 'https://escort.alinavip.com/blog',
   },
@@ -56,10 +53,7 @@ export default function BlogPage() {
             Escort Service <span className="text-gradient-gold">Blog</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Expert insights on{' '}
-            <strong className="text-gold-400 font-semibold">escort service in Gurgaon</strong>,{' '}
-            <strong className="text-gold-400 font-semibold">VIP call girls</strong>,{' '}
-            <strong className="text-gold-400 font-semibold">Russian escorts</strong>, nightlife, dating tips, and luxury lifestyle.
+            Expert insights on escort service in Gurgaon, verified companion etiquette, Russian models, nightlife, dating tips, and luxury hospitality.
           </p>
           <div className="gold-divider mx-auto mt-8" />
         </div>
@@ -71,23 +65,11 @@ export default function BlogPage() {
           <div className="text-center mb-12">
             <p className="section-subtitle text-gold-600">Our Blog</p>
             <h2 className="section-title mb-4 text-[#1a1a2e]">
-              Insights on <span className="text-gradient-gold">Escort Service &amp; Call Girls</span>
+              Insights on <span className="text-gradient-gold">Companionship &amp; Luxury Lifestyle</span>
             </h2>
             <div className="gold-divider mx-auto" />
             <p className="text-gray-600 max-w-2xl mx-auto mt-6 leading-relaxed text-base">
-              Discover articles about{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                call girls in Gurgaon
-              </Link>
-              ,{' '}
-              <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-medium">
-                Russian escorts
-              </Link>
-              ,{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                VIP escort services
-              </Link>
-              , and more.
+              Discover curated guides on five-star hotel outcall, fine dining spots, companion selection, and executive etiquette in Gurgaon.
             </p>
           </div>
 
@@ -109,23 +91,7 @@ export default function BlogPage() {
                   Best Escort Service in Gurgaon: A Complete Guide
                 </h3>
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                  Discover the top{' '}
-                  <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                    call girls service in Gurgaon
-                  </Link>
-                  . From{' '}
-                  <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-semibold">
-                    Russian escorts
-                  </Link>{' '}
-                  to{' '}
-                  <Link href="/category/celebrity-escorts" className="text-gold-600 hover:underline font-semibold">
-                    model escorts
-                  </Link>
-                  , find the perfect{' '}
-                  <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                    VIP escort service
-                  </Link>{' '}
-                  for your needs.
+                  Understand how to safely select verified companions, book premier hotel outcall appointments, and maintain complete privacy during your stay in Gurgaon.
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <Link
@@ -134,19 +100,19 @@ export default function BlogPage() {
                   >
                     Read Full Guide <ArrowRight className="w-4 h-4" />
                   </Link>
-                  <a
-                    href={siteConfig.url}
+                  <Link
+                    href="/services"
                     className="inline-flex items-center gap-2 border-2 border-gold-600 text-gold-700 hover:bg-gold-600 hover:text-white px-6 py-3.5 rounded-full font-semibold transition-all"
                   >
-                    Visit {siteConfig.domain}
-                  </a>
+                    Browse Services
+                  </Link>
                 </div>
               </div>
 
               <div className="relative h-64 rounded-2xl overflow-hidden shadow-2xl border border-gold-200/60 bg-neutral-900 group">
                 <Image
                   src="/images/featured-blog.webp"
-                  alt="Best Escort Service in Gurgaon - VIP Call Girls Guide"
+                  alt="Best Escort Service in Gurgaon - Featured Guide"
                   fill
                   sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1024px) calc(100vw - 48px), 584px"
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -163,13 +129,10 @@ export default function BlogPage() {
         <div className="container-luxury">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-white mb-4 font-serif">
-              Explore <span className="text-gold-400">Escort Service</span> Categories
+              Explore <span className="text-gold-400">Editorial</span> Topics
             </h3>
             <p className="text-gray-300">
-              Find articles about specific{' '}
-              <Link href="/services" className="text-gold-400 hover:underline font-medium">
-                escort services in Gurgaon
-              </Link>
+              Browse articles organized by lifestyle, dining, travel, and companionship themes.
             </p>
             <div className="gold-divider mx-auto mt-4" />
           </div>
@@ -199,60 +162,29 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* SEO Editorial Content */}
+      {/* Editorial Summary */}
       <section className="py-16 bg-[#faf6f2] text-gray-800">
         <div className="container-luxury max-w-4xl">
           <div className="prose-luxury bg-white p-8 md:p-12 rounded-2xl border border-gold-200/60 shadow-sm">
             <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6 font-serif">
-              Escort Service Blog – Your Guide to Premium Call Girls in Gurgaon
+              About the ALINA VIP Editorial Desk
             </h2>
             <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
               <p>
-                Welcome to the <strong>ALINA VIP</strong> blog – your ultimate resource for everything related to{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                  escort service in Gurgaon
-                </Link>
-                . Whether you are looking for tips on booking{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                  VIP call girls
-                </Link>
-                , understanding the benefits of{' '}
-                <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-medium">
-                  Russian escorts
-                </Link>
-                , or exploring the luxury lifestyle in Gurgaon, our blog has you covered.
+                The <strong>ALINA VIP</strong> editorial team publishes practical guides on navigating luxury companionship, premium hospitality, and executive nightlife across Gurgaon and the greater NCR region.
               </p>
               <p>
-                Our <strong>escort service</strong> blog features expert articles on a wide range of topics including nightlife, dating tips, travel, luxury hotels, and premium living. We also provide comprehensive guides on how to choose the best{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                  call girls
-                </Link>{' '}
-                for your needs, what to expect from{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                  escorts
-                </Link>
-                , and how to make the most of your <strong>escort service</strong> experience in Gurgaon.
+                From tips on choosing the right companion for high-profile business dinners to comprehensive overviews of five-star suites along Golf Course Road and Cyber City, our articles help clients make informed, discreet decisions.
               </p>
               <p>
-                For more information about our premium{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                  escort service
+                For reservations and direct profile coordination, view our complete{' '}
+                <Link href="/services" className="text-gold-600 hover:underline font-semibold">
+                  service directory
                 </Link>{' '}
-                and{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                  call girls
+                or explore our{' '}
+                <Link href="/locations" className="text-gold-600 hover:underline font-semibold">
+                  location coverage
                 </Link>
-                , visit{' '}
-                <a
-                  href={siteConfig.url}
-                  className="text-gold-600 hover:underline font-bold"
-                >
-                  {siteConfig.domain}
-                </a>{' '}
-                or call us at{' '}
-                <a href={`tel:${siteConfig.phone}`} className="text-gold-600 hover:underline font-bold">
-                  {siteConfig.phoneDisplay}
-                </a>
                 .
               </p>
             </div>

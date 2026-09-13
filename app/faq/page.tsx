@@ -1,7 +1,6 @@
 export const metadata: Metadata = {
   title: 'FAQ | Escort Service in Gurgaon | VIP Call Girls Questions | ALINA VIP',
   description: 'Find answers to frequently asked questions about escort service in Gurgaon. Learn about VIP call girls, Russian escorts, booking, verification, discretion, and more.',
-  keywords: 'escort service FAQ Gurgaon, call girls questions, VIP escort booking FAQ, Russian escorts Gurgaon, model escorts FAQ, discreet escort service',
   alternates: {
     canonical: 'https://escort.alinavip.com/faq',
   },
@@ -132,24 +131,6 @@ export default function FAQPage() {
 
                     <div className="px-6 pb-6 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
                       <p className="text-sm md:text-base leading-relaxed">{faq.answer}</p>
-                      <div className="mt-4 flex flex-wrap gap-2 pt-3 border-t border-gray-100">
-                        <Link href="/services"
-                          className="text-xs bg-gold-50 text-gold-700 px-3 py-1 rounded-full hover:bg-gold-100 transition-colors font-medium"
-                        >
-                          View Escort Services
-                        </Link>
-                        <Link href="/services"
-                          className="text-xs bg-gold-50 text-gold-700 px-3 py-1 rounded-full hover:bg-gold-100 transition-colors font-medium"
-                        >
-                          Browse Call Girls
-                        </Link>
-                        <a
-                          href={siteConfig.url}
-                          className="text-xs bg-gold-50 text-gold-700 px-3 py-1 rounded-full hover:bg-gold-100 transition-colors font-medium"
-                        >
-                          Visit {siteConfig.domain}
-                        </a>
-                      </div>
                     </div>
                   </details>
                 ))}

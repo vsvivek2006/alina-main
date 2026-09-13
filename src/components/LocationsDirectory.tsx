@@ -173,20 +173,20 @@ export default function LocationsDirectory({ locations }: LocationsDirectoryProp
                     </div>
 
                     <h3 className="font-serif text-2xl text-white mb-2 font-light group-hover:text-gold-400 transition-colors">
-                      Escorts in {loc.name}
+                      {loc.name}
                     </h3>
 
-                    <p className="text-sm text-charcoal-400 leading-relaxed mb-6 line-clamp-3">
-                      {loc.shortDescription}
+                    <p className="text-sm text-charcoal-400 leading-relaxed mb-6 line-clamp-2 font-light">
+                      {loc.area || `${loc.name} companion corridor in ${loc.city || loc.region}`}
                     </p>
                   </div>
 
                   <div className="pt-4 border-t border-charcoal-700/80 flex items-center justify-between">
                     <span className="text-xs text-gold-400 tracking-wider uppercase font-semibold flex items-center gap-1.5 group-hover:gap-2.5 transition-all">
-                      View Call Girls <ArrowRight size={14} />
+                      Explore Area Guide <ArrowRight size={14} />
                     </span>
-                    <span className="text-[11px] text-charcoal-500 font-mono">
-                      24/7 Service
+                    <span className="text-[11px] text-charcoal-400 font-mono">
+                      20–30m Dispatch
                     </span>
                   </div>
                 </Link>

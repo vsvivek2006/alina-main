@@ -8,14 +8,13 @@ import { siteConfig } from '@/data/siteConfig';
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['300', '400', '600', '700'],
   variable: '--font-cormorant',
   display: 'swap',
 });
 
 const jost = Jost({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
   variable: '--font-jost',
   display: 'swap',
 });
@@ -31,14 +30,6 @@ export const metadata: Metadata = {
   applicationName: 'ALINA VIP',
   authors: [{ name: 'ALINA VIP' }],
   generator: 'Next.js',
-  keywords: [
-    'escort service in Gurgaon',
-    'call girls Gurgaon',
-    'VIP escorts Gurgaon',
-    'Russian escorts Gurgaon',
-    'luxury call girls',
-    'escort agency Gurgaon',
-  ],
   robots: {
     index: true,
     follow: true,

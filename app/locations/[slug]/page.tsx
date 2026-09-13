@@ -20,6 +20,7 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import LocationBookingForm from '@/components/LocationBookingForm';
 import { siteConfig } from '@/data/siteConfig';
 import { getLocation, locations } from '@/data/locations';
+import { categories } from '@/data/categories';
 
 interface LocationPageProps {
   params: { slug: string };
@@ -40,18 +41,20 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
   }
 
   const title =
-    location.name.toLowerCase() === 'gurgaon'
-      ? 'Escort Service in Gurgaon | VIP Call Girls | ALINA VIP'
+    location.slug === 'gurgaon'
+      ? 'Gurgaon Escort Service Directory & Local Areas | ALINA VIP'
       : location.region === 'Gurgaon'
-      ? `Escort Service in ${location.name} Gurgaon | VIP Call Girls | ALINA VIP`
+      ? `Escort Service in ${location.name}, Gurgaon | VIP Companions | ALINA VIP`
       : location.metaTitle;
-  const description = location.metaDescription;
+  const description =
+    location.slug === 'gurgaon'
+      ? 'Gurgaon central outcall directory and premium companion service. Verified call girls, luxury hotel outcalls, 20-30 min arrival across Cyber City, DLF & Golf Course Rd.'
+      : location.metaDescription;
   const canonicalUrl = `https://escort.alinavip.com/locations/${location.slug}`;
 
   return {
     title,
     description,
-    keywords: `escort service in ${location.name} Gurgaon, escorts in ${location.name}, ${location.name} call girls, luxury escorts ${location.name}, VIP call girls ${location.name}`,
     alternates: {
       canonical: canonicalUrl,
     },
@@ -71,7 +74,7 @@ export default function LocationPage({ params }: LocationPageProps) {
     notFound();
   }
 
-  // Resolve nearby location links
+  // Resolve genuine nearby areas from factual location data
   const nearbyLocationLinks = location.nearbyAreas
     .map((area) => {
       const match = locations.find(
@@ -97,24 +100,20 @@ export default function LocationPage({ params }: LocationPageProps) {
     })),
   };
 
-  const placeSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Place',
-    name: location.name,
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: location.city,
-      addressRegion:
-        location.region === 'Delhi'
-          ? 'Delhi'
-          : location.region === 'Noida' ||
-            location.region === 'Greater Noida' ||
-            location.region === 'Ghaziabad'
-          ? 'Uttar Pradesh'
-          : 'Haryana',
-      addressCountry: 'IN',
-    },
-  };
+  const breadcrumbItems: { name: string; path?: string }[] = [
+    { name: 'Home', path: '/' },
+    { name: 'Locations', path: '/locations' },
+  ];
+  if (!location.isHub) {
+    if (location.region === 'Gurgaon') {
+      breadcrumbItems.push({ name: 'Gurgaon', path: '/locations/gurgaon' });
+    } else if (location.region === 'Delhi') {
+      breadcrumbItems.push({ name: 'Delhi', path: '/locations/delhi' });
+    } else if (location.region === 'Noida') {
+      breadcrumbItems.push({ name: 'Noida', path: '/locations/noida' });
+    }
+  }
+  breadcrumbItems.push({ name: location.name });
 
   return (
     <>
@@ -123,18 +122,8 @@ export default function LocationPage({ params }: LocationPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(placeSchema) }}
-      />
 
-      <Breadcrumb
-        items={[
-          { name: 'Home', path: '/' },
-          { name: 'Locations', path: '/locations' },
-          { name: location.name },
-        ]}
-      />
+      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0a0a1a] via-[#1a1a2e] to-[#2d1b0e] overflow-hidden">
@@ -146,15 +135,17 @@ export default function LocationPage({ params }: LocationPageProps) {
             ★ {location.city} • {location.region}
           </span>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-serif tracking-wide">
-            Escort Service in <span className="text-gradient-gold">{location.name}</span>
-            {location.name.toLowerCase() === 'gurgaon' ? '' : location.region === 'Gurgaon' ? ', Gurgaon' : `, ${location.region}`}
+            {location.slug === 'gurgaon' ? (
+              <>Gurgaon Escort Directory &amp; <span className="text-gradient-gold">Local Areas</span></>
+            ) : (
+              <>
+                Escort Service in <span className="text-gradient-gold">{location.name}</span>
+                {location.region === 'Gurgaon' ? ', Gurgaon' : `, ${location.region}`}
+              </>
+            )}
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed font-light">
-            {location.shortDescription} ALINA VIP provides verified, discreet, and premium{' '}
-            <Link href="/services" className="text-gold-400 hover:underline font-medium">
-              escort service in {location.name}
-            </Link>{' '}
-            and surrounding Gurgaon corridors.
+            {location.shortDescription} ALINA VIP provides verified, discreet, and premium companion services across {location.name} and surrounding regional corridors.
           </p>
           <div className="gold-divider mx-auto mt-8 mb-8" />
 
@@ -211,18 +202,10 @@ export default function LocationPage({ params }: LocationPageProps) {
                   ) : (
                     <>
                       <p>
-                        <strong>ALINA VIP</strong> is proud to offer its premier luxury{' '}
-                        <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                          escort service in {location.name}
-                        </Link>
-                        , one of the most distinguished areas in {location.city}. Known for its upscale lifestyle and vibrant corporate landscape, {location.name} attracts discerning gentlemen who demand discretion, elegance, and authentic hospitality.
+                        <strong>ALINA VIP</strong> provides premier luxury companion services in {location.name}, one of the most distinguished areas in {location.city}. Known for its upscale lifestyle and vibrant commercial landscape, {location.name} attracts discerning gentlemen who demand discretion, elegance, and authentic hospitality.
                       </p>
                       <p>
-                        Whether staying at premier five-star luxury suites or hosting intimate corporate dinners, our verified{' '}
-                        <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                          call girls in {location.name}
-                        </Link>{' '}
-                        provide charismatic companionship tailored to your highest expectations.
+                        Whether staying at premier five-star luxury suites or hosting private dinners, our verified companions provide charismatic social accompaniment tailored to your highest expectations.
                       </p>
                     </>
                   )}
@@ -477,28 +460,39 @@ export default function LocationPage({ params }: LocationPageProps) {
 
               {/* Quick Categories Navigation */}
               <div className="p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
-                <h4 className="font-serif text-lg font-bold text-[#1a1a2e] mb-4">
-                  Popular Categories
-                </h4>
-                <div className="space-y-2">
-                  {[
-                    { name: 'Russian Escorts', slug: 'russian-call-girls' },
-                    { name: 'VIP Call Girls', slug: 'vip-call-girls' },
-                    { name: 'Model Escorts', slug: 'model-escorts' },
-                    { name: 'College Girls', slug: 'college-girls' },
-                    { name: 'Independent Escorts', slug: 'independent-girls' },
-                  ].map((cat) => (
+                <div className="flex items-center justify-between mb-4">
+                  <h4 className="font-serif text-lg font-bold text-[#1a1a2e]">
+                    Companion Categories
+                  </h4>
+                  <Link href="/services" className="text-xs text-gold-600 hover:underline font-semibold">
+                    All Services &rarr;
+                  </Link>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
+                  {categories.map((cat) => (
                     <Link
                       key={cat.slug}
                       href={`/category/${cat.slug}`}
-                      className="flex items-center justify-between p-2.5 rounded-xl hover:bg-gold-50 text-xs font-semibold text-gray-700 hover:text-gold-700 transition-colors"
+                      className="p-2 rounded-lg hover:bg-gold-50 text-xs font-semibold text-gray-700 hover:text-gold-700 transition-colors truncate"
                     >
-                      <span>{cat.name}</span>
-                      <ArrowRight size={14} className="text-gold-600" />
+                      {cat.name}
                     </Link>
                   ))}
                 </div>
               </div>
+
+              {/* Contextual Hospitality Guide Link */}
+              {['cyber-city', 'aerocity', 'golf-course-road', 'gurgaon', 'dlf-phase-1', 'mg-road'].includes(location.slug) && (
+                <div className="p-5 bg-white rounded-2xl border border-gold-200 shadow-sm">
+                  <p className="text-[11px] uppercase font-bold tracking-wider text-gold-600 mb-1">Local Area Guide</p>
+                  <Link
+                    href="/blog/luxury-hotels-gurgaon-guide"
+                    className="font-serif text-sm font-bold text-[#1a1a2e] hover:text-gold-600 transition-colors block"
+                  >
+                    Top Luxury Hotels in Gurgaon for Discreet Stays &rarr;
+                  </Link>
+                </div>
+              )}
             </div>
           </div>
         </div>

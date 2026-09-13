@@ -50,7 +50,6 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   return {
     title,
     description,
-    keywords: `${post.category}, escort service Gurgaon, call girls Gurgaon, VIP escort service, Russian escorts, model escorts, luxury lifestyle Gurgaon`,
     alternates: {
       canonical: canonicalUrl,
     },
@@ -156,7 +155,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           {/* Featured Hero Image */}
           <div className="relative aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl mb-10 bg-gradient-to-br from-gray-800 to-gray-900 border border-gold-200/50">
             <Image
-              src={post.image || `/images/blog/${post.slug}.jpg`}
+              src={post.image || `/images/blog/${post.slug}.webp`}
               alt={`${post.title} - Escort Service in Gurgaon | Call Girls Guide`}
               fill
               priority
@@ -185,13 +184,9 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                 <p className="text-gray-700 text-sm leading-relaxed">
                   Browse our verified{' '}
                   <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                    call girls in Gurgaon
+                    companion portfolio
                   </Link>{' '}
-                  and find the perfect{' '}
-                  <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                    VIP escort service
-                  </Link>
-                  .
+                  or coordinate directly with our 24/7 concierge.
                 </p>
               </div>
               <div className="flex flex-wrap gap-3">
@@ -217,29 +212,11 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
             {post.tags?.map((tag) => (
               <span
                 key={tag}
-                className="text-xs bg-gray-100 hover:bg-gold-100 text-gray-700 hover:text-gold-800 px-4 py-2 rounded-full transition-colors font-medium cursor-default"
+                className="text-xs bg-gray-100 text-gray-700 px-4 py-2 rounded-full font-medium cursor-default"
               >
                 #{tag.replace(/\s+/g, '')}
               </span>
             ))}
-            <Link
-              href="/services"
-              className="text-xs bg-gray-100 hover:bg-gold-100 text-gray-700 hover:text-gold-800 px-4 py-2 rounded-full transition-colors font-medium"
-            >
-              #EscortService
-            </Link>
-            <Link
-              href="/services"
-              className="text-xs bg-gray-100 hover:bg-gold-100 text-gray-700 hover:text-gold-800 px-4 py-2 rounded-full transition-colors font-medium"
-            >
-              #CallGirlsGurgaon
-            </Link>
-            <Link
-              href="/category/russian-call-girls"
-              className="text-xs bg-gray-100 hover:bg-gold-100 text-gray-700 hover:text-gold-800 px-4 py-2 rounded-full transition-colors font-medium"
-            >
-              #RussianEscorts
-            </Link>
           </div>
 
           {/* Article Footer: Navigation & Share */}
@@ -268,14 +245,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                 Related <span className="text-gold-600">Articles</span>
               </h2>
               <p className="text-gray-600">
-                More insights on{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                  escort service in Gurgaon
-                </Link>{' '}
-                and{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                  call girls
-                </Link>
+                Explore companion etiquette, luxury lifestyle insights, and hotel dining recommendations.
               </p>
               <div className="gold-divider mx-auto mt-4" />
             </div>
@@ -290,8 +260,8 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                   <div>
                     <div className="relative aspect-[16/10] overflow-hidden bg-gray-800">
                       <Image
-                        src={rp.image || `/images/blog/${rp.slug}.jpg`}
-                        alt={`${rp.title} - Escort Service Gurgaon`}
+                        src={rp.image || `/images/blog/${rp.slug}.webp`}
+                        alt={rp.title}
                         fill
                         sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 768px) calc(100vw - 48px), 280px"
                         className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -328,26 +298,10 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           <div className="max-w-3xl mx-auto">
             <Crown className="w-12 h-12 text-gold-500 mx-auto mb-4" />
             <h3 className="text-3xl font-bold text-white mb-4 font-serif">
-              Looking for <span className="text-gold-400">VIP Escort Service</span> in Gurgaon?
+              Reserve Elite <span className="text-gold-400">VIP Companionship</span> in Gurgaon
             </h3>
             <p className="text-gray-300 mb-8 leading-relaxed">
-              Browse our verified{' '}
-              <Link href="/services" className="text-gold-400 hover:underline font-medium">
-                call girls
-              </Link>
-              ,{' '}
-              <Link href="/category/russian-call-girls" className="text-gold-400 hover:underline font-medium">
-                Russian escorts
-              </Link>
-              , and{' '}
-              <Link href="/category/celebrity-escorts" className="text-gold-400 hover:underline font-medium">
-                model escorts
-              </Link>
-              . Book your premium{' '}
-              <Link href="/services" className="text-gold-400 hover:underline font-medium">
-                escort service in Gurgaon
-              </Link>{' '}
-              today.
+              Explore our curated selection of verified models, European companions, and elite social escorts. Contact our 24/7 private concierge for prompt hotel suite coordination.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link

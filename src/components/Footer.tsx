@@ -63,9 +63,9 @@ export default function Footer() {
 
           {/* Categories */}
           <div>
-            <h4 className="font-sans text-xs tracking-ultra uppercase text-gold-500 mb-5">Categories</h4>
-            <ul className="space-y-3">
-              {categories.slice(0, 7).map((cat) => (
+            <h4 className="font-sans text-xs tracking-ultra uppercase text-gold-500 mb-5">Companion Categories</h4>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-x-4 gap-y-2.5">
+              {categories.map((cat) => (
                 <li key={cat.slug}>
                   <Link
                     href={`/category/${cat.slug}`}
@@ -119,57 +119,65 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Locations strip */}
+        {/* Primary Service Locations Strip */}
         <div className="border-t border-charcoal-700 pt-8 mb-8 space-y-6">
-          <div className="flex items-center justify-between">
-            <h4 className="font-sans text-xs tracking-ultra uppercase text-gold-500">Service Locations Directory</h4>
-            <Link href="/locations" className="text-xs text-gold-400 hover:text-gold-300 underline underline-offset-4">
-              View All 100+ Locations &rarr;
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h4 className="font-sans text-xs tracking-ultra uppercase text-gold-500">Service Locations Directory</h4>
+              <p className="text-xs text-charcoal-400 mt-1">
+                24/7 five-star hotel and private residential outcalls across Delhi NCR.
+              </p>
+            </div>
+            <Link
+              href="/locations"
+              className="text-xs text-gold-400 hover:text-gold-300 font-semibold underline underline-offset-4 flex items-center gap-1.5 self-start sm:self-auto"
+            >
+              Explore All 108 Locations &amp; Sectors &rarr;
             </Link>
           </div>
 
           <div>
-            <p className="text-[11px] uppercase tracking-wider text-charcoal-400 font-semibold mb-2">Central Master Hubs</p>
-            <div className="flex flex-wrap gap-x-4 gap-y-1.5">
-              {locations.filter((l) => l.isHub).map((loc) => (
-                <Link
-                  key={loc.slug}
-                  href={`/locations/${loc.slug}`}
-                  className="text-xs text-gold-400/90 hover:text-gold-300 font-medium transition-colors"
-                >
-                  {loc.name} Escorts
-                </Link>
-              ))}
+            <p className="text-[11px] uppercase tracking-wider text-charcoal-400 font-semibold mb-2.5">
+              Regional Master Hubs
+            </p>
+            <div className="flex flex-wrap gap-x-5 gap-y-2">
+              {locations
+                .filter((l) => l.isHub)
+                .map((loc) => (
+                  <Link
+                    key={loc.slug}
+                    href={`/locations/${loc.slug}`}
+                    className="text-xs text-gold-400/90 hover:text-gold-300 font-medium transition-colors"
+                  >
+                    {loc.name}
+                  </Link>
+                ))}
             </div>
           </div>
 
           <div>
-            <p className="text-[11px] uppercase tracking-wider text-charcoal-400 font-semibold mb-2">Prime Gurgaon Corridors &amp; Sectors</p>
-            <div className="flex flex-wrap gap-x-4 gap-y-1.5">
-              {locations.filter((l) => l.region === 'Gurgaon' && !l.isHub).map((loc) => (
+            <p className="text-[11px] uppercase tracking-wider text-charcoal-400 font-semibold mb-2.5">
+              Key Business Corridors &amp; Hospitality Districts
+            </p>
+            <div className="flex flex-wrap gap-x-5 gap-y-2">
+              {[
+                { name: 'Cyber City', slug: 'cyber-city' },
+                { name: 'Golf Course Road', slug: 'golf-course-road' },
+                { name: 'DLF Phase 1', slug: 'dlf-phase-1' },
+                { name: 'DLF Phase 2', slug: 'dlf-phase-2' },
+                { name: 'DLF Phase 5', slug: 'dlf-phase-5' },
+                { name: 'Aerocity', slug: 'aerocity' },
+                { name: 'MG Road', slug: 'mg-road' },
+                { name: 'Sohna Road', slug: 'sohna-road' },
+                { name: 'Sushant Lok', slug: 'sushant-lok' },
+                { name: 'Sector 29', slug: 'sector-29' },
+              ].map((corridor) => (
                 <Link
-                  key={loc.slug}
-                  href={`/locations/${loc.slug}`}
-                  prefetch={false}
-                  className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors"
+                  key={corridor.slug}
+                  href={`/locations/${corridor.slug}`}
+                  className="text-xs text-charcoal-400 hover:text-gold-400 transition-colors"
                 >
-                  Escorts in {loc.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <p className="text-[11px] uppercase tracking-wider text-charcoal-400 font-semibold mb-2">Delhi NCR &amp; Regional Localities</p>
-            <div className="flex flex-wrap gap-x-4 gap-y-1.5">
-              {locations.filter((l) => l.region !== 'Gurgaon' && !l.isHub).map((loc) => (
-                <Link
-                  key={loc.slug}
-                  href={`/locations/${loc.slug}`}
-                  prefetch={false}
-                  className="text-xs text-charcoal-500 hover:text-gold-500 transition-colors"
-                >
-                  Escorts in {loc.name}
+                  {corridor.name}
                 </Link>
               ))}
             </div>

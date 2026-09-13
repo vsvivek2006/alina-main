@@ -26,7 +26,7 @@ export const blogCategories = [
 export const blogPosts: BlogPost[] = [
   {
     slug: 'best-escort-service-gurgaon-guide',
-    title: 'Best Escort Service in Gurgaon: A Complete Guide',
+    title: 'How to Select the Best Escort Service in Gurgaon: Client Guide (2026)',
     category: 'Escort Tips',
     excerpt: 'Find the best escort service in Gurgaon with verified call girls, VIP escorts, Russian escorts, and model escorts. 100% discreet service available 24/7.',
     date: '2026-01-15',

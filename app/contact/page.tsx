@@ -19,8 +19,6 @@ export const metadata: Metadata = {
   title: 'Contact Us | Book Luxury Escort Service in Gurgaon | ALINA VIP',
   description:
     'Contact ALINA VIP for premium luxury escort service in Gurgaon. Call +91-9996265679 or book online. Available 24/7 with 100% discretion and rapid hotel outcall.',
-  keywords:
-    'contact ALINA VIP, book escort service Gurgaon, call girls Gurgaon contact, VIP escorts booking, Russian escorts Gurgaon phone',
   alternates: {
     canonical: 'https://escort.alinavip.com/contact',
   },
@@ -51,17 +49,13 @@ export default function ContactPage() {
             Contact <span className="text-gradient-gold">ALINA VIP</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Book verified{' '}
-            <Link href="/services" className="text-gold-400 hover:underline font-medium">
-              call girls
-            </Link>
-            ,{' '}
+            Reserve verified companions,{' '}
             <Link href="/category/russian-call-girls" className="text-gold-400 hover:underline font-medium">
-              Russian escorts
+              Russian models
             </Link>
             , and{' '}
             <Link href="/category/celebrity-escorts" className="text-gold-400 hover:underline font-medium">
-              model escorts
+              elite social escorts
             </Link>{' '}
             with 100% discretion and prompt outcall across all Gurgaon locations.
           </p>

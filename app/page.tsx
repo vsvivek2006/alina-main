@@ -1,14 +1,15 @@
 export const metadata: Metadata = {
-  title: 'Escort Service in Gurgaon | Premium VIP Call Girls | ALINA VIP',
-  description: 'ALINA VIP offers premium escort service in Gurgaon. Book verified VIP call girls, Russian escorts, model escorts & independent companions. 100% discreet 24/7.',
-  keywords: 'escort service in Gurgaon, escort services in Gurgaon, Gurgaon escort service, escorts in Gurgaon, Gurgaon escorts, call girl service in Gurgaon, call girls in Gurgaon, verified escorts in Gurgaon, book escort service in Gurgaon',
+  title: 'Escort Service in Gurgaon | VIP Call Girls | ALINA VIP',
+  description:
+    'ALINA VIP provides elite, verified companionship and premium escort services across Gurgaon and Delhi NCR. 100% discreet, professional hotel and residential outcalls.',
   alternates: {
-    canonical: 'https://escort.alinavip.com/',
+    canonical: 'https://escort.alinavip.com',
   },
   openGraph: {
-    title: 'Escort Service in Gurgaon | Premium VIP Call Girls | ALINA VIP',
-    description: 'ALINA VIP offers premium escort service in Gurgaon. Book verified VIP call girls, Russian escorts, model escorts & independent companions. 100% discreet 24/7.',
-    url: 'https://escort.alinavip.com/',
+    title: 'Escort Service in Gurgaon | VIP Call Girls | ALINA VIP',
+    description:
+      'ALINA VIP provides elite, verified companionship and premium escort services across Gurgaon and Delhi NCR. 100% discreet, professional hotel and residential outcalls.',
+    url: 'https://escort.alinavip.com',
     type: 'website',
   },
 };
@@ -18,9 +19,28 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 import HomeBookingForm from '@/components/HomeBookingForm';
 import {
-  Phone, ShieldCheck, BadgeCheck, Clock, Lock, Star, Crown, Gem, GraduationCap,
-  User, Plane, Camera, Award, Luggage, Sparkles, UtensilsCrossed, Calendar,
-  PartyPopper, Briefcase, MapPin, ArrowRight, Building2,
+  Phone,
+  ShieldCheck,
+  BadgeCheck,
+  Clock,
+  Lock,
+  Star,
+  Crown,
+  Gem,
+  GraduationCap,
+  User,
+  Plane,
+  Camera,
+  Award,
+  Luggage,
+  Sparkles,
+  UtensilsCrossed,
+  Calendar,
+  PartyPopper,
+  Briefcase,
+  MapPin,
+  ArrowRight,
+  Building2,
 } from 'lucide-react';
 import CTASection from '@/components/CTASection';
 import TestimonialsSection from '@/components/TestimonialsSection';
@@ -32,8 +52,20 @@ import { blogPosts } from '@/data/blogs';
 import type { LucideIcon } from 'lucide-react';
 
 const iconMap: Record<string, LucideIcon> = {
-  Crown, Star, Gem, GraduationCap, User, Plane, Camera, Award, Luggage, Sparkles,
-  UtensilsCrossed, Calendar, PartyPopper, Briefcase,
+  Crown,
+  Star,
+  Gem,
+  GraduationCap,
+  User,
+  Plane,
+  Camera,
+  Award,
+  Luggage,
+  Sparkles,
+  UtensilsCrossed,
+  Calendar,
+  PartyPopper,
+  Briefcase,
 };
 
 const homeCategoryImageMap: Record<string, string> = {
@@ -54,32 +86,38 @@ const whyChooseUs = [
   {
     icon: ShieldCheck,
     title: '100% Verified Profiles',
-    description: 'Every call girl undergoes a thorough in-person verification process to ensure authenticity, genuine photos, and client safety.',
+    description:
+      'Every companion undergoes a thorough in-person verification process to ensure authenticity, genuine photos, and client safety.',
   },
   {
     icon: Lock,
     title: 'Complete Ironclad Discretion',
-    description: 'Your privacy is our utmost priority. All bookings, conversations, and client information are kept strictly confidential.',
+    description:
+      'Your privacy is our utmost priority. All bookings, conversations, and client information are kept strictly confidential.',
   },
   {
     icon: Clock,
     title: '24/7 Rapid NCR Dispatch',
-    description: 'Our concierge desk operates round the clock with rapid 20 to 30 minute arrival across all Gurgaon and Delhi NCR hotels.',
+    description:
+      'Our concierge desk operates round the clock with rapid 20 to 30 minute arrival across all Gurgaon and Delhi NCR hotels.',
   },
   {
     icon: BadgeCheck,
     title: 'Premium Handpicked Quality',
-    description: 'We select only cultured, educated companions who meet our exacting standards of elegance, grace, and sophisticated conversation.',
+    description:
+      'We select only cultured, educated companions who meet our exacting standards of elegance, grace, and sophisticated conversation.',
   },
   {
     icon: Star,
     title: 'Elite Diverse Selection',
-    description: 'From VIP models and Russian escorts to independent call girls and air hostesses, choose from the finest roster in India.',
+    description:
+      'From VIP models and European escorts to independent companions and air hostesses, choose from the finest roster in India.',
   },
   {
     icon: Phone,
     title: 'Dedicated VIP Support',
-    description: 'Our dedicated booking team provides personalized assistance from your initial inquiry until the conclusion of your rendezvous.',
+    description:
+      'Our dedicated booking team provides personalized assistance from your initial inquiry until the conclusion of your rendezvous.',
   },
 ];
 
@@ -87,26 +125,30 @@ const howItWorks = [
   {
     number: '01',
     title: 'Browse Profiles',
-    description: 'Explore our curated selection of verified call girls across various categories and premier Gurgaon locations.',
+    description:
+      'Explore our curated portfolio of verified companion profiles across specialized categories and premier Gurgaon locations.',
   },
   {
     number: '02',
     title: 'Contact Our Desk',
-    description: 'Call us directly or send a discreet WhatsApp message with your location, timing, and preferred companion.',
+    description:
+      'Call us directly or send a discreet WhatsApp message with your location, timing, and preferred companion.',
   },
   {
     number: '03',
     title: 'Instant Confirmation',
-    description: 'Our booking team confirms availability within minutes and coordinates discreet in-call or out-call arrangements.',
+    description:
+      'Our booking team confirms availability within minutes and coordinates discreet in-call or out-call arrangements.',
   },
   {
     number: '04',
     title: 'Enjoy Luxury Rendezvous',
-    description: 'Meet your verified companion at your hotel suite or residence and experience an unforgettable, premium engagement.',
+    description:
+      'Meet your verified companion at your hotel suite or residence and experience an unforgettable, premium engagement.',
   },
 ];
 
-// Clean, user-friendly spotlight locations matching reference site
+// Clean, user-friendly spotlight locations
 const primeLocations = [
   { slug: 'cyber-city', name: 'Cyber City' },
   { slug: 'mg-road', name: 'MG Road' },
@@ -183,7 +225,15 @@ export default function HomePage() {
     },
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      dayOfWeek: [
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday',
+        'Sunday',
+      ],
       opens: '00:00',
       closes: '23:59',
     },
@@ -225,9 +275,9 @@ export default function HomePage() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#0a0a1a] via-[#1a1a2e] to-[#2d1b0e]">
         {/* Ambient Subtle Glows */}
         <div className="absolute inset-0 opacity-30 pointer-events-none">
-          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl animate-float" />
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl animate-float transform-gpu" />
           <div
-            className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gold-500/5 rounded-full blur-3xl animate-float"
+            className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gold-500/5 rounded-full blur-3xl animate-float transform-gpu"
             style={{ animationDelay: '2s' }}
           />
         </div>
@@ -238,37 +288,27 @@ export default function HomePage() {
           </p>
 
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-light text-white leading-none mb-6 animate-fade-up">
-            #1 Premium
-            <br />
-            <span className="shimmer-text font-medium text-gradient-gold">Escort Service in Gurgaon</span>
+            <span className="shimmer-text font-medium text-gradient-gold">
+              Escort Service in Gurgaon
+            </span>
           </h1>
 
           <p
             className="text-charcoal-300 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up"
             style={{ animationDelay: '0.2s' }}
           >
-            Experience the finest{' '}
-            <strong className="text-gold-400 font-semibold">escort service in Gurgaon</strong>. Verified{' '}
-            <Link href="/services" className="text-gold-400 hover:underline font-medium">
-              call girls
-            </Link>
-            ,{' '}
-            <Link href="/category/russian-call-girls" className="text-gold-400 hover:underline font-medium">
-              Russian escorts
-            </Link>
-            , and{' '}
-            <Link href="/category/vip-call-girls" className="text-gold-400 hover:underline font-medium">
-              VIP escorts
-            </Link>
-            . 100% discreet service for discerning gentlemen.
+            Experience refined social companionship tailored for discerning executives, international travellers, and private patrons. Authenticated models, elegant European and Indian companions, and complete discretion for hotel or private outcalls.
           </p>
 
           <div
             className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up mb-12"
             style={{ animationDelay: '0.4s' }}
           >
-            <Link href="/services" className="btn-gold shadow-lg shadow-gold-500/20">
-              Explore Call Girls <ArrowRight size={16} />
+            <Link
+              href="/services"
+              className="btn-gold shadow-lg shadow-gold-500/20"
+            >
+              Explore Companions <ArrowRight size={16} />
             </Link>
             <a href={`tel:${siteConfig.phone}`} className="btn-outline-gold">
               <Phone size={16} /> {siteConfig.phoneDisplay}
@@ -278,17 +318,38 @@ export default function HomePage() {
           {/* Clean Trust Pillars Bar */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto pt-8 border-t border-charcoal-700/60">
             {[
-              { icon: ShieldCheck, title: '100% Verified Profiles', desc: 'Real untouched photos' },
-              { icon: Lock, title: 'Ironclad Privacy', desc: 'Total client discretion' },
-              { icon: Clock, title: '20-30 Min Dispatch', desc: 'Hotel & residence outcalls' },
-              { icon: Star, title: 'Five-Star Experience', desc: 'Top tier VIP hospitality' },
+              {
+                icon: ShieldCheck,
+                title: '100% Verified Profiles',
+                desc: 'Real untouched photos',
+              },
+              {
+                icon: Lock,
+                title: 'Ironclad Privacy',
+                desc: 'Total client discretion',
+              },
+              {
+                icon: Clock,
+                title: '20-30 Min Dispatch',
+                desc: 'Hotel & residence outcalls',
+              },
+              {
+                icon: Star,
+                title: 'Five-Star Experience',
+                desc: 'Top tier VIP hospitality',
+              },
             ].map((item, i) => {
               const Icon = item.icon;
               return (
-                <div key={i} className="flex items-center gap-2.5 text-left p-2">
+                <div
+                  key={i}
+                  className="flex items-center gap-2.5 text-left p-2"
+                >
                   <Icon size={20} className="text-gold-400 flex-shrink-0" />
                   <div>
-                    <p className="text-xs text-white font-medium">{item.title}</p>
+                    <p className="text-xs text-white font-medium">
+                      {item.title}
+                    </p>
                     <p className="text-[10px] text-charcoal-400">{item.desc}</p>
                   </div>
                 </div>
@@ -311,19 +372,14 @@ export default function HomePage() {
                 Available 24/7 Across Gurgaon &amp; Delhi NCR
               </p>
               <h2 className="font-serif text-2xl md:text-3xl text-white font-light">
-                Book{' '}
-                <Link href="/services" className="text-gold-400 hover:underline">
-                  Call Girls
-                </Link>{' '}
-                &amp;{' '}
-                <Link href="/services" className="text-gold-400 hover:underline">
-                  Escort Service
-                </Link>{' '}
-                in Gurgaon
+                Discreet Outcall Reservations Across Major Luxury Hotels
               </h2>
             </div>
             <div className="flex gap-3">
-              <a href={`tel:${siteConfig.phone}`} className="btn-gold whitespace-nowrap">
+              <a
+                href={`tel:${siteConfig.phone}`}
+                className="btn-gold whitespace-nowrap"
+              >
                 <Phone size={16} /> Call Now: {siteConfig.phoneDisplay}
               </a>
             </div>
@@ -338,46 +394,21 @@ export default function HomePage() {
             <div>
               <p className="section-subtitle text-gold-600">About ALINA VIP</p>
               <h2 className="section-title mb-6 text-[#1a1a2e]">
-                Best <span className="text-gradient-gold font-normal">Escort Service</span> in Gurgaon
+                A Legacy of{' '}
+                <span className="text-gradient-gold font-normal">
+                  Discretion &amp; Elegance
+                </span>
               </h2>
               <div className="gold-divider mb-8" />
               <div className="space-y-4 text-gray-700 leading-relaxed text-base">
                 <p>
-                  <strong className="text-[#1a1a2e]">ALINA VIP</strong> is Gurgaon&apos;s premier{' '}
-                  <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                    escort service
-                  </Link>
-                  , dedicated to providing discerning gentlemen with exceptional{' '}
-                  <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                    VIP call girls
-                  </Link>
-                  ,{' '}
-                  <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-semibold">
-                    Russian escorts
-                  </Link>
-                  , and{' '}
-                  <Link href="/category/model-escorts" className="text-gold-600 hover:underline font-semibold">
-                    model escorts
-                  </Link>{' '}
-                  for social events, dinner dates, travel, and private engagements.
+                  <strong className="text-[#1a1a2e]">ALINA VIP</strong> is a premier companion agency established to provide sophisticated gentlemen with exceptional social companions for high-level business functions, dinner dates, travel accompaniment, and private evenings.
                 </p>
                 <p>
-                  With years of experience in the <strong className="text-[#1a1a2e]">escort service industry in Gurgaon</strong>, we have built a reputation for excellence, discretion, and uncompromising quality. Our mission is to redefine the{' '}
-                  <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                    call girls service
-                  </Link>{' '}
-                  experience by offering verified profiles, premium escorts, and professional service.
+                  With extensive experience across Delhi NCR&apos;s luxury hospitality sector, our agency is built upon strict privacy protocols, punctual coordination, and verified authenticity. We ensure seamless bookings with complete confidentiality.
                 </p>
                 <p>
-                  Every{' '}
-                  <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                    call girl
-                  </Link>{' '}
-                  and{' '}
-                  <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                    escort
-                  </Link>{' '}
-                  in our portfolio is carefully selected through a rigorous vetting process that evaluates not only physical beauty but also intelligence, social grace, and the ability to engage in meaningful conversation.
+                  Every companion represented in our portfolio undergoes thorough in-person vetting to evaluate elegance, conversational eloquence, and professional etiquette—guaranteeing that your selected companion matches her portfolio imagery perfectly.
                 </p>
               </div>
 
@@ -397,17 +428,21 @@ export default function HomePage() {
             {/* Clean Statistics Cards */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: '500+', label: 'Verified Call Girls' },
+                { value: '500+', label: 'Verified Companions' },
                 { value: '108', label: 'Locations in Gurgaon & NCR' },
-                { value: '11', label: 'Escort Categories' },
+                { value: '11', label: 'Curated Categories' },
                 { value: '24/7', label: 'Service Available' },
               ].map((stat, i) => (
                 <div
                   key={i}
                   className="bg-gray-50 p-8 text-center rounded-2xl border border-gray-100 hover:border-gold-300 hover:shadow-lg transition-all"
                 >
-                  <p className="font-serif text-4xl md:text-5xl text-gold-600 font-light mb-2">{stat.value}</p>
-                  <p className="text-xs text-gray-500 tracking-wider uppercase font-medium">{stat.label}</p>
+                  <p className="font-serif text-4xl md:text-5xl text-gold-600 font-light mb-2">
+                    {stat.value}
+                  </p>
+                  <p className="text-xs text-gray-500 tracking-wider uppercase font-medium">
+                    {stat.label}
+                  </p>
                 </div>
               ))}
             </div>
@@ -440,8 +475,12 @@ export default function HomePage() {
                   <div className="w-14 h-14 border border-gold-500/30 flex items-center justify-center mb-6 group-hover:border-gold-500 group-hover:bg-gold-50/50 transition-colors rounded-lg">
                     <Icon size={24} className="text-gold-500" />
                   </div>
-                  <h3 className="font-serif text-xl text-[#1a1a2e] mb-3 font-bold">{item.title}</h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
+                  <h3 className="font-serif text-xl text-[#1a1a2e] mb-3 font-bold">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    {item.description}
+                  </p>
                 </div>
               );
             })}
@@ -449,25 +488,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 5. Verified Call Girls / Trust Section (Pure White) */}
+      {/* 5. Verified & Authenticated Standards (Pure White) */}
       <section className="py-20 md:py-28 bg-white">
         <div className="container-luxury">
           <div className="text-center mb-14">
-            <p className="section-subtitle text-gold-600">Verified Call Girls</p>
+            <p className="section-subtitle text-gold-600">Client Confidence</p>
             <h2 className="section-title mb-4 text-[#1a1a2e]">
-              Authenticated &amp; <span className="text-gradient-gold">Verified Escorts in Gurgaon</span>
+              Rigorous <span className="text-gradient-gold">Verification Standards</span>
             </h2>
             <div className="gold-divider" />
             <p className="text-gray-600 max-w-2xl mx-auto mt-6 leading-relaxed">
-              Every{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girl
-              </Link>{' '}
-              and{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escort
-              </Link>{' '}
-              profile on ALINA VIP is verified through our rigorous authentication process for your safety and confidence.
+              Every companion profile on ALINA VIP undergoes a comprehensive screening process to ensure total authenticity, safety, and mutual peace of mind.
             </p>
           </div>
 
@@ -475,17 +506,20 @@ export default function HomePage() {
             {[
               {
                 title: 'Identity Verified',
-                description: 'All call girls and escorts provide valid government identification verified by our team for escort service in Gurgaon.',
+                description:
+                  'All companions provide valid government identification securely verified by our concierge team prior to profile listing.',
                 icon: BadgeCheck,
               },
               {
                 title: 'Photos Verified',
-                description: 'Profile photos are confirmed to be genuine and recent representations of our call girls and escorts. Zero catfishing.',
+                description:
+                  'Profile galleries are verified to be recent, genuine representations with zero misleading edits or false representations.',
                 icon: Camera,
               },
               {
                 title: 'Background Checked',
-                description: 'We conduct background checks on all escorts to ensure safety, respectful conduct, and the quality of our call girls service.',
+                description:
+                  'We conduct thorough background checks to maintain highest standards of safety, professional etiquette, and client discretion.',
                 icon: ShieldCheck,
               },
             ].map((item, i) => {
@@ -498,8 +532,12 @@ export default function HomePage() {
                   <div className="w-16 h-16 mx-auto border-2 border-gold-500/30 rounded-full flex items-center justify-center mb-6 group-hover:border-gold-500 group-hover:bg-gold-50 transition-colors">
                     <Icon size={28} className="text-gold-500" />
                   </div>
-                  <h3 className="font-serif text-xl text-[#1a1a2e] mb-3 font-bold">{item.title}</h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
+                  <h3 className="font-serif text-xl text-[#1a1a2e] mb-3 font-bold">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    {item.description}
+                  </p>
                 </div>
               );
             })}
@@ -507,17 +545,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. Our Escort Services (Soft Ivory #faf6f2) */}
+      {/* 6. Tailored Services (Soft Ivory #faf6f2) */}
       <section className="py-20 md:py-28 bg-[#faf6f2]">
         <div className="container-luxury">
           <div className="text-center mb-14">
-            <p className="section-subtitle text-gold-600">Our Escort Services</p>
+            <p className="section-subtitle text-gold-600">Bespoke Engagements</p>
             <h2 className="section-title mb-4 text-[#1a1a2e]">
-              Premium <span className="text-gradient-gold">Call Girls</span> Services
+              Tailored <span className="text-gradient-gold">Companionship</span> Services
             </h2>
             <div className="gold-divider" />
             <p className="text-gray-600 max-w-xl mx-auto mt-4 text-sm">
-              Discover customized escort engagements designed for corporate events, dinner dates, weekend trips, and private occasions.
+              Discover customized engagements designed for corporate gatherings, dinner dates, travel accompaniment, and private rendezvous.
             </p>
           </div>
 
@@ -537,7 +575,9 @@ export default function HomePage() {
                     <h3 className="font-serif text-xl text-[#1a1a2e] mb-3 font-bold group-hover:text-gold-600 transition-colors">
                       {service.title}
                     </h3>
-                    <p className="text-sm text-gray-600 leading-relaxed mb-4">{service.shortDescription}</p>
+                    <p className="text-sm text-gray-600 leading-relaxed mb-4">
+                      {service.shortDescription}
+                    </p>
                   </div>
                   <span className="text-xs text-gold-600 tracking-wider uppercase flex items-center gap-2 group-hover:gap-3 transition-all font-semibold">
                     Learn More <ArrowRight size={14} />
@@ -553,9 +593,9 @@ export default function HomePage() {
       <section className="py-20 md:py-28 bg-white">
         <div className="container-luxury">
           <div className="text-center mb-14">
-            <p className="section-subtitle text-gold-600">Top Categories</p>
+            <p className="section-subtitle text-gold-600">Curated Roster</p>
             <h2 className="section-title mb-4 text-[#1a1a2e]">
-              Explore Our <span className="text-gradient-gold">Call Girls</span> Categories
+              Explore Companion <span className="text-gradient-gold">Categories</span>
             </h2>
             <div className="gold-divider" />
             <p className="text-gray-600 max-w-xl mx-auto mt-4 text-sm">
@@ -565,7 +605,9 @@ export default function HomePage() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {categories.slice(0, 8).map((cat) => {
-              const imageSrc = homeCategoryImageMap[cat.slug] || '/images/categories/default.webp';
+              const imageSrc =
+                homeCategoryImageMap[cat.slug] ||
+                '/images/categories/default.webp';
               return (
                 <Link
                   key={cat.slug}
@@ -575,7 +617,7 @@ export default function HomePage() {
                   <div className="relative aspect-[4/5] overflow-hidden bg-gray-900">
                     <Image
                       src={imageSrc}
-                      alt={`${cat.name} - Escort Service in Gurgaon`}
+                      alt={`${cat.name} companion profile preview`}
                       fill
                       sizes="(max-width: 640px) 45vw, (max-width: 1024px) 33vw, 286px"
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -610,32 +652,27 @@ export default function HomePage() {
           </div>
 
           <div className="text-center mt-10">
-            <Link href="/services" className="btn-outline-gold inline-flex items-center gap-2">
+            <Link
+              href="/services"
+              className="btn-outline-gold inline-flex items-center gap-2"
+            >
               View All 11 Categories <ArrowRight size={16} />
             </Link>
           </div>
         </div>
       </section>
 
-      {/* 8. Premium Locations (Soft Ivory #faf6f2 - Clean & Uncluttered 4-Column Grid) */}
+      {/* 8. Prime Locations (Soft Ivory #faf6f2) */}
       <section className="py-20 md:py-28 bg-[#faf6f2]">
         <div className="container-luxury">
           <div className="text-center mb-14">
-            <p className="section-subtitle text-gold-600">Prime Locations</p>
+            <p className="section-subtitle text-gold-600">Service Locations</p>
             <h2 className="section-title mb-4 text-[#1a1a2e]">
-              Escort Service Across <span className="text-gradient-gold">Gurgaon Corridors</span>
+              Rapid Outcall Coverage Across <span className="text-gradient-gold">Gurgaon &amp; NCR</span>
             </h2>
             <div className="gold-divider" />
             <p className="text-gray-600 max-w-2xl mx-auto mt-6 leading-relaxed">
-              We provide{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escort service
-              </Link>{' '}
-              across all major areas of Gurgaon. Find{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girls
-              </Link>{' '}
-              in your area with rapid 20-30 minute hotel and residence dispatch.
+              Prompt 20 to 30 minute dispatch to premier luxury hotels, serviced residences, and private suites across all key sectors and commercial hubs.
             </p>
           </div>
 
@@ -646,9 +683,12 @@ export default function HomePage() {
                 href={`/locations/${loc.slug}`}
                 className="flex items-center gap-2.5 p-4 bg-white border border-gray-200 hover:border-gold-500 hover:shadow-lg transition-all rounded-xl group"
               >
-                <MapPin size={16} className="text-gold-500 flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <MapPin
+                  size={16}
+                  className="text-gold-500 flex-shrink-0 group-hover:scale-110 transition-transform"
+                />
                 <span className="text-xs text-gray-700 group-hover:text-gold-600 transition-colors font-semibold">
-                  {loc.name} Call Girls
+                  {loc.name}
                 </span>
               </Link>
             ))}
@@ -685,8 +725,12 @@ export default function HomePage() {
                 <div className="font-serif text-6xl text-gold-500/20 font-light mb-4 group-hover:text-gold-500/40 transition-colors">
                   {item.number}
                 </div>
-                <h3 className="font-serif text-xl text-[#1a1a2e] mb-3 font-bold">{item.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
+                <h3 className="font-serif text-xl text-[#1a1a2e] mb-3 font-bold">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  {item.description}
+                </p>
               </div>
             ))}
           </div>
@@ -700,9 +744,9 @@ export default function HomePage() {
       <section className="py-20 md:py-28 bg-[#faf6f2]">
         <div className="container-luxury">
           <div className="text-center mb-14">
-            <p className="section-subtitle text-gold-600">Latest from Our Blog</p>
+            <p className="section-subtitle text-gold-600">Editorial &amp; Insights</p>
             <h2 className="section-title mb-4 text-[#1a1a2e]">
-              Escort Service <span className="text-gradient-gold">Insights</span>
+              Luxury Lifestyle &amp; <span className="text-gradient-gold">Etiquette</span>
             </h2>
             <div className="gold-divider" />
           </div>
@@ -716,8 +760,8 @@ export default function HomePage() {
               >
                 <div className="aspect-[16/10] bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center relative overflow-hidden">
                   <Image
-                    src={post.image || `/images/blog/${post.slug}.jpg`}
-                    alt={`${post.title} - Escort Service in Gurgaon`}
+                    src={post.image || `/images/blog/${post.slug}.webp`}
+                    alt={post.title}
                     fill
                     sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1024px) 50vw, 390px"
                     className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -732,10 +776,18 @@ export default function HomePage() {
                     <h3 className="font-serif text-lg text-[#1a1a2e] mt-2 mb-3 font-bold leading-tight group-hover:text-gold-600 transition-colors line-clamp-2">
                       {post.title}
                     </h3>
-                    <p className="text-sm text-gray-600 leading-relaxed line-clamp-2 mb-4">{post.excerpt}</p>
+                    <p className="text-sm text-gray-600 leading-relaxed line-clamp-2 mb-4">
+                      {post.excerpt}
+                    </p>
                   </div>
                   <div className="flex items-center justify-between text-xs text-gray-500 pt-3 border-t border-gray-100">
-                    <span>{new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+                    <span>
+                      {new Date(post.date).toLocaleDateString('en-US', {
+                        month: 'short',
+                        day: 'numeric',
+                        year: 'numeric',
+                      })}
+                    </span>
                     <span>{post.readTime}</span>
                   </div>
                 </div>
@@ -744,7 +796,10 @@ export default function HomePage() {
           </div>
 
           <div className="text-center mt-10">
-            <Link href="/blog" className="btn-outline-gold inline-flex items-center gap-2">
+            <Link
+              href="/blog"
+              className="btn-outline-gold inline-flex items-center gap-2"
+            >
               View All Articles <ArrowRight size={16} />
             </Link>
           </div>
@@ -757,7 +812,7 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Frequently Asked Questions</p>
             <h2 className="section-title mb-4 text-[#1a1a2e]">
-              Escort Service <span className="text-gradient-gold">FAQs</span>
+              Help &amp; <span className="text-gradient-gold">Common Inquiries</span>
             </h2>
             <div className="gold-divider" />
           </div>
@@ -769,7 +824,9 @@ export default function HomePage() {
                 className="bg-gray-50 rounded-2xl border border-gray-100 hover:border-gold-300 transition-all group"
               >
                 <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
-                  <span className="font-semibold text-[#1a1a2e] text-lg pr-4">{faq.question}</span>
+                  <span className="font-semibold text-[#1a1a2e] text-lg pr-4">
+                    {faq.question}
+                  </span>
                   <span className="text-gold-600 text-2xl font-light group-open:rotate-45 transition-transform">
                     +
                   </span>
@@ -782,303 +839,55 @@ export default function HomePage() {
           </div>
 
           <div className="text-center mt-10">
-            <Link href="/faq" className="btn-outline-gold inline-flex items-center gap-2">
+            <Link
+              href="/faq"
+              className="btn-outline-gold inline-flex items-center gap-2"
+            >
               View All FAQs <ArrowRight size={16} />
             </Link>
           </div>
         </div>
       </section>
 
-      {/* 13. Master SEO Editorial Section (Soft Warm Ivory Canvas with Rich Hyperlinks) */}
+      {/* 13. Client Information & Quality Overview */}
       <section className="py-20 md:py-28 bg-[#faf6f2]">
         <div className="container-luxury">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6">
-              Professional &amp; Luxury Escort Service in Gurgaon
+              A Discerning Guide to VIP Companionship in Gurgaon
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              <strong className="text-[#1a1a2e]">ALINA VIP</strong> is the leading{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escort service in Gurgaon
-              </Link>
-              , offering premium{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                VIP call girls
-              </Link>
-              ,{' '}
-              <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-semibold">
-                Russian escorts
-              </Link>
-              ,{' '}
-              <Link href="/category/model-escorts" className="text-gold-600 hover:underline font-semibold">
-                model escorts
-              </Link>
-              , and elite companions for discerning gentlemen. In the dynamic and fast-paced environment of one of India&apos;s most cosmopolitan cities, the demand for high-quality{' '}
-              <strong className="text-[#1a1a2e]">call girls service</strong> has grown significantly. Business professionals, entrepreneurs, and visitors to Gurgaon often seek the company of sophisticated{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girls
-              </Link>{' '}
-              who can match their lifestyle and provide a memorable experience.
+              As the corporate and financial capital of Northern India, Gurgaon hosts leading multinational corporations, five-star luxury developments, and high-profile travellers from around the world. In this fast-paced environment, gentlemen frequently seek refined companions capable of seamlessly integrating into high-end social settings, private business celebrations, or relaxed evening dinners.
             </p>
 
             <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
-              Why Choose ALINA VIP for Escort Service in Gurgaon?
+              Our Commitment to Authenticity and Safety
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
-              The <strong className="text-[#1a1a2e]">escort service industry in Gurgaon</strong> is competitive, but ALINA VIP has established itself as a leader through rigorous standards, exceptional service, and an unwavering commitment to client satisfaction. Our comprehensive verification process ensures every{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girl
-              </Link>{' '}
-              and{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escort
-              </Link>{' '}
-              profile is genuine, accurate, and trustworthy. Our clients can browse with confidence, knowing that the{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escort
-              </Link>{' '}
-              they select will match the profile they have seen.
+              The modern companionship landscape often poses challenges with misleading imagery, unverified listings, and inconsistent service standards. ALINA VIP was established to provide an uncompromising alternative built on integrity, verified credentials, and professional concierge management.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Beyond verification, we place a strong emphasis on the personal qualities of our{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girls
-              </Link>
-              . We look for individuals who are not only beautiful but also educated, articulate, and socially adept. Our{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escorts
-              </Link>{' '}
-              come from diverse backgrounds and bring a range of personalities, interests, and skills to their engagements. Whether you need a{' '}
-              <Link href="/category/vip-call-girls" className="text-gold-600 hover:underline font-semibold">
-                VIP escort
-              </Link>{' '}
-              for a corporate event, a{' '}
-              <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-semibold">
-                Russian escort
-              </Link>{' '}
-              for a dinner date, or a{' '}
-              <Link href="/category/model-escorts" className="text-gold-600 hover:underline font-semibold">
-                model escort
-              </Link>{' '}
-              for a weekend getaway, we have the perfect companion for you.
+              Every companion listed on our platform completes an in-person vetting process assessing identity, personal security, and social etiquette. When you arrange an engagement through our concierge desk, you can be completely confident that the person who arrives matches her portfolio imagery and maintains the highest standards of decorum.
             </p>
 
             <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
-              Our Premium Call Girls Categories
-            </h3>
-            <div className="space-y-4 text-gray-700 text-lg leading-relaxed mb-6">
-              <p>
-                <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-bold">
-                  Russian Escorts
-                </Link>{' '}
-                – Exotic European companions known for their elegance and international flair. These{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                  call girls
-                </Link>{' '}
-                are popular for their sophisticated demeanour and ability to navigate diverse social settings with ease.
-              </p>
-              <p>
-                <Link href="/category/vip-call-girls" className="text-gold-600 hover:underline font-bold">
-                  VIP Escorts
-                </Link>{' '}
-                – The pinnacle of{' '}
-                <strong className="text-[#1a1a2e]">escort service in Gurgaon</strong>. These{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                  call girls
-                </Link>{' '}
-                are handpicked for their exceptional beauty, intelligence, and social sophistication. Ideal for clients who expect the absolute finest in{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                  escort service
-                </Link>
-                .
-              </p>
-              <p>
-                <Link href="/category/model-escorts" className="text-gold-600 hover:underline font-bold">
-                  Model Escorts
-                </Link>{' '}
-                – Professional fashion models with striking features and confident presence. These{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                  call girls
-                </Link>{' '}
-                bring glamour and sophistication to every engagement.
-              </p>
-              <p>
-                <Link href="/category/college-girls" className="text-gold-600 hover:underline font-bold">
-                  College Girls
-                </Link>{' '}
-                – Young, vibrant, and energetic{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                  call girls
-                </Link>{' '}
-                currently pursuing or recently completed their higher education. Perfect for clients seeking youthful energy and fresh perspectives.
-              </p>
-              <p>
-                <Link href="/category/housewife-escorts" className="text-gold-600 hover:underline font-bold">
-                  Housewife Escorts
-                </Link>{' '}
-                – Mature, experienced{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                  call girls
-                </Link>{' '}
-                who offer a more relaxed and genuine{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                  escort service
-                </Link>{' '}
-                experience. Ideal for clients seeking meaningful conversation and connection.
-              </p>
-              <p>
-                <Link href="/category/independent-girls" className="text-gold-600 hover:underline font-bold">
-                  Independent Escorts
-                </Link>{' '}
-                – Self-employed professional{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                  call girls
-                </Link>{' '}
-                who manage their own schedules and engagements. This often results in a more personalised and authentic{' '}
-                <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                  escort service
-                </Link>{' '}
-                experience.
-              </p>
-            </div>
-
-            <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
-              Areas We Serve in Gurgaon
+              Discretion &amp; Privacy Protocols
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
-              We provide{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escort service in Gurgaon
-              </Link>{' '}
-              across all major areas. Our{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girls
-              </Link>{' '}
-              are available in:
+              Discretion is the cornerstone of our service. We respect that our patrons include corporate leaders, high-net-worth visitors, and notable public personalities. Our operational framework incorporates end-to-end communication privacy, non-disclosure protocols, and strict data confidentiality.
             </p>
-            <ul className="list-disc pl-6 space-y-2.5 text-gray-700 text-lg mb-6">
-              {[
-                { to: '/locations/cyber-city', name: 'Cyber City Escorts', desc: 'Premium call girls for corporate events and business meetings' },
-                { to: '/locations/mg-road', name: 'MG Road Call Girls', desc: 'Luxury companions near the heart of Gurgaon' },
-                { to: '/locations/golf-course-road', name: 'Golf Course Road Escorts', desc: 'Elite escorts for exclusive neighbourhoods' },
-                { to: '/locations/dlf-phase-1', name: 'DLF City Escorts', desc: 'Discreet escort service in Phase 1-5' },
-                { to: '/locations/sohna-road', name: 'Sohna Road Call Girls', desc: 'Premium escort service along the developing corridor' },
-                { to: '/locations/sushant-lok', name: 'Sushant Lok Escorts', desc: 'Refined call girls in the established residential area' },
-                { to: '/locations/sector-29', name: 'Sector 29 Call Girls', desc: 'Vibrant escorts near Gurgaon\'s nightlife hub' },
-                { to: '/locations/huda-city-centre', name: 'HUDA City Centre Escorts', desc: 'Convenient escort service near the metro' },
-                { to: '/locations/manesar', name: 'Manesar Call Girls', desc: 'Premium escorts in the industrial hub' },
-                { to: '/locations/dwarka', name: 'Dwarka Escorts', desc: 'Call girls service in New Delhi' },
-                { to: '/locations/mahipalpur', name: 'Mahipalpur Call Girls', desc: 'Escorts near IGI Airport' },
-              ].map((area, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={area.to}
-                    className="text-gold-600 hover:underline font-bold"
-                  >
-                    {area.name}
-                  </Link>{' '}
-                  – {area.desc}
-                </li>
-              ))}
-            </ul>
+            <p className="text-gray-700 text-lg leading-relaxed mb-6">
+              Whether you are hosting at premier hotels such as The Oberoi, The Leela Ambience, ITC Grand Bharat, or a private residence along Golf Course Road, appointments are conducted quietly and respectfully, without drawing unnecessary attention.
+            </p>
 
             <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
-              The ALINA VIP Booking Experience
+              Seamless Outcall Coordination
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
-              Booking a{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girl
-              </Link>{' '}
-              or{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escort
-              </Link>{' '}
-              through ALINA VIP is designed to be simple, discreet, and professional. The process begins with browsing our online portfolio, where you can explore the various categories and locations we serve. Each category page provides detailed information about the{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girls
-              </Link>{' '}
-              available, their specialities, and what you can expect from an engagement.
-            </p>
-            <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              You can reach us by calling{' '}
-              <a href={`tel:${siteConfig.phone}`} className="text-gold-600 hover:underline font-bold">
-                {siteConfig.phoneDisplay}
-              </a>{' '}
-              or by filling out the{' '}
-              <Link href="/contact" className="text-gold-600 hover:underline font-semibold">
-                contact form
-              </Link>{' '}
-              on our website. Our booking team is available 24 hours a day, 7 days a week, to assist you with your{' '}
-              <strong className="text-[#1a1a2e]">escort service</strong> needs.
-            </p>
-
-            <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
-              Discretion and Confidentiality in Escort Service
-            </h3>
-            <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              At ALINA VIP, we understand that discretion is fundamental for our clients. Many of our clients are prominent individuals in their personal and professional lives, and the privacy of their engagements with our{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escort service in Gurgaon
-              </Link>{' '}
-              is of utmost importance. We have implemented comprehensive measures to ensure that every aspect of our service is conducted with the highest level of confidentiality.
-            </p>
-
-            <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
-              Why Gurgaon is Perfect for Escort Service
-            </h3>
-            <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Gurgaon, now officially known as Gurugram, has transformed into one of India&apos;s most dynamic and cosmopolitan cities. Home to numerous Fortune 500 companies, luxury hotels, premium residential complexes, and world-class entertainment venues, the city attracts business professionals, entrepreneurs, and visitors from across India and around the world. This cosmopolitan character makes Gurgaon the perfect setting for{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escort service
-              </Link>{' '}
-              and{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girls
-              </Link>
-              .
-            </p>
-
-            <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
-              Book Your Escort Service Today
-            </h3>
-            <p className="text-gray-700 text-lg leading-relaxed mb-4">
-              If you are looking for premium{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escort service in Gurgaon
-              </Link>
-              , look no further than ALINA VIP. Our team is ready to assist you in finding the perfect{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girl
-              </Link>{' '}
-              or{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escort
-              </Link>{' '}
-              for your needs and arranging a discreet and memorable experience. Call us today at{' '}
-              <a href={`tel:${siteConfig.phone}`} className="text-gold-600 hover:underline font-bold">
-                {siteConfig.phoneDisplay}
-              </a>{' '}
-              or visit{' '}
-              <a href={siteConfig.url} className="text-gold-600 hover:underline font-bold">
-                escort.alinavip.com
-              </a>
-              .
+              Booking an engagement is straightforward and transparent. Browse our curated categories, select your preferred companion, and reach out directly to our 24/7 concierge team via phone or private WhatsApp. Our coordinators confirm timing, location, and specific preferences to guarantee an effortless experience.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              Whether you are a first-time client or a returning patron, we look forward to providing you with an{' '}
-              <strong className="text-[#1a1a2e]">escort service</strong> experience that exceeds your expectations. At{' '}
-              <strong className="text-[#1a1a2e]">ALINA VIP</strong>, we believe that premium{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girls
-              </Link>{' '}
-              and{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                escorts
-              </Link>{' '}
-              service is an art, and we are dedicated to mastering it for your enjoyment. Discover the{' '}
-              <strong className="text-[#1a1a2e]">ALINA VIP</strong> difference today and experience the finest{' '}
-              <strong className="text-gold-600">escort service in Gurgaon</strong>.
+              With swift 20 to 30 minute dispatch across Cyber City, DLF Phase 1–5, Sohna Road, and neighboring Delhi NCR corridors, ALINA VIP remains the preferred choice for sophisticated companionship.
             </p>
           </div>
         </div>
@@ -1091,7 +900,7 @@ export default function HomePage() {
             <div>
               <p className="section-subtitle text-gold-600">Get In Touch</p>
               <h2 className="section-title mb-6 text-[#1a1a2e]">
-                Book Your <span className="text-gradient-gold">Escort Service</span>
+                Reserve Your <span className="text-gradient-gold">Private Appointment</span>
               </h2>
               <div className="gold-divider mb-8" />
               <div className="space-y-6">
@@ -1100,8 +909,13 @@ export default function HomePage() {
                     <Phone size={20} className="text-gold-500" />
                   </div>
                   <div>
-                    <h3 className="font-sans text-xs tracking-ultra uppercase text-gray-500 mb-1 font-bold">Phone VIP</h3>
-                    <a href={`tel:${siteConfig.phone}`} className="text-[#1a1a2e] hover:text-gold-600 transition-colors font-bold text-lg">
+                    <h3 className="font-sans text-xs tracking-ultra uppercase text-gray-500 mb-1 font-bold">
+                      Phone VIP
+                    </h3>
+                    <a
+                      href={`tel:${siteConfig.phone}`}
+                      className="text-[#1a1a2e] hover:text-gold-600 transition-colors font-bold text-lg"
+                    >
                       {siteConfig.phoneDisplay}
                     </a>
                   </div>
@@ -1112,8 +926,12 @@ export default function HomePage() {
                     <Building2 size={20} className="text-gold-500" />
                   </div>
                   <div>
-                    <h3 className="font-sans text-xs tracking-ultra uppercase text-gray-500 mb-1 font-bold">Location</h3>
-                    <p className="text-[#1a1a2e] font-medium">{siteConfig.address}</p>
+                    <h3 className="font-sans text-xs tracking-ultra uppercase text-gray-500 mb-1 font-bold">
+                      Location
+                    </h3>
+                    <p className="text-[#1a1a2e] font-medium">
+                      {siteConfig.address}
+                    </p>
                   </div>
                 </div>
 
@@ -1122,9 +940,15 @@ export default function HomePage() {
                     <Clock size={20} className="text-gold-500" />
                   </div>
                   <div>
-                    <h3 className="font-sans text-xs tracking-ultra uppercase text-gray-500 mb-1 font-bold">Availability</h3>
-                    <p className="text-[#1a1a2e] font-bold">24 Hours, 7 Days a Week</p>
-                    <p className="text-sm text-gray-500">Available for call girls booking anytime across NCR</p>
+                    <h3 className="font-sans text-xs tracking-ultra uppercase text-gray-500 mb-1 font-bold">
+                      Availability
+                    </h3>
+                    <p className="text-[#1a1a2e] font-bold">
+                      24 Hours, 7 Days a Week
+                    </p>
+                    <p className="text-sm text-gray-500">
+                      Concierge booking desk available anytime across NCR
+                    </p>
                   </div>
                 </div>
               </div>

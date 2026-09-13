@@ -84,7 +84,6 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   return {
     title,
     description,
-    keywords: `${category.name.toLowerCase()} Gurgaon, ${category.name.toLowerCase()} escorts, premium ${category.name.toLowerCase()}, call girls Gurgaon, VIP escort service Gurgaon`,
     alternates: {
       canonical: canonicalUrl,
     },
@@ -496,99 +495,88 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                 </div>
                 <h3 className="text-xl font-bold text-[#1a1a2e] font-serif">{category.name}</h3>
                 <p className="text-gray-600 text-xs mt-2">
-                  Premium{' '}
-                  <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                    escort service
-                  </Link>{' '}
-                  in Gurgaon
+                  Verified premium companions in Gurgaon
                 </p>
               </div>
 
               {/* Book Now Dark Card */}
               <div className="bg-[#1a1a2e] p-6 rounded-2xl text-center text-white shadow-md">
-                <h4 className="text-white font-bold text-lg mb-3 font-serif">Book Now</h4>
+                <h4 className="text-white font-bold text-lg mb-3 font-serif">Reserve Now</h4>
                 <a
                   href={`tel:${siteConfig.phone}`}
                   className="block bg-gold-600 hover:bg-gold-700 text-white py-3.5 rounded-full font-bold transition-all text-sm shadow-md"
                 >
-                  Call Now
+                  Call Now: {siteConfig.phoneDisplay}
                 </a>
                 <Link
                   href="/contact"
                   className="block text-gold-400 hover:text-gold-300 text-xs mt-3 font-semibold"
                 >
-                  Or Contact Us Online →
+                  Or Request Online &rarr;
                 </Link>
-                <a
-                  href={siteConfig.url}
-                  className="block text-gray-400 hover:text-gold-300 text-[11px] mt-2"
-                >
-                  Visit {siteConfig.domain}
-                </a>
               </div>
 
-              {/* Other Escort Services */}
+              {/* Related Companion Categories */}
               <div className="bg-[#faf6f2] p-6 rounded-2xl border border-gold-200/60 shadow-sm">
                 <h4 className="font-bold text-[#1a1a2e] mb-4 font-serif text-base">
-                  Other Escort Services
+                  Explore Related Categories
                 </h4>
-                <div className="space-y-3">
-                  <Link
-                    href="/category/russian-call-girls"
-                    className="flex items-center justify-between text-gray-700 hover:text-gold-600 transition-colors text-sm"
-                  >
-                    <span className="flex items-center gap-2">
-                      <Crown className="w-4 h-4 text-gold-600" /> Russian Escorts
-                    </span>
-                    <ArrowRight className="w-3.5 h-3.5 text-gold-600" />
-                  </Link>
-                  <Link
-                    href="/category/celebrity-escorts"
-                    className="flex items-center justify-between text-gray-700 hover:text-gold-600 transition-colors text-sm"
-                  >
-                    <span className="flex items-center gap-2">
-                      <Camera className="w-4 h-4 text-gold-600" /> Model Escorts
-                    </span>
-                    <ArrowRight className="w-3.5 h-3.5 text-gold-600" />
-                  </Link>
-                  <Link
-                    href="/category/housewife-escorts"
-                    className="flex items-center justify-between text-gray-700 hover:text-gold-600 transition-colors text-sm"
-                  >
-                    <span className="flex items-center gap-2">
-                      <Heart className="w-4 h-4 text-gold-600" /> Housewife Escorts
-                    </span>
-                    <ArrowRight className="w-3.5 h-3.5 text-gold-600" />
-                  </Link>
-                  <Link
-                    href="/category/college-girls"
-                    className="flex items-center justify-between text-gray-700 hover:text-gold-600 transition-colors text-sm"
-                  >
-                    <span className="flex items-center gap-2">
-                      <GraduationCap className="w-4 h-4 text-gold-600" /> College Girls
-                    </span>
-                    <ArrowRight className="w-3.5 h-3.5 text-gold-600" />
-                  </Link>
-                  <Link
-                    href="/category/independent-girls"
-                    className="flex items-center justify-between text-gray-700 hover:text-gold-600 transition-colors text-sm"
-                  >
-                    <span className="flex items-center gap-2">
-                      <User className="w-4 h-4 text-gold-600" /> Independent Escorts
-                    </span>
-                    <ArrowRight className="w-3.5 h-3.5 text-gold-600" />
-                  </Link>
-                  <Link
-                    href="/category/vip-call-girls"
-                    className="flex items-center justify-between text-gray-700 hover:text-gold-600 transition-colors text-sm"
-                  >
-                    <span className="flex items-center gap-2">
-                      <Crown className="w-4 h-4 text-gold-600" /> VIP Escorts
-                    </span>
-                    <ArrowRight className="w-3.5 h-3.5 text-gold-600" />
-                  </Link>
+                <div className="space-y-2.5">
+                  {categories
+                    .filter((c) => c.slug !== category.slug)
+                    .slice(0, 6)
+                    .map((sibling) => {
+                      const SiblingIcon = categoryIconMap[sibling.slug] || Sparkles;
+                      return (
+                        <Link
+                          key={sibling.slug}
+                          href={`/category/${sibling.slug}`}
+                          className="flex items-center justify-between text-gray-700 hover:text-gold-600 transition-colors text-sm p-1.5 rounded-lg hover:bg-white/60"
+                        >
+                          <span className="flex items-center gap-2">
+                            <SiblingIcon className="w-4 h-4 text-gold-600" /> {sibling.name}
+                          </span>
+                          <ArrowRight className="w-3.5 h-3.5 text-gold-600" />
+                        </Link>
+                      );
+                    })}
                 </div>
               </div>
+
+              {/* Contextual Guide Link */}
+              {category.slug === 'russian-call-girls' && (
+                <div className="bg-white p-5 rounded-2xl border border-gold-200 shadow-sm">
+                  <p className="text-xs uppercase font-bold tracking-wider text-gold-600 mb-1">Recommended Guide</p>
+                  <Link
+                    href="/blog/russian-escorts-gurgaon-guide"
+                    className="font-serif text-sm font-bold text-[#1a1a2e] hover:text-gold-600 transition-colors block"
+                  >
+                    Russian Escorts Gurgaon Guide &amp; Booking Etiquette &rarr;
+                  </Link>
+                </div>
+              )}
+              {category.slug === 'vip-call-girls' && (
+                <div className="bg-white p-5 rounded-2xl border border-gold-200 shadow-sm">
+                  <p className="text-xs uppercase font-bold tracking-wider text-gold-600 mb-1">Recommended Guide</p>
+                  <Link
+                    href="/blog/vip-call-girls-gurgaon"
+                    className="font-serif text-sm font-bold text-[#1a1a2e] hover:text-gold-600 transition-colors block"
+                  >
+                    VIP Call Girls Gurgaon: Complete Discretion Guide &rarr;
+                  </Link>
+                </div>
+              )}
+              {category.slug === 'model-escorts' && (
+                <div className="bg-white p-5 rounded-2xl border border-gold-200 shadow-sm">
+                  <p className="text-xs uppercase font-bold tracking-wider text-gold-600 mb-1">Recommended Guide</p>
+                  <Link
+                    href="/blog/best-escort-service-gurgaon-guide"
+                    className="font-serif text-sm font-bold text-[#1a1a2e] hover:text-gold-600 transition-colors block"
+                  >
+                    How to Choose the Best Escort Service in Gurgaon &rarr;
+                  </Link>
+                </div>
+              )}
 
               {/* 4.9/5 Rating Card */}
               <div className="bg-gold-50 p-6 rounded-2xl border border-gold-200 text-center shadow-sm">

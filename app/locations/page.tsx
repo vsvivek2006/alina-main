@@ -16,8 +16,6 @@ export const metadata: Metadata = {
   title: 'Escort Service Locations in Gurgaon & Delhi NCR | 100+ Areas | ALINA VIP',
   description:
     'Find premium escort service across 100+ locations in Gurgaon and Delhi NCR. Cyber City, Golf Course Road, DLF Phases 1-5, Sohna Road, Aerocity & more. Rapid 20-30 min outcall.',
-  keywords:
-    'escort service locations Gurgaon, Cyber City escorts, Golf Course Road call girls, DLF Phase escorts, Sohna Road call girls, MG Road escorts, Aerocity call girls',
   alternates: {
     canonical: 'https://escort.alinavip.com/locations',
   },
@@ -48,21 +46,9 @@ export default function LocationsPage() {
           </h1>
           <div className="gold-divider mb-6" />
 
-          {/* Keyword Rich Lead with Internal Hyperlinks */}
+          {/* Clean Informative Lead */}
           <p className="text-charcoal-300 max-w-3xl mx-auto text-base md:text-lg leading-relaxed font-light">
-            ALINA VIP provides premium{' '}
-            <Link href="/services" className="text-gold-400 hover:underline font-medium">
-              escort service
-            </Link>{' '}
-            across all major areas of Gurgaon and select gateway locations in New Delhi, Aerocity, and regional NCR. Select your area below to find verified{' '}
-            <Link href="/services" className="text-gold-400 hover:underline font-medium">
-              call girls
-            </Link>{' '}
-            and{' '}
-            <Link href="/services" className="text-gold-400 hover:underline font-medium">
-              escorts
-            </Link>{' '}
-            near you with rapid 20-30 minute hotel suite dispatch.
+            ALINA VIP coordinates discreet, verified companion services across all key sectors of Gurgaon, Aerocity, and regional Delhi NCR corridors. Select your district below to find verified companions with prompt 20 to 30 minute hotel suite and residential dispatch.
           </p>
 
           {(() => {
@@ -96,7 +82,11 @@ export default function LocationsPage() {
                   ALINA VIP caters extensively to guests staying at prestigious five-star hotel properties across Gurgaon and Delhi NCR. Our verified companions are adept in five-star hotel etiquette, arriving discreetly dressed in tasteful attire suitable for executive lobbies and luxury suites.
                 </p>
                 <p>
-                  We provide continuous outcall service to premier hotel clusters including The Oberoi Gurgaon, The Trident, The Leela Ambience, Grand Hyatt Gurgaon, ITC Grand Bharat, The Westin Gurgaon, and JW Marriott Aerocity.
+                  We provide continuous outcall service to premier hotel clusters including The Oberoi Gurgaon, The Trident, The Leela Ambience, Grand Hyatt Gurgaon, ITC Grand Bharat, The Westin Gurgaon, and JW Marriott Aerocity. For location-specific hotel etiquette and booking advice, review our{' '}
+                  <Link href="/blog/luxury-hotels-gurgaon-guide" className="text-gold-400 hover:underline font-medium">
+                    Gurgaon luxury hotel guide
+                  </Link>
+                  .
                 </p>
               </div>
 

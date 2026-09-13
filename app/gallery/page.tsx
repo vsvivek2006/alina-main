@@ -1,7 +1,6 @@
 export const metadata: Metadata = {
   title: 'VIP Escort Gallery | Verified Call Girls in Gurgaon | ALINA VIP',
   description: 'View verified photos of our luxury escorts in Gurgaon. Russian call girls, VIP models, independent companions. 100% genuine, photo-authenticated profiles.',
-  keywords: 'escort gallery Gurgaon, call girls photos Gurgaon, VIP escort photos, Russian call girls gallery, verified escorts Gurgaon',
   alternates: {
     canonical: 'https://escort.alinavip.com/gallery',
   },
@@ -340,15 +339,11 @@ export default function GalleryPage() {
               Ready to Book Your <span className="text-gold-600">Escort Service?</span>
             </h3>
             <p className="text-gray-700 mb-6 max-w-2xl mx-auto leading-relaxed">
-              Browse our gallery and choose from verified{' '}
+              Explore authentic photo-authenticated companion profiles. Call our concierge desk 24/7 or view full details in our{' '}
               <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girls in Gurgaon
+                services directory
               </Link>
-              . Call us 24/7 for{' '}
-              <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                premium escort service
-              </Link>{' '}
-              booking.
+              .
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
