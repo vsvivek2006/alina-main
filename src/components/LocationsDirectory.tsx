@@ -125,7 +125,7 @@ export default function LocationsDirectory({ locations }: LocationsDirectoryProp
       {/* Quick Counter */}
       <p className="text-xs text-charcoal-400 mt-4 tracking-wider text-center">
         Showing <span className="text-gold-400 font-semibold">{filteredLocations.length}</span> of{' '}
-        <span className="text-white font-semibold">{locations.length}</span> verified companion locations
+        <span className="text-white font-semibold">{locations.length}</span> verified locations
       </p>
 
       {/* Locations Directory Grid */}
@@ -177,7 +177,7 @@ export default function LocationsDirectory({ locations }: LocationsDirectoryProp
                     </h3>
 
                     <p className="text-sm text-charcoal-400 leading-relaxed mb-6 line-clamp-2 font-light">
-                      {loc.area || `${loc.name} companion corridor in ${loc.city || loc.region}`}
+                      {loc.area || `${loc.name} service corridor in ${loc.city || loc.region}`}
                     </p>
                   </div>
 

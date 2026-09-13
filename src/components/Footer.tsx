@@ -63,7 +63,7 @@ export default function Footer() {
 
           {/* Categories */}
           <div>
-            <h4 className="font-sans text-xs tracking-ultra uppercase text-gold-500 mb-5">Companion Categories</h4>
+            <h4 className="font-sans text-xs tracking-ultra uppercase text-gold-500 mb-5">Service Categories</h4>
             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-x-4 gap-y-2.5">
               {categories.map((cat) => (
                 <li key={cat.slug}>

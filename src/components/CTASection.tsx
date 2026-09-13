@@ -11,7 +11,7 @@ export default function CTASection() {
 
       <div className="container-luxury relative z-10 text-center max-w-4xl px-4">
         <span className="inline-block px-5 py-2 border border-gold-500/30 rounded-full text-gold-400 text-xs font-semibold tracking-wider uppercase mb-5 bg-gold-500/10 backdrop-blur-sm">
-          ★ Reserve Your Companionship
+          ★ Reserve Your Booking
         </span>
 
         <h2 className="font-serif text-3xl md:text-5xl lg:text-6xl font-light text-white mb-6 leading-tight">
@@ -21,7 +21,7 @@ export default function CTASection() {
         <div className="gold-divider mx-auto mb-6" />
 
         <p className="text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed text-base md:text-lg font-light">
-          Book premier escort service in Gurgaon with total confidentiality. Our luxury escort agency coordinates verified call girls, Russian escorts, and VIP companions across all Gurgaon 5-star hotels &amp; private residences.
+          Book premier escort service in Gurgaon with total confidentiality. Our luxury escort agency coordinates verified call girls, Russian escorts, and VIP models across all Gurgaon 5-star hotels &amp; private residences.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-10">

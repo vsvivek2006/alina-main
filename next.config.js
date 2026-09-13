@@ -39,6 +39,8 @@ const nextConfig = {
       { source: '/category', destination: '/services', permanent: true },
       { source: '/robot.txt', destination: '/robots.txt', permanent: true },
       { source: '/llm.txt', destination: '/llms.txt', permanent: true },
+      { source: '/locations/sector-41', destination: '/locations/south-city', permanent: true },
+      { source: '/locations/sector-58', destination: '/locations/golf-course-extension-road', permanent: true },
     ];
   },
 };

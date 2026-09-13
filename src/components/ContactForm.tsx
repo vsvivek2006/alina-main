@@ -38,7 +38,7 @@ export default function ContactForm() {
           Online Reservation
         </span>
         <h2 className="text-2xl md:text-3xl font-bold text-[#1a1a2e] font-serif">
-          Book Your Companion Experience
+          Book Your Reservation
         </h2>
         <p className="text-gray-600 text-sm mt-2">
           Please provide your preferences below, or connect directly via telephone or WhatsApp for immediate reservation.
@@ -118,14 +118,14 @@ export default function ContactForm() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div>
             <label className="block text-xs font-bold tracking-wider uppercase text-gray-700 mb-2">
-              Preferred Companion Category
+              Preferred Category
             </label>
             <select
               value={formData.category}
               onChange={(e) => setFormData({ ...formData, category: e.target.value })}
               className="w-full bg-white border border-gray-300 rounded-xl px-4 py-3.5 text-sm text-gray-800 focus:border-gold-500 focus:outline-none transition-colors"
             >
-              <option value="">Any Premium Companion</option>
+              <option value="">Any Category</option>
               <option value="Russian Escorts">Russian Escorts</option>
               <option value="Model Escorts">Model Escorts</option>
               <option value="VIP Escorts">VIP Escorts</option>
@@ -200,7 +200,7 @@ export default function ContactForm() {
               <option value="Dinner Date">Fine Dining Date</option>
               <option value="Corporate Event">Corporate / Social Event</option>
               <option value="Travel Escort">Travel / Weekend Gateway</option>
-              <option value="Overnight Stay">Overnight Companion</option>
+              <option value="Overnight Stay">Overnight Booking</option>
             </select>
           </div>
 

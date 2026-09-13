@@ -53,7 +53,7 @@ export default function BlogPage() {
             Escort Service <span className="text-gradient-gold">Blog</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Expert insights on escort service in Gurgaon, verified companion etiquette, Russian models, nightlife, dating tips, and luxury hospitality.
+            Expert insights on escort service in Gurgaon, etiquette guidelines, Russian models, nightlife, dating tips, and luxury hospitality.
           </p>
           <div className="gold-divider mx-auto mt-8" />
         </div>
@@ -65,11 +65,11 @@ export default function BlogPage() {
           <div className="text-center mb-12">
             <p className="section-subtitle text-gold-600">Our Blog</p>
             <h2 className="section-title mb-4 text-[#1a1a2e]">
-              Insights on <span className="text-gradient-gold">Companionship &amp; Luxury Lifestyle</span>
+              Insights on <span className="text-gradient-gold">VIP Escorts &amp; Luxury Lifestyle</span>
             </h2>
             <div className="gold-divider mx-auto" />
             <p className="text-gray-600 max-w-2xl mx-auto mt-6 leading-relaxed text-base">
-              Discover curated guides on five-star hotel outcall, fine dining spots, companion selection, and executive etiquette in Gurgaon.
+              Discover curated guides on five-star hotel outcall, fine dining spots, profile selection, and executive etiquette in Gurgaon.
             </p>
           </div>
 
@@ -91,7 +91,7 @@ export default function BlogPage() {
                   Best Escort Service in Gurgaon: A Complete Guide
                 </h3>
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                  Understand how to safely select verified companions, book premier hotel outcall appointments, and maintain complete privacy during your stay in Gurgaon.
+                  Understand how to safely select verified profiles, book premier hotel outcall appointments, and maintain complete privacy during your stay in Gurgaon.
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <Link
@@ -132,7 +132,7 @@ export default function BlogPage() {
               Explore <span className="text-gold-400">Editorial</span> Topics
             </h3>
             <p className="text-gray-300">
-              Browse articles organized by lifestyle, dining, travel, and companionship themes.
+              Browse articles organized by lifestyle, dining, travel, and escort service themes.
             </p>
             <div className="gold-divider mx-auto mt-4" />
           </div>
@@ -171,10 +171,10 @@ export default function BlogPage() {
             </h2>
             <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
               <p>
-                The <strong>ALINA VIP</strong> editorial team publishes practical guides on navigating luxury companionship, premium hospitality, and executive nightlife across Gurgaon and the greater NCR region.
+                The <strong>ALINA VIP</strong> editorial team publishes practical guides on navigating luxury escort services, premium hospitality, and executive nightlife across Gurgaon and the greater NCR region.
               </p>
               <p>
-                From tips on choosing the right companion for high-profile business dinners to comprehensive overviews of five-star suites along Golf Course Road and Cyber City, our articles help clients make informed, discreet decisions.
+                From tips on choosing the right escort for high-profile business dinners to comprehensive overviews of five-star suites along Golf Course Road and Cyber City, our articles help clients make informed, discreet decisions.
               </p>
               <p>
                 For reservations and direct profile coordination, view our complete{' '}

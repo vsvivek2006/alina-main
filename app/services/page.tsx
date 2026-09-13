@@ -1,14 +1,14 @@
 export const metadata: Metadata = {
-  title: 'Our Escort Services in Gurgaon | Companion Categories | ALINA VIP',
+  title: 'Our Escort Services in Gurgaon | Service Categories | ALINA VIP',
   description:
-    'Explore our full range of luxury escort services in Gurgaon. Russian call girls, VIP escorts, model companions, college girls & celebrity escorts. Available 24/7.',
+    'Explore our full range of luxury escort services in Gurgaon. Russian call girls, VIP escorts, models, college girls & celebrity escorts. Available 24/7.',
   alternates: {
     canonical: 'https://escort.alinavip.com/services',
   },
   openGraph: {
-    title: 'Our Escort Services in Gurgaon | Companion Categories | ALINA VIP',
+    title: 'Our Escort Services in Gurgaon | Service Categories | ALINA VIP',
     description:
-      'Explore our full range of luxury escort services in Gurgaon. Russian call girls, VIP escorts, model companions, college girls & celebrity escorts. Available 24/7.',
+      'Explore our full range of luxury escort services in Gurgaon. Russian call girls, VIP escorts, models, college girls & celebrity escorts. Available 24/7.',
     url: 'https://escort.alinavip.com/services',
     type: 'website',
   },
@@ -80,10 +80,10 @@ export default function ServicesPage() {
             ★ Our Services
           </span>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-serif tracking-wide">
-            Explore Companion Profiles &amp; <span className="text-gradient-gold">Escort Services</span>
+            Explore Profiles &amp; <span className="text-gradient-gold">Escort Services</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            <strong className="text-gold-400 font-semibold">ALINA VIP</strong> offers tailored companion arrangements across Gurgaon and Delhi NCR. Browse verified profiles across specialized categories including{' '}
+            <strong className="text-gold-400 font-semibold">ALINA VIP</strong> offers tailored escort arrangements across Gurgaon and Delhi NCR. Browse verified profiles across specialized categories including{' '}
             <Link href="/category/russian-call-girls" className="text-gold-400 hover:underline font-medium">
               Russian escorts
             </Link>
@@ -93,7 +93,7 @@ export default function ServicesPage() {
             </Link>
             , and{' '}
             <Link href="/category/vip-call-girls" className="text-gold-400 hover:underline font-medium">
-              VIP companions
+              VIP escorts
             </Link>
             . Each rendezvous is delivered with uncompromising discretion and professional hospitality.
           </p>
@@ -176,8 +176,7 @@ export default function ServicesPage() {
               Explore Our <span className="text-gradient-gold">Escort Categories</span>
             </h2>
             <div className="gold-divider mx-auto" />
-            <p className="text-gray-600 max-w-2xl mx-auto mt-4 leading-relaxed text-base">
-              Browse our verified{' '}
+            <p className="text-gray-600 max-w-2xl mx-auto mt-4 leading-relaxed text-base">              Browse our verified{' '}
               <Link href="/services" className="text-gold-600 hover:underline font-medium">
                 call girls
               </Link>{' '}
@@ -185,7 +184,7 @@ export default function ServicesPage() {
               <Link href="/services" className="text-gold-600 hover:underline font-medium">
                 escorts
               </Link>{' '}
-              categories. Find the perfect companion for your{' '}
+              categories. Find the perfect profile for your{' '}
               <Link href="/services" className="text-gold-600 hover:underline font-medium">
                 escort service
               </Link>{' '}
@@ -238,7 +237,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Section 3: Supporting Companion Guides */}
+      {/* Section 3: Supporting Guides */}
       <section className="py-16 bg-[#faf6f2]">
         <div className="container-luxury">
           <div className="text-center mb-10">
@@ -255,7 +254,7 @@ export default function ServicesPage() {
             {[
               {
                 title: 'Russian Escorts Gurgaon Guide',
-                desc: 'Comprehensive advice on European companion bookings, discretion standards, and outcall expectations.',
+                desc: 'Comprehensive advice on European escort bookings, discretion standards, and outcall expectations.',
                 href: '/blog/russian-escorts-gurgaon-guide',
                 icon: Crown,
               },
@@ -285,7 +284,7 @@ export default function ServicesPage() {
               },
               {
                 title: 'First Rendezvous Etiquette & Tips',
-                desc: 'Essential courtesy principles and preparation advice for a seamless companion engagement.',
+                desc: 'Essential courtesy principles and preparation advice for a seamless private engagement.',
                 href: '/blog/first-date-tips-luxury',
                 icon: Heart,
               },
@@ -298,46 +297,37 @@ export default function ServicesPage() {
                   className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100 hover:border-gold-300 group flex flex-col justify-between"
                 >
                   <div>
-                    <div className="w-12 h-12 bg-gold-500/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-gold-500 group-hover:text-white text-gold-600 transition-colors">
-                      <GuideIcon className="w-6 h-6" />
+                    <div className="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center mb-4 group-hover:bg-gold-500/20 transition-colors">
+                      <GuideIcon className="w-6 h-6 text-gold-600" />
                     </div>
-                    <h4 className="font-serif text-lg font-bold text-[#1a1a2e] group-hover:text-gold-600 transition-colors mb-2">
+                    <h4 className="font-serif text-lg font-bold text-[#1a1a2e] mb-2 group-hover:text-gold-600 transition-colors">
                       {guide.title}
                     </h4>
-                    <p className="text-xs text-gray-600 leading-relaxed">
+                    <p className="text-sm text-gray-600 leading-relaxed mb-4">
                       {guide.desc}
                     </p>
                   </div>
-                  <span className="text-xs text-gold-600 font-semibold flex items-center gap-1.5 mt-4 group-hover:gap-2.5 transition-all">
-                    Read Guide <ArrowRight size={14} />
+                  <span className="text-xs text-gold-600 font-semibold flex items-center gap-1 group-hover:gap-2 transition-all">
+                    Read Guide &rarr;
                   </span>
                 </Link>
               );
             })}
           </div>
-
-          <div className="text-center mt-10">
-            <Link
-              href="/blog"
-              className="btn-outline-gold inline-flex items-center gap-2"
-            >
-              View All 9 Editorial Guides <ArrowRight size={16} />
-            </Link>
-          </div>
         </div>
       </section>
 
-      {/* Section 4: 3 Trust Verification Pillars */}
-      <section className="py-16 bg-white text-gray-800">
+      {/* Section 4: Operational Standards */}
+      <section className="py-16 md:py-24 bg-white text-gray-800">
         <div className="container-luxury">
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center p-8 bg-[#faf6f2] rounded-2xl border border-gold-200/50 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-14 h-14 bg-gold-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <ShieldCheck className="w-7 h-7 text-gold-600" />
               </div>
-              <h4 className="font-bold text-[#1a1a2e] text-xl mb-2 font-serif">Verified Profiles</h4>
+              <h4 className="font-bold text-[#1a1a2e] text-xl mb-2 font-serif">100% Verified Profiles</h4>
               <p className="text-sm text-gray-600 leading-relaxed">
-                Every companion is verified through an in-person authentication process with recent, genuine portfolio photos.
+                Every profile is verified through an in-person authentication process with recent, genuine portfolio photos.
               </p>
             </div>
 
@@ -369,17 +359,17 @@ export default function ServicesPage() {
         <div className="container-luxury max-w-4xl">
           <div className="prose-luxury bg-white p-8 md:p-12 rounded-2xl border border-gold-200/60 shadow-sm">
             <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6 font-serif">
-              Bespoke Companionship Tailored to Your Occasion
+              Bespoke Services Tailored to Your Occasion
             </h2>
             <div className="space-y-4 text-gray-700 text-base leading-relaxed">
               <p>
-                <strong>ALINA VIP</strong> provides high-caliber companionship for gentlemen who demand discretion, elegance, and genuine conversation. Whether attending executive dinners, social galas, international business functions, or enjoying a private evening at a luxury suite, our agency ensures an experience defined by grace and sophistication.
+                <strong>ALINA VIP</strong> provides high-caliber escort services for gentlemen who demand discretion, elegance, and genuine conversation. Whether attending executive dinners, social galas, international business functions, or enjoying a private evening at a luxury suite, our agency ensures an experience defined by grace and sophistication.
               </p>
               <p>
                 Each engagement is managed directly through our dedicated concierge desk. We respect client confidentiality above all else, ensuring that identity records, communications, and booking details remain private and secure.
               </p>
               <p>
-                To reserve a companion or explore specific requests, speak with our reservation coordinators at{' '}
+                To reserve an appointment or explore specific requests, speak with our reservation coordinators at{' '}
                 <a href={`tel:${siteConfig.phone}`} className="text-gold-600 hover:underline font-bold">
                   {siteConfig.phoneDisplay}
                 </a>{' '}

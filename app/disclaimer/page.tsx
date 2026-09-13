@@ -3,7 +3,7 @@ import { DisclaimerPage } from '@/components/LegalPages';
 
 export const metadata: Metadata = {
   title: 'Disclaimer | ALINA VIP Escort Service',
-  description: 'Legal disclaimer and terms of engagement for ALINA VIP luxury escort and adult companionship services.',
+  description: 'Legal disclaimer and terms of engagement for ALINA VIP luxury escort services.',
   alternates: { canonical: 'https://escort.alinavip.com/disclaimer' },
   robots: {
     index: false,

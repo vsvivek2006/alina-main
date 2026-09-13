@@ -1,14 +1,14 @@
 export const metadata: Metadata = {
   title: 'Escort Service in Gurgaon | VIP Call Girls | ALINA VIP',
   description:
-    'ALINA VIP provides elite, verified companionship and premium escort services across Gurgaon and Delhi NCR. 100% discreet, professional hotel and residential outcalls.',
+    'ALINA VIP provides elite, verified escort services and VIP call girls across Gurgaon and Delhi NCR. 100% discreet, professional hotel and residential outcalls.',
   alternates: {
     canonical: 'https://escort.alinavip.com',
   },
   openGraph: {
     title: 'Escort Service in Gurgaon | VIP Call Girls | ALINA VIP',
     description:
-      'ALINA VIP provides elite, verified companionship and premium escort services across Gurgaon and Delhi NCR. 100% discreet, professional hotel and residential outcalls.',
+      'ALINA VIP provides elite, verified escort services and VIP call girls across Gurgaon and Delhi NCR. 100% discreet, professional hotel and residential outcalls.',
     url: 'https://escort.alinavip.com',
     type: 'website',
   },
@@ -87,7 +87,7 @@ const whyChooseUs = [
     icon: ShieldCheck,
     title: '100% Verified Profiles',
     description:
-      'Every companion undergoes a thorough in-person verification process to ensure authenticity, genuine photos, and client safety.',
+      'Every profile undergoes a thorough in-person verification process to ensure authenticity, genuine photos, and client safety.',
   },
   {
     icon: Lock,
@@ -105,13 +105,13 @@ const whyChooseUs = [
     icon: BadgeCheck,
     title: 'Premium Handpicked Quality',
     description:
-      'We select only cultured, educated companions who meet our exacting standards of elegance, grace, and sophisticated conversation.',
+      'We select only cultured, educated models who meet our exacting standards of elegance, grace, and sophisticated conversation.',
   },
   {
     icon: Star,
     title: 'Elite Diverse Selection',
     description:
-      'From VIP models and European escorts to independent companions and air hostesses, choose from the finest roster in India.',
+      'From VIP models and European escorts to independent call girls and air hostesses, choose from the finest roster in India.',
   },
   {
     icon: Phone,
@@ -126,13 +126,13 @@ const howItWorks = [
     number: '01',
     title: 'Browse Profiles',
     description:
-      'Explore our curated portfolio of verified companion profiles across specialized categories and premier Gurgaon locations.',
+      'Explore our curated portfolio of verified escort profiles across specialized categories and premier Gurgaon locations.',
   },
   {
     number: '02',
     title: 'Contact Our Desk',
     description:
-      'Call us directly or send a discreet WhatsApp message with your location, timing, and preferred companion.',
+      'Call us directly or send a discreet WhatsApp message with your location, timing, and preferred escort.',
   },
   {
     number: '03',
@@ -144,7 +144,7 @@ const howItWorks = [
     number: '04',
     title: 'Enjoy Luxury Rendezvous',
     description:
-      'Meet your verified companion at your hotel suite or residence and experience an unforgettable, premium engagement.',
+      'Meet your verified escort at your hotel suite or residence and experience an unforgettable, premium engagement.',
   },
 ];
 
@@ -297,7 +297,7 @@ export default function HomePage() {
             className="text-charcoal-300 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up"
             style={{ animationDelay: '0.2s' }}
           >
-            Experience refined social companionship tailored for discerning executives, international travellers, and private patrons. Authenticated models, elegant European and Indian companions, and complete discretion for hotel or private outcalls.
+            Experience refined escort services tailored for discerning executives, international travellers, and private patrons. Authenticated models, elegant profiles, and complete discretion for hotel or private outcalls.
           </p>
 
           <div
@@ -308,7 +308,7 @@ export default function HomePage() {
               href="/services"
               className="btn-gold shadow-lg shadow-gold-500/20"
             >
-              Explore Companions <ArrowRight size={16} />
+              Explore Profiles <ArrowRight size={16} />
             </Link>
             <a href={`tel:${siteConfig.phone}`} className="btn-outline-gold">
               <Phone size={16} /> {siteConfig.phoneDisplay}
@@ -402,13 +402,13 @@ export default function HomePage() {
               <div className="gold-divider mb-8" />
               <div className="space-y-4 text-gray-700 leading-relaxed text-base">
                 <p>
-                  <strong className="text-[#1a1a2e]">ALINA VIP</strong> is a premier companion agency established to provide sophisticated gentlemen with exceptional social companions for high-level business functions, dinner dates, travel accompaniment, and private evenings.
+                  <strong className="text-[#1a1a2e]">ALINA VIP</strong> is a premier escort agency established to provide sophisticated gentlemen with exceptional escort services for high-level business functions, dinner dates, travel accompaniment, and private evenings.
                 </p>
                 <p>
                   With extensive experience across Delhi NCR&apos;s luxury hospitality sector, our agency is built upon strict privacy protocols, punctual coordination, and verified authenticity. We ensure seamless bookings with complete confidentiality.
                 </p>
                 <p>
-                  Every companion represented in our portfolio undergoes thorough in-person vetting to evaluate elegance, conversational eloquence, and professional etiquette—guaranteeing that your selected companion matches her portfolio imagery perfectly.
+                  Every profile represented in our portfolio undergoes thorough in-person vetting to evaluate elegance, conversational eloquence, and professional etiquette—guaranteeing that your selected profile matches her portfolio imagery perfectly.
                 </p>
               </div>
 
@@ -428,7 +428,7 @@ export default function HomePage() {
             {/* Clean Statistics Cards */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: '500+', label: 'Verified Companions' },
+                { value: '500+', label: 'Verified Profiles' },
                 { value: '108', label: 'Locations in Gurgaon & NCR' },
                 { value: '11', label: 'Curated Categories' },
                 { value: '24/7', label: 'Service Available' },
@@ -460,7 +460,7 @@ export default function HomePage() {
             </h2>
             <div className="gold-divider" />
             <p className="text-gray-600 max-w-xl mx-auto mt-4 text-sm leading-relaxed">
-              We provide the highest level of confidentiality, verified companion safety, and personalized five-star service.
+              We provide the highest level of confidentiality, verified profile safety, and personalized five-star service.
             </p>
           </div>
 
@@ -498,7 +498,7 @@ export default function HomePage() {
             </h2>
             <div className="gold-divider" />
             <p className="text-gray-600 max-w-2xl mx-auto mt-6 leading-relaxed">
-              Every companion profile on ALINA VIP undergoes a comprehensive screening process to ensure total authenticity, safety, and mutual peace of mind.
+              Every profile on ALINA VIP undergoes a comprehensive screening process to ensure total authenticity, safety, and mutual peace of mind.
             </p>
           </div>
 
@@ -507,7 +507,7 @@ export default function HomePage() {
               {
                 title: 'Identity Verified',
                 description:
-                  'All companions provide valid government identification securely verified by our concierge team prior to profile listing.',
+                  'All profiles provide valid government identification securely verified by our concierge team prior to profile listing.',
                 icon: BadgeCheck,
               },
               {
@@ -551,7 +551,7 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Bespoke Engagements</p>
             <h2 className="section-title mb-4 text-[#1a1a2e]">
-              Tailored <span className="text-gradient-gold">Companionship</span> Services
+              Tailored <span className="text-gradient-gold">VIP Escort</span> Services
             </h2>
             <div className="gold-divider" />
             <p className="text-gray-600 max-w-xl mx-auto mt-4 text-sm">
@@ -595,7 +595,7 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Curated Roster</p>
             <h2 className="section-title mb-4 text-[#1a1a2e]">
-              Explore Companion <span className="text-gradient-gold">Categories</span>
+              Explore Service <span className="text-gradient-gold">Categories</span>
             </h2>
             <div className="gold-divider" />
             <p className="text-gray-600 max-w-xl mx-auto mt-4 text-sm">
@@ -617,7 +617,7 @@ export default function HomePage() {
                   <div className="relative aspect-[4/5] overflow-hidden bg-gray-900">
                     <Image
                       src={imageSrc}
-                      alt={`${cat.name} companion profile preview`}
+                      alt={`${cat.name} profile preview`}
                       fill
                       sizes="(max-width: 640px) 45vw, (max-width: 1024px) 33vw, 286px"
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -854,20 +854,20 @@ export default function HomePage() {
         <div className="container-luxury">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6">
-              A Discerning Guide to VIP Companionship in Gurgaon
+              A Discerning Guide to VIP Escort Services in Gurgaon
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              As the corporate and financial capital of Northern India, Gurgaon hosts leading multinational corporations, five-star luxury developments, and high-profile travellers from around the world. In this fast-paced environment, gentlemen frequently seek refined companions capable of seamlessly integrating into high-end social settings, private business celebrations, or relaxed evening dinners.
+              As the corporate and financial capital of Northern India, Gurgaon hosts leading multinational corporations, five-star luxury developments, and high-profile travellers from around the world. In this fast-paced environment, gentlemen frequently seek refined escorts capable of seamlessly integrating into high-end social settings, private business celebrations, or relaxed evening dinners.
             </p>
 
             <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
               Our Commitment to Authenticity and Safety
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
-              The modern companionship landscape often poses challenges with misleading imagery, unverified listings, and inconsistent service standards. ALINA VIP was established to provide an uncompromising alternative built on integrity, verified credentials, and professional concierge management.
+              The escort and call girl service landscape often poses challenges with misleading imagery, unverified listings, and inconsistent service standards. ALINA VIP was established to provide an uncompromising alternative built on integrity, verified credentials, and professional concierge management.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Every companion listed on our platform completes an in-person vetting process assessing identity, personal security, and social etiquette. When you arrange an engagement through our concierge desk, you can be completely confident that the person who arrives matches her portfolio imagery and maintains the highest standards of decorum.
+              Every profile listed on our platform completes an in-person vetting process assessing identity, personal security, and social etiquette. When you arrange an engagement through our concierge desk, you can be completely confident that the person who arrives matches her portfolio imagery and maintains the highest standards of decorum.
             </p>
 
             <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
@@ -884,10 +884,10 @@ export default function HomePage() {
               Seamless Outcall Coordination
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
-              Booking an engagement is straightforward and transparent. Browse our curated categories, select your preferred companion, and reach out directly to our 24/7 concierge team via phone or private WhatsApp. Our coordinators confirm timing, location, and specific preferences to guarantee an effortless experience.
+              Booking an engagement is straightforward and transparent. Browse our curated categories, select your preferred escort, and reach out directly to our 24/7 concierge team via phone or private WhatsApp. Our coordinators confirm timing, location, and specific preferences to guarantee an effortless experience.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              With swift 20 to 30 minute dispatch across Cyber City, DLF Phase 1–5, Sohna Road, and neighboring Delhi NCR corridors, ALINA VIP remains the preferred choice for sophisticated companionship.
+              With swift 20 to 30 minute dispatch across Cyber City, DLF Phase 1–5, Sohna Road, and neighboring Delhi NCR corridors, ALINA VIP remains the preferred choice for sophisticated escort services.
             </p>
           </div>
         </div>

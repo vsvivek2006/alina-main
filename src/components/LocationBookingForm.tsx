@@ -116,7 +116,7 @@ export default function LocationBookingForm({ locationName, locationCity }: Loca
           value={formData.requirements}
           onChange={(e) => setFormData({ ...formData, requirements: e.target.value })}
           className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder-gray-500 focus:border-gold-500 focus:outline-none transition-colors resize-none"
-          placeholder={`Tell us about your preferences for ${locationName} (hotel, companion category, timing)...`}
+          placeholder={`Tell us about your preferences for ${locationName} (hotel, category, timing)...`}
         />
       </div>
 

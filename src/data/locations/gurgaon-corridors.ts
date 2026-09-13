@@ -8,19 +8,19 @@ export const gurgaonCorridors: LocationData[] = [
     city: 'Gurugram',
     region: 'Gurgaon',
     corridor: 'DLF Phases',
-    shortDescription: 'Exclusive escort and companion services in DLF Phase 1, Gurugram. Discreet outcall to private villas, luxury hotels, and Silver Oaks.',
-    metaTitle: 'Escorts in DLF Phase 1 | Premium Companions Gurugram | ALINA VIP',
+    shortDescription: 'Exclusive escort services in DLF Phase 1, Gurugram. Discreet outcall to private villas, luxury hotels, and Silver Oaks.',
+    metaTitle: 'Escorts in DLF Phase 1 | VIP Call Girls Gurgaon | ALINA VIP',
     metaDescription: 'Book verified call girls in DLF Phase 1, Gurgaon. Discreet outcalls to luxury villas, boutique suites, and Silver Oaks. 24/7 service. Call +91-9996265679.',
-    targetKeywords: ['escorts in DLF Phase 1', 'DLF Phase 1 call girls', 'companionship DLF Phase 1', 'escort service DLF Phase 1 Gurgaon'],
-    h1: 'Premium Companionship Services in DLF Phase 1',
+    targetKeywords: ['escorts in DLF Phase 1', 'DLF Phase 1 call girls', 'VIP escorts DLF Phase 1', 'escort service DLF Phase 1 Gurgaon'],
+    h1: 'Escort Service in DLF Phase 1',
     about: {
-      intro: 'DLF Phase 1 is one of the foundational ultra-luxury residential enclaves of Gurugram. Characterized by wide, leafy boulevards, lavish independent villas, and architectural bungalows, it represents old-money sophistication intertwined with modern urban convenience. Bordering the pristine Aravalli Biodiversity Park, DLF Phase 1 offers an oasis of calm right next to the city’s high-energy commercial arteries. Discerning homeowners, senior diplomats, and executive leaders choose this prestigious neighborhood for its serene exclusivity, making ALINA VIP’s refined companionship services an organic match.',
+      intro: 'DLF Phase 1 is one of the foundational ultra-luxury residential enclaves of Gurugram. Characterized by wide, leafy boulevards, lavish independent villas, and architectural bungalows, it represents old-money sophistication intertwined with modern urban convenience. Bordering the pristine Aravalli Biodiversity Park, DLF Phase 1 offers an oasis of calm right next to the city’s high-energy commercial arteries. Discerning homeowners, senior diplomats, and executive leaders choose this prestigious neighborhood for its serene exclusivity, making ALINA VIP’s refined escort services an organic match.',
       historyVibe: 'Developed as DLF’s premier freehold plotted colony in the early 1980s, DLF Phase 1 has evolved into a fortress of private mansions, lush gardens, and prestigious social clubs. The atmosphere here is quiet, stately, and aristocratic. Residents value personal privacy above all, preferring discreet gatherings at private residences, intimate dinners at Qutab Plaza gourmet bistros, or evening walks near the scenic Aravalli Ridge.',
       landmarks: ['Qutab Plaza Commercial Centre', 'Aravalli Biodiversity Park Gate 1', 'Silver Oaks Residential Enclave', 'DLF City Club Phase 1', 'Sikanderpur Metro Interchange'],
       commercialProfile: 'While primarily a residential haven, DLF Phase 1 is flanked by commercial plazas, boutique wellness clinics, and private family offices. Its proximity to both MG Road and Cyber City makes it a favored address for top corporate brass, multinational expatriates, and high-net-worth individuals.',
     },
     companionshipOptions: {
-      overview: 'Our companionship offerings in DLF Phase 1 cater to those accustomed to the finest standards of living, providing bespoke companions for intimate private gatherings, executive dinners, and restful evenings.',
+      overview: 'Our escort services in DLF Phase 1 cater to those accustomed to the finest standards of living, providing bespoke escorts for intimate private gatherings, executive dinners, and restful evenings.',
       options: [
         {
           title: 'Private Villa & Penthouse Outcalls',
@@ -28,15 +28,15 @@ export const gurgaonCorridors: LocationData[] = [
         },
         {
           title: 'Fine Dining & Social Engagement',
-          desc: 'Sophisticated companions for culinary evenings at Qutab Plaza’s celebrated cafes or premier restaurants along nearby MG Road and Cyber Hub.',
+          desc: 'Sophisticated escorts for culinary evenings at Qutab Plaza’s celebrated cafes or premier restaurants along nearby MG Road and Cyber Hub.',
         },
         {
           title: 'Executive Stress Relief & Downtime',
-          desc: 'Cultured, empathetic female companions offering engaging conversation, warmth, and relaxation after high-stakes corporate days.',
+          desc: 'Cultured, empathetic female escorts offering engaging conversation, warmth, and relaxation after high-stakes corporate days.',
         },
         {
           title: 'Overnight & Extended Stays',
-          desc: 'Comprehensive weekend and overnight companionship for individuals seeking sustained connection and unhurried charm in the privacy of their residence.',
+          desc: 'Comprehensive weekend and overnight escort service for individuals seeking sustained connection and unhurried charm in the privacy of their residence.',
         },
       ],
     },
@@ -108,17 +108,17 @@ export const gurgaonCorridors: LocationData[] = [
     corridor: 'DLF Phases',
     shortDescription: 'Elite escort service in DLF Phase 2, Gurgaon. Verified call girls for luxury hotels near Cyber Hub, private condominiums, and executive suites.',
     metaTitle: 'Escorts in DLF Phase 2 | Luxury Call Girls Gurugram | ALINA VIP',
-    metaDescription: 'Experience elite companion services in DLF Phase 2, Gurgaon. Discreet outcalls to Oakwood, Belvedere Towers, and nearby Cyber City hotels. Call +91-9996265679.',
-    targetKeywords: ['escorts in DLF Phase 2', 'DLF Phase 2 call girls', 'escort service DLF Phase 2', 'companion DLF Phase 2 Gurgaon'],
-    h1: 'Premium Companionship Services in DLF Phase 2',
+    metaDescription: 'Experience elite escort services in DLF Phase 2, Gurgaon. Discreet outcalls to Oakwood, Belvedere Towers, and nearby Cyber City hotels. Call +91-9996265679.',
+    targetKeywords: ['escorts in DLF Phase 2', 'DLF Phase 2 call girls', 'escort service DLF Phase 2', 'DLF Phase 2 Gurgaon escorts'],
+    h1: 'Escort Service in DLF Phase 2',
     about: {
       intro: 'DLF Phase 2 occupies one of the most strategic, high-value positions in all of Gurgaon. Directly adjoining the world-renowned DLF Cyber City corporate district and bordered by NH-48 and MG Road, Phase 2 seamlessly blends premier residential living with direct urban vitality. Home to upscale high-rise developments like Belvedere Towers and Belvedere Park, as well as expansive designer villas, it is the neighborhood of choice for senior C-suite executives, multinational expats, and international visitors seeking proximity to Cyber Hub while maintaining an exclusive home base.',
       historyVibe: 'Developed as part of DLF’s master-planned expansion, DLF Phase 2 boasts wide streets, beautifully manicured private parks, and private club amenities. Its proximity to Cyber City imbues it with an international, fast-paced cosmopolitan ambiance. Evenings in DLF Phase 2 are alive with high-powered executives returning from boardroom negotiations, ready to unwind with fine wine, refined company, and world-class culinary experiences at Cyber Hub or private residences.',
       landmarks: ['Belvedere Towers & Belvedere Park', 'DLF Cyber Hub pedestrian link', 'Jacaranda Marg & Oakwood Way', 'DLF City Club Phase 2', 'Vodafone Belvedere Towers Rapid Metro Station'],
-      commercialProfile: 'Flanked by DLF Cyber City Building 9 and Building 10, DLF Phase 2 sits at the exact confluence of global enterprise and high luxury. Thousands of international business travelers stay in serviced apartments and luxury residences here weekly, driving a steady demand for top-tier companionship.',
+      commercialProfile: 'Flanked by DLF Cyber City Building 9 and Building 10, DLF Phase 2 sits at the exact confluence of global enterprise and high luxury. Thousands of international business travelers stay in serviced apartments and luxury residences here weekly, driving a steady demand for top-tier escort service.',
     },
     companionshipOptions: {
-      overview: 'We offer an array of flexible, premium companionship engagements tailored to the fast-moving lifestyles of DLF Phase 2 residents and corporate visitors.',
+      overview: 'We offer an array of flexible, premium escort service engagements tailored to the fast-moving lifestyles of DLF Phase 2 residents and corporate visitors.',
       options: [
         {
           title: 'Serviced Apartment & Suite Outcalls',
@@ -126,15 +126,15 @@ export const gurgaonCorridors: LocationData[] = [
         },
         {
           title: 'Cyber Hub Dining & Evening Accompaniment',
-          desc: 'Elegant, charming companions who can join you for drinks at speakeasies or celebratory dinners at Cyber Hub’s fine dining establishments.',
+          desc: 'Elegant, charming escorts who can join you for drinks at speakeasies or celebratory dinners at Cyber Hub’s fine dining establishments.',
         },
         {
           title: 'Corporate Travel Downtime',
-          desc: 'Charming companionship for international executives staying in Gurgaon on corporate business trips, providing engaging conversation and genuine warmth.',
+          desc: 'Charming accompaniment for international executives staying in Gurgaon on corporate business trips, providing engaging conversation and genuine warmth.',
         },
         {
           title: 'VIP Overnight Experiences',
-          desc: 'Relaxed, unhurried companionship for entire evenings and weekends, designed for clients who prioritize deep connection and luxury leisure.',
+          desc: 'Relaxed, unhurried private time for entire evenings and weekends, designed for clients who prioritize deep connection and luxury leisure.',
         },
       ],
     },
@@ -204,11 +204,11 @@ export const gurgaonCorridors: LocationData[] = [
     city: 'Gurugram',
     region: 'Gurgaon',
     corridor: 'DLF Phases',
-    shortDescription: 'Discreet escort and companion service in DLF Phase 3, Gurgaon. Verified call girls for Ambience Island, Moulsari Avenue, and Cyber City border.',
+    shortDescription: 'Discreet escort service in DLF Phase 3, Gurgaon. Verified call girls for Ambience Island, Moulsari Avenue, and Cyber City border.',
     metaTitle: 'Escorts in DLF Phase 3 | Verified Call Girls Gurugram | ALINA VIP',
     metaDescription: 'Book verified call girls in DLF Phase 3, Gurgaon. Discreet outcalls to Ambience Caitriona, Moulsari Avenue, and boutique guesthouses. Call +91-9996265679.',
-    targetKeywords: ['escorts in DLF Phase 3', 'DLF Phase 3 call girls', 'escort service DLF Phase 3', 'companionship DLF Phase 3 Gurugram'],
-    h1: 'Premium Companionship Services in DLF Phase 3',
+    targetKeywords: ['escorts in DLF Phase 3', 'DLF Phase 3 call girls', 'escort service DLF Phase 3', 'VIP escorts DLF Phase 3 Gurugram'],
+    h1: 'Escort Service in DLF Phase 3',
     about: {
       intro: 'DLF Phase 3 represents a lively, multifaceted hub within the Gurgaon landscape. Bordering Delhi on one flank and DLF Cyber City on the other, this expansive sector includes the ultra-luxurious Ambience Island and Ambience Caitriona, alongside tree-lined avenues of Moulsari Avenue and U-Block residential clusters. It is one of the most accessible areas in the entire National Capital Region, offering rapid transit to Indira Gandhi International Airport and Delhi via NH-48.',
       historyVibe: 'Phase 3 is vibrant and cosmopolitan, driven by a blend of senior corporate executives living in exclusive condominiums, tech entrepreneurs, and international air crews staying near the airport. The area hums with activity day and night, boasting 24/7 food streets, boutique cafes, and close proximity to Ambience Mall, the premier retail and leisure destination in NCR.',
@@ -216,23 +216,23 @@ export const gurgaonCorridors: LocationData[] = [
       commercialProfile: 'Flanked by DLF Cyber City Building 14 and the Ambience Corporate Tower, DLF Phase 3 is a nexus of international commerce. Corporate guest houses, executive serviced residences, and boutique hotels flourish throughout the sector.',
     },
     companionshipOptions: {
-      overview: 'We provide specialized companionship services in DLF Phase 3 tailored to residents, corporate travelers, and transit visitors seeking memorable relaxation.',
+      overview: 'We provide specialized escort services in DLF Phase 3 tailored to residents, corporate travelers, and transit visitors seeking memorable relaxation.',
       options: [
         {
           title: 'Ambience Island & Caitriona Luxury Outcalls',
-          desc: 'Elite companion visits to high-security residential towers in Ambience Island, providing unmatched discretion and world-class companionship.',
+          desc: 'Elite escort visits to high-security residential towers in Ambience Island, providing unmatched discretion and world-class escort service.',
         },
         {
-          title: 'Airport Transit & Layover Companionship',
+          title: 'Airport Transit & Layover services',
           desc: 'Convenient 25-minute dispatch for executives and travelers with layovers or short stays in luxury hotels near DLF Phase 3 and Aerocity.',
         },
         {
-          title: 'Shopping & Leisure Companionship',
-          desc: 'Charming, stylish companions to accompany you through designer shopping excursions at Ambience Mall followed by fine dining.',
+          title: 'Shopping & leisure accompaniment',
+          desc: 'Charming, stylish escorts to accompany you through designer shopping excursions at Ambience Mall followed by fine dining.',
         },
         {
           title: 'Late Night Relaxation & Overnight Stays',
-          desc: '24/7 companion availability for late-night inquiries and extended overnight engagements in DLF Phase 3 apartments and suites.',
+          desc: '24/7 escort availability for late-night inquiries and extended overnight engagements in DLF Phase 3 apartments and suites.',
         },
       ],
     },
@@ -291,7 +291,7 @@ export const gurgaonCorridors: LocationData[] = [
       { question: 'Is advance booking necessary?', answer: 'While short-notice bookings are welcome, booking 1 to 2 hours in advance ensures the broadest selection of companion profiles.' },
     ],
     relatedGuides: [
-      { slug: 'first-date-tips-luxury', title: 'First Date Tips: Making a Lasting Impression', excerpt: 'How to plan an elegant evening with a companion at Ambience Mall or Cyber Hub.' },
+      { slug: 'first-date-tips-luxury', title: 'First Date Tips: Making a Lasting Impression', excerpt: 'How to plan an elegant evening with a escort at Ambience Mall or Cyber Hub.' },
       { slug: 'luxury-hotels-gurgaon-guide', title: 'Luxury Hotel Guide: The Leela Ambience', excerpt: 'A deep dive into 5-star hospitality in DLF Phase 3.' },
     ],
   },
@@ -302,11 +302,11 @@ export const gurgaonCorridors: LocationData[] = [
     city: 'Gurugram',
     region: 'Gurgaon',
     corridor: 'DLF Phases',
-    shortDescription: 'Sophisticated escort and companion services in DLF Phase 4, Gurgaon. Verified call girls near Galleria Market, Hamilton Court, and Ridgewood.',
+    shortDescription: 'Sophisticated escort services in DLF Phase 4, Gurgaon. Verified call girls near Galleria Market, Hamilton Court, and Ridgewood.',
     metaTitle: 'Escorts in DLF Phase 4 | Elite Call Girls Gurugram | ALINA VIP',
     metaDescription: 'Book premium call girls in DLF Phase 4, Gurgaon. Discreet outcalls near Galleria Market, Hamilton Court, and Regency Park. 24/7 service. Call +91-9996265679.',
-    targetKeywords: ['escorts in DLF Phase 4', 'DLF Phase 4 call girls', 'escort service DLF Phase 4', 'companionship DLF Phase 4 Gurgaon'],
-    h1: 'Premium Companionship Services in DLF Phase 4',
+    targetKeywords: ['escorts in DLF Phase 4', 'DLF Phase 4 call girls', 'escort service DLF Phase 4', 'VIP escorts DLF Phase 4 Gurgaon'],
+    h1: 'Escort Service in DLF Phase 4',
     about: {
       intro: 'DLF Phase 4 is widely regarded as one of Gurgaon’s most charming, pedestrian-friendly, and culturally vibrant residential localities. Anchored by the iconic DLF Galleria Market—the city’s premier open-air lifestyle and culinary promenade—Phase 4 blends upscale suburban calm with lively cosmopolitan flair. It features high-end gated condominiums like Hamilton Court, Windsor Court, and Regency Park alongside stately plotted bungalows. Discerning residents appreciate its self-contained luxury, fine dining bistros, and peaceful green avenues.',
       historyVibe: 'Developed during the golden age of DLF City master planning, Phase 4 embodies a quintessential cosmopolitan vibe. Professionals, creative entrepreneurs, and senior executives choose Phase 4 for its community atmosphere and sophisticated dining scene. On warm evenings, the open plazas of Galleria Market fill with patrons sipping artisanal coffee and dining al fresco, while the quiet residential lanes behind the market maintain an aura of exclusive tranquility.',
@@ -314,11 +314,11 @@ export const gurgaonCorridors: LocationData[] = [
       commercialProfile: 'While predominantly high-end residential, Phase 4 is anchored commercially by Galleria Market and Cross Point Mall, housing private equity boutiques, high-end wellness spas, and luxury retail storefronts.',
     },
     companionshipOptions: {
-      overview: 'Our companionship services in DLF Phase 4 are designed for gentlemen who appreciate cultured conversation, relaxed elegance, and discreet private moments.',
+      overview: 'Our escort services in DLF Phase 4 are designed for gentlemen who appreciate cultured conversation, relaxed elegance, and discreet private moments.',
       options: [
         {
           title: 'Galleria Market Date & Cafe Accompaniment',
-          desc: 'Charming, stylish companions to accompany you for an espresso, boutique shopping, or casual dinner date at Galleria’s finest open-air restaurants.',
+          desc: 'Charming, stylish escorts to accompany you for an espresso, boutique shopping, or casual dinner date at Galleria’s finest open-air restaurants.',
         },
         {
           title: 'Condominium Outcalls in Hamilton & Regency',
@@ -326,11 +326,11 @@ export const gurgaonCorridors: LocationData[] = [
         },
         {
           title: 'Intimate Home Dining & Private Evenings',
-          desc: 'Sophisticated companions who bring warmth, grace, and intellect to an intimate home-cooked dinner or private evening at your residence.',
+          desc: 'Sophisticated escorts who bring warmth, grace, and intellect to an intimate home-cooked dinner or private evening at your residence.',
         },
         {
-          title: 'Weekend Relaxation & Wellness Companionship',
-          desc: 'Unwind with an articulate, attentive companion for extended weekend sessions designed to melt away work fatigue.',
+          title: 'Weekend Relaxation & Wellness Escort service',
+          desc: 'Unwind with an articulate, attentive escort for extended weekend sessions designed to melt away work fatigue.',
         },
       ],
     },
@@ -400,19 +400,19 @@ export const gurgaonCorridors: LocationData[] = [
     city: 'Gurugram',
     region: 'Gurgaon',
     corridor: 'DLF Phases',
-    shortDescription: 'Ultra-luxury escort and companion services in DLF Phase 5, Gurgaon. Verified VIP call girls for The Camellias, The Magnolias, The Aralias, and Horizon Center.',
+    shortDescription: 'Ultra-luxury escort services in DLF Phase 5, Gurgaon. Verified VIP call girls for The Camellias, The Magnolias, The Aralias, and Horizon Center.',
     metaTitle: 'Escorts in DLF Phase 5 | Ultra Luxury Call Girls Gurugram | ALINA VIP',
-    metaDescription: 'Experience elite VIP companionship in DLF Phase 5, Gurgaon. Discreet outcalls to The Camellias, The Magnolias, and The Aralias. Call +91-9996265679.',
-    targetKeywords: ['escorts in DLF Phase 5', 'DLF Phase 5 call girls', 'escort service DLF Phase 5', 'The Camellias companions Gurgaon', 'luxury escorts Golf Course Road'],
-    h1: 'Premium Companionship Services in DLF Phase 5',
+    metaDescription: 'Experience elite VIP escort service in DLF Phase 5, Gurgaon. Discreet outcalls to The Camellias, The Magnolias, and The Aralias. Call +91-9996265679.',
+    targetKeywords: ['escorts in DLF Phase 5', 'DLF Phase 5 call girls', 'escort service DLF Phase 5', 'The Camellias escorts Gurgaon', 'luxury escorts Golf Course Road'],
+    h1: 'Escort Service in DLF Phase 5',
     about: {
-      intro: 'DLF Phase 5 is the crown jewel of luxury real estate not only in Gurgaon, but across the entire Indian subcontinent. Fronting the prestigious 16-lane Golf Course Road expressway and overlooking the lush greens of the DLF Golf and Country Club, Phase 5 is home to the legendary “Billionaires’ Row” of high-rise super-luxury: The Camellias, The Magnolias, The Aralias, and The Crest. Here, industrial titans, startup billionaires, high-court legal luminaries, and global celebrities maintain residences that rival Manhattan penthouses and Mayfair flats. ALINA VIP’s Phase 5 companionship service matches this rare echelon of wealth with handpicked, world-class companions.',
+      intro: 'DLF Phase 5 is the crown jewel of luxury real estate not only in Gurgaon, but across the entire Indian subcontinent. Fronting the prestigious 16-lane Golf Course Road expressway and overlooking the lush greens of the DLF Golf and Country Club, Phase 5 is home to the legendary “Billionaires’ Row” of high-rise super-luxury: The Camellias, The Magnolias, The Aralias, and The Crest. Here, industrial titans, startup billionaires, high-court legal luminaries, and global celebrities maintain residences that rival Manhattan penthouses and Mayfair flats. ALINA VIP’s Phase 5 escort service service matches this rare echelon of wealth with handpicked, world-class escorts.',
       historyVibe: 'Conceived by DLF as an ultra-exclusive enclave for India’s elite, DLF Phase 5 represents the absolute pinnacle of architectural opulence and lifestyle privilege. The environment is impeccably manicured, serene, and fortified with multi-tiered security. High-powered finance executives, venture capitalists, and industrialists operate out of the adjacent One Horizon Center, unwinding in private clubhouses, golf fairways, and exclusive Michelin-grade private dining rooms.',
       landmarks: ['The Camellias Super Luxury Condominiums', 'The Magnolias & The Aralias', 'DLF Golf and Country Club', 'The Crest Luxury Towers', 'One Horizon Center & Two Horizon Center', 'Horizon Plaza Dining Esplanade'],
       commercialProfile: 'Anchored by One Horizon Center and Two Horizon Center, DLF Phase 5 houses the regional headquarters of multinational technology giants, sovereign wealth funds, and private equity conglomerates. The local clientele possesses the highest expectations of sophistication, intellect, and physical allure.',
     },
     companionshipOptions: {
-      overview: 'Our DLF Phase 5 portfolio represents the highest tier of bespoke companionship, tailored specifically for ultra-high-net-worth clients who require perfection.',
+      overview: 'Our DLF Phase 5 portfolio represents the highest tier of bespoke escort services, tailored specifically for ultra-high-net-worth clients who require perfection.',
       options: [
         {
           title: 'Super-Luxury Condominium Outcalls',
@@ -420,15 +420,15 @@ export const gurgaonCorridors: LocationData[] = [
         },
         {
           title: 'Horizon Center Corporate & VIP Entertaining',
-          desc: 'Stunning, multilingual companions capable of gracing private executive dinners, cocktail galas, and VIP corporate celebrations at Horizon Plaza restaurants.',
+          desc: 'Stunning, multilingual escorts capable of gracing private executive dinners, cocktail galas, and VIP corporate celebrations at Horizon Plaza restaurants.',
         },
         {
           title: 'Golf & Country Club Social Accompaniment',
-          desc: 'Poised, elegant companions to accompany you for weekend brunch, clubhouse drinks, or post-golf relaxation.',
+          desc: 'Poised, elegant escorts to accompany you for weekend brunch, clubhouse drinks, or post-golf relaxation.',
         },
         {
           title: 'Exclusive Weekend & International Travel',
-          desc: 'Cosmopolitan companions with valid passports, fluent in English and international etiquette, ready for weekend retreats to luxury resorts or overseas getaways.',
+          desc: 'Cosmopolitan escorts with valid passports, fluent in English and international etiquette, ready for weekend retreats to luxury resorts or overseas getaways.',
         },
       ],
     },
@@ -500,25 +500,25 @@ export const gurgaonCorridors: LocationData[] = [
     corridor: 'Golf Course Road',
     shortDescription: 'Premier escort service along Golf Course Road, Gurgaon. Verified call girls for luxury hotels, Horizon Center, and elite residential high-rises.',
     metaTitle: 'Escorts in Golf Course Road | Elite Call Girls Gurugram | ALINA VIP',
-    metaDescription: 'Book luxury call girls on Golf Course Road, Gurgaon. Verified VIP companions, Russian escorts, discreet hotel outcalls. Call +91-9996265679.',
-    targetKeywords: ['escorts in Golf Course Road', 'Golf Course Road call girls', 'escort service Golf Course Road', 'companionship Golf Course Road Gurgaon'],
-    h1: 'Premium Companionship Services in Golf Course Road',
+    metaDescription: 'Book luxury call girls on Golf Course Road, Gurgaon. Verified VIP escorts, Russian models, discreet hotel outcalls. Call +91-9996265679.',
+    targetKeywords: ['escorts in Golf Course Road', 'Golf Course Road call girls', 'escort service Golf Course Road', 'VIP escorts Golf Course Road Gurgaon'],
+    h1: 'Escort Service in Golf Course Road',
     about: {
-      intro: 'Golf Course Road is indisputably the grandest, most prestigious urban boulevard in North India. Stretching from Bristol Chowk through Sectors 27, 42, 43, 53, and 54, this 16-lane signal-free expressway is lined with dazzling glass skyscrapers, ultra-luxury residential towers, manicured golf courses, and upscale hospitality landmarks. Serving as the corporate headquarters corridor for global multinationals and the residence of India’s top business magnates, Golf Course Road represents the zenith of modern Indian prosperity. ALINA VIP delivers an elite companion service that matches the world-class prestige of this iconic address.',
+      intro: 'Golf Course Road is indisputably the grandest, most prestigious urban boulevard in North India. Stretching from Bristol Chowk through Sectors 27, 42, 43, 53, and 54, this 16-lane signal-free expressway is lined with dazzling glass skyscrapers, ultra-luxury residential towers, manicured golf courses, and upscale hospitality landmarks. Serving as the corporate headquarters corridor for global multinationals and the residence of India’s top business magnates, Golf Course Road represents the zenith of modern Indian prosperity. ALINA VIP delivers an elite escort service that matches the world-class prestige of this iconic address.',
       historyVibe: 'Transforming over two decades from a peripheral link into a premier metropolitan boulevard, Golf Course Road radiates an international corporate and high-society energy reminiscent of Dubai’s Sheikh Zayed Road or Singapore’s Orchard Corridor. By day, private equity titans and tech moguls navigate corporate deals; by night, the area comes alive with rooftop cocktail bars, private cigar lounges, and private penthouse soirees overlooking the floodlit DLF Golf Course.',
       landmarks: ['One Horizon Center & Horizon Plaza', 'DLF Golf and Country Club', 'Central Plaza Mall', 'South Point Mall & Gourmet Hub', 'Sector 54 Chowk Rapid Metro Station', 'Global Foyer Executive Mall'],
       commercialProfile: 'Home to the Indian headquarters of Fortune 100 leaders including Samsung, American Express, Apple, Dell, and McKinsey, Golf Course Road hosts thousands of high-earning executives and international business travelers year-round.',
     },
     companionshipOptions: {
-      overview: 'We offer an exhaustive suite of luxury companionship services designed specifically for the discerning executives and residents along Golf Course Road.',
+      overview: 'We offer an exhaustive suite of luxury escort services designed specifically for the discerning executives and residents along Golf Course Road.',
       options: [
         {
           title: 'Five-Star Hotel Outcalls on Golf Course Road',
           desc: 'Punctual, discreet arrivals at premier properties including DoubleTree by Hilton, The Anya Hotel, and Ibis Gurgaon with seamless room-door coordination.',
         },
         {
-          title: 'Executive Dinner & Corporate Networking Companions',
-          desc: 'Articulate, glamorous companions who can accompany you to high-profile business banquets or private dining at Horizon Center.',
+          title: 'Executive Dinner & Corporate Networking Escorts',
+          desc: 'Articulate, glamorous escorts who can accompany you to high-profile business banquets or private dining at Horizon Center.',
         },
         {
           title: 'Luxury Condominium Engagements',
@@ -526,7 +526,7 @@ export const gurgaonCorridors: LocationData[] = [
         },
         {
           title: 'Weekend Escapes & Staycations',
-          desc: 'Sophisticated companions for weekend relaxation, spa retreats, and luxurious city staycations.',
+          desc: 'Sophisticated escorts for weekend relaxation, spa retreats, and luxurious city staycations.',
         },
       ],
     },
@@ -599,8 +599,8 @@ export const gurgaonCorridors: LocationData[] = [
     shortDescription: 'Premium escort service on Golf Course Extension Road, Gurgaon. Verified call girls for Grand Hyatt, luxury high-rises, and Sectors 58 through 67.',
     metaTitle: 'Escorts in Golf Course Extension Road | Call Girls Gurugram | ALINA VIP',
     metaDescription: 'Book verified call girls on Golf Course Extension Road, Gurgaon. Discreet outcalls to Grand Hyatt, M3M Golfestate, Ireo Grand Arch. Call +91-9996265679.',
-    targetKeywords: ['escorts in Golf Course Extension Road', 'Golf Course Extension call girls', 'escort service Golf Course Extension', 'M3M Golfestate companions Gurgaon'],
-    h1: 'Premium Companionship Services in Golf Course Extension Road',
+    targetKeywords: ['escorts in Golf Course Extension Road', 'Golf Course Extension call girls', 'escort service Golf Course Extension', 'M3M Golfestate escorts Gurgaon'],
+    h1: 'Escort Service in Golf Course Extension Road',
     about: {
       intro: 'Golf Course Extension Road represents the vanguard of ultra-modern luxury expansion in Gurugram. Connecting Golf Course Road to the Southern Peripheral Road (SPR) across Sectors 58 through 67, this sweeping corridor features futuristic architectural marvels, sprawling residential golf communities like M3M Golfestate, Trump Tower Delhi NCR, Ireo Grand Arch, and the five-star Grand Hyatt Gurgaon hotel and branded residences. It has rapidly established itself as the preferred luxury sanctuary for progressive tech entrepreneurs, corporate VPs, and high-net-worth investors seeking spacious modern opulence.',
       historyVibe: 'Developed over the past decade as the natural progression of Golf Course Road, Golf Course Extension features ultra-wide avenues, modern elevated expressways, and high-tech gated societies with resort-style clubhouses. The atmosphere is upscale, energetic, and forward-looking. Residents enjoy private spas, infinity pools, and exclusive dining hubs at AIPL Joy Street and WorldMark Gurgaon.',
@@ -608,11 +608,11 @@ export const gurgaonCorridors: LocationData[] = [
       commercialProfile: 'Lined with Grade-A commercial developments such as WorldMark Gurgaon, M3M Urbana, and Pioneer Urban Square, Golf Course Extension is a vibrant business hub hosting major consulting, financial technology, and international enterprises.',
     },
     companionshipOptions: {
-      overview: 'We offer an extensive selection of tailored companionship services to suit the lifestyle of modern luxury residents and executive guests along Golf Course Extension Road.',
+      overview: 'We offer an extensive selection of tailored escort services to suit the lifestyle of modern luxury residents and executive guests along Golf Course Extension Road.',
       options: [
         {
           title: 'Five-Star Outcalls to Grand Hyatt Gurgaon',
-          desc: 'Seamless, discreet companion outcalls to guests staying at the Grand Hyatt Gurgaon and surrounding luxury hotel suites.',
+          desc: 'Seamless, discreet escort outcalls to guests staying at the Grand Hyatt Gurgaon and surrounding luxury hotel suites.',
         },
         {
           title: 'Resort Condominium Outcalls (M3M Golfestate & Ireo)',
@@ -620,11 +620,11 @@ export const gurgaonCorridors: LocationData[] = [
         },
         {
           title: 'WorldMark Dining & Entertainment Dates',
-          desc: 'Charming, fashionable companions to join you for an evening of craft cocktails and fine dining at WorldMark Gurgaon or AIPL Joy Street.',
+          desc: 'Charming, fashionable escorts to join you for an evening of craft cocktails and fine dining at WorldMark Gurgaon or AIPL Joy Street.',
         },
         {
           title: 'Weekend Relaxation & Wellness Getaways',
-          desc: 'Warm, engaging companionship for weekend downtime in your private condominium or executive suite.',
+          desc: 'Warm, engaging escort service for weekend downtime in your private condominium or executive suite.',
         },
       ],
     },
@@ -694,27 +694,27 @@ export const gurgaonCorridors: LocationData[] = [
     city: 'Gurugram',
     region: 'Gurgaon',
     corridor: 'MG Road',
-    shortDescription: 'Vibrant escort and companion services on MG Road, Gurgaon. Verified call girls for luxury hotels, MGF Metropolitan, and Beverly Park.',
+    shortDescription: 'Vibrant escort services on MG Road, Gurgaon. Verified call girls for luxury hotels, MGF Metropolitan, and Beverly Park.',
     metaTitle: 'Escorts in MG Road | Luxury Call Girls Gurugram | ALINA VIP',
     metaDescription: 'Book premium call girls on MG Road, Gurgaon. Verified profiles, discreet hotel outcalls, 24/7 service near MGF Mall and Beverly Park. Call +91-9996265679.',
-    targetKeywords: ['escorts in MG Road', 'MG Road call girls', 'escort service MG Road Gurgaon', 'companionship MG Road Gurugram'],
-    h1: 'Premium Companionship Services in MG Road',
+    targetKeywords: ['escorts in MG Road', 'MG Road call girls', 'escort service MG Road Gurgaon', 'VIP escorts MG Road Gurugram'],
+    h1: 'Escort Service in MG Road',
     about: {
-      intro: 'Mehrauli-Gurgaon Road, affectionately known as MG Road, is Gurgaon’s original luxury retail, commercial, and hospitality strip. Connecting South Delhi directly with the heart of Millennium City, MG Road is famous for its “Mall Mile,” featuring premier shopping destinations like MGF Metropolitan Mall, Sahara Mall, and DT City Centre. Interspersed with luxury hotels like The Bristol, premier residential enclaves like Beverly Park and Essel Towers, and thriving corporate towers, MG Road provides an electric urban backdrop for high-end companionship.',
+      intro: 'Mehrauli-Gurgaon Road, affectionately known as MG Road, is Gurgaon’s original luxury retail, commercial, and hospitality strip. Connecting South Delhi directly with the heart of Millennium City, MG Road is famous for its “Mall Mile,” featuring premier shopping destinations like MGF Metropolitan Mall, Sahara Mall, and DT City Centre. Interspersed with luxury hotels like The Bristol, premier residential enclaves like Beverly Park and Essel Towers, and thriving corporate towers, MG Road provides an electric urban backdrop for high-end escort service.',
       historyVibe: 'As the very first arterial corridor to experience Gurgaon’s modern commercial transformation in the late 1990s, MG Road carries an established, energetic urban charm. Lined with metro stations on the Yellow Line, it serves as the vibrant meeting point between Delhi and Gurgaon. By evening, the corridor dazzles with illuminated storefronts, bustling restaurants, and chic hotel lounges filled with business travelers and socialites.',
       landmarks: ['MGF Metropolitan Mall', 'Beverly Park 1 & 2 Luxury Condominiums', 'Essel Towers Residential Complex', 'The Bristol Hotel', 'MG Road Metro Station (Yellow Line)', 'DT City Centre Mall'],
-      commercialProfile: 'MG Road hosts corporate banks, automotive showrooms, private medical centers, and consulting agencies. With an abundance of business hotels and serviced suites, it attracts international transit travelers and corporate executives seeking refined companion services.',
+      commercialProfile: 'MG Road hosts corporate banks, automotive showrooms, private medical centers, and consulting agencies. With an abundance of business hotels and serviced suites, it attracts international transit travelers and corporate executives seeking refined escort services.',
     },
     companionshipOptions: {
-      overview: 'We offer an array of flexible, elegant companionship experiences along the MG Road corridor, from shopping and dining dates to private hotel suite outcalls.',
+      overview: 'We offer an array of flexible, elegant escort services along the MG Road corridor, from shopping and dining dates to private hotel suite outcalls.',
       options: [
         {
           title: 'Five-Star & Boutique Hotel Outcalls',
           desc: 'Prompt, discreet visits to hotels including The Bristol, Lemon Tree Premier, and luxury boutique properties along MG Road.',
         },
         {
-          title: 'Shopping & Leisure Companionship',
-          desc: 'Chic, stylish companions to accompany you through designer shopping excursions at MGF Metropolitan Mall followed by rooftop cocktails.',
+          title: 'Shopping & leisure accompaniment',
+          desc: 'Chic, stylish escorts to accompany you through designer shopping excursions at MGF Metropolitan Mall followed by rooftop cocktails.',
         },
         {
           title: 'Beverly Park & Essel Towers Condominium Visits',
@@ -722,7 +722,7 @@ export const gurgaonCorridors: LocationData[] = [
         },
         {
           title: 'Late Night Dinner & Lounge Dates',
-          desc: 'Articulate companions to join you for an evening dinner date at upscale MG Road restaurants or nearby Sector 29 nightlife venues.',
+          desc: 'Articulate escorts to join you for an evening dinner date at upscale MG Road restaurants or nearby Sector 29 nightlife venues.',
         },
       ],
     },
@@ -782,7 +782,7 @@ export const gurgaonCorridors: LocationData[] = [
     ],
     relatedGuides: [
       { slug: 'gurgaon-nightlife-guide', title: 'MG Road & Sector 29 Nightlife Guide', excerpt: 'Explore the best evening lounges and craft breweries near MG Road.' },
-      { slug: 'first-date-tips-luxury', title: 'Planning the Perfect First Date', excerpt: 'Expert advice on dining and socializing with an elite companion on MG Road.' },
+      { slug: 'first-date-tips-luxury', title: 'Planning the Perfect First Date', excerpt: 'Expert advice on dining and socializing with an elite escort on MG Road.' },
     ],
   },
   {
@@ -792,19 +792,19 @@ export const gurgaonCorridors: LocationData[] = [
     city: 'Gurugram',
     region: 'Gurgaon',
     corridor: 'Cyber City',
-    shortDescription: 'Sophisticated corporate escort and companion service in DLF Cyber City, Gurgaon. Verified call girls for The Oberoi, Trident, and Cyber Hub executive dinners.',
+    shortDescription: 'Sophisticated corporate escort service in DLF Cyber City, Gurgaon. Verified call girls for The Oberoi, Trident, and Cyber Hub executive dinners.',
     metaTitle: 'Escorts in Cyber City | Corporate Call Girls Gurugram | ALINA VIP',
-    metaDescription: 'Book sophisticated call girls in Cyber City, Gurgaon. Verified VIP companions for The Oberoi, Trident, and Cyber Hub dinners. Call +91-9996265679.',
-    targetKeywords: ['escorts in Cyber City', 'Cyber City call girls', 'escort service Cyber City Gurgaon', 'corporate companions Cyber Hub Gurugram'],
-    h1: 'Premium Companionship Services in Cyber City',
+    metaDescription: 'Book sophisticated call girls in Cyber City, Gurgaon. Verified VIP escorts for The Oberoi, Trident, and Cyber Hub dinners. Call +91-9996265679.',
+    targetKeywords: ['escorts in Cyber City', 'Cyber City call girls', 'escort service Cyber City Gurgaon', 'corporate escorts Cyber Hub Gurugram'],
+    h1: 'Escort Service in Cyber City',
     about: {
-      intro: 'DLF Cyber City is the indisputable financial and technological epicenter of Gurgaon and North India. Spanning over 100 acres of gleaming steel-and-glass corporate towers, this futuristic business park houses the regional and national headquarters of hundreds of Fortune 500 corporations, management consultancies, and technology innovators. At its heart lies DLF Cyber Hub—India’s premier integrated dining and entertainment destination. Surrounded by five-star luxury hotels like The Oberoi and Trident Gurgaon, Cyber City is the primary landing zone for international CEOs, tech founders, and business travelers seeking world-class companionship.',
+      intro: 'DLF Cyber City is the indisputable financial and technological epicenter of Gurgaon and North India. Spanning over 100 acres of gleaming steel-and-glass corporate towers, this futuristic business park houses the regional and national headquarters of hundreds of Fortune 500 corporations, management consultancies, and technology innovators. At its heart lies DLF Cyber Hub—India’s premier integrated dining and entertainment destination. Surrounded by five-star luxury hotels like The Oberoi and Trident Gurgaon, Cyber City is the primary landing zone for international CEOs, tech founders, and business travelers seeking world-class escort service.',
       historyVibe: 'Developed by DLF as India’s first truly world-class IT Special Economic Zone and corporate park, Cyber City hums with high-octane corporate ambition by day and vibrant cosmopolitan energy by night. The atmosphere is sophisticated, modern, and international. Executive delegations and business leaders unwind over craft cocktails at Cyber Hub’s rooftop lounges, host private client dinners, and retreat to neighboring luxury hotel suites.',
       landmarks: ['DLF Cyber Hub Dining & Social Arcade', 'Cyber City Towers (Buildings 5, 8, 9, 10, 14)', 'The Oberoi Gurgaon (Udyog Vihar border)', 'Trident Gurgaon', 'Infinity Towers & Cyber Greens', 'Cyber City Rapid Metro Interchange'],
-      commercialProfile: 'Home to Google, Microsoft, IBM, KPMG, American Express, Deloitte, and Schneider Electric, Cyber City is the densest corporate talent cluster in India. Business travelers and corporate leaders demand companions who match their intellect, presentation, and international mindset.',
+      commercialProfile: 'Home to Google, Microsoft, IBM, KPMG, American Express, Deloitte, and Schneider Electric, Cyber City is the densest corporate talent cluster in India. Business travelers and corporate leaders demand escorts who match their intellect, presentation, and international mindset.',
     },
     companionshipOptions: {
-      overview: 'Our companionship offerings in Cyber City cater specifically to corporate executives, visiting delegations, and business travelers requiring impeccable presentation and social intelligence.',
+      overview: 'Our escort services in Cyber City cater specifically to corporate executives, visiting delegations, and business travelers requiring impeccable presentation and social intelligence.',
       options: [
         {
           title: 'Five-Star Suite Outcalls (The Oberoi & Trident)',
@@ -812,15 +812,15 @@ export const gurgaonCorridors: LocationData[] = [
         },
         {
           title: 'Cyber Hub Executive Dinner Dates',
-          desc: 'Charming, articulate companions who can accompany you to high-end dinners, client entertainment, or casual post-work drinks at Cyber Hub.',
+          desc: 'Charming, articulate escorts who can accompany you to high-end dinners, client entertainment, or casual post-work drinks at Cyber Hub.',
         },
         {
-          title: 'Corporate Travel Downtime Companionship',
-          desc: 'Relaxing, empathetic companionship for business travelers seeking genuine warmth and conversational stimulation after intense boardroom negotiations.',
+          title: 'Corporate Travel Downtime Escort service',
+          desc: 'Relaxing, empathetic escort service for business travelers seeking genuine warmth and conversational stimulation after intense boardroom negotiations.',
         },
         {
           title: 'Extended Evening & Overnight Stays',
-          desc: 'Full evening and overnight companion arrangements for executives desiring unhurried intimacy and restorative luxury in their hotel suite.',
+          desc: 'Full evening and overnight escort arrangements for executives desiring unhurried intimacy and restorative luxury in their hotel suite.',
         },
       ],
     },
@@ -890,19 +890,19 @@ export const gurgaonCorridors: LocationData[] = [
     city: 'Gurugram',
     region: 'Gurgaon',
     corridor: 'Sushant Lok',
-    shortDescription: 'Refined escort and companion service in Sushant Lok, Gurgaon. Verified call girls near HUDA City Centre, Galleria Market, and Courtyard by Marriott.',
+    shortDescription: 'Refined escort service in Sushant Lok, Gurgaon. Verified call girls near HUDA City Centre, Galleria Market, and Courtyard by Marriott.',
     metaTitle: 'Escorts in Sushant Lok | Premium Call Girls Gurugram | ALINA VIP',
     metaDescription: 'Book refined call girls in Sushant Lok, Gurgaon. Discreet outcalls to Courtyard by Marriott, luxury villas, and Sushant Lok 1. Call +91-9996265679.',
-    targetKeywords: ['escorts in Sushant Lok', 'Sushant Lok call girls', 'escort service Sushant Lok Gurgaon', 'companionship Sushant Lok Gurugram'],
-    h1: 'Premium Companionship Services in Sushant Lok',
+    targetKeywords: ['escorts in Sushant Lok', 'Sushant Lok call girls', 'escort service Sushant Lok Gurgaon', 'VIP escorts Sushant Lok Gurugram'],
+    h1: 'Escort Service in Sushant Lok',
     about: {
-      intro: 'Sushant Lok is one of Gurgaon’s premier planned residential townships, divided into Sushant Lok 1, 2, and 3. Positioned strategically between MG Road, Golf Course Road, and the Millennium City Centre metro corridor, Sushant Lok offers an appealing blend of upscale independent villas, lush neighborhood parks, and luxury boutique hotels like Courtyard by Marriott. Its leafy, well-maintained avenues house senior civil servants, corporate leaders, and established business families who value quiet luxury and central convenience. ALINA VIP provides discreet, top-tier companion services tailored to this sophisticated residential haven.',
+      intro: 'Sushant Lok is one of Gurgaon’s premier planned residential townships, divided into Sushant Lok 1, 2, and 3. Positioned strategically between MG Road, Golf Course Road, and the Millennium City Centre metro corridor, Sushant Lok offers an appealing blend of upscale independent villas, lush neighborhood parks, and luxury boutique hotels like Courtyard by Marriott. Its leafy, well-maintained avenues house senior civil servants, corporate leaders, and established business families who value quiet luxury and central convenience. ALINA VIP provides discreet, top-tier escort services tailored to this sophisticated residential haven.',
       historyVibe: 'Developed by Ansal Properties as an expansive low-density plotted colony, Sushant Lok combines the charm of classic residential estates with instant access to Gurgaon’s most active commercial districts. The local ambiance is peaceful, mature, and upscale. Evenings in Sushant Lok are quiet and dignified, with residents enjoying private dining at home, leisurely walks in neighborhood parks, or dinner at nearby Cross Point Mall and Galleria.',
       landmarks: ['Courtyard by Marriott Gurugram (Block B, Sushant Lok 1)', 'Cross Point Mall (adjacent)', 'Vyapar Kendra Market', 'Gold Souk Mall', 'Millennium City Centre Metro Station (nearby)'],
       commercialProfile: 'Anchored by the Vyapar Kendra commercial arcade and neighboring Cross Point Mall, Sushant Lok is home to boutique consulting firms, medical centers, and executive serviced apartments catering to business travelers.',
     },
     companionshipOptions: {
-      overview: 'Our companionship services in Sushant Lok cater to gentlemen who value warmth, intellectual connection, and discreet relaxation in peaceful surroundings.',
+      overview: 'Our escort services in Sushant Lok cater to gentlemen who value warmth, intellectual connection, and discreet relaxation in peaceful surroundings.',
       options: [
         {
           title: 'Courtyard by Marriott Hotel Outcalls',
@@ -914,11 +914,11 @@ export const gurgaonCorridors: LocationData[] = [
         },
         {
           title: 'Dinner & Social Engagements',
-          desc: 'Charming, articulate companions to accompany you for dinner at fine dining restaurants around Cross Point Mall or Galleria.',
+          desc: 'Charming, articulate escorts to accompany you for dinner at fine dining restaurants around Cross Point Mall or Galleria.',
         },
         {
-          title: 'Overnight Relaxation & Weekend Companionship',
-          desc: 'Sustained, unhurried companionship for entire evenings or weekends, offering genuine connection and luxury downtime.',
+          title: 'Overnight Relaxation & Weekend accompaniment',
+          desc: 'Sustained, unhurried private time for entire evenings or weekends, offering genuine connection and luxury downtime.',
         },
       ],
     },
@@ -977,7 +977,7 @@ export const gurgaonCorridors: LocationData[] = [
       { question: 'Are independent companions available in Sushant Lok?', answer: 'Yes, we feature verified independent companions who manage their own engagements with personalized warmth and professionalism.' },
     ],
     relatedGuides: [
-      { slug: 'first-date-tips-luxury', title: 'First Date Tips: Making a Lasting Impression', excerpt: 'How to plan an elegant evening with a companion in Sushant Lok.' },
+      { slug: 'first-date-tips-luxury', title: 'First Date Tips: Making a Lasting Impression', excerpt: 'How to plan an elegant evening with a escort in Sushant Lok.' },
       { slug: 'premium-living-gurgaon', title: 'Residential Luxury in Sushant Lok', excerpt: 'An overview of upscale living and community atmosphere in Sushant Lok.' },
     ],
   },
@@ -988,19 +988,19 @@ export const gurgaonCorridors: LocationData[] = [
     city: 'Gurugram',
     region: 'Gurgaon',
     corridor: 'South City',
-    shortDescription: 'Elegant escort and companion services in South City 1 & 2, Gurgaon. Verified call girls near Millennium City Centre, Sohna Road, and Unitech Cyber Park.',
+    shortDescription: 'Elegant escort services in South City 1 & 2, Gurgaon. Verified call girls near Millennium City Centre, Sohna Road, and Unitech Cyber Park.',
     metaTitle: 'Escorts in South City | Luxury Call Girls Gurugram | ALINA VIP',
     metaDescription: 'Book elegant call girls in South City 1 & 2, Gurgaon. Discreet outcalls near Unitech Cyber Park, Nirvana Country, and Sohna Road. Call +91-9996265679.',
-    targetKeywords: ['escorts in South City', 'South City call girls', 'escort service South City Gurgaon', 'companionship South City Gurugram'],
-    h1: 'Premium Companionship Services in South City',
+    targetKeywords: ['escorts in South City', 'South City call girls', 'escort service South City Gurgaon', 'VIP escorts South City Gurugram'],
+    h1: 'Escort Service in South City',
     about: {
-      intro: 'South City is a prestigious, master-planned residential development encompassing South City 1 (adjoining Millennium City Centre and Sector 30/41) and South City 2 (along Sohna Road in Sector 49/50). Built by Unitech, South City offers wide avenue roadways, landscaped public parks, luxury independent villas, and gated condominium enclaves. Proximity to Unitech Cyber Park, Fortis Memorial Research Institute, and major shopping destinations makes South City a preferred home for senior healthcare leaders, IT directors, and corporate executives seeking tranquil luxury. ALINA VIP offers refined, confidential companion services tailored to this esteemed residential community.',
+      intro: 'South City is a prestigious, master-planned residential development encompassing South City 1 (adjoining Millennium City Centre and Sector 30/41) and South City 2 (along Sohna Road in Sector 49/50). Built by Unitech, South City offers wide avenue roadways, landscaped public parks, luxury independent villas, and gated condominium enclaves. Proximity to Unitech Cyber Park, Fortis Memorial Research Institute, and major shopping destinations makes South City a preferred home for senior healthcare leaders, IT directors, and corporate executives seeking tranquil luxury. ALINA VIP offers refined, confidential escort services tailored to this esteemed residential community.',
       historyVibe: 'South City represents classic Gurgaon urban planning at its best—peaceful residential neighborhoods insulated from the city’s traffic yet minutes away from major expressways. South City 1 is mature and stately, bordered by the green expanses of Leisure Valley Park, while South City 2 is modern and family-oriented, seamlessly integrating with Nirvana Country and Sohna Road commercial hubs.',
       landmarks: ['Unitech Cyber Park (adjacent to South City 1)', 'Millennium City Centre Metro (HUDA City Centre)', 'Arcadia Market (South City 2)', 'South City Club 1 & 2', 'Nirvana Country (adjacent to South City 2)'],
       commercialProfile: 'Anchored by Unitech Cyber Park—a sprawling IT and consulting complex hosting multinational firms—South City attracts thousands of senior corporate executives, medical consultants, and international business visitors.',
     },
     companionshipOptions: {
-      overview: 'We offer an array of bespoke companionship experiences tailored to the discerning residents and corporate guests in South City 1 and 2.',
+      overview: 'We offer an array of bespoke escort services tailored to the discerning residents and corporate guests in South City 1 and 2.',
       options: [
         {
           title: 'Private Villa & Builder Floor Outcalls',
@@ -1008,15 +1008,15 @@ export const gurgaonCorridors: LocationData[] = [
         },
         {
           title: 'Unitech Cyber Park Corporate Downtime',
-          desc: 'Relaxing companionship for executives working in or visiting Unitech Cyber Park seeking engaging conversation and stress relief.',
+          desc: 'Relaxing outcalls for executives working in or visiting Unitech Cyber Park seeking engaging conversation and stress relief.',
         },
         {
           title: 'Dinner & Social Engagements',
-          desc: 'Cultured companions to accompany you for dinner dates at Sector 29 culinary spots or upscale restaurants around Sohna Road.',
+          desc: 'Cultured escorts to accompany you for dinner dates at Sector 29 culinary spots or upscale restaurants around Sohna Road.',
         },
         {
-          title: 'Overnight & Weekend Companionship',
-          desc: 'Sustained, intimate companionship for full evenings or weekend retreats in the comfort of your private residence.',
+          title: 'Overnight & Weekend accompaniment',
+          desc: 'Sustained, intimate escort service for full evenings or weekend retreats in the comfort of your private residence.',
         },
       ],
     },
@@ -1089,16 +1089,16 @@ export const gurgaonCorridors: LocationData[] = [
     shortDescription: 'Premium escort service along Sohna Road, Gurgaon. Verified call girls for luxury hotels, Central Park Resorts, Tatvam Villas, and corporate parks.',
     metaTitle: 'Escorts in Sohna Road | Luxury Call Girls Gurugram | ALINA VIP',
     metaDescription: 'Book premium call girls on Sohna Road, Gurgaon. Verified profiles, discreet outcalls to Central Park Resorts, Tatvam Villas, and luxury hotels. Call +91-9996265679.',
-    targetKeywords: ['escorts in Sohna Road', 'Sohna Road call girls', 'escort service Sohna Road Gurgaon', 'Central Park Resorts companions Gurugram'],
-    h1: 'Premium Companionship Services in Sohna Road',
+    targetKeywords: ['escorts in Sohna Road', 'Sohna Road call girls', 'escort service Sohna Road Gurgaon', 'Central Park Resorts escorts Gurugram'],
+    h1: 'Escort Service in Sohna Road',
     about: {
-      intro: 'Sohna Road is one of Gurugram’s most dynamic, rapidly developing arterial corridors. Beginning at Subhash Chowk on NH-48 and extending south toward the foothills of the Aravalli range, Sohna Road combines established commercial hubs like Candor TechSpace and Spaze i-Tech Park with some of the city’s most lavish gated townships, including Central Park Resorts, Tatvam Villas, and Malibu Towne. The recent addition of the Sohna Elevated Expressway has dramatically accelerated connectivity, making this corridor a preferred residential haven for senior corporate executives, industrialists, and expatriates seeking luxury resort-style living. ALINA VIP delivers high-caliber companionship perfectly suited to this upscale corridor.',
+      intro: 'Sohna Road is one of Gurugram’s most dynamic, rapidly developing arterial corridors. Beginning at Subhash Chowk on NH-48 and extending south toward the foothills of the Aravalli range, Sohna Road combines established commercial hubs like Candor TechSpace and Spaze i-Tech Park with some of the city’s most lavish gated townships, including Central Park Resorts, Tatvam Villas, and Malibu Towne. The recent addition of the Sohna Elevated Expressway has dramatically accelerated connectivity, making this corridor a preferred residential haven for senior corporate executives, industrialists, and expatriates seeking luxury resort-style living. ALINA VIP delivers high-caliber escort service perfectly suited to this upscale corridor.',
       historyVibe: 'Over the past fifteen years, Sohna Road has evolved from a rural highway into a glittering corridor of luxury high-rises, boutique business parks, and five-star resorts. The vibe here balances fast-paced corporate productivity around Subhash Chowk with tranquil resort living further south toward the Aravallis. Residents enjoy private golf driving ranges, world-class clubhouses at Central Park Resorts, and fine dining along the commercial malls lining the road.',
       landmarks: ['Central Park Resorts (Sector 48)', 'Tatvam Villas & Tatvam Woods', 'Candor TechSpace (Sector 48)', 'Malibu Towne Gated Community', 'Spaze i-Tech Park', 'Omaxe Celebration Mall & Gurgaon Central'],
       commercialProfile: 'Anchored by Candor TechSpace, Vatika Business Park, and Spaze i-Tech Park, Sohna Road houses major IT services, consulting conglomerates, and banking operations, attracting executive travelers and corporate leaders.',
     },
     companionshipOptions: {
-      overview: 'We offer an array of flexible companionship services tailored to the executive lifestyle and luxury gated communities along Sohna Road.',
+      overview: 'We offer an array of flexible escort services tailored to the executive lifestyle and luxury gated communities along Sohna Road.',
       options: [
         {
           title: 'Resort Township Outcalls (Central Park & Tatvam)',
@@ -1110,11 +1110,11 @@ export const gurgaonCorridors: LocationData[] = [
         },
         {
           title: 'Corporate After-Hours Downtime',
-          desc: 'Relaxing, engaging companionship for corporate executives visiting Candor TechSpace or Vatika Business Park seeking stress relief.',
+          desc: 'Relaxing, engaging escort service for corporate executives visiting Candor TechSpace or Vatika Business Park seeking stress relief.',
         },
         {
           title: 'Weekend Escapes & Resort Staycations',
-          desc: 'Charming companions for weekend getaways at luxury resort properties along Sohna Road heading toward the Aravalli hills.',
+          desc: 'Charming escorts for weekend getaways at luxury resort properties along Sohna Road heading toward the Aravalli hills.',
         },
       ],
     },
@@ -1184,27 +1184,27 @@ export const gurgaonCorridors: LocationData[] = [
     city: 'Gurugram',
     region: 'Gurgaon',
     corridor: 'Central Gurgaon',
-    shortDescription: 'Convenient escort and companion services near HUDA City Centre (Millennium City Centre), Gurgaon. Verified call girls for Taj City Centre, The Westin, and Sector 29.',
+    shortDescription: 'Convenient escort services near HUDA City Centre (Millennium City Centre), Gurgaon. Verified call girls for Taj City Centre, The Westin, and Sector 29.',
     metaTitle: 'Escorts in HUDA City Centre | Call Girls Gurugram | ALINA VIP',
     metaDescription: 'Book luxury call girls near HUDA City Centre (Millennium City Centre), Gurgaon. Discreet outcalls to Taj City Centre, The Westin, Sector 29 hotels. Call +91-9996265679.',
-    targetKeywords: ['escorts in HUDA City Centre', 'HUDA City Centre call girls', 'escort service HUDA City Centre Gurgaon', 'Millennium City Centre companions Gurugram'],
-    h1: 'Premium Companionship Services in HUDA City Centre',
+    targetKeywords: ['escorts in HUDA City Centre', 'HUDA City Centre call girls', 'escort service HUDA City Centre Gurgaon', 'Millennium City Centre escorts Gurugram'],
+    h1: 'Escort Service in HUDA City Centre',
     about: {
-      intro: 'HUDA City Centre, officially renamed Millennium City Centre Gurugram, is the bustling transportation, commercial, and hospitality crossroads of Millennium City. Serving as the southern terminal station of the Delhi Metro Yellow Line, this pivotal junction connects central and south Delhi directly to Gurgaon’s commercial heart. Flanked by five-star luxury hotels like Taj City Centre Gurugram and The Westin Gurgaon, premier medical institutions like Fortis Memorial Research Institute, and the vibrant Sector 29 nightlife district, HUDA City Centre is a magnetic destination for corporate executives, medical tourists, and transit travelers seeking world-class companion services.',
+      intro: 'HUDA City Centre, officially renamed Millennium City Centre Gurugram, is the bustling transportation, commercial, and hospitality crossroads of Millennium City. Serving as the southern terminal station of the Delhi Metro Yellow Line, this pivotal junction connects central and south Delhi directly to Gurgaon’s commercial heart. Flanked by five-star luxury hotels like Taj City Centre Gurugram and The Westin Gurgaon, premier medical institutions like Fortis Memorial Research Institute, and the vibrant Sector 29 nightlife district, HUDA City Centre is a magnetic destination for corporate executives, medical tourists, and transit travelers seeking world-class escort services.',
       historyVibe: 'As the flagship metro terminal inaugurated in 2010, HUDA City Centre revolutionized Gurgaon’s connectivity and urban stature. The area is energetic, cosmopolitan, and perpetually active. By day, business executives and medical professionals move through modern corporate towers and hospitals; by night, the nearby Sector 29 dining and brewery strip comes alive with music, craft beer, and celebration, making this a vibrant meeting spot for discerning gentlemen.',
       landmarks: ['Millennium City Centre Metro Terminal (Yellow Line)', 'Taj City Centre Gurugram (Sector 44)', 'The Westin Gurgaon (Sector 29)', 'Fortis Memorial Research Institute', 'Leisure Valley Park & Musical Fountain', 'Appu Ghar / Oysters Water Park'],
-      commercialProfile: 'Surrounded by the Sector 44 and Sector 32 institutional and IT parks, HUDA City Centre hosts multinational tech firms, consulting bureaus, and medical tourism visitors, generating strong demand for refined companionship.',
+      commercialProfile: 'Surrounded by the Sector 44 and Sector 32 institutional and IT parks, HUDA City Centre hosts multinational tech firms, consulting bureaus, and medical tourism visitors, generating strong demand for refined escort service.',
     },
     companionshipOptions: {
-      overview: 'We offer an array of flexible, elegant companionship services tailored to the hotel guests, transit travelers, and executives around HUDA City Centre.',
+      overview: 'We offer an array of flexible, elegant escort services tailored to the hotel guests, transit travelers, and executives around HUDA City Centre.',
       options: [
         {
           title: 'Five-Star Hotel Outcalls (Taj City Centre & The Westin)',
           desc: 'Discreet, prompt outcalls to premier luxury properties including Taj City Centre Gurugram, The Westin Gurgaon, and Crowne Plaza with flawless hospitality protocol.',
         },
         {
-          title: 'Sector 29 Nightlife & Brewery Companionship',
-          desc: 'Vibrant, charming companions to accompany you for an evening of craft beer tasting, live music, and dining in the famous Sector 29 entertainment hub.',
+          title: 'Sector 29 Nightlife & Brewery Escort service',
+          desc: 'Vibrant, charming escorts to accompany you for an evening of craft beer tasting, live music, and dining in the famous Sector 29 entertainment hub.',
         },
         {
           title: 'Transit & Metro Commuter Layover Sessions',
@@ -1212,7 +1212,7 @@ export const gurgaonCorridors: LocationData[] = [
         },
         {
           title: 'Relaxing Overnight Hotel Stays',
-          desc: 'Unwind with an attentive, articulate companion for a restful overnight stay in your five-star hotel suite after a demanding business day.',
+          desc: 'Unwind with an attentive, articulate escort for a restful overnight stay in your five-star hotel suite after a demanding business day.',
         },
       ],
     },
@@ -1282,11 +1282,11 @@ export const gurgaonCorridors: LocationData[] = [
     city: 'Gurugram',
     region: 'Gurgaon',
     corridor: 'Manesar & New Gurgaon',
-    shortDescription: 'Exclusive escort and companion service in Manesar, Gurgaon. Verified call girls for ITC Grand Bharat, Heritage Village Resort, and IMT Manesar executive suites.',
+    shortDescription: 'Exclusive escort service in Manesar, Gurgaon. Verified call girls for ITC Grand Bharat, Heritage Village Resort, and IMT Manesar executive suites.',
     metaTitle: 'Escorts in Manesar | Premium Call Girls Gurugram | ALINA VIP',
     metaDescription: 'Book premium call girls in Manesar, Gurgaon. Discreet outcalls to ITC Grand Bharat, Heritage Village Resort, and IMT Manesar hotels. Call +91-9996265679.',
-    targetKeywords: ['escorts in Manesar', 'Manesar call girls', 'escort service Manesar Gurgaon', 'ITC Grand Bharat companions Gurugram'],
-    h1: 'Premium Companionship Services in Manesar',
+    targetKeywords: ['escorts in Manesar', 'Manesar call girls', 'escort service Manesar Gurgaon', 'ITC Grand Bharat escorts Gurugram'],
+    h1: 'Escort Service in Manesar',
     about: {
       intro: 'Manesar, anchored by the Industrial Model Township (IMT Manesar), is a powerhouse of automotive manufacturing, research institutions, and global corporations situated along NH-48, just 20 minutes southwest of central Gurgaon. Beyond its industrial prominence, Manesar is internationally famous for its ultra-luxury resort sanctuaries nestled against the scenic Aravalli hills, including the palatial ITC Grand Bharat—India’s only all-suite luxury retreat with a 27-hole Jack Nicklaus signature golf course—and the Rajasthani heritage-styled Heritage Village Resort & Spa. Manesar is the ultimate retreat destination for corporate retreats, golf weekends, and luxury staycations.',
       historyVibe: 'Developed by HSIIDC as a state-of-the-art industrial township in the late 1990s, Manesar has expanded into a dual-identity destination: high-efficiency corporate and manufacturing hub by day, and serene luxury resort getaway by weekend. The air is cleaner, the landscapes are greener, and the pace is deliberately unhurried compared to central Gurgaon. High-net-worth individuals, golf aficionados, and executive delegations visit Manesar to disconnect from urban stress and indulge in private luxury.',
@@ -1294,23 +1294,23 @@ export const gurgaonCorridors: LocationData[] = [
       commercialProfile: 'Home to the manufacturing plants and research centers of Maruti Suzuki, Honda Motorcycles, Hero MotoCorp, and Samsung, IMT Manesar attracts thousands of senior Japanese, Korean, and Indian corporate executives and technical delegations.',
     },
     companionshipOptions: {
-      overview: 'Our companionship services in Manesar are designed specifically for luxury resort guests, golf enthusiasts, and visiting corporate delegations seeking top-tier relaxation.',
+      overview: 'Our escort services in Manesar are designed specifically for luxury resort guests, golf enthusiasts, and visiting corporate delegations seeking top-tier relaxation.',
       options: [
         {
           title: 'ITC Grand Bharat Palatial Suite Outcalls',
           desc: 'Discreet outcalls to the presidential suites and private pool villas at ITC Grand Bharat, observing the resort’s highest standards of privacy.',
         },
         {
-          title: 'Golf Weekend & Staycation Companionship',
-          desc: 'Cultured, athletic companions to join you for golf weekends, clubhouse dining, and spa relaxation at Karma Lakelands or Tarudhan Valley.',
+          title: 'Golf Weekend & Staycation Escort service',
+          desc: 'Cultured, athletic escorts to join you for golf weekends, clubhouse dining, and spa relaxation at Karma Lakelands or Tarudhan Valley.',
         },
         {
           title: 'Heritage Village Resort Weekend Escapes',
-          desc: 'Charming, attentive companions to accompany you for romantic weekend getaways and heritage dining at the Heritage Village Resort.',
+          desc: 'Charming, attentive escorts to accompany you for romantic weekend getaways and heritage dining at the Heritage Village Resort.',
         },
         {
           title: 'IMT Manesar Corporate Delegation Downtime',
-          desc: 'Sophisticated companionship for visiting international executives and technical directors staying at business hotels in IMT Manesar.',
+          desc: 'sophisticated escort service for visiting international executives and technical directors staying at business hotels in IMT Manesar.',
         },
       ],
     },

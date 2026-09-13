@@ -8,19 +8,19 @@ export const delhiNcrHub: LocationData = {
   region: 'Delhi NCR',
   isHub: true,
   hubType: 'delhi-ncr',
-  shortDescription: 'Premier Delhi NCR location hub offering elite companionship services across South Delhi, Central Delhi, Gurgaon, Noida, Greater Noida, Ghaziabad, and Faridabad.',
-  metaTitle: 'Escort Service Delhi NCR | Premium Companion Service | ALINA VIP',
-  metaDescription: 'Top-rated escort service Delhi NCR and elite companion service across Delhi, Gurgaon, Noida, Ghaziabad, and Faridabad. Verified call girls, 24/7. Call +91-9996265679.',
+  shortDescription: 'Premier Delhi NCR location hub offering elite escort services across South Delhi, Central Delhi, Gurgaon, Noida, Greater Noida, Ghaziabad, and Faridabad.',
+  metaTitle: 'Escort Service Delhi NCR | VIP Call Girls | ALINA VIP',
+  metaDescription: 'Top-rated escort service Delhi NCR and elite call girls across Delhi, Gurgaon, Noida, Ghaziabad, and Faridabad. Verified profiles, 24/7. Call +91-9996265679.',
   targetKeywords: [
     'escort service Delhi NCR',
-    'companion service Delhi NCR',
-    'premium companion Delhi NCR',
+    'VIP escorts Delhi NCR',
+    'call girls Delhi NCR',
     'escort services Delhi NCR',
   ],
-  h1: 'Premium Companionship Services in Delhi NCR',
+  h1: 'Escort Service in Delhi NCR',
   about: {
-    intro: 'The National Capital Region (Delhi NCR) constitutes India’s preeminent political, diplomatic, and economic agglomeration, encompassing the historic capital territory of Delhi alongside the burgeoning modern satellite hubs of Gurgaon, Noida, Greater Noida, Ghaziabad, and Faridabad. Spanning over 55,000 square kilometers with a cosmopolitan population exceeding 30 million, Delhi NCR represents a remarkable fusion of ancient imperial legacy, diplomatic enclaves, international corporate headquarters, and ultra-modern lifestyle corridors. ALINA VIP operates as the premier luxury companionship agency across Delhi NCR, providing verified, sophisticated companions tailored to the distinct character of each regional district.',
-    historyVibe: 'Delhi NCR’s ambiance is multifaceted and grand. In Lutyens’ Delhi and Chanakyapuri, leafy tree-shaded avenues, embassies, and heritage colonial bungalows exude understated power and diplomatic refinement. In South Delhi, vibrant designer markets, speakeasies, and affluent residential colonies in Greater Kailash and Defence Colony reflect cosmopolitan high society. Meanwhile, across the state borders, Gurgaon’s gleaming glass skyline and Noida’s expressway tech parks pulse with 24/7 global corporate momentum. ALINA VIP bridges these varied worlds with a versatile roster of companions who embody elegance, intellect, and worldly grace.',
+    intro: 'The National Capital Region (Delhi NCR) constitutes India’s preeminent political, diplomatic, and economic agglomeration, encompassing the historic capital territory of Delhi alongside the burgeoning modern satellite hubs of Gurgaon, Noida, Greater Noida, Ghaziabad, and Faridabad. Spanning over 55,000 square kilometers with a cosmopolitan population exceeding 30 million, Delhi NCR represents a remarkable fusion of ancient imperial legacy, diplomatic enclaves, international corporate headquarters, and ultra-modern lifestyle corridors. ALINA VIP operates as the premier luxury escort service agency across Delhi NCR, providing verified, sophisticated escorts tailored to the distinct character of each regional district.',
+    historyVibe: 'Delhi NCR’s ambiance is multifaceted and grand. In Lutyens’ Delhi and Chanakyapuri, leafy tree-shaded avenues, embassies, and heritage colonial bungalows exude understated power and diplomatic refinement. In South Delhi, vibrant designer markets, speakeasies, and affluent residential colonies in Greater Kailash and Defence Colony reflect cosmopolitan high society. Meanwhile, across the state borders, Gurgaon’s gleaming glass skyline and Noida’s expressway tech parks pulse with 24/7 global corporate momentum. ALINA VIP bridges these varied worlds with a versatile roster of verified escorts who embody elegance, intellect, and worldly grace.',
     landmarks: [
       'Rashtrapati Bhavan & India Gate (Central Delhi)',
       'Chanakyapuri Diplomatic Enclave',
@@ -29,10 +29,10 @@ export const delhiNcrHub: LocationData = {
       'Sector 18 Atta Market & DLF Mall of India (Noida)',
       'Connaught Place Inner Circle',
     ],
-    commercialProfile: 'Delhi NCR generates the largest GDP of any metropolitan cluster in India, hosting national government ministries, international embassies, corporate headquarters of over 300 Fortune 500 corporations, and major manufacturing corridors in Manesar, Greater Noida, and Faridabad. High-ranking government dignitaries, corporate executives, venture capitalists, and global business travelers create a steady demand for top-tier companionship characterized by strict discretion and intellectual depth.',
+    commercialProfile: 'Delhi NCR generates the largest GDP of any metropolitan cluster in India, hosting national government ministries, international embassies, corporate headquarters of over 300 Fortune 500 corporations, and major manufacturing corridors in Manesar, Greater Noida, and Faridabad. High-ranking government dignitaries, corporate executives, venture capitalists, and global business travelers create a steady demand for top-tier escort service characterized by strict discretion and intellectual depth.',
   },
   companionshipOptions: {
-    overview: 'ALINA VIP provides an extensive spectrum of bespoke companionship arrangements across all jurisdictions of Delhi NCR, structured around the specific needs of our distinguished clientele.',
+    overview: 'ALINA VIP provides an extensive spectrum of bespoke escort services arrangements across all jurisdictions of Delhi NCR, structured around the specific needs of our distinguished clientele.',
     options: [
       {
         title: 'Five-Star Luxury Hotel Outcalls across NCR',
@@ -40,15 +40,15 @@ export const delhiNcrHub: LocationData = {
       },
       {
         title: 'Diplomatic & High-Society Social Accompaniment',
-        desc: 'Poised, multilingual companions skilled in international protocol, ideal for accompanying clients to diplomatic receptions, private club dinners, and cultural galas.',
+        desc: 'Poised, multilingual escorts skilled in international protocol, ideal for accompanying clients to diplomatic receptions, private club dinners, and cultural galas.',
       },
       {
         title: 'Corporate Executive Dinner Dates',
-        desc: 'Articulate, charming companions to join executives for business dinners at Connaught Place, Cyber Hub, Aerocity Worldmark, or Khan Market.',
+        desc: 'Articulate, charming escorts to join executives for business dinners at Connaught Place, Cyber Hub, Aerocity Worldmark, or Khan Market.',
       },
       {
         title: 'Inter-City & Regional Weekend Travel',
-        desc: 'Cultured travel companions available for weekend retreats to Agra luxury resorts, Neemrana Fort Palace, Rajasthan heritage palaces, or hill stations.',
+        desc: 'Cultured travel escorts available for weekend retreats to Agra luxury resorts, Neemrana Fort Palace, Rajasthan heritage palaces, or hill stations.',
       },
     ],
   },
@@ -311,19 +311,19 @@ export const regionalNcrHubs: LocationData[] = [
     region: 'Noida',
     isHub: true,
     hubType: 'regional',
-    shortDescription: 'Premier Noida location hub offering luxury escort and companion services across Sector 18, Sector 62, Noida Expressway, and corporate parks.',
+    shortDescription: 'Premier Noida location hub offering luxury escort services across Sector 18, Sector 62, Noida Expressway, and corporate parks.',
     metaTitle: 'Escorts in Noida | Luxury Escort Service Noida | ALINA VIP',
     metaDescription: 'Top-tier escort service Noida. Verified call girls, discreet outcalls to Radisson Blu Sector 18, Noida Expressway high-rises, Sector 62. Call +91-9996265679.',
-    targetKeywords: ['escorts in Noida', 'Noida call girls', 'escort service Noida', 'companionship Noida', 'luxury escorts Noida Expressway'],
-    h1: 'Premium Companionship Services in Noida',
+    targetKeywords: ['escorts in Noida', 'Noida call girls', 'escort service Noida', 'VIP call girls Noida', 'luxury escorts Noida Expressway'],
+    h1: 'Escort Service in Noida',
     about: {
-      intro: 'Noida, officially the New Okhla Industrial Development Authority, is Uttar Pradesh’s most modern, well-planned industrial, technology, and media metropolis. Located directly across the Yamuna River from South and East Delhi and connected by the DND Flyway, Noida features wide multi-lane boulevards, lush green sectors, and massive IT Special Economic Zones. From the bustling retail and entertainment epicenters of Sector 18 to the corporate technology corridors along the Noida-Greater Noida Expressway and institutional hubs in Sector 62, Noida is a thriving economic center. ALINA VIP operates as the premier companionship agency serving Noida’s corporate leaders, tech entrepreneurs, and discerning residents.',
+      intro: 'Noida, officially the New Okhla Industrial Development Authority, is Uttar Pradesh’s most modern, well-planned industrial, technology, and media metropolis. Located directly across the Yamuna River from South and East Delhi and connected by the DND Flyway, Noida features wide multi-lane boulevards, lush green sectors, and massive IT Special Economic Zones. From the bustling retail and entertainment epicenters of Sector 18 to the corporate technology corridors along the Noida-Greater Noida Expressway and institutional hubs in Sector 62, Noida is a thriving economic center. ALINA VIP operates as the premier escort service agency serving Noida’s corporate leaders, tech entrepreneurs, and discerning residents.',
       historyVibe: 'Developed over the past four decades as a planned counter-magnet to Delhi, Noida is known for its orderly sector grids, expansive golf courses, and green landscaping. By day, software engineers, media moguls, and corporate executives drive business across massive IT parks; by night, Sector 18’s retail plazas, DLF Mall of India, and trendy rooftop lounges in Sector 104 buzz with celebratory energy.',
       landmarks: ['DLF Mall of India (Sector 18)', 'The Great India Place & Gardens Galleria', 'Radisson Blu Hotel Noida (Sector 18)', 'Advant Navis Business Park (Sector 142)', 'Noida Golf Course (Sector 38)', 'Okhla Bird Sanctuary'],
       commercialProfile: 'Home to the national headquarters and research campuses of HCL Technologies, Samsung, Adobe, Paytm, and major media broadcasting conglomerates in Film City, Noida generates substantial corporate travel demand from senior executives and international delegations.',
     },
     companionshipOptions: {
-      overview: 'We offer an extensive suite of tailored companionship experiences across all sectors of Noida, designed for corporate travelers and luxury residents.',
+      overview: 'We offer an extensive suite of tailored escort service experiences across all sectors of Noida, designed for corporate travelers and luxury residents.',
       options: [
         {
           title: 'Five-Star & Business Hotel Outcalls in Noida',
@@ -335,11 +335,11 @@ export const regionalNcrHubs: LocationData[] = [
         },
         {
           title: 'DLF Mall of India & Sector 18 Dining Dates',
-          desc: 'Glamorous companions to join you for an evening of fine dining and cocktails at Sector 18’s top restaurants or Gardens Galleria.',
+          desc: 'Glamorous escorts to join you for an evening of fine dining and cocktails at Sector 18’s top restaurants or Gardens Galleria.',
         },
         {
-          title: 'Overnight Relaxation & Weekend Companionship',
-          desc: 'Unhurried, intimate companionship for entire evenings or weekend staycations in your private suite or residence.',
+          title: 'Overnight Relaxation & Weekend accompaniment',
+          desc: 'Unhurried, intimate escort service for entire evenings or weekend staycations in your private suite or residence.',
         },
       ],
     },
@@ -430,19 +430,19 @@ export const regionalNcrHubs: LocationData[] = [
     region: 'Greater Noida',
     isHub: true,
     hubType: 'regional',
-    shortDescription: 'Exclusive VIP escort service in Greater Noida. Verified call girls offering discreet outcall companionship to luxury guests at Crowne Plaza, Jaypee Greens Golf & Spa Resort, India Expo Mart, and Pari Chowk.',
+    shortDescription: 'Exclusive VIP escort service in Greater Noida. Verified call girls offering discreet outcall escort service to luxury guests at Crowne Plaza, Jaypee Greens Golf & Spa Resort, India Expo Mart, and Pari Chowk.',
     metaTitle: 'Escorts in Greater Noida | Luxury Call Girls | ALINA VIP',
     metaDescription: 'Book luxury call girls in Greater Noida. Discreet outcalls to Crowne Plaza, Jaypee Greens Golf Resort, and Pari Chowk. Call +91-9996265679.',
-    targetKeywords: ['escorts in Greater Noida', 'Greater Noida call girls', 'escort service Greater Noida', 'Jaypee Greens companions'],
-    h1: 'Premium Companionship Services in Greater Noida',
+    targetKeywords: ['escorts in Greater Noida', 'Greater Noida call girls', 'escort service Greater Noida', 'Jaypee Greens escorts'],
+    h1: 'Escort Service in Greater Noida',
     about: {
-      intro: 'Greater Noida is a master-planned, ultra-wide green metropolis situated south of Noida along the Yamuna Expressway. Famous for world-class infrastructure including the Buddh International Circuit (F1 track), the India Exposition Mart (India Expo Centre), and the palatial 452-acre Jaypee Greens Golf & Spa Resort with its Greg Norman signature golf course, Greater Noida is an international destination for mega-exhibitions, automotive testing, and golf staycations. ALINA VIP provides refined companionship tailored to this spacious green city.',
+      intro: 'Greater Noida is a master-planned, ultra-wide green metropolis situated south of Noida along the Yamuna Expressway. Famous for world-class infrastructure including the Buddh International Circuit (F1 track), the India Exposition Mart (India Expo Centre), and the palatial 452-acre Jaypee Greens Golf & Spa Resort with its Greg Norman signature golf course, Greater Noida is an international destination for mega-exhibitions, automotive testing, and golf staycations. ALINA VIP provides refined escort service tailored to this spacious green city.',
       historyVibe: 'Greater Noida features sprawling green sectors with wide multi-lane boulevards, underground infrastructure, and tranquil residential enclaves. The atmosphere is open, modern, and distinctly relaxed compared to the density of central Delhi.',
       landmarks: ['Jaypee Greens Golf and Spa Resort', 'India Exposition Mart (Expo Centre)', 'Crowne Plaza Greater Noida', 'Buddh International Circuit (Yamuna Expressway)', 'Pari Chowk Landmark Junction', 'The Grand Venice Mall'],
       commercialProfile: 'Anchored by the India Expo Mart—which hosts international trade summits, auto expos, and trade fairs—and major automotive and electronics manufacturing zones, Greater Noida attracts senior corporate delegates and international business travelers year-round.',
     },
     companionshipOptions: {
-      overview: 'Our companionship services in Greater Noida are designed specifically for golf resort guests, trade expo attendees, and residents seeking top-tier company.',
+      overview: 'Our escort services in Greater Noida are designed specifically for golf resort guests, trade expo attendees, and residents seeking top-tier company.',
       options: [
         {
           title: 'Jaypee Greens Golf Resort Palatial Outcalls',
@@ -453,12 +453,12 @@ export const regionalNcrHubs: LocationData[] = [
           desc: 'Prompt, confidential visits to guests staying at Crowne Plaza Greater Noida during corporate summits and trade fairs.',
         },
         {
-          title: 'India Expo Mart Corporate Delegation Companionship',
-          desc: 'Charming, articulate companions to accompany executives during international trade expos and evening networking dinners.',
+          title: 'India Expo Mart Corporate Delegation Escort service',
+          desc: 'Charming, articulate escorts to accompany executives during international trade expos and evening networking dinners.',
         },
         {
-          title: 'Weekend Staycations & Golf Companionship',
-          desc: 'Cultured companions for weekend golf retreats, spa downtime, and unhurried relaxation in Greater Noida.',
+          title: 'Weekend Staycations & Golf Escort service',
+          desc: 'Cultured escorts for weekend golf retreats, spa downtime, and unhurried relaxation in Greater Noida.',
         },
       ],
     },
@@ -531,16 +531,16 @@ export const regionalNcrHubs: LocationData[] = [
     shortDescription: 'Premier luxury escort service in Ghaziabad. Verified call girls offering 100% discreet outcalls to five-star hotels and private suites across Kaushambi, Indirapuram, Vaishali, and the NH-24 corridor.',
     metaTitle: 'Escorts in Ghaziabad | Luxury Call Girls | ALINA VIP',
     metaDescription: 'Book verified call girls in Ghaziabad. Discreet outcalls to Radisson Blu Kaushambi, Country Inn Sahibabad, and Indirapuram. Call +91-9996265679.',
-    targetKeywords: ['escorts in Ghaziabad', 'Ghaziabad call girls', 'escort service Ghaziabad', 'Indirapuram companions'],
-    h1: 'Premium Companionship Services in Ghaziabad',
+    targetKeywords: ['escorts in Ghaziabad', 'Ghaziabad call girls', 'escort service Ghaziabad', 'Indirapuram escorts'],
+    h1: 'Escort Service in Ghaziabad',
     about: {
-      intro: 'Ghaziabad is a bustling, rapidly modernizing industrial and residential powerhouse of the National Capital Region, strategically located along the Delhi-Meerut Expressway and NH-24. While historically an industrial hub, its western corridors—notably Kaushambi, Vaishali, and Indirapuram—have transformed into upscale residential and commercial enclaves featuring luxury five-star hotels like Radisson Blu Kaushambi and Country Inn & Suites Sahibabad, premier shopping malls, and gated high-rise townships. ALINA VIP delivers professional, confidential companionship services tailored to the executive and residential clientele in western Ghaziabad.',
+      intro: 'Ghaziabad is a bustling, rapidly modernizing industrial and residential powerhouse of the National Capital Region, strategically located along the Delhi-Meerut Expressway and NH-24. While historically an industrial hub, its western corridors—notably Kaushambi, Vaishali, and Indirapuram—have transformed into upscale residential and commercial enclaves featuring luxury five-star hotels like Radisson Blu Kaushambi and Country Inn & Suites Sahibabad, premier shopping malls, and gated high-rise townships. ALINA VIP delivers professional, confidential escort service services tailored to the executive and residential clientele in western Ghaziabad.',
       historyVibe: 'The modern enclaves of Ghaziabad—Indirapuram, Kaushambi, and Vaishali—share direct borders with East Delhi and Noida, creating an energetic urban atmosphere. Wide expressways, bustling commercial plazas like Shipra Mall and Pacific Mall, and five-star hospitality properties define the modern face of the city.',
       landmarks: ['Radisson Blu Hotel Kaushambi Delhi NCR', 'Shipra Mall & Habitat Centre (Indirapuram)', 'Pacific Mall (Kaushambi)', 'Delhi-Meerut Expressway (NH-9 / NH-24)', 'Country Inn & Suites by Radisson Sahibabad', 'Hindon River Promenade'],
       commercialProfile: 'Driven by massive industrial estates in Sahibabad and modern IT hubs along the Delhi-Meerut Expressway, Ghaziabad hosts visiting corporate executives, manufacturing heads, and business travelers.',
     },
     companionshipOptions: {
-      overview: 'We offer an array of flexible companionship services tailored to hotel guests and residents in Kaushambi, Indirapuram, and Vaishali.',
+      overview: 'We offer an array of flexible escort services tailored to hotel guests and residents in Kaushambi, Indirapuram, and Vaishali.',
       options: [
         {
           title: 'Five-Star Hotel Outcalls (Radisson Blu Kaushambi)',
@@ -548,15 +548,15 @@ export const regionalNcrHubs: LocationData[] = [
         },
         {
           title: 'Indirapuram Gated Township Outcalls',
-          desc: 'Private companion visits to luxury high-rise communities in Indirapuram including ATS Advantage and Shipra Suncity.',
+          desc: 'Private escort visits to luxury high-rise communities in Indirapuram including ATS Advantage and Shipra Suncity.',
         },
         {
           title: 'Dinner & Social Engagements',
-          desc: 'Charming companions to join you for an evening dinner at Pacific Mall, Shipra Mall, or fine dining restaurants.',
+          desc: 'Charming escorts to join you for an evening dinner at Pacific Mall, Shipra Mall, or fine dining restaurants.',
         },
         {
           title: 'Overnight Relaxation Sessions',
-          desc: 'Unwind with an attentive companion for an unhurried, comfortable evening in your suite or residence.',
+          desc: 'Unwind with an attentive escort for an unhurried, comfortable evening in your suite or residence.',
         },
       ],
     },
@@ -625,19 +625,19 @@ export const regionalNcrHubs: LocationData[] = [
     region: 'Faridabad',
     isHub: true,
     hubType: 'regional',
-    shortDescription: 'Premier luxury escort service in Faridabad. Verified call girls providing sophisticated, confidential companionship to guests at Radisson Blu Faridabad, Vivanta Surajkund luxury resorts, and prime locations along Mathura Road.',
+    shortDescription: 'Premier luxury escort service in Faridabad. Verified call girls providing sophisticated, confidential escort service to guests at Radisson Blu Faridabad, Vivanta Surajkund luxury resorts, and prime locations along Mathura Road.',
     metaTitle: 'Escorts in Faridabad | Luxury Call Girls | ALINA VIP',
     metaDescription: 'Book verified call girls in Faridabad. Discreet outcalls to Radisson Blu Faridabad, Vivanta Surajkund, and Mathura Road. Call +91-9996265679.',
-    targetKeywords: ['escorts in Faridabad', 'Faridabad call girls', 'escort service Faridabad', 'Surajkund companions'],
-    h1: 'Premium Companionship Services in Faridabad',
+    targetKeywords: ['escorts in Faridabad', 'Faridabad call girls', 'escort service Faridabad', 'Surajkund escorts'],
+    h1: 'Escort Service in Faridabad',
     about: {
-      intro: 'Faridabad is Haryana’s largest industrial metropolis and a vital southern anchor of the National Capital Region, positioned directly along Mathura Road (NH-19) and bordered by the scenic Aravalli hills. Home to international manufacturing conglomerates, corporate research centers, and luxury resort retreats near Surajkund—including the palatial Vivanta New Delhi Surajkund and Radisson Blu Faridabad in Sector 20—Faridabad combines heavy industrial leadership with peaceful foothill getaways. ALINA VIP delivers refined companionship services tailored to corporate directors, industrial magnates, and weekend resort travelers.',
-      historyVibe: 'Faridabad possesses a distinctive dual personality. Along the industrial highway corridor of Mathura Road, modern corporate offices, automotive plants, and luxury hotels hum with productivity. Just minutes away in the lush Aravalli hills of Surajkund, luxury five-star resorts offer tranquil spas, forest views, and heritage artisan crafts, creating an ideal setting for private, unhurried companionship.',
+      intro: 'Faridabad is Haryana’s largest industrial metropolis and a vital southern anchor of the National Capital Region, positioned directly along Mathura Road (NH-19) and bordered by the scenic Aravalli hills. Home to international manufacturing conglomerates, corporate research centers, and luxury resort retreats near Surajkund—including the palatial Vivanta New Delhi Surajkund and Radisson Blu Faridabad in Sector 20—Faridabad combines heavy industrial leadership with peaceful foothill getaways. ALINA VIP delivers refined escort services tailored to corporate directors, industrial magnates, and weekend resort travelers.',
+      historyVibe: 'Faridabad possesses a distinctive dual personality. Along the industrial highway corridor of Mathura Road, modern corporate offices, automotive plants, and luxury hotels hum with productivity. Just minutes away in the lush Aravalli hills of Surajkund, luxury five-star resorts offer tranquil spas, forest views, and heritage artisan crafts, creating an ideal setting for private, unhurried private time.',
       landmarks: ['Radisson Blu Faridabad (Sector 20)', 'Vivanta New Delhi Surajkund (Taj Group)', 'Surajkund Heritage Reservoir & Crafts Mela', 'Mathura Road (NH-19 / Delhi-Agra Expressway)', 'Faridabad-Gurgaon Expressway Link', 'Badkhal Lake Enclave'],
       commercialProfile: 'Faridabad hosts manufacturing giants like Escorts Group, JCB India, Yamaha, and Havells, attracting senior corporate executives, international technical directors, and business visitors.',
     },
     companionshipOptions: {
-      overview: 'We offer an array of flexible companionship services tailored to hotel guests and residents across Faridabad and Surajkund.',
+      overview: 'We offer an array of flexible escort services tailored to hotel guests and residents across Faridabad and Surajkund.',
       options: [
         {
           title: 'Five-Star Hotel Outcalls (Radisson Blu & Vivanta Surajkund)',
@@ -645,15 +645,15 @@ export const regionalNcrHubs: LocationData[] = [
         },
         {
           title: 'Industrial Executive Downtime',
-          desc: 'Relaxing companionship for corporate executives visiting manufacturing plants along Mathura Road seeking stress relief.',
+          desc: 'Relaxing outcalls for corporate executives visiting manufacturing plants along Mathura Road seeking stress relief.',
         },
         {
           title: 'Surajkund Resort Weekend Stays',
-          desc: 'Charming companions for weekend getaways, spa downtime, and romantic evenings at luxury resorts in Surajkund.',
+          desc: 'Charming escorts for weekend getaways, spa downtime, and romantic evenings at luxury resorts in Surajkund.',
         },
         {
           title: 'Overnight Relaxation Sessions',
-          desc: 'Unwind with an attentive companion for an unhurried, comfortable evening in your suite or residence.',
+          desc: 'Unwind with an attentive escort for an unhurried, comfortable evening in your suite or residence.',
         },
       ],
     },

@@ -144,7 +144,7 @@ export default function FAQPage() {
                   </h3>
                   <div className="gold-divider mb-4" />
                   <p className="text-gray-700 leading-relaxed text-sm md:text-base">
-                    At <strong>ALINA VIP</strong>, our goal is to deliver an unforgettable companionship experience built upon mutual courtesy, elegance, and unyielding privacy. Whether you are reserving an outcall companion for a high-profile corporate function, a romantic dinner date on Golf Course Road, or private suite relaxation in Cyber City, adhering to standard etiquette ensures seamless satisfaction.
+                    At <strong>ALINA VIP</strong>, our goal is to deliver an unforgettable escort service experience built upon mutual courtesy, elegance, and unyielding privacy. Whether you are reserving an outcall escort for a high-profile corporate function, a romantic dinner date on Golf Course Road, or private suite relaxation in Cyber City, adhering to standard etiquette ensures seamless satisfaction.
                   </p>
                 </div>
 
@@ -163,7 +163,7 @@ export default function FAQPage() {
                       <Clock className="w-4 h-4 text-gold-600" /> Punctuality &amp; Coordination
                     </h4>
                     <p className="text-xs text-gray-600 leading-relaxed">
-                      Our companions arrive punctually via private chauffeur. For hotel bookings, ensure your room key card or reception authorization is arranged to avoid unnecessary waiting in lobbies.
+                      Our escorts arrive punctually via private chauffeur. For hotel bookings, ensure your room key card or reception authorization is arranged to avoid unnecessary waiting in lobbies.
                     </p>
                   </div>
 
@@ -172,7 +172,7 @@ export default function FAQPage() {
                       <Star className="w-4 h-4 text-gold-600" /> Mutual Dignity &amp; Respect
                     </h4>
                     <p className="text-xs text-gray-600 leading-relaxed">
-                      Our call girls and elite models are educated, refined individuals. Treating your companion with genuine gentlemanly respect creates a warm, authentic, and memorable atmosphere.
+                      Our call girls and elite models are educated, refined individuals. Treating your escort with genuine gentlemanly respect creates a warm, authentic, and memorable atmosphere.
                     </p>
                   </div>
 

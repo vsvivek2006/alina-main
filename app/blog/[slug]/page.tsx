@@ -184,7 +184,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                 <p className="text-gray-700 text-sm leading-relaxed">
                   Browse our verified{' '}
                   <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                    companion portfolio
+                    service profiles
                   </Link>{' '}
                   or coordinate directly with our 24/7 concierge.
                 </p>
@@ -245,7 +245,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                 Related <span className="text-gold-600">Articles</span>
               </h2>
               <p className="text-gray-600">
-                Explore companion etiquette, luxury lifestyle insights, and hotel dining recommendations.
+                Explore executive etiquette, luxury lifestyle insights, and hotel dining recommendations.
               </p>
               <div className="gold-divider mx-auto mt-4" />
             </div>
@@ -298,10 +298,10 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           <div className="max-w-3xl mx-auto">
             <Crown className="w-12 h-12 text-gold-500 mx-auto mb-4" />
             <h3 className="text-3xl font-bold text-white mb-4 font-serif">
-              Reserve Elite <span className="text-gold-400">VIP Companionship</span> in Gurgaon
+              Reserve Elite <span className="text-gold-400">VIP Escort Service</span> in Gurgaon
             </h3>
             <p className="text-gray-300 mb-8 leading-relaxed">
-              Explore our curated selection of verified models, European companions, and elite social escorts. Contact our 24/7 private concierge for prompt hotel suite coordination.
+              Explore our curated selection of verified models, Russian escorts, and VIP call girls. Contact our 24/7 private concierge for prompt hotel suite coordination.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link

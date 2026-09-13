@@ -1,12 +1,12 @@
 export const metadata: Metadata = {
   title: 'VIP Escort Gallery | Verified Call Girls in Gurgaon | ALINA VIP',
-  description: 'View verified photos of our luxury escorts in Gurgaon. Russian call girls, VIP models, independent companions. 100% genuine, photo-authenticated profiles.',
+  description: 'View verified photos of our luxury escorts in Gurgaon. Russian call girls, VIP models, independent escorts. 100% genuine, photo-authenticated profiles.',
   alternates: {
     canonical: 'https://escort.alinavip.com/gallery',
   },
   openGraph: {
     title: 'VIP Escort Gallery | Verified Call Girls in Gurgaon | ALINA VIP',
-    description: 'View verified photos of our luxury escorts in Gurgaon. Russian call girls, VIP models, independent companions. 100% genuine, photo-authenticated profiles.',
+    description: 'View verified photos of our luxury escorts in Gurgaon. Russian call girls, VIP models, independent escorts. 100% genuine, photo-authenticated profiles.',
     url: 'https://escort.alinavip.com/gallery',
     type: 'website',
   },
@@ -339,7 +339,7 @@ export default function GalleryPage() {
               Ready to Book Your <span className="text-gold-600">Escort Service?</span>
             </h3>
             <p className="text-gray-700 mb-6 max-w-2xl mx-auto leading-relaxed">
-              Explore authentic photo-authenticated companion profiles. Call our concierge desk 24/7 or view full details in our{' '}
+              Explore authentic photo-authenticated profiles. Call our concierge desk 24/7 or view full details in our{' '}
               <Link href="/services" className="text-gold-600 hover:underline font-semibold">
                 services directory
               </Link>

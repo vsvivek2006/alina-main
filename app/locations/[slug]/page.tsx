@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import {
   MapPin,
   Navigation,
@@ -21,6 +21,12 @@ import LocationBookingForm from '@/components/LocationBookingForm';
 import { siteConfig } from '@/data/siteConfig';
 import { getLocation, locations } from '@/data/locations';
 import { categories } from '@/data/categories';
+import {
+  getLocationManifestEntry,
+  isLocationIndexable,
+  isLocationRedirect,
+  getRedirectDestination,
+} from '@/data/locationManifest';
 
 interface LocationPageProps {
   params: { slug: string };
@@ -29,9 +35,11 @@ interface LocationPageProps {
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  return locations.map((loc) => ({
-    slug: loc.slug,
-  }));
+  return locations
+    .filter((loc) => !isLocationRedirect(loc.slug))
+    .map((loc) => ({
+      slug: loc.slug,
+    }));
 }
 
 export async function generateMetadata({ params }: LocationPageProps): Promise<Metadata> {
@@ -40,21 +48,36 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
     notFound();
   }
 
+  if (isLocationRedirect(params.slug)) {
+    return {
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
+
+  const isIndexable = isLocationIndexable(params.slug);
+
   const title =
     location.slug === 'gurgaon'
       ? 'Gurgaon Escort Service Directory & Local Areas | ALINA VIP'
       : location.region === 'Gurgaon'
-      ? `Escort Service in ${location.name}, Gurgaon | VIP Companions | ALINA VIP`
+      ? `Escort Service in ${location.name}, Gurgaon | VIP Call Girls | ALINA VIP`
       : location.metaTitle;
   const description =
     location.slug === 'gurgaon'
-      ? 'Gurgaon central outcall directory and premium companion service. Verified call girls, luxury hotel outcalls, 20-30 min arrival across Cyber City, DLF & Golf Course Rd.'
+      ? 'Gurgaon central outcall directory and VIP escort service. Verified call girls, luxury hotel outcalls, 20-30 min arrival across Cyber City, DLF & Golf Course Rd.'
       : location.metaDescription;
   const canonicalUrl = `https://escort.alinavip.com/locations/${location.slug}`;
 
   return {
     title,
     description,
+    robots: {
+      index: isIndexable,
+      follow: true,
+    },
     alternates: {
       canonical: canonicalUrl,
     },
@@ -68,6 +91,14 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
 }
 
 export default function LocationPage({ params }: LocationPageProps) {
+  if (isLocationRedirect(params.slug)) {
+    const target = getRedirectDestination(params.slug);
+    if (target) {
+      redirect(target);
+    }
+    notFound();
+  }
+
   const location = getLocation(params.slug);
 
   if (!location) {
@@ -145,7 +176,7 @@ export default function LocationPage({ params }: LocationPageProps) {
             )}
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed font-light">
-            {location.shortDescription} ALINA VIP provides verified, discreet, and premium companion services across {location.name} and surrounding regional corridors.
+            {location.shortDescription} ALINA VIP provides verified, discreet, and premium escort services across {location.name} and surrounding regional corridors.
           </p>
           <div className="gold-divider mx-auto mt-8 mb-8" />
 
@@ -202,10 +233,10 @@ export default function LocationPage({ params }: LocationPageProps) {
                   ) : (
                     <>
                       <p>
-                        <strong>ALINA VIP</strong> provides premier luxury companion services in {location.name}, one of the most distinguished areas in {location.city}. Known for its upscale lifestyle and vibrant commercial landscape, {location.name} attracts discerning gentlemen who demand discretion, elegance, and authentic hospitality.
+                        <strong>ALINA VIP</strong> provides premier luxury escort services in {location.name}, one of the most distinguished areas in {location.city}. Known for its upscale lifestyle and vibrant commercial landscape, {location.name} attracts discerning gentlemen who demand discretion, elegance, and authentic hospitality.
                       </p>
                       <p>
-                        Whether staying at premier five-star luxury suites or hosting private dinners, our verified companions provide charismatic social accompaniment tailored to your highest expectations.
+                        Whether staying at premier five-star luxury suites or hosting private dinners, our verified escorts provide charismatic social accompaniment tailored to your highest expectations.
                       </p>
                     </>
                   )}
@@ -279,11 +310,11 @@ export default function LocationPage({ params }: LocationPageProps) {
                 )}
               </div>
 
-              {/* Companionship Options */}
+              {/* Service Options */}
               {location.companionshipOptions?.overview && (
                 <div>
                   <h3 className="text-2xl md:text-3xl font-bold text-[#1a1a2e] mb-4 font-serif">
-                    Companionship Options in {location.name}
+                    Service Options in {location.name}
                   </h3>
                   <p className="text-gray-700 text-lg leading-relaxed mb-6">{location.companionshipOptions.overview}</p>
                   <div className="grid sm:grid-cols-2 gap-4">
@@ -349,7 +380,7 @@ export default function LocationPage({ params }: LocationPageProps) {
                   Private Outcall Protocol &amp; Hotel Etiquette in {location.name}
                 </h3>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  Booking an outcall escort service in {location.name} with <strong>ALINA VIP</strong> is organized to provide maximum convenience, privacy, and peace of mind. Whether you are staying at an executive business hotel, a five-star luxury suite, or a private serviced residence, our companions arrive punctually and conduct themselves with refined social poise.
+                  Booking an outcall escort service in {location.name} with <strong>ALINA VIP</strong> is organized to provide maximum convenience, privacy, and peace of mind. Whether you are staying at an executive business hotel, a five-star luxury suite, or a private serviced residence, our escorts arrive punctually and conduct themselves with refined social poise.
                 </p>
                 <div className="grid sm:grid-cols-2 gap-4 pt-2">
                   <div className="bg-white p-4 rounded-xl border border-gray-100">
@@ -357,7 +388,7 @@ export default function LocationPage({ params }: LocationPageProps) {
                       Discreet Arrival
                     </h4>
                     <p className="text-xs text-gray-600 leading-relaxed">
-                      Companions arrive via private, unmarked executive chauffeur directly at your chosen venue in {location.name}, ensuring your meeting remains strictly confidential from reception to suite.
+                      Escorts arrive via private, unmarked executive chauffeur directly at your chosen venue in {location.name}, ensuring your meeting remains strictly confidential from reception to suite.
                     </p>
                   </div>
                   <div className="bg-white p-4 rounded-xl border border-gray-100">
@@ -454,7 +485,7 @@ export default function LocationPage({ params }: LocationPageProps) {
                 </div>
                 <p className="font-bold text-[#1a1a2e] text-lg font-serif">Top Rated in {location.name}</p>
                 <p className="text-gray-600 text-xs mt-1">
-                  100% verified call girls and companions with complete privacy.
+                  100% verified call girls and escorts with complete privacy.
                 </p>
               </div>
 
@@ -462,7 +493,7 @@ export default function LocationPage({ params }: LocationPageProps) {
               <div className="p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <h4 className="font-serif text-lg font-bold text-[#1a1a2e]">
-                    Companion Categories
+                    Service Categories
                   </h4>
                   <Link href="/services" className="text-xs text-gold-600 hover:underline font-semibold">
                     All Services &rarr;

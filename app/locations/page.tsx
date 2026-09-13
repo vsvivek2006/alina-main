@@ -11,18 +11,19 @@ import CTASection from '@/components/CTASection';
 import LocationsDirectory, { CompactLocation } from '@/components/LocationsDirectory';
 import { siteConfig } from '@/data/siteConfig';
 import { locations } from '@/data/locations';
+import { isLocationRedirect } from '@/data/locationManifest';
 
 export const metadata: Metadata = {
-  title: 'Escort Service Locations in Gurgaon & Delhi NCR | 100+ Areas | ALINA VIP',
+  title: 'Escort Service Locations in Gurgaon & Delhi NCR | ALINA VIP',
   description:
-    'Find premium escort service across 100+ locations in Gurgaon and Delhi NCR. Cyber City, Golf Course Road, DLF Phases 1-5, Sohna Road, Aerocity & more. Rapid 20-30 min outcall.',
+    'Find premium escort service across prime locations in Gurgaon and Delhi NCR. Cyber City, Golf Course Road, DLF Phases 1-5, Sohna Road, Aerocity & more. Rapid 20-30 min outcall.',
   alternates: {
     canonical: 'https://escort.alinavip.com/locations',
   },
   openGraph: {
-    title: 'Escort Service Locations in Gurgaon & Delhi NCR | 100+ Areas | ALINA VIP',
+    title: 'Escort Service Locations in Gurgaon & Delhi NCR | ALINA VIP',
     description:
-      'Find premium escort service across 100+ locations in Gurgaon and Delhi NCR. Cyber City, Golf Course Road, DLF Phases 1-5, Sohna Road, Aerocity & more. Rapid 20-30 min outcall.',
+      'Find premium escort service across prime locations in Gurgaon and Delhi NCR. Cyber City, Golf Course Road, DLF Phases 1-5, Sohna Road, Aerocity & more. Rapid 20-30 min outcall.',
     url: 'https://escort.alinavip.com/locations',
     type: 'website',
   },
@@ -48,20 +49,22 @@ export default function LocationsPage() {
 
           {/* Clean Informative Lead */}
           <p className="text-charcoal-300 max-w-3xl mx-auto text-base md:text-lg leading-relaxed font-light">
-            ALINA VIP coordinates discreet, verified companion services across all key sectors of Gurgaon, Aerocity, and regional Delhi NCR corridors. Select your district below to find verified companions with prompt 20 to 30 minute hotel suite and residential dispatch.
+            ALINA VIP coordinates discreet, verified escort services across all key sectors of Gurgaon, Aerocity, and regional Delhi NCR corridors. Select your district below to find verified profiles with prompt 20 to 30 minute hotel suite and residential dispatch.
           </p>
 
           {(() => {
-            const compactLocations: CompactLocation[] = locations.map((loc) => ({
-              slug: loc.slug,
-              name: loc.name,
-              area: loc.area,
-              city: loc.city,
-              region: loc.region,
-              corridor: loc.corridor,
-              isHub: loc.isHub,
-              shortDescription: loc.shortDescription,
-            }));
+            const compactLocations: CompactLocation[] = locations
+              .filter((loc) => !isLocationRedirect(loc.slug))
+              .map((loc) => ({
+                slug: loc.slug,
+                name: loc.name,
+                area: loc.area,
+                city: loc.city,
+                region: loc.region,
+                corridor: loc.corridor,
+                isHub: loc.isHub,
+                shortDescription: loc.shortDescription,
+              }));
             return <LocationsDirectory locations={compactLocations} />;
           })()}
         </div>
@@ -79,7 +82,7 @@ export default function LocationsPage() {
               <div className="gold-divider mb-8" />
               <div className="space-y-4 text-charcoal-300 leading-relaxed text-sm md:text-base">
                 <p>
-                  ALINA VIP caters extensively to guests staying at prestigious five-star hotel properties across Gurgaon and Delhi NCR. Our verified companions are adept in five-star hotel etiquette, arriving discreetly dressed in tasteful attire suitable for executive lobbies and luxury suites.
+                  ALINA VIP caters extensively to guests staying at prestigious five-star hotel properties across Gurgaon and Delhi NCR. Our verified models are adept in five-star hotel etiquette, arriving discreetly dressed in tasteful attire suitable for executive lobbies and luxury suites.
                 </p>
                 <p>
                   We provide continuous outcall service to premier hotel clusters including The Oberoi Gurgaon, The Trident, The Leela Ambience, Grand Hyatt Gurgaon, ITC Grand Bharat, The Westin Gurgaon, and JW Marriott Aerocity. For location-specific hotel etiquette and booking advice, review our{' '}
@@ -109,7 +112,7 @@ export default function LocationsPage() {
                 Need Fast Location Dispatch?
               </h3>
               <p className="text-sm text-charcoal-300 leading-relaxed mb-6">
-                Whether you are staying in DLF Phase 1-5, Golf Course Road, Cyber City, or near IGI Airport Aerocity, our VIP concierge team can arrange your verified companion within minutes.
+                Whether you are staying in DLF Phase 1-5, Golf Course Road, Cyber City, or near IGI Airport Aerocity, our VIP concierge team can arrange your verified booking within minutes.
               </p>
               <div className="space-y-3 mb-8">
                 <div className="flex items-center gap-3 text-sm text-charcoal-200">
@@ -122,7 +125,7 @@ export default function LocationsPage() {
                 </div>
                 <div className="flex items-center gap-3 text-sm text-charcoal-200">
                   <CheckCircle2 size={16} className="text-gold-400 flex-shrink-0" />
-                  <span>Personalized companion selection based on your preference</span>
+                  <span>Personalized profile selection based on your preference</span>
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
@@ -144,13 +147,13 @@ export default function LocationsPage() {
           <div className="max-w-4xl mx-auto prose-luxury">
             <h2>Comprehensive Escort Services Across Gurgaon &amp; Delhi NCR</h2>
             <p>
-              At ALINA VIP, our mission is to provide accessible, seamless, and thoroughly discreet escort service throughout Gurgaon and the broader National Capital Region. With over 100 dedicated location pages, our network blankets every prominent business enclave, high-density residential phase, and luxury hotel corridor.
+              At ALINA VIP, our mission is to provide accessible, seamless, and thoroughly discreet escort service throughout Gurgaon and the broader National Capital Region. With comprehensive dedicated location guides, our network blankets every prominent business enclave, high-density residential phase, and luxury hotel corridor.
             </p>
             <p>
-              From corporate executives attending summits in <Link href="/locations/cyber-city" className="text-gold-400 hover:underline">Cyber City</Link> and <Link href="/locations/golf-course-road" className="text-gold-400 hover:underline">Golf Course Road</Link>, to residents seeking quiet companionship in <Link href="/locations/dlf-phase-1" className="text-gold-400 hover:underline">DLF Phase 1</Link> or <Link href="/locations/dlf-phase-5" className="text-gold-400 hover:underline">DLF Phase 5</Link>, our verified <Link href="/services" className="text-gold-400 hover:underline">call girls</Link> provide the perfect blend of glamour, emotional intelligence, and discretion.
+              From corporate executives attending summits in <Link href="/locations/cyber-city" className="text-gold-400 hover:underline">Cyber City</Link> and <Link href="/locations/golf-course-road" className="text-gold-400 hover:underline">Golf Course Road</Link>, to residents seeking private escort services in <Link href="/locations/dlf-phase-1" className="text-gold-400 hover:underline">DLF Phase 1</Link> or <Link href="/locations/dlf-phase-5" className="text-gold-400 hover:underline">DLF Phase 5</Link>, our verified <Link href="/services" className="text-gold-400 hover:underline">call girls</Link> provide the perfect blend of glamour, emotional intelligence, and discretion.
             </p>
             <p>
-              International visitors and domestic transit flyers arriving at Indira Gandhi International Airport benefit from our rapid dispatch service in <Link href="/locations/aerocity" className="text-gold-400 hover:underline">Aerocity</Link> and <Link href="/locations/mahipalpur" className="text-gold-400 hover:underline">Mahipalpur</Link>, enabling enjoyable companionship during brief flight layovers or corporate retreats.
+              International visitors and domestic transit flyers arriving at Indira Gandhi International Airport benefit from our rapid dispatch service in <Link href="/locations/aerocity" className="text-gold-400 hover:underline">Aerocity</Link> and <Link href="/locations/mahipalpur" className="text-gold-400 hover:underline">Mahipalpur</Link>, enabling enjoyable rendezvous during brief flight layovers or corporate retreats.
             </p>
             <p>
               Browse our complete location roster above or contact our 24/7 concierge desk at{' '}

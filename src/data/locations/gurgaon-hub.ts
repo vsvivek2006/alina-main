@@ -8,19 +8,19 @@ export const gurgaonHub: LocationData = {
   region: 'Gurgaon',
   isHub: true,
   hubType: 'main-gurgaon',
-  shortDescription: 'Premier Gurgaon location hub offering elite companionship services across DLF, Cyber City, Golf Course Road, Sohna Road, and 70+ sectors.',
-  metaTitle: 'Escort Service Gurgaon | Premium Companion Service Gurugram | ALINA VIP',
-  metaDescription: 'Top-tier escort service Gurgaon and luxury companionship in Gurugram. Verified elite call girls, discreet hotel outcalls, 24/7 service. Call +91-9996265679.',
+  shortDescription: 'Premier Gurgaon location hub offering elite escort services across DLF, Cyber City, Golf Course Road, Sohna Road, and 70+ sectors.',
+  metaTitle: 'Escort Service Gurgaon | VIP Call Girls Gurugram | ALINA VIP',
+  metaDescription: 'Top-tier escort service Gurgaon and luxury call girls in Gurugram. Verified elite profiles, discreet hotel outcalls, 24/7 service. Call +91-9996265679.',
   targetKeywords: [
     'escort service Gurgaon',
     'escort services Gurgaon',
     'escort service Gurugram',
-    'companionship Gurgaon',
-    'premium companion service Gurgaon',
+    'call girls Gurgaon',
+    'VIP escorts Gurgaon',
   ],
-  h1: 'Premium Companionship Services in Gurgaon',
+  h1: 'Escort Service in Gurgaon',
   about: {
-    intro: 'Gurgaon, officially designated as Gurugram, stands as India’s foremost financial, technological, and corporate epicenter. Emerging over the past three decades from pastoral agricultural expanse into a glittering metropolis of high-rise architectural marvels, the Millennium City hosts over 250 Fortune 500 corporations, sprawling luxury condominiums, and world-renowned hospitality establishments. ALINA VIP operates as the premier companionship agency serving this dynamic economic powerhouse, delivering unparalleled social, corporate, and private companion services characterized by discretion, intellectual charm, and refined elegance.',
+    intro: 'Gurgaon, officially designated as Gurugram, stands as India’s foremost financial, technological, and corporate epicenter. Emerging over the past three decades from pastoral agricultural expanse into a glittering metropolis of high-rise architectural marvels, the Millennium City hosts over 250 Fortune 500 corporations, sprawling luxury condominiums, and world-renowned hospitality establishments. ALINA VIP operates as the premier escort service agency serving this dynamic economic powerhouse, delivering unparalleled social, corporate, and private escort services characterized by discretion, intellectual charm, and refined elegance.',
     historyVibe: 'The pulse of Gurgaon is defined by ambition, luxury, and cosmopolitan diversity. By day, business leaders, international executives, and tech innovators drive global enterprises across DLF Cyber City and the Horizon Center on Golf Course Road. By twilight, the city transitions seamlessly into a playground of culinary indulgence, rooftop mixology lounges, and private soirees in exclusive penthouses. The local atmosphere caters to high-net-worth individuals and global travelers who demand peerless standards of presentation and interpersonal grace.',
     landmarks: [
       'DLF Cyber Hub & Cyber City',
@@ -30,26 +30,26 @@ export const gurgaonHub: LocationData = {
       'Aravalli Biodiversity Park',
       'One Horizon Center Executive Towers',
     ],
-    commercialProfile: 'Gurgaon generates over 60 percent of Haryana’s economic revenue, with leading technology conglomerates (Google, Microsoft, IBM), management consulting giants (McKinsey, BCG, Deloitte), and top investment institutions headquartered along NH-48 and Golf Course Extension. This robust business climate fosters a constant influx of senior executives, overseas delegations, and entrepreneurs who seek sophisticated companionship for corporate networking, celebratory dinners, or restorative downtime.',
+    commercialProfile: 'Gurgaon generates over 60 percent of Haryana’s economic revenue, with leading technology conglomerates (Google, Microsoft, IBM), management consulting giants (McKinsey, BCG, Deloitte), and top investment institutions headquartered along NH-48 and Golf Course Extension. This robust business climate fosters a constant influx of senior executives, overseas delegations, and entrepreneurs who seek sophisticated escort service for corporate networking, celebratory dinners, or restorative downtime.',
   },
   companionshipOptions: {
-    overview: 'ALINA VIP provides an extensive spectrum of bespoke companionship arrangements designed to match the exacting requirements of our distinguished clientele throughout Gurgaon.',
+    overview: 'ALINA VIP provides an extensive spectrum of bespoke escort services arrangements designed to match the exacting requirements of our distinguished clientele throughout Gurgaon.',
     options: [
       {
         title: 'Five-Star Luxury Hotel Outcalls',
-        desc: 'Discreet and punctual arrivals at Gurgaon’s premier luxury hotels including The Oberoi, Trident, The Leela Ambience, Grand Hyatt, The Westin, and Taj City Centre. Our companions possess effortless familiarity with 5-star hospitality protocols.',
+        desc: 'Discreet and punctual arrivals at Gurgaon’s premier luxury hotels including The Oberoi, Trident, The Leela Ambience, Grand Hyatt, The Westin, and Taj City Centre. Our escorts possess effortless familiarity with 5-star hospitality protocols.',
       },
       {
         title: 'Executive Corporate & Dinner Dates',
-        desc: 'Polished, articulate companions adept at accompanying executives to business banquets, private club dinners, and high-profile networking gatherings at Horizon Center or Cyber Hub.',
+        desc: 'Polished, articulate escorts adept at accompanying executives to business banquets, private club dinners, and high-profile networking gatherings at Horizon Center or Cyber Hub.',
       },
       {
         title: 'Private Residence & Gated Penthouse Visits',
         desc: 'Carefully vetted visits to elite gated communities across DLF Phases 1–5, Golf Course Road, and Sohna Road, prioritizing total client privacy and discreet entrance protocols.',
       },
       {
-        title: 'Weekend Escapes & Travel Companionship',
-        desc: 'Cultured travel companions available for weekend retreats to ITC Grand Bharat, Neemrana Fort Palace, Rajasthan luxury resorts, or international journeys.',
+        title: 'Weekend Escapes & Travel Escort service',
+        desc: 'Cultured travel escorts available for weekend retreats to ITC Grand Bharat, Neemrana Fort Palace, Rajasthan luxury resorts, or international journeys.',
       },
     ],
   },
@@ -242,7 +242,7 @@ export const gurgaonHub: LocationData = {
       {
         title: 'Golf Course Road & Golf Course Extension',
         desc: 'The most prestigious residential and business boulevard in North India, home to The Camellias, The Magnolias, Horizon Center, and Sectors 43 to 66.',
-        slugs: ['golf-course-road', 'golf-course-extension-road', 'sector-43', 'sector-53', 'sector-54', 'sector-55', 'sector-56', 'sector-57', 'sector-58', 'sector-59', 'sector-60', 'sector-61', 'sector-62', 'sector-63', 'sector-65', 'sector-66'],
+        slugs: ['golf-course-road', 'golf-course-extension-road', 'sector-43', 'sector-53', 'sector-54', 'sector-55', 'sector-56', 'sector-57', 'sector-59', 'sector-60', 'sector-61', 'sector-62', 'sector-63', 'sector-65', 'sector-66'],
       },
       {
         title: 'Sohna Road & Southern Peripheral Road (SPR)',
@@ -251,8 +251,8 @@ export const gurgaonHub: LocationData = {
       },
       {
         title: 'Central & Leisure Gurgaon',
-        desc: 'Covering Sector 29 nightlife district, HUDA City Centre, Sector 14 market, Sector 15, Sector 30, Sector 31, Sector 32 Institutional, Sector 40, 41, 44, 45, and Sector 46.',
-        slugs: ['huda-city-centre', 'sector-14', 'sector-15', 'sector-29', 'sector-30', 'sector-31', 'sector-32', 'sector-40', 'sector-41', 'sector-44', 'sector-45', 'sector-46'],
+        desc: 'Covering Sector 29 nightlife district, HUDA City Centre, Sector 14 market, Sector 15, Sector 30, Sector 31, Sector 32 Institutional, Sector 40, South City, Sector 44, 45, and Sector 46.',
+        slugs: ['huda-city-centre', 'south-city', 'sector-14', 'sector-15', 'sector-29', 'sector-30', 'sector-31', 'sector-32', 'sector-40', 'sector-44', 'sector-45', 'sector-46'],
       },
       {
         title: 'New Gurgaon, Dwarka Expressway & Manesar',

@@ -23,7 +23,7 @@ export default function NotFound() {
         </h2>
 
         <p className="text-gray-300 text-base md:text-lg mb-8 leading-relaxed font-light">
-          The page or companion profile you are looking for may have moved, been updated, or is no longer available. Explore our premier VIP escorts or contact our 24/7 concierge desk.
+          The page or profile you are looking for may have moved, been updated, or is no longer available. Explore our premier VIP escorts or contact our 24/7 concierge desk.
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 mb-10">

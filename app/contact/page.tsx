@@ -49,7 +49,7 @@ export default function ContactPage() {
             Contact <span className="text-gradient-gold">ALINA VIP</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Reserve verified companions,{' '}
+            Reserve verified escorts,{' '}
             <Link href="/category/russian-call-girls" className="text-gold-400 hover:underline font-medium">
               Russian models
             </Link>
@@ -74,7 +74,7 @@ export default function ContactPage() {
                   Direct VIP Hotline
                 </h2>
                 <p className="text-gray-600 text-sm leading-relaxed mb-6">
-                  Our private booking coordinators are standing by 24 hours a day to assist with your companionship requirements.
+                  Our private booking coordinators are standing by 24 hours a day to assist with your booking requirements.
                 </p>
               </div>
 
@@ -160,7 +160,7 @@ export default function ContactPage() {
                       24 Hours a Day • 7 Days a Week
                     </p>
                     <p className="text-gray-500 text-xs mt-1">
-                      Late-night hospitality &amp; early morning companion dispatches
+                      Late-night hospitality &amp; early morning dispatches
                     </p>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ export default function ContactPage() {
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-gold-600 flex-shrink-0" />
-                    <span>100% genuine, photo-authenticated companion profiles</span>
+                    <span>100% genuine, photo-authenticated profiles</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-gold-600 flex-shrink-0" />
@@ -272,7 +272,7 @@ export default function ContactPage() {
             </h2>
             <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
               <p>
-                Booking a luxury companion with <strong>ALINA VIP</strong> is designed to be effortless, sophisticated, and completely discreet. We respect your schedule and privacy at every stage of the engagement.
+                Booking escort service with <strong>ALINA VIP</strong> is designed to be effortless, sophisticated, and completely discreet. We respect your schedule and privacy at every stage of the engagement.
               </p>
               <div className="space-y-4 my-6">
                 <div className="flex items-start gap-4">
@@ -281,7 +281,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-[#1a1a2e] text-base mb-1">
-                      Choose Your Preferred Companion Profile
+                      Choose Your Preferred Profile
                     </h4>
                     <p className="text-gray-600 text-sm">
                       Browse our verified collection of{' '}
@@ -340,7 +340,7 @@ export default function ContactPage() {
                       <a href={`tel:${siteConfig.phone}`} className="text-gold-600 hover:underline font-bold">
                         {siteConfig.phoneDisplay}
                       </a>{' '}
-                      or through our secure form. Your companion will arrive punctually with total discretion.
+                      or through our secure form. Your escort will arrive punctually with total discretion.
                     </p>
                   </div>
                 </div>
@@ -355,7 +355,7 @@ export default function ContactPage() {
                   Discretion is the core tenet of ALINA VIP. We understand that our clientele includes high-ranking corporate leaders, diplomats, entrepreneurs, and discerning individuals who require total confidentiality. We implement an ephemeral data workflow: your contact information, messages, and meeting specifics are never stored in permanent databases, marketing mailing lists, or shared with third parties. Once your engagement concludes, all communication history is promptly purged.
                 </p>
                 <p className="text-sm text-gray-700 leading-relaxed">
-                  Furthermore, our companions arrive in unmarked, private executive vehicles. They dress in sophisticated contemporary attire appropriate for luxury hotel lobbies or fine residential buildings, ensuring your privacy is safeguarded from doorstep to suite.
+                  Furthermore, our escorts arrive in unmarked, private executive vehicles. They dress in sophisticated contemporary attire appropriate for luxury hotel lobbies or fine residential buildings, ensuring your privacy is safeguarded from doorstep to suite.
                 </p>
               </div>
 
@@ -365,7 +365,7 @@ export default function ContactPage() {
                   Five-Star Hotel Outcall Protocols
                 </h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
-                  For clients residing in premier hospitality properties such as The Oberoi Gurgaon, The Trident, The Leela Ambience, Grand Hyatt, or ITC Grand Bharat, our concierge coordinates seamless outcall dispatch. When submitting your reservation, simply mention your hotel property and room or suite number. Our companions are well-versed in luxury hospitality environments and know how to navigate hotel elevator key systems, concierge checkpoints, and private floors with effortless grace.
+                  For clients residing in premier hospitality properties such as The Oberoi Gurgaon, The Trident, The Leela Ambience, Grand Hyatt, or ITC Grand Bharat, our concierge coordinates seamless outcall dispatch. When submitting your reservation, simply mention your hotel property and room or suite number. Our escorts are well-versed in luxury hospitality environments and know how to navigate hotel elevator key systems, concierge checkpoints, and private floors with effortless grace.
                 </p>
               </div>
 
@@ -390,7 +390,7 @@ export default function ContactPage() {
                       How far in advance should I confirm my booking?
                     </h4>
                     <p className="text-xs text-gray-600 leading-relaxed">
-                      While we accommodate immediate on-demand dispatches within 20 to 30 minutes across central Gurgaon, we recommend placing your reservation 1 to 2 hours in advance. For specific high-demand profiles such as Russian escorts, celebrity escorts, or overnight travel companions, booking 4 to 6 hours ahead guarantees companion availability.
+                      While we accommodate immediate on-demand dispatches within 20 to 30 minutes across central Gurgaon, we recommend placing your reservation 1 to 2 hours in advance. For specific high-demand profiles such as Russian escorts, celebrity escorts, or overnight travel escorts, booking 4 to 6 hours ahead guarantees availability.
                     </p>
                   </div>
 
@@ -408,7 +408,7 @@ export default function ContactPage() {
                       Can I book companion accompaniment for multi-day travel or conferences?
                     </h4>
                     <p className="text-xs text-gray-600 leading-relaxed">
-                      Yes, many of our companions are experienced travel partners available for weekend getaways, outstation business conferences, and resort stays. Please contact our desk directly with your travel itinerary to arrange travel logistics and bespoke packages with absolute confidentiality.
+                      Yes, many of our escorts are experienced travel partners available for weekend getaways, outstation business conferences, and resort stays. Please contact our desk directly with your travel itinerary to arrange travel logistics and bespoke packages with absolute confidentiality.
                     </p>
                   </div>
 
@@ -417,7 +417,7 @@ export default function ContactPage() {
                       What is the policy for rescheduling or modifying a reservation?
                     </h4>
                     <p className="text-xs text-gray-600 leading-relaxed">
-                      We understand that corporate meetings and flight itineraries change. If you need to adjust your meeting time, venue, or companion preference, simply notify our concierge desk via phone or WhatsApp at least 45 minutes prior to dispatch. We accommodate schedule shifts seamlessly without penalties.
+                      We understand that corporate meetings and flight itineraries change. If you need to adjust your meeting time, venue, or profile preference, simply notify our concierge desk via phone or WhatsApp at least 45 minutes prior to dispatch. We accommodate schedule shifts seamlessly without penalties.
                     </p>
                   </div>
                 </div>

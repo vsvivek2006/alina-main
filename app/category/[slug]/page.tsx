@@ -314,7 +314,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                   Selection Standards &amp; Quality Assurance for {category.name}
                 </h3>
                 <p className="text-gray-700 leading-relaxed text-sm md:text-base">
-                  At <strong>ALINA VIP</strong>, our {category.name.toLowerCase()} represent the highest standard of elegance, poise, and companionship. We understand that discerning gentlemen and corporate executives require absolute assurance when making a reservation. That is why every profile in this collection undergoes an in-person vetting process to authenticate credentials, appearance, and social etiquette.
+                  At <strong>ALINA VIP</strong>, our {category.name.toLowerCase()} represent the highest standard of elegance, poise, and VIP escort service. We understand that discerning gentlemen and corporate executives require absolute assurance when making a reservation. That is why every profile in this collection undergoes an in-person vetting process to authenticate credentials, appearance, and social etiquette.
                 </p>
                 <div className="grid sm:grid-cols-2 gap-4 pt-2">
                   <div className="p-4 bg-[#faf6f2] rounded-xl border border-gold-200/40">
@@ -322,7 +322,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                       <CheckCircle2 className="w-4 h-4 text-gold-600" /> Untouched Real Photography
                     </h4>
                     <p className="text-xs text-gray-600 leading-relaxed">
-                      We never use misleading stock photos or artificial imagery. Every photo in our gallery accurately portrays your companion’s natural appearance.
+                      We never use misleading stock photos or artificial imagery. Every photo in our gallery accurately portrays the profile’s natural appearance.
                     </p>
                   </div>
                   <div className="p-4 bg-[#faf6f2] rounded-xl border border-gold-200/40">
@@ -330,7 +330,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                       <CheckCircle2 className="w-4 h-4 text-gold-600" /> Conversational Fluency
                     </h4>
                     <p className="text-xs text-gray-600 leading-relaxed">
-                      Our companions possess exceptional communication skills, emotional intelligence, and cosmopolitan charm suited for high-society engagements.
+                      Our models possess exceptional communication skills, emotional intelligence, and cosmopolitan charm suited for high-society engagements.
                     </p>
                   </div>
                 </div>
@@ -339,7 +339,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
               {/* Occasion & Etiquette Guide */}
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold text-[#1a1a2e] font-serif">
-                  Ideal Occasions &amp; Companion Etiquette
+                  Ideal Occasions &amp; Etiquette Guidelines
                 </h3>
                 <p className="text-gray-700 leading-relaxed text-sm md:text-base">
                   Whether you are attending an exclusive business dinner at Cyber Hub, hosting an intimate corporate gala on Golf Course Road, or unwinding in the private sanctuary of a luxury hotel suite, our {category.name.toLowerCase()} seamlessly adapt to your schedule and setting.
@@ -355,7 +355,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                   </li>
                   <li className="flex items-start gap-2.5">
                     <span className="w-1.5 h-1.5 bg-gold-600 rounded-full mt-2 flex-shrink-0" />
-                    <span><strong>Private Hotel Outcalls:</strong> Effortless, confidential companionship tailored for relaxing stays at premier five-star hospitality suites.</span>
+                    <span><strong>Private Hotel Outcalls:</strong> Effortless, confidential escort service tailored for relaxing stays at premier five-star hospitality suites.</span>
                   </li>
                 </ul>
               </div>
@@ -366,7 +366,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                   Discreet Outcall Coordination Across Gurgaon
                 </h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
-                  We specialize in prompt, confidential outcall dispatch to all luxury destinations across Gurgaon, including DLF Phase 1–5, Cyber City, Golf Course Road, Sohna Road, MG Road, and Aerocity. Our companions arrive punctually via private executive transport, blending seamlessly into high-end hotel lobbies and private residential complexes.
+                  We specialize in prompt, confidential outcall dispatch to all luxury destinations across Gurgaon, including DLF Phase 1–5, Cyber City, Golf Course Road, Sohna Road, MG Road, and Aerocity. Our escorts arrive punctually via private executive transport, blending seamlessly into high-end hotel lobbies and private residential complexes.
                 </p>
                 <p className="text-sm text-gray-700 leading-relaxed">
                   To ensure complete trust, ALINA VIP adheres to a strict zero-advance policy: you settle the agreed companionship fee directly in person upon arrival. Your personal details, contact number, and booking records are never shared, logged, or retained, guaranteeing complete peace of mind.
@@ -495,7 +495,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                 </div>
                 <h3 className="text-xl font-bold text-[#1a1a2e] font-serif">{category.name}</h3>
                 <p className="text-gray-600 text-xs mt-2">
-                  Verified premium companions in Gurgaon
+                  Verified premium escorts in Gurgaon
                 </p>
               </div>
 
@@ -508,15 +508,23 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                 >
                   Call Now: {siteConfig.phoneDisplay}
                 </a>
+                <a
+                  href={`https://wa.me/${siteConfig.whatsapp}?text=Hello%20ALINA%20VIP,%20I%20am%20interested%20in%20booking%20${encodeURIComponent(category.name)}.`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block mt-2.5 bg-[#25D366] text-white py-3.5 rounded-full font-bold transition-all text-sm shadow-md"
+                >
+                  WhatsApp Booking
+                </a>
                 <Link
                   href="/contact"
-                  className="block text-gold-400 hover:text-gold-300 text-xs mt-3 font-semibold"
+                  className="block mt-3 text-gold-400 hover:underline text-xs"
                 >
                   Or Request Online &rarr;
                 </Link>
               </div>
 
-              {/* Related Companion Categories */}
+              {/* Related Service Categories */}
               <div className="bg-[#faf6f2] p-6 rounded-2xl border border-gold-200/60 shadow-sm">
                 <h4 className="font-bold text-[#1a1a2e] mb-4 font-serif text-base">
                   Explore Related Categories
