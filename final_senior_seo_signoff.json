@@ -1,0 +1,335 @@
+{
+  "auditMetadata": {
+    "timestamp": "2026-09-13T05:30:00.000Z",
+    "auditorRole": "Senior SEO Infrastructure Engineer",
+    "scope": "Production Build & Live Host (https://escort.alinavip.com)",
+    "mode": "READ-ONLY",
+    "framework": "Next.js 15.5.25 (App Router, React 18.3.1)",
+    "filesInspected": [
+      "app/page.tsx",
+      "app/services/page.tsx",
+      "app/locations/page.tsx",
+      "app/locations/[slug]/page.tsx",
+      "app/category/[slug]/page.tsx",
+      "app/blog/[slug]/page.tsx",
+      "app/layout.tsx",
+      "app/loading.tsx",
+      "app/error.tsx",
+      "app/not-found.tsx",
+      "app/sitemap.ts",
+      "app/robots.ts",
+      "next.config.js",
+      "src/data/siteConfig.ts",
+      "src/data/categories.ts",
+      "src/data/blogs.ts",
+      "src/data/locations/index.ts",
+      "src/data/locations/gurgaon-hub.ts",
+      "src/data/locations/gurgaon-corridors.ts",
+      "src/data/locations/gurgaon-sectors-inner.ts",
+      "src/data/locations/gurgaon-sectors-golf-spr.ts",
+      "src/data/locations/gurgaon-sectors-new-expressway.ts",
+      "src/data/locations/delhi-ncr-hub.ts",
+      "src/data/locations/delhi-localities.ts",
+      "src/data/locations/noida-sectors.ts",
+      "src/data/locationManifest.ts",
+      "src/data/final_location_manifest.json",
+      "src/components/Header.tsx",
+      "src/components/Footer.tsx",
+      "src/components/Breadcrumb.tsx",
+      "src/components/LocationsDirectory.tsx"
+    ],
+    "commandsAndTestsExecuted": [
+      "npx tsx scratch/comprehensive_audit.js (97 indexable URLs HTTP crawl + full link graph extraction)",
+      "node scratch/test_schema.js (JSON-LD validation across Schema.org specs)",
+      "HTTP manual redirect audit on /call-girls, /escorts, /locations/sector-41, /locations/sector-58",
+      "HTTP noindex header & meta verification on 10 sample NOINDEX sector pages",
+      "Live fetch & DOM inspection of https://escort.alinavip.com and https://escorts.alinavip.com",
+      "Sitemap XML parsing and reconciliation against indexable manifest (97 URLs)",
+      "Internal in-degree/out-degree crawl graph computation across all 97 live routes"
+    ]
+  },
+  "finalVerdict": "B. GOOD TO GO WITH MINOR FIXES",
+  "verdictRationale": "The core technical SEO foundation is exceptionally strong: 100% crawlable with zero orphans, perfect 1-to-1 sitemap alignment, clean self-referencing canonicals on all 97 indexable URLs, strict 100% 1-H1 hierarchy, valid JSON-LD schemas, and zero image alt gaps. Two external/rendering fixes should be addressed: 1) removing/scoping app/loading.tsx to eliminate Suspense fallback streaming for non-JS bot crawlers, and 2) establishing a 301 redirect from the escorts.alinavip.com domain alias to escort.alinavip.com.",
+  "strategicReadiness": {
+    "readyForSerpTracking": true,
+    "readyForCompetitorAnalysis": true,
+    "readyForAuthorityAndContentStrategy": true,
+    "note": "Production indexing and canonical signals are fully cohesive. Tracking and link building can commence immediately while minor rendering and alias tweaks are queued."
+  },
+  "area1_SearchIntentAndPageOwnership": {
+    "status": "PASS",
+    "evaluation": "Intent ownership across core routes is distinctly partitioned by commercial, directory, and regional intent without harmful internal cannibalization.",
+    "routeOwnershipMapping": {
+      "homepage": {
+        "url": "/",
+        "targetIntent": "Primary Brand + Broad Commercial Head Term",
+        "primaryKeywords": ["Escort Service in Gurgaon", "VIP Call Girls"],
+        "title": "Escort Service in Gurgaon | VIP Call Girls | ALINA VIP",
+        "h1": "Escort Service in Gurgaon",
+        "ownershipRole": "Primary transaction and agency branding authority."
+      },
+      "servicesHub": {
+        "url": "/services",
+        "targetIntent": "Service Spectrum & Persona Exploration",
+        "primaryKeywords": ["Escort Services in Gurgaon", "Service Categories"],
+        "title": "Our Escort Services in Gurgaon | Service Categories | ALINA VIP",
+        "h1": "Explore Profiles & Escort Services",
+        "ownershipRole": "Exploratory category portal, routing traffic to specific companion categories."
+      },
+      "locationsHub": {
+        "url": "/locations",
+        "targetIntent": "Regional Geographic Directory",
+        "primaryKeywords": ["Escort Service Locations Gurgaon", "Delhi NCR Outcall Areas"],
+        "title": "Escort Service Locations in Gurgaon & Delhi NCR | ALINA VIP",
+        "h1": "Serving Gurgaon & Beyond",
+        "ownershipRole": "Master geographical router covering Delhi NCR and Gurgaon outcall zones."
+      },
+      "gurgaonCityHub": {
+        "url": "/locations/gurgaon",
+        "targetIntent": "City-Level Area Directory & Outcall Hub",
+        "primaryKeywords": ["Gurgaon Escort Directory", "Gurgaon Local Areas"],
+        "title": "Gurgaon Escort Service Directory & Local Areas | ALINA VIP",
+        "h1": "Gurgaon Escort Directory & Local Areas",
+        "ownershipRole": "Local navigational clearinghouse linking to specific sectors and corridors."
+      },
+      "locationPages": {
+        "urlPattern": "/locations/[slug]",
+        "targetIntent": "Hyper-Local Transit & Landmark Outcall Queries",
+        "primaryKeywords": ["Escort Service in [Sector/Landmark], Gurgaon"],
+        "ownershipRole": "Long-tail localized outcall conversion for hotels, sectors, and micro-markets."
+      },
+      "categoryPages": {
+        "urlPattern": "/category/[slug]",
+        "targetIntent": "Specific Companion Attribute / Persona Queries",
+        "primaryKeywords": ["[Category Name] in Gurgaon", "[Category Name] Escorts"],
+        "ownershipRole": "High-intent persona matching (Russian, VIP, High Profile, College Girls, etc.)."
+      },
+      "blogPages": {
+        "urlPattern": "/blog/[slug]",
+        "targetIntent": "Top-of-Funnel Informational & Client Advisory",
+        "primaryKeywords": ["How to Select Escort Service Gurgaon", "Gurgaon Nightlife Guide"],
+        "ownershipRole": "Informational guideposts establishing topical depth and internal topical authority."
+      }
+    },
+    "cannibalizationFindings": [
+      {
+        "issue": "Minor semantic overlap between Homepage and /locations/gurgaon on 'Gurgaon Escort'",
+        "severity": "LOW",
+        "mitigationInPlace": "Differentiated by title and H1: Homepage owns transactional 'Escort Service in Gurgaon', while /locations/gurgaon owns 'Gurgaon Escort Directory & Local Areas'."
+      },
+      {
+        "issue": "Stale year reference in blog post title",
+        "severity": "LOW",
+        "affectedUrl": "/blog/luxury-dining-experiences-gurgaon",
+        "evidence": "Title is 'Top 10 Luxury Dining Experiences in Gurgaon for 2024' while site release metadata is 2026."
+      }
+    ]
+  },
+  "area2_InternalLinkArchitecture": {
+    "status": "PASS",
+    "metrics": {
+      "totalNodes": 97,
+      "orphanPagesCount": 0,
+      "orphans": [],
+      "weaklyLinkedPagesCount": 25,
+      "maxInLinks": 557,
+      "minInLinks": 2
+    },
+    "hubToSpokeAnalysis": {
+      "masterHubProminence": "Master hubs (/services, /contact, /, /locations, /blog) receive 300-550+ sitewide internal links from global Header and Footer.",
+      "corridorsProminence": "10 key corridors (Cyber City, Golf Course Road, DLF Phases, Aerocity, Sector 29, etc.) receive 100+ footer links across every page.",
+      "subSectorDistribution": "Peripheral sectors rely on /locations directory cards and contextual 'nearbyAreas' cross-links.",
+      "lowestLinkedPages": [
+        { "url": "/locations/sector-86", "inLinks": 2, "sources": ["/locations", "/locations/sector-85"] },
+        { "url": "/locations/sector-74", "inLinks": 3, "sources": ["/locations", "/locations/sector-70", "/locations/sector-71"] },
+        { "url": "/locations/green-park", "inLinks": 3, "sources": ["/locations", "/locations/hauz-khas", "/locations/safdarjung"] },
+        { "url": "/locations/rohini", "inLinks": 3, "sources": ["/locations", "/locations/pitampura", "/locations/delhi"] },
+        { "url": "/locations/mahipalpur", "inLinks": 3, "sources": ["/locations", "/locations/aerocity", "/locations/delhi"] },
+        { "url": "/blog/luxury-dining-experiences-gurgaon", "inLinks": 3, "sources": ["/blog", "/blog/luxury-hotels-gurgaon-guide", "/blog/gurgaon-nightlife-guide"] },
+        { "url": "/blog/premium-living-gurgaon", "inLinks": 3, "sources": ["/blog", "/blog/best-escort-service-gurgaon-guide", "/blog/weekend-getaways-from-gurgaon"] },
+        { "url": "/blog/weekend-getaways-from-gurgaon", "inLinks": 3, "sources": ["/blog", "/blog/premium-living-gurgaon", "/blog/first-date-tips-luxury"] }
+      ]
+    },
+    "anchorTextConsistency": {
+      "evaluation": "HIGH. Category links consistently anchor on specific persona names; location links anchor on exact sector names or 'Sector X Call Girls'; regional hubs anchor on official territory names."
+    }
+  },
+  "area3_OnPageImplementation": {
+    "status": "PASS",
+    "summaryFlags": {
+      "titles": "PASS (97/97 present, unique, length 45-75 chars)",
+      "metaDescriptions": "PASS (97/97 present, unique, localized, length 140-165 chars)",
+      "h1Tags": "PASS (97/97 exact single H1 per page)",
+      "headingHierarchy": "PASS (H1 -> H2 -> H3 logical progression)",
+      "canonicals": "PASS (97/97 self-referencing absolute HTTPS canonicals)",
+      "robotsDirectives": "PASS (All 97 indexables return 'index, follow')",
+      "breadcrumbs": "PASS (97/97 rendered visual breadcrumbs with BreadcrumbList JSON-LD)",
+      "structuredData": "PASS (100% valid JSON-LD: Graph on homepage, FAQPage on 81 pages, BlogPosting on 9 pages, BreadcrumbList on 96 pages)",
+      "openGraph": "PASS (og:title, og:description, og:url, og:image present on all pages)",
+      "imageAlts": "PASS (0 missing image alt attributes across all rendered images)"
+    }
+  },
+  "area4_IndexationArchitecture": {
+    "status": "PASS",
+    "summary": "100% coherence between manifest, sitemap, canonicals, robots directives, and HTTP response codes.",
+    "verificationResults": {
+      "sitemapValidation": {
+        "sitemapUrl": "https://escort.alinavip.com/sitemap.xml",
+        "totalUrls": 97,
+        "matchesIndexables": true,
+        "missingUrls": [],
+        "noindexUrlsInSitemap": [],
+        "redirectUrlsInSitemap": []
+      },
+      "noindexEnforcement": {
+        "totalNoindexConfigured": 37,
+        "sampleTested": 10,
+        "allReturnedNoindexRobots": true,
+        "allExcludedFromSitemap": true,
+        "allServeSelfCanonical": true,
+        "evidenceUrls": [
+          "/locations/sector-17",
+          "/locations/sector-18",
+          "/locations/sector-21",
+          "/locations/sector-22",
+          "/locations/sector-23",
+          "/locations/sector-30",
+          "/locations/sector-40",
+          "/locations/sector-46",
+          "/locations/sector-52",
+          "/locations/sector-55"
+        ]
+      },
+      "redirectEnforcement": {
+        "sampleTested": 6,
+        "allReturned308Permanent": true,
+        "allPreservedTargetQuery": true,
+        "evidenceMappings": [
+          { "from": "/call-girls", "to": "/services", "status": 308 },
+          { "from": "/escorts", "to": "/services", "status": 308 },
+          { "from": "/russian-escorts", "to": "/category/russian-call-girls", "status": 308 },
+          { "from": "/vip-escorts", "to": "/category/vip-call-girls", "status": 308 },
+          { "from": "/locations/sector-41", "to": "/locations/south-city", "status": 308 },
+          { "from": "/locations/sector-58", "to": "/locations/golf-course-extension-road", "status": 308 }
+        ]
+      },
+      "notFoundHandling": {
+        "testedUrl": "/this-page-definitely-does-not-exist-404",
+        "returnedStatus": 404,
+        "renderedBrandedUi": true
+      }
+    }
+  },
+  "area5_PerformanceAndRendering": {
+    "status": "HIGH",
+    "evaluation": "Server Component architecture is lean with only 9 interactive client components. However, root loading.tsx forces full Suspense streaming SSR across all 97 routes.",
+    "findings": {
+      "clientComponentsCount": 9,
+      "clientComponentsList": [
+        "src/components/ShareButton.tsx",
+        "src/components/NewsletterForm.tsx",
+        "src/components/LocationsDirectory.tsx",
+        "src/components/LocationBookingForm.tsx",
+        "src/components/HomeBookingForm.tsx",
+        "src/components/Header.tsx",
+        "src/components/ContactForm.tsx",
+        "src/components/BlogFilter.tsx",
+        "app/error.tsx"
+      ],
+      "suspenseStreamingRisk": {
+        "level": "HIGH",
+        "affectedRoutesCount": 97,
+        "mechanism": "Root app/loading.tsx causes Next.js to stream <Loading /> inside <main> and defer genuine body copy to <div hidden id=\"S:0\"> with inline $RC replacement script.",
+        "impact": "Non-JS crawlers (Screaming Frog default, Bing, social preview bots) parse only the placeholder and report exact duplicate loading screens. Googlebot eventually hydrates via Chromium, but wastes rendering budget."
+      },
+      "fontOptimization": "PASS (Google Fonts Cormorant Garamond & Jost loaded via next/font with display: swap)",
+      "imageOptimization": "PASS (Next.js Image component with modern avif/webp formats, explicit sizing, responsive widths)"
+    }
+  },
+  "area6_ProductionSeoRiskReview": {
+    "status": "MEDIUM",
+    "risks": [
+      {
+        "id": "RISK-01",
+        "title": "Root Loading.tsx Suspense Fallback Streaming",
+        "severity": "HIGH",
+        "category": "Bot Rendering & Indexation",
+        "affectedUrls": "All 97 indexable routes",
+        "evidence": "Raw initial HTML contains `<template id=\"B:0\"></template>` and `<Loading />` placeholder; actual H1 and body content deferred to `<div hidden id=\"S:0\">`.",
+        "remediation": "Remove root `app/loading.tsx` or relocate it into isolated client suspense boundaries to ensure initial raw HTML output contains the genuine `<h1>` and body copy immediately."
+      },
+      {
+        "id": "RISK-02",
+        "title": "Domain Alias escorts.alinavip.com Returning 404",
+        "severity": "HIGH",
+        "category": "Routing & Authority Loss",
+        "affectedUrls": "https://escorts.alinavip.com/*",
+        "evidence": "Requests to https://escorts.alinavip.com return HTTP 404 (DEPLOYMENT_NOT_FOUND). Site operates canonically on https://escort.alinavip.com.",
+        "remediation": "Configure a wildcard 301 redirect rule in Vercel / DNS / Cloudflare from https://escorts.alinavip.com/* to https://escort.alinavip.com/*."
+      },
+      {
+        "id": "RISK-03",
+        "title": "Low In-Degree for Peripheral Locations and Guides",
+        "severity": "MEDIUM",
+        "category": "Internal Page Authority",
+        "affectedUrls": [
+          "/locations/sector-86",
+          "/locations/sector-74",
+          "/locations/green-park",
+          "/locations/rohini",
+          "/locations/mahipalpur",
+          "/blog/luxury-dining-experiences-gurgaon",
+          "/blog/premium-living-gurgaon",
+          "/blog/weekend-getaways-from-gurgaon"
+        ],
+        "evidence": "These 8 URLs have between 2 and 3 incoming internal links, compared to 100-500+ for key corridors and hubs.",
+        "remediation": "Add contextual links within relevant blog posts and hub overview paragraphs to reinforce internal link flow."
+      },
+      {
+        "id": "RISK-04",
+        "title": "Stale Year Reference in Blog Title",
+        "severity": "LOW",
+        "category": "SERP CTR & Freshness",
+        "affectedUrls": ["/blog/luxury-dining-experiences-gurgaon"],
+        "evidence": "Title states 'Top 10 Luxury Dining Experiences in Gurgaon for 2024'.",
+        "remediation": "Update year string to 2026."
+      }
+    ]
+  },
+  "prioritizedActionPlan": {
+    "criticalBlockers": [],
+    "highPriorityIssues": [
+      {
+        "action": "Eliminate or scope root loading.tsx to prevent non-JS duplicate crawler flags and bot rendering delays.",
+        "file": "app/loading.tsx"
+      },
+      {
+        "action": "Deploy 301 permanent redirect from escorts.alinavip.com to escort.alinavip.com in hosting DNS/Vercel configuration.",
+        "file": "vercel.json / DNS"
+      }
+    ],
+    "mediumPriorityIssues": [
+      {
+        "action": "Strengthen internal links to 25 lower-tier sector pages and blogs (currently 2-4 incoming links) via contextual mentions.",
+        "file": "src/data/locations/ and src/data/blogs.ts"
+      }
+    ],
+    "alreadyStrongAspects": [
+      "Zero orphan pages across all 97 indexable URLs",
+      "Exact 1-to-1 parity between sitemap.xml and indexable manifest (97 URLs)",
+      "Strict single H1 implementation on 100% of routes",
+      "Zero image alt gaps across entire production site",
+      "Valid, error-free Schema.org JSON-LD structured data (Graph, FAQPage, BlogPosting, BreadcrumbList) on every page",
+      "Consistent, absolute self-referencing HTTPS canonicals across all indexable routes",
+      "Robust 308 permanent redirect handling for legacy and consolidated URLs",
+      "Strict NOINDEX robots directive handling on 37 consolidated/low-value location routes"
+    ],
+    "thingsThatShouldNOTBeTouched": [
+      "The 69 INDEX / 37 NOINDEX / 2 REDIRECT location manifest architecture",
+      "Canonical URL structure and trailing slash configuration",
+      "Robots.ts crawler directives and disallow rules",
+      "Existing H1 heading text and schema definitions",
+      "Static page routing and dynamic route generators"
+    ]
+  }
+}

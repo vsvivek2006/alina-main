@@ -1,0 +1,425 @@
+{
+  "timestamp": "2026-09-13T05:56:03.717Z",
+  "verdict": "PASS",
+  "summary": "Root app/loading.tsx successfully removed. Initial server-rendered HTML for all indexable pages now directly contains page-specific H1, canonical, meta, JSON-LD and full main content without any loading fallback or client-side streaming deferral.",
+  "rootCause": "Root app/loading.tsx automatically injected a Suspense boundary with a generic brand loading skeleton around root route children. Because async Server Components (LocationPage, CategoryPage, BlogPostPage) were wrapped in this Suspense boundary, Next.js streamed the generic loading placeholder in initial HTML and placed actual page content in hidden deferred containers (<div hidden id=\"S:0\">) with client-side $RC script replacement. Non-JS crawlers thus parsed identical loading HTML across all location pages.",
+  "exactChangeMade": "Deleted app/loading.tsx and updated eslint.config.js to ignore auto-generated next-env.d.ts. No SEO copy, route paths, redirects, manifest, or components were modified.",
+  "filesChanged": [
+    "app/loading.tsx (deleted)",
+    "eslint.config.js (added next-env.d.ts to ignores)"
+  ],
+  "beforeAfterComparison": {
+    "before": {
+      "initialMainContent": "<div class=\"min-h-[60vh] ...\">ALINA VIP Loading...</div>",
+      "primaryContentLocation": "Deferred to <div hidden id=\"S:0\">...</div> replaced via $RC script",
+      "crawlerVisibility": "Non-JS crawlers saw identical generic loading HTML on all pages; duplicate content detected."
+    },
+    "after": {
+      "initialMainContent": "Directly rendered page content, breadcrumbs, H1, paragraphs, partner hotels, and internal links",
+      "primaryContentLocation": "Immediately present inside <main class=\"flex-1\"> without <div hidden id=\"S:0\"> or $RC replacement",
+      "crawlerVisibility": "Non-JS crawlers receive 100% unique, page-specific server-rendered HTML with correct H1 and meta tags on first byte."
+    }
+  },
+  "buildValidation": {
+    "typecheck": "PASS (tsc --noEmit: 0 errors)",
+    "lint": "PASS (eslint .: 0 errors)",
+    "build": "PASS (next build: 142/142 static pages generated successfully)"
+  },
+  "productionRuntimeResults": [
+    {
+      "url": "/",
+      "status": 200,
+      "title": "Escort Service in Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in Gurgaon",
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false
+    },
+    {
+      "url": "/services",
+      "status": 200,
+      "title": "Our Escort Services in Gurgaon | Service Categories | ALINA VIP",
+      "h1": "Explore Profiles &amp; Escort Services",
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false
+    },
+    {
+      "url": "/locations",
+      "status": 200,
+      "title": "Escort Service Locations in Gurgaon &amp; Delhi NCR | ALINA VIP",
+      "h1": "Serving Gurgaon &amp; Beyond",
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false
+    },
+    {
+      "url": "/locations/gurgaon",
+      "status": 200,
+      "title": "Gurgaon Escort Service Directory &amp; Local Areas | ALINA VIP",
+      "h1": "Gurgaon Escort Directory &amp; Local Areas",
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false
+    },
+    {
+      "url": "/locations/sector-29",
+      "status": 200,
+      "title": "Escort Service in Sector 29, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in Sector 29, Gurgaon",
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false
+    },
+    {
+      "url": "/locations/sector-32",
+      "status": 200,
+      "title": "Escort Service in Sector 32, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in Sector 32, Gurgaon",
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false
+    },
+    {
+      "url": "/locations/sector-86",
+      "status": 200,
+      "title": "Escort Service in Sector 86, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in Sector 86, Gurgaon",
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false
+    },
+    {
+      "url": "/locations/sector-17",
+      "status": 200,
+      "title": "Escort Service in Sector 17, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in Sector 17, Gurgaon",
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false
+    },
+    {
+      "url": "/category/russian-call-girls",
+      "status": 200,
+      "title": "Russian Call Girls | Escort Service in Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Russian Call Girls in Gurgaon",
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false
+    },
+    {
+      "url": "/blog/best-escort-service-gurgaon-guide",
+      "status": 200,
+      "title": "How to Select the Best Escort Service in Gurgaon: Client Guide (2026) | Escort Service Blog | ALINA VIP",
+      "h1": "How to Select the Best Escort Service in Gurgaon: Client Guide (2026)",
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false
+    }
+  ],
+  "rawHtmlTests": [
+    {
+      "slug": "gurgaon",
+      "url": "/locations/gurgaon",
+      "status": 200,
+      "title": "Gurgaon Escort Service Directory &amp; Local Areas | ALINA VIP",
+      "h1": "Gurgaon Escort Directory &amp; Local Areas",
+      "canonical": "https://escort.alinavip.com/locations/gurgaon",
+      "robots": "index, follow",
+      "jsonLdCount": 2,
+      "jsonLdTypes": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false,
+      "hasRcScript": false,
+      "mainHash": "f90b7e2c557442aa2b18777e860f458b236be80bc9096d478437aadcef8e6bcc",
+      "fullHtmlHash": "b079b9b4468f803638fedb6eba1a3df39fe75de01a2cf8d90a8932ebd398c547",
+      "mainHtmlSnippet": 112997
+    },
+    {
+      "slug": "sector-29",
+      "url": "/locations/sector-29",
+      "status": 200,
+      "title": "Escort Service in Sector 29, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in Sector 29, Gurgaon",
+      "canonical": "https://escort.alinavip.com/locations/sector-29",
+      "robots": "index, follow",
+      "jsonLdCount": 2,
+      "jsonLdTypes": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false,
+      "hasRcScript": false,
+      "mainHash": "2e2d20797effceec446a0b3fc78101fdbc1625c228e1d45c3fb8b6611aab8ddf",
+      "fullHtmlHash": "111e29cd9e10941e5f05fc7d53a2533d7001d27c8d04752180b32c80d4e33fc0",
+      "mainHtmlSnippet": 58224
+    },
+    {
+      "slug": "sector-32",
+      "url": "/locations/sector-32",
+      "status": 200,
+      "title": "Escort Service in Sector 32, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in Sector 32, Gurgaon",
+      "canonical": "https://escort.alinavip.com/locations/sector-32",
+      "robots": "index, follow",
+      "jsonLdCount": 2,
+      "jsonLdTypes": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false,
+      "hasRcScript": false,
+      "mainHash": "59852e59a93b28347f51c67ce5ad2f253e818951df73466ad86e0f041cb766ad",
+      "fullHtmlHash": "0a6a93a31e9ead3afd3a2c053dc5812171f1c52f0bf721f2fd2150dc0c94a804",
+      "mainHtmlSnippet": 56816
+    },
+    {
+      "slug": "sector-86",
+      "url": "/locations/sector-86",
+      "status": 200,
+      "title": "Escort Service in Sector 86, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in Sector 86, Gurgaon",
+      "canonical": "https://escort.alinavip.com/locations/sector-86",
+      "robots": "index, follow",
+      "jsonLdCount": 2,
+      "jsonLdTypes": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false,
+      "hasRcScript": false,
+      "mainHash": "50b181228274d521b2678791956fd9590249c6a656edb37575cc221a63f51d22",
+      "fullHtmlHash": "382e0b3b5786baf7c6db1e72446017fa3a28fcc39364ab669c39a0570a76d4aa",
+      "mainHtmlSnippet": 55397
+    },
+    {
+      "slug": "dlf-phase-1",
+      "url": "/locations/dlf-phase-1",
+      "status": 200,
+      "title": "Escort Service in DLF Phase 1, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in DLF Phase 1, Gurgaon",
+      "canonical": "https://escort.alinavip.com/locations/dlf-phase-1",
+      "robots": "index, follow",
+      "jsonLdCount": 2,
+      "jsonLdTypes": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false,
+      "hasRcScript": false,
+      "mainHash": "4d560ce140298ff5dff0bbf35d48dcf3c1d07a4f6d6bc8dc6009fa4328735821",
+      "fullHtmlHash": "9bf323a3ef5d38f3c289b36afcb2dca52038440d54f5caeb2efd35f8c49e7566",
+      "mainHtmlSnippet": 59790
+    },
+    {
+      "slug": "dlf-phase-2",
+      "url": "/locations/dlf-phase-2",
+      "status": 200,
+      "title": "Escort Service in DLF Phase 2, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in DLF Phase 2, Gurgaon",
+      "canonical": "https://escort.alinavip.com/locations/dlf-phase-2",
+      "robots": "index, follow",
+      "jsonLdCount": 2,
+      "jsonLdTypes": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false,
+      "hasRcScript": false,
+      "mainHash": "3bbbbb1ec40297ea8a9ce1459d5d149c2b7effb20044ce045bef86a5c799dfb1",
+      "fullHtmlHash": "f6df35b61951677080e0d00693982a2ce94ecc3815ac366503c3d535d6ad4a6f",
+      "mainHtmlSnippet": 59328
+    },
+    {
+      "slug": "dlf-phase-3",
+      "url": "/locations/dlf-phase-3",
+      "status": 200,
+      "title": "Escort Service in DLF Phase 3, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in DLF Phase 3, Gurgaon",
+      "canonical": "https://escort.alinavip.com/locations/dlf-phase-3",
+      "robots": "index, follow",
+      "jsonLdCount": 2,
+      "jsonLdTypes": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false,
+      "hasRcScript": false,
+      "mainHash": "1ac211886ccce2f65f092aec06b28c30c4ee2c71d84d1bc2faf6d58d52031ddd",
+      "fullHtmlHash": "db8ec294c196ae950a81ccb23b093bb03bc8d560f66fa65fb907a22e3234ce0a",
+      "mainHtmlSnippet": 58896
+    },
+    {
+      "slug": "golf-course-road",
+      "url": "/locations/golf-course-road",
+      "status": 200,
+      "title": "Escort Service in Golf Course Road, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in Golf Course Road, Gurgaon",
+      "canonical": "https://escort.alinavip.com/locations/golf-course-road",
+      "robots": "index, follow",
+      "jsonLdCount": 2,
+      "jsonLdTypes": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false,
+      "hasRcScript": false,
+      "mainHash": "0bd20885b5648b7a290ac966955cd83d6276716caa5e14d8937994318aaea461",
+      "fullHtmlHash": "3528b45294b93f9aee99f728ec5d9da946cf8617074a830bc6f9123d30b8aa4c",
+      "mainHtmlSnippet": 61007
+    },
+    {
+      "slug": "cyber-city",
+      "url": "/locations/cyber-city",
+      "status": 200,
+      "title": "Escort Service in Cyber City, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in Cyber City, Gurgaon",
+      "canonical": "https://escort.alinavip.com/locations/cyber-city",
+      "robots": "index, follow",
+      "jsonLdCount": 2,
+      "jsonLdTypes": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false,
+      "hasRcScript": false,
+      "mainHash": "6f1bf1af8a85cddcfd3e347d65784a0044dff2008e30c153b482087d6ed67567",
+      "fullHtmlHash": "fdfff7d1b83605f5b2ed1dbf13448c33ba3249d115709c0215786eb9b3dc8e33",
+      "mainHtmlSnippet": 60562
+    },
+    {
+      "slug": "sohna-road",
+      "url": "/locations/sohna-road",
+      "status": 200,
+      "title": "Escort Service in Sohna Road, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in Sohna Road, Gurgaon",
+      "canonical": "https://escort.alinavip.com/locations/sohna-road",
+      "robots": "index, follow",
+      "jsonLdCount": 2,
+      "jsonLdTypes": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false,
+      "hasRcScript": false,
+      "mainHash": "3c7b9b60e612a5cb30180801d0d40407f8d21f8167a4ffb59bb99e536c17e4f2",
+      "fullHtmlHash": "8f4997c9b65b035a699d02f7768d01ed6f4125480ed21d41709d621639431d86",
+      "mainHtmlSnippet": 60315
+    },
+    {
+      "slug": "mg-road",
+      "url": "/locations/mg-road",
+      "status": 200,
+      "title": "Escort Service in MG Road, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in MG Road, Gurgaon",
+      "canonical": "https://escort.alinavip.com/locations/mg-road",
+      "robots": "index, follow",
+      "jsonLdCount": 2,
+      "jsonLdTypes": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false,
+      "hasRcScript": false,
+      "mainHash": "50163e97119c8f736fb8db24d424c6fe91bc3413a77a7971905f3ae5b4760b07",
+      "fullHtmlHash": "1a6e69a284cc251855c862ff37057cb73bc36f7affef0aa826a548155532ff60",
+      "mainHtmlSnippet": 59794
+    },
+    {
+      "slug": "sushant-lok",
+      "url": "/locations/sushant-lok",
+      "status": 200,
+      "title": "Escort Service in Sushant Lok, Gurgaon | VIP Call Girls | ALINA VIP",
+      "h1": "Escort Service in Sushant Lok, Gurgaon",
+      "canonical": "https://escort.alinavip.com/locations/sushant-lok",
+      "robots": "index, follow",
+      "jsonLdCount": 2,
+      "jsonLdTypes": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1InMain": true,
+      "hasLoadingTemplate": false,
+      "hasHiddenStreaming": false,
+      "hasRcScript": false,
+      "mainHash": "a3640f4a8f4bbcac3a4d82424132cd157d8a49aab7e95869ad78fa61c8dccaa5",
+      "fullHtmlHash": "6f847eba10f0904dc87f3b47193fcf8a85d882a5385e8672161acb7f7f592f5b",
+      "mainHtmlSnippet": 59037
+    }
+  ],
+  "duplicateCheckResults": {
+    "totalChecked": 12,
+    "uniqueFullHtmlHashes": 12,
+    "isFullHtml100PercentUnique": true,
+    "uniqueMainHashes": 12,
+    "isMain100PercentUnique": true,
+    "uniqueTitles": 12,
+    "isTitles100PercentUnique": true,
+    "uniqueH1s": 12,
+    "isH1s100PercentUnique": true
+  },
+  "regressionResults": {
+    "manifestArchitecture": {
+      "indexCount": 69,
+      "noindexCount": 37,
+      "redirectCount": 2,
+      "totalCount": 108,
+      "matchesExpected69_37_2": true
+    },
+    "redirects": [
+      {
+        "slug": "sector-41",
+        "expectedTarget": "/locations/south-city",
+        "status": 308,
+        "locationHeader": "/locations/south-city"
+      },
+      {
+        "slug": "sector-58",
+        "expectedTarget": "/locations/golf-course-extension-road",
+        "status": 308,
+        "locationHeader": "/locations/golf-course-extension-road"
+      }
+    ],
+    "notFoundStatus": 404,
+    "noindexSample": {
+      "slug": "sector-17",
+      "status": 200,
+      "robots": "noindex, follow",
+      "hasNoindex": true
+    },
+    "indexSample": {
+      "slug": "gurgaon",
+      "status": 200,
+      "robots": "index, follow",
+      "hasIndex": true
+    },
+    "sitemap": {
+      "status": 200,
+      "locTagCount": 97
+    }
+  }
+}
