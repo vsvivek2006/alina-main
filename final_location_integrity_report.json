@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-09-13T02:42:56.931Z",
+  "manifestSource": "src/data/final_location_manifest.json",
+  "counts": {
+    "totalLocationsInManifest": 108,
+    "totalLocationsInData": 108,
+    "INDEX": 69,
+    "NOINDEX": 37,
+    "REDIRECT": 2
+  },
+  "verifications": {
+    "duplicateSlugs": 0,
+    "missingSlugs": 0,
+    "manifestDataMismatch": 0,
+    "sitemapMismatch": 0,
+    "canonicalMismatch": 0,
+    "redirectMismatch": 0
+  },
+  "approvedTargetsVerified": {
+    "sector-41": "/locations/south-city",
+    "sector-58": "/locations/golf-course-extension-road"
+  },
+  "redirects": [
+    {
+      "slug": "sector-41",
+      "target": "/locations/south-city",
+      "matched": true
+    },
+    {
+      "slug": "sector-58",
+      "target": "/locations/golf-course-extension-road",
+      "matched": true
+    }
+  ],
+  "integrityStatus": "PERFECT"
+}

@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -73,8 +74,16 @@ export default function BlogPage() {
             </p>
           </div>
 
-          {/* Interactive Category Filter & Post Grid */}
-          <BlogFilter posts={blogPosts} categories={blogCategories} />
+          {/* Interactive Search, Category Filter & Post Grid */}
+          <Suspense
+            fallback={
+              <div className="text-center py-16 text-gray-400">
+                <p>Loading articles...</p>
+              </div>
+            }
+          >
+            <BlogFilter posts={blogPosts} categories={blogCategories} />
+          </Suspense>
         </div>
       </section>
 

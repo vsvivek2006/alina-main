@@ -1,0 +1,172 @@
+[
+  {
+    "url": "/",
+    "type": "static homepage",
+    "httpStatus": 200,
+    "robots": "index, follow",
+    "canonical": "https://escort.alinavip.com",
+    "sitemapStatus": "INCLUDED",
+    "title": "Escort Service in Gurgaon | VIP Call Girls | ALINA VIP",
+    "description": "ALINA VIP provides elite, verified escort services and VIP call girls across Gurgaon and Delhi NCR. 100% discreet, professional hotel and residential outcalls."
+  },
+  {
+    "url": "/services",
+    "type": "static",
+    "httpStatus": 200,
+    "robots": "index, follow",
+    "canonical": "https://escort.alinavip.com/services",
+    "sitemapStatus": "INCLUDED",
+    "title": "Our Escort Services in Gurgaon | Service Categories | ALINA VIP",
+    "description": "Explore our full range of luxury escort services in Gurgaon. Russian call girls, VIP escorts, models, college girls &amp; celebrity escorts. Available 24/7."
+  },
+  {
+    "url": "/locations",
+    "type": "static directory",
+    "httpStatus": 200,
+    "robots": "index, follow",
+    "canonical": "https://escort.alinavip.com/locations",
+    "sitemapStatus": "INCLUDED",
+    "title": "Escort Service Locations in Gurgaon &amp; Delhi NCR | ALINA VIP",
+    "description": "Find premium escort service across prime locations in Gurgaon and Delhi NCR. Cyber City, Golf Course Road, DLF Phases 1-5, Sohna Road, Aerocity &amp; more. Rapid 20-30 min outcall."
+  },
+  {
+    "url": "/locations/gurgaon",
+    "type": "INDEX location page",
+    "httpStatus": 200,
+    "robots": "index, follow",
+    "canonical": "https://escort.alinavip.com/locations/gurgaon",
+    "sitemapStatus": "INCLUDED",
+    "title": "Gurgaon Escort Service Directory &amp; Local Areas | ALINA VIP",
+    "description": "Gurgaon central outcall directory and VIP escort service. Verified call girls, luxury hotel outcalls, 20-30 min arrival across Cyber City, DLF &amp; Golf Course Rd."
+  },
+  {
+    "url": "/locations/cyber-city",
+    "type": "INDEX location page",
+    "httpStatus": 200,
+    "robots": "index, follow",
+    "canonical": "https://escort.alinavip.com/locations/cyber-city",
+    "sitemapStatus": "INCLUDED",
+    "title": "Escort Service in Cyber City, Gurgaon | VIP Call Girls | ALINA VIP",
+    "description": "Book sophisticated call girls in Cyber City, Gurgaon. Verified VIP escorts for The Oberoi, Trident, and Cyber Hub dinners. Call +91-9996265679."
+  },
+  {
+    "url": "/locations/sector-32",
+    "type": "INDEX location page",
+    "httpStatus": 200,
+    "robots": "index, follow",
+    "canonical": "https://escort.alinavip.com/locations/sector-32",
+    "sitemapStatus": "INCLUDED",
+    "title": "Escort Service in Sector 32, Gurgaon | VIP Call Girls | ALINA VIP",
+    "description": "Book verified call girls in Sector 32, Gurgaon. Discreet outcalls near Medanta The Medicity, Institutional Area, and NH-48. Call +91-9996265679."
+  },
+  {
+    "url": "/locations/sector-17",
+    "type": "NOINDEX location page",
+    "httpStatus": 200,
+    "robots": "noindex, follow",
+    "canonical": "https://escort.alinavip.com/locations/sector-17",
+    "sitemapStatus": "EXCLUDED",
+    "title": "Escort Service in Sector 17, Gurgaon | VIP Call Girls | ALINA VIP",
+    "description": "Book verified call girls in Sector 17, Gurgaon. Discreet outcalls near IFFCO Chowk, Bata Chowk, and NH-48. 24/7 service. Call +91-9996265679."
+  },
+  {
+    "url": "/locations/sector-41",
+    "type": "REDIRECT location page",
+    "httpStatus": 308,
+    "robots": null,
+    "canonical": null,
+    "sitemapStatus": "EXCLUDED",
+    "title": null,
+    "description": null
+  },
+  {
+    "url": "/locations/sector-58",
+    "type": "REDIRECT location page",
+    "httpStatus": 308,
+    "robots": null,
+    "canonical": null,
+    "sitemapStatus": "EXCLUDED",
+    "title": null,
+    "description": null
+  },
+  {
+    "url": "/category/russian-call-girls",
+    "type": "category page",
+    "httpStatus": 200,
+    "robots": "index, follow",
+    "canonical": "https://escort.alinavip.com/category/russian-call-girls",
+    "sitemapStatus": "INCLUDED",
+    "title": "Russian Call Girls | Escort Service in Gurgaon | VIP Call Girls | ALINA VIP",
+    "description": "Exotic European call girls with elegance and charm. ALINA VIP offers verified russian call girls in Gurgaon. Premium escort service, 100% discreet. Call now for booking."
+  },
+  {
+    "url": "/blog",
+    "type": "blog index page",
+    "httpStatus": 200,
+    "robots": "index, follow",
+    "canonical": "https://escort.alinavip.com/blog",
+    "sitemapStatus": "INCLUDED",
+    "title": "Escort Service Blog | Call Girls Tips &amp; Lifestyle | ALINA VIP",
+    "description": "Read our blog for insights on escort service in Gurgaon, VIP call girls, Russian escorts, nightlife, dating tips, and luxury lifestyle. Expert guides and articles for discerning gentlemen."
+  },
+  {
+    "url": "/blog/best-escort-service-gurgaon-guide",
+    "type": "blog post page",
+    "httpStatus": 200,
+    "robots": "index, follow",
+    "canonical": "https://escort.alinavip.com/blog/best-escort-service-gurgaon-guide",
+    "sitemapStatus": "INCLUDED",
+    "title": "How to Select the Best Escort Service in Gurgaon: Client Guide (2026) | Escort Service Blog | ALINA VIP",
+    "description": "Find the best escort service in Gurgaon with verified call girls, VIP escorts, Russian escorts, and model escorts. 100% discreet service available 24/7."
+  },
+  {
+    "url": "/faq",
+    "type": "static page",
+    "httpStatus": 200,
+    "robots": "index, follow",
+    "canonical": "https://escort.alinavip.com/faq",
+    "sitemapStatus": "INCLUDED",
+    "title": "FAQ | Escort Service in Gurgaon | VIP Call Girls Questions | ALINA VIP",
+    "description": "Find answers to frequently asked questions about escort service in Gurgaon. Learn about VIP call girls, Russian escorts, booking, verification, discretion, and more."
+  },
+  {
+    "url": "/contact",
+    "type": "static page",
+    "httpStatus": 200,
+    "robots": "index, follow",
+    "canonical": "https://escort.alinavip.com/contact",
+    "sitemapStatus": "INCLUDED",
+    "title": "Contact Us | Book Luxury Escort Service in Gurgaon | ALINA VIP",
+    "description": "Contact ALINA VIP for premium luxury escort service in Gurgaon. Call +91-9996265679 or book online. Available 24/7 with 100% discretion and rapid hotel outcall."
+  },
+  {
+    "url": "/locations/invalid-slug-99999",
+    "type": "invalid dynamic route",
+    "httpStatus": 404,
+    "robots": "noindex",
+    "canonical": null,
+    "sitemapStatus": "EXCLUDED",
+    "title": "ALINA VIP | Premium Luxury Escort Service in Gurgaon",
+    "description": "ALINA VIP offers premium luxury escort service in Gurgaon. Verified profiles, VIP escorts, Russian call girls, 100% discreet hotel &amp; residence outcalls. Available 24/7."
+  },
+  {
+    "url": "/category/invalid-cat-99999",
+    "type": "invalid category route",
+    "httpStatus": 404,
+    "robots": "noindex",
+    "canonical": null,
+    "sitemapStatus": "EXCLUDED",
+    "title": "ALINA VIP | Premium Luxury Escort Service in Gurgaon",
+    "description": "ALINA VIP offers premium luxury escort service in Gurgaon. Verified profiles, VIP escorts, Russian call girls, 100% discreet hotel &amp; residence outcalls. Available 24/7."
+  },
+  {
+    "url": "/blog/invalid-post-99999",
+    "type": "invalid blog route",
+    "httpStatus": 404,
+    "robots": "noindex",
+    "canonical": null,
+    "sitemapStatus": "EXCLUDED",
+    "title": "ALINA VIP | Premium Luxury Escort Service in Gurgaon",
+    "description": "ALINA VIP offers premium luxury escort service in Gurgaon. Verified profiles, VIP escorts, Russian call girls, 100% discreet hotel &amp; residence outcalls. Available 24/7."
+  }
+]

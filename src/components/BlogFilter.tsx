@@ -1,9 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Calendar, Clock, Eye, User, ArrowRight } from 'lucide-react';
+import { Calendar, Clock, Eye, User, ArrowRight, Search, X } from 'lucide-react';
 import { BlogPost } from '@/data/blogs';
 
 interface BlogFilterProps {
@@ -12,18 +13,129 @@ interface BlogFilterProps {
 }
 
 export default function BlogFilter({ posts, categories }: BlogFilterProps) {
-  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const searchParams = useSearchParams();
+  const [searchQuery, setSearchQuery] = useState(searchParams.get('search') || '');
+  const [activeCategory, setActiveCategory] = useState<string | null>(
+    searchParams.get('category') || null
+  );
 
-  const filteredPosts = activeCategory
-    ? posts.filter((p) => p.category === activeCategory)
-    : posts;
+  useEffect(() => {
+    const q = searchParams.get('search') || '';
+    const cat = searchParams.get('category') || null;
+    setSearchQuery(q);
+    setActiveCategory(cat);
+  }, [searchParams]);
+
+  const updateUrl = (query: string, category: string | null) => {
+    const params = new URLSearchParams();
+    if (query.trim()) params.set('search', query.trim());
+    if (category) params.set('category', category);
+    const qs = params.toString();
+    const targetUrl = qs ? `/blog?${qs}` : '/blog';
+    window.history.replaceState(null, '', targetUrl);
+  };
+
+  const handleSearchChange = (val: string) => {
+    setSearchQuery(val);
+    updateUrl(val, activeCategory);
+  };
+
+  const handleCategoryChange = (cat: string | null) => {
+    setActiveCategory(cat);
+    updateUrl(searchQuery, cat);
+  };
+
+  const handleClearFilters = () => {
+    setSearchQuery('');
+    setActiveCategory(null);
+    updateUrl('', null);
+  };
+
+  const trimmedQuery = searchQuery.toLowerCase().trim();
+
+  const filteredPosts = posts.filter((post) => {
+    if (activeCategory && post.category !== activeCategory) {
+      return false;
+    }
+
+    if (!trimmedQuery) {
+      return true;
+    }
+
+    const inTitle = post.title.toLowerCase().includes(trimmedQuery);
+    const inExcerpt = post.excerpt.toLowerCase().includes(trimmedQuery);
+    const inCategory = post.category.toLowerCase().includes(trimmedQuery);
+    const inTags =
+      Array.isArray(post.tags) &&
+      post.tags.some((t) => t.toLowerCase().includes(trimmedQuery));
+
+    return inTitle || inExcerpt || inCategory || inTags;
+  });
 
   return (
     <>
+      {/* Search Input Box */}
+      <div className="max-w-xl mx-auto mb-8">
+        <div className="relative flex items-center">
+          <label htmlFor="blog-search" className="sr-only">
+            Search blog articles
+          </label>
+          <div className="absolute left-4 pointer-events-none text-gray-400">
+            <Search className="w-5 h-5 text-gold-600" />
+          </div>
+          <input
+            id="blog-search"
+            type="search"
+            role="searchbox"
+            value={searchQuery}
+            onChange={(e) => handleSearchChange(e.target.value)}
+            placeholder="Search articles by keyword, topic, or tag..."
+            className="w-full bg-[#faf6f2] border border-gold-200/80 rounded-full pl-12 pr-12 py-3.5 text-sm text-gray-800 placeholder-gray-400 focus:border-gold-500 focus:bg-white focus:outline-none transition-all shadow-sm"
+          />
+          {searchQuery && (
+            <button
+              type="button"
+              onClick={() => handleSearchChange('')}
+              aria-label="Clear search"
+              className="absolute right-4 p-1 rounded-full text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          )}
+        </div>
+        {(searchQuery.trim() || activeCategory) && (
+          <div className="flex items-center justify-between mt-3 px-2 text-xs text-gray-500">
+            <span>
+              Showing {filteredPosts.length} of {posts.length}{' '}
+              {filteredPosts.length === 1 ? 'article' : 'articles'}
+              {searchQuery.trim() && (
+                <>
+                  {' '}
+                  for &ldquo;<strong className="text-gray-700">{searchQuery.trim()}</strong>&rdquo;
+                </>
+              )}
+              {activeCategory && (
+                <>
+                  {' '}
+                  in <strong className="text-gold-700">{activeCategory}</strong>
+                </>
+              )}
+            </span>
+            <button
+              type="button"
+              onClick={handleClearFilters}
+              className="text-gold-600 hover:underline font-medium ml-2"
+            >
+              Reset filters
+            </button>
+          </div>
+        )}
+      </div>
+
       {/* Category Filter Pills */}
       <div className="flex flex-wrap justify-center gap-3 mb-12">
         <button
-          onClick={() => setActiveCategory(null)}
+          onClick={() => handleCategoryChange(null)}
           className={`px-6 py-3 text-sm tracking-wider uppercase transition-all rounded-full font-semibold ${
             activeCategory === null
               ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
@@ -35,7 +147,7 @@ export default function BlogFilter({ posts, categories }: BlogFilterProps) {
         {categories.map((cat) => (
           <button
             key={cat}
-            onClick={() => setActiveCategory(cat)}
+            onClick={() => handleCategoryChange(cat)}
             className={`px-6 py-3 text-sm tracking-wider uppercase transition-all rounded-full font-semibold ${
               activeCategory === cat
                 ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
@@ -118,15 +230,20 @@ export default function BlogFilter({ posts, categories }: BlogFilterProps) {
       </div>
 
       {filteredPosts.length === 0 && (
-        <div className="text-center py-16">
-          <p className="text-gray-500 text-lg">No articles found in this category.</p>
-          <p className="text-gray-400 mt-2">
-            Check back soon for more{' '}
-            <Link href="/blog" className="text-gold-600 hover:underline">
-              escort service articles
-            </Link>
-            .
+        <div className="text-center py-16 bg-[#faf6f2] rounded-3xl border border-gold-200/60 p-8 max-w-2xl mx-auto">
+          <p className="text-gray-700 text-lg font-semibold mb-2">No articles match your criteria</p>
+          <p className="text-gray-500 text-sm mb-6">
+            We couldn&apos;t find any articles matching
+            {searchQuery.trim() ? ` "${searchQuery.trim()}"` : ''}
+            {activeCategory ? ` in ${activeCategory}` : ''}.
           </p>
+          <button
+            type="button"
+            onClick={handleClearFilters}
+            className="px-6 py-2.5 bg-gold-600 hover:bg-gold-700 text-white rounded-full text-sm font-semibold transition-all shadow-md"
+          >
+            Clear Filters &amp; View All Articles
+          </button>
         </div>
       )}
     </>

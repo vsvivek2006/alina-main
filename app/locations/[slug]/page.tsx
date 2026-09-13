@@ -22,14 +22,13 @@ import { siteConfig } from '@/data/siteConfig';
 import { getLocation, locations } from '@/data/locations';
 import { categories } from '@/data/categories';
 import {
-  getLocationManifestEntry,
   isLocationIndexable,
   isLocationRedirect,
   getRedirectDestination,
 } from '@/data/locationManifest';
 
 interface LocationPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export const dynamicParams = false;
@@ -43,12 +42,13 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: LocationPageProps): Promise<Metadata> {
-  const location = getLocation(params.slug);
+  const { slug } = await params;
+  const location = getLocation(slug);
   if (!location) {
     notFound();
   }
 
-  if (isLocationRedirect(params.slug)) {
+  if (isLocationRedirect(slug)) {
     return {
       robots: {
         index: false,
@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
     };
   }
 
-  const isIndexable = isLocationIndexable(params.slug);
+  const isIndexable = isLocationIndexable(slug);
 
   const title =
     location.slug === 'gurgaon'
@@ -90,16 +90,17 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
   };
 }
 
-export default function LocationPage({ params }: LocationPageProps) {
-  if (isLocationRedirect(params.slug)) {
-    const target = getRedirectDestination(params.slug);
+export default async function LocationPage({ params }: LocationPageProps) {
+  const { slug } = await params;
+  if (isLocationRedirect(slug)) {
+    const target = getRedirectDestination(slug);
     if (target) {
       redirect(target);
     }
     notFound();
   }
 
-  const location = getLocation(params.slug);
+  const location = getLocation(slug);
 
   if (!location) {
     notFound();

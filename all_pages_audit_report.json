@@ -1,0 +1,1141 @@
+{
+  "summary": {
+    "totalUrlsTested": 161,
+    "statusCodeCounts": {
+      "200": 139,
+      "308": 18,
+      "404": 4
+    },
+    "totalRenderingIssues": 0,
+    "renderingIssues": []
+  },
+  "results": [
+    {
+      "url": "/",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 335182,
+      "issue": null
+    },
+    {
+      "url": "/about",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 152216,
+      "issue": null
+    },
+    {
+      "url": "/blog",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 110992,
+      "issue": null
+    },
+    {
+      "url": "/contact",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 127677,
+      "issue": null
+    },
+    {
+      "url": "/disclaimer",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 65469,
+      "issue": null
+    },
+    {
+      "url": "/faq",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 164697,
+      "issue": null
+    },
+    {
+      "url": "/gallery",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 232512,
+      "issue": null
+    },
+    {
+      "url": "/locations",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 313303,
+      "issue": null
+    },
+    {
+      "url": "/privacy-policy",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 69089,
+      "issue": null
+    },
+    {
+      "url": "/robots.txt",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 104,
+      "issue": null
+    },
+    {
+      "url": "/services",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 237353,
+      "issue": null
+    },
+    {
+      "url": "/sitemap.xml",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 17130,
+      "issue": null
+    },
+    {
+      "url": "/terms",
+      "type": "static",
+      "statusCode": 200,
+      "bodyLength": 69130,
+      "issue": null
+    },
+    {
+      "url": "/category/russian-call-girls",
+      "type": "category",
+      "statusCode": 200,
+      "bodyLength": 180820,
+      "issue": null
+    },
+    {
+      "url": "/category/vip-call-girls",
+      "type": "category",
+      "statusCode": 200,
+      "bodyLength": 180421,
+      "issue": null
+    },
+    {
+      "url": "/category/high-profile-girls",
+      "type": "category",
+      "statusCode": 200,
+      "bodyLength": 179962,
+      "issue": null
+    },
+    {
+      "url": "/category/college-girls",
+      "type": "category",
+      "statusCode": 200,
+      "bodyLength": 179481,
+      "issue": null
+    },
+    {
+      "url": "/category/independent-girls",
+      "type": "category",
+      "statusCode": 200,
+      "bodyLength": 179842,
+      "issue": null
+    },
+    {
+      "url": "/category/air-hostess",
+      "type": "category",
+      "statusCode": 200,
+      "bodyLength": 179577,
+      "issue": null
+    },
+    {
+      "url": "/category/model-escorts",
+      "type": "category",
+      "statusCode": 200,
+      "bodyLength": 180355,
+      "issue": null
+    },
+    {
+      "url": "/category/celebrity-escorts",
+      "type": "category",
+      "statusCode": 200,
+      "bodyLength": 180249,
+      "issue": null
+    },
+    {
+      "url": "/category/travel-escorts",
+      "type": "category",
+      "statusCode": 200,
+      "bodyLength": 179599,
+      "issue": null
+    },
+    {
+      "url": "/category/housewife-escorts",
+      "type": "category",
+      "statusCode": 200,
+      "bodyLength": 179844,
+      "issue": null
+    },
+    {
+      "url": "/category/premium-escorts",
+      "type": "category",
+      "statusCode": 200,
+      "bodyLength": 179525,
+      "issue": null
+    },
+    {
+      "url": "/blog/best-escort-service-gurgaon-guide",
+      "type": "blog",
+      "statusCode": 200,
+      "bodyLength": 118630,
+      "issue": null
+    },
+    {
+      "url": "/blog/russian-escorts-gurgaon-guide",
+      "type": "blog",
+      "statusCode": 200,
+      "bodyLength": 114846,
+      "issue": null
+    },
+    {
+      "url": "/blog/vip-call-girls-gurgaon",
+      "type": "blog",
+      "statusCode": 200,
+      "bodyLength": 114789,
+      "issue": null
+    },
+    {
+      "url": "/blog/luxury-dining-experiences-gurgaon",
+      "type": "blog",
+      "statusCode": 200,
+      "bodyLength": 116814,
+      "issue": null
+    },
+    {
+      "url": "/blog/luxury-hotels-gurgaon-guide",
+      "type": "blog",
+      "statusCode": 200,
+      "bodyLength": 115942,
+      "issue": null
+    },
+    {
+      "url": "/blog/gurgaon-nightlife-guide",
+      "type": "blog",
+      "statusCode": 200,
+      "bodyLength": 116213,
+      "issue": null
+    },
+    {
+      "url": "/blog/premium-living-gurgaon",
+      "type": "blog",
+      "statusCode": 200,
+      "bodyLength": 116519,
+      "issue": null
+    },
+    {
+      "url": "/blog/first-date-tips-luxury",
+      "type": "blog",
+      "statusCode": 200,
+      "bodyLength": 116328,
+      "issue": null
+    },
+    {
+      "url": "/blog/weekend-getaways-from-gurgaon",
+      "type": "blog",
+      "statusCode": 200,
+      "bodyLength": 116496,
+      "issue": null
+    },
+    {
+      "url": "/locations/gurgaon",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 325479,
+      "issue": null
+    },
+    {
+      "url": "/locations/dlf-phase-1",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 194800,
+      "issue": null
+    },
+    {
+      "url": "/locations/dlf-phase-2",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 193866,
+      "issue": null
+    },
+    {
+      "url": "/locations/dlf-phase-3",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 192888,
+      "issue": null
+    },
+    {
+      "url": "/locations/dlf-phase-4",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 193073,
+      "issue": null
+    },
+    {
+      "url": "/locations/dlf-phase-5",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 197801,
+      "issue": null
+    },
+    {
+      "url": "/locations/golf-course-road",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 198046,
+      "issue": null
+    },
+    {
+      "url": "/locations/golf-course-extension-road",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 196274,
+      "issue": null
+    },
+    {
+      "url": "/locations/mg-road",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 195185,
+      "issue": null
+    },
+    {
+      "url": "/locations/cyber-city",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 196839,
+      "issue": null
+    },
+    {
+      "url": "/locations/sushant-lok",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 193161,
+      "issue": null
+    },
+    {
+      "url": "/locations/south-city",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 192998,
+      "issue": null
+    },
+    {
+      "url": "/locations/sohna-road",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 196333,
+      "issue": null
+    },
+    {
+      "url": "/locations/huda-city-centre",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 196983,
+      "issue": null
+    },
+    {
+      "url": "/locations/manesar",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 195477,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-14",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 186954,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-15",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 186638,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-17",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186287,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-18",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 187993,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-21",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 189149,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-22",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186970,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-23",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 185272,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-29",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 191598,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-30",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186282,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-31",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 186809,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-32",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 188080,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-40",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186302,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-41",
+      "type": "location (REDIRECT)",
+      "statusCode": 308,
+      "bodyLength": 21,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-43",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 188912,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-44",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 187442,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-45",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 186965,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-46",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186604,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-47",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 187434,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-49",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 187100,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-50",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 187195,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-51",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 186885,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-52",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186354,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-53",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 187183,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-54",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 187290,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-55",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186883,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-56",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 187201,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-57",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 186848,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-58",
+      "type": "location (REDIRECT)",
+      "statusCode": 308,
+      "bodyLength": 37,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-59",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186869,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-60",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186488,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-61",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 185067,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-62",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 185027,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-63",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 184819,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-65",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 189678,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-66",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 186639,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-67",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186445,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-70",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186683,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-71",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 184686,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-72",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 185200,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-74",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 187687,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-76",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 183842,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-77",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 185918,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-81",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 185853,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-82",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 184204,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-83",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 186632,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-84",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 183974,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-85",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 183871,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-86",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 184857,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-88",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 184175,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-89",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 184009,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-90",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186137,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-91",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 184725,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-92",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 184140,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-93",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 183810,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-95",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 183954,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-102",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186962,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-103",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 184713,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-104",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 186146,
+      "issue": null
+    },
+    {
+      "url": "/locations/sector-105",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 188314,
+      "issue": null
+    },
+    {
+      "url": "/locations/delhi-ncr",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 264365,
+      "issue": null
+    },
+    {
+      "url": "/locations/noida",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 207030,
+      "issue": null
+    },
+    {
+      "url": "/locations/greater-noida",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 187784,
+      "issue": null
+    },
+    {
+      "url": "/locations/ghaziabad",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 185008,
+      "issue": null
+    },
+    {
+      "url": "/locations/faridabad",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 188128,
+      "issue": null
+    },
+    {
+      "url": "/locations/delhi",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 192779,
+      "issue": null
+    },
+    {
+      "url": "/locations/south-delhi",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 191484,
+      "issue": null
+    },
+    {
+      "url": "/locations/new-delhi",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 188915,
+      "issue": null
+    },
+    {
+      "url": "/locations/aerocity",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 191217,
+      "issue": null
+    },
+    {
+      "url": "/locations/chanakyapuri",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 188822,
+      "issue": null
+    },
+    {
+      "url": "/locations/vasant-vihar",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 185726,
+      "issue": null
+    },
+    {
+      "url": "/locations/greater-kailash",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 188308,
+      "issue": null
+    },
+    {
+      "url": "/locations/saket",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 186411,
+      "issue": null
+    },
+    {
+      "url": "/locations/hauz-khas",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 186911,
+      "issue": null
+    },
+    {
+      "url": "/locations/defence-colony",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 185711,
+      "issue": null
+    },
+    {
+      "url": "/locations/lajpat-nagar",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 185313,
+      "issue": null
+    },
+    {
+      "url": "/locations/nehru-place",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 187581,
+      "issue": null
+    },
+    {
+      "url": "/locations/green-park",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 185446,
+      "issue": null
+    },
+    {
+      "url": "/locations/karol-bagh",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 186179,
+      "issue": null
+    },
+    {
+      "url": "/locations/connaught-place",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 188984,
+      "issue": null
+    },
+    {
+      "url": "/locations/dwarka",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 189252,
+      "issue": null
+    },
+    {
+      "url": "/locations/rohini",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 184342,
+      "issue": null
+    },
+    {
+      "url": "/locations/pitampura",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 186257,
+      "issue": null
+    },
+    {
+      "url": "/locations/janakpuri",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 184052,
+      "issue": null
+    },
+    {
+      "url": "/locations/rajouri-garden",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 185859,
+      "issue": null
+    },
+    {
+      "url": "/locations/mahipalpur",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 188258,
+      "issue": null
+    },
+    {
+      "url": "/locations/noida-sector-18",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 189238,
+      "issue": null
+    },
+    {
+      "url": "/locations/noida-sector-27",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 183177,
+      "issue": null
+    },
+    {
+      "url": "/locations/noida-sector-29",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 185228,
+      "issue": null
+    },
+    {
+      "url": "/locations/noida-sector-32",
+      "type": "location (NOINDEX)",
+      "statusCode": 200,
+      "bodyLength": 185200,
+      "issue": null
+    },
+    {
+      "url": "/locations/noida-sector-62",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 185985,
+      "issue": null
+    },
+    {
+      "url": "/locations/noida-sector-63",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 184668,
+      "issue": null
+    },
+    {
+      "url": "/locations/noida-sector-137",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 187587,
+      "issue": null
+    },
+    {
+      "url": "/locations/noida-sector-142",
+      "type": "location (INDEX)",
+      "statusCode": 200,
+      "bodyLength": 187035,
+      "issue": null
+    },
+    {
+      "url": "/call-girls",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 9,
+      "issue": null
+    },
+    {
+      "url": "/escorts",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 9,
+      "issue": null
+    },
+    {
+      "url": "/russian-escorts",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 28,
+      "issue": null
+    },
+    {
+      "url": "/vip-escorts",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 24,
+      "issue": null
+    },
+    {
+      "url": "/model-escorts",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 23,
+      "issue": null
+    },
+    {
+      "url": "/college-girls",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 23,
+      "issue": null
+    },
+    {
+      "url": "/housewife-escorts",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 27,
+      "issue": null
+    },
+    {
+      "url": "/independent-escorts",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 27,
+      "issue": null
+    },
+    {
+      "url": "/air-hostess-escorts",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 21,
+      "issue": null
+    },
+    {
+      "url": "/celebrity-escorts",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 27,
+      "issue": null
+    },
+    {
+      "url": "/category/celebrity-call-girls",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 27,
+      "issue": null
+    },
+    {
+      "url": "/travel-escorts",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 24,
+      "issue": null
+    },
+    {
+      "url": "/vip-call-girls",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 24,
+      "issue": null
+    },
+    {
+      "url": "/category",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 9,
+      "issue": null
+    },
+    {
+      "url": "/robot.txt",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 11,
+      "issue": null
+    },
+    {
+      "url": "/llm.txt",
+      "type": "configured_redirect",
+      "statusCode": 308,
+      "bodyLength": 9,
+      "issue": null
+    },
+    {
+      "url": "/non-existent-random-page-xyz",
+      "type": "intentional_404_test",
+      "statusCode": 404,
+      "bodyLength": 63293,
+      "issue": null
+    },
+    {
+      "url": "/locations/non-existent-sector-999",
+      "type": "intentional_404_test",
+      "statusCode": 404,
+      "bodyLength": 63293,
+      "issue": null
+    },
+    {
+      "url": "/category/non-existent-category-999",
+      "type": "intentional_404_test",
+      "statusCode": 404,
+      "bodyLength": 63293,
+      "issue": null
+    },
+    {
+      "url": "/blog/non-existent-blog-post-999",
+      "type": "intentional_404_test",
+      "statusCode": 404,
+      "bodyLength": 63293,
+      "issue": null
+    }
+  ]
+}

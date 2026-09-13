@@ -1,0 +1,32 @@
+[
+  {
+    "file": "app/locations/[slug]/page.tsx",
+    "usage": "params in generateMetadata({ params }) and LocationPage({ params })",
+    "compatible": false,
+    "requiredChange": "Convert params to Promise<{ slug: string }> and await params in both generateMetadata and LocationPage"
+  },
+  {
+    "file": "app/category/[slug]/page.tsx",
+    "usage": "params in generateMetadata({ params }) and CategoryPage({ params })",
+    "compatible": false,
+    "requiredChange": "Convert params to Promise<{ slug: string }> and await params in both generateMetadata and CategoryPage"
+  },
+  {
+    "file": "app/blog/[slug]/page.tsx",
+    "usage": "params in generateMetadata({ params }) and BlogPostPage({ params })",
+    "compatible": false,
+    "requiredChange": "Convert params to Promise<{ slug: string }> and await params in both generateMetadata and BlogPostPage"
+  },
+  {
+    "file": "src/components/BlogFilter.tsx",
+    "usage": "useSearchParams() hook in client component",
+    "compatible": true,
+    "requiredChange": "None (already wrapped in Suspense boundary in app/blog/page.tsx)"
+  },
+  {
+    "file": "next.config.js",
+    "usage": "headers() configuration export",
+    "compatible": true,
+    "requiredChange": "None (valid next.config.js async function)"
+  }
+]

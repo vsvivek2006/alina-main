@@ -26,7 +26,7 @@ import { siteConfig } from '@/data/siteConfig';
 import { getCategory, categories } from '@/data/categories';
 
 interface CategoryPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 const categoryImageMap: Record<string, string> = {
@@ -70,7 +70,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
-  const category = getCategory(params.slug);
+  const { slug } = await params;
+  const category = getCategory(slug);
   if (!category) {
     notFound();
   }
@@ -102,8 +103,9 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   };
 }
 
-export default function CategoryPage({ params }: CategoryPageProps) {
-  const category = getCategory(params.slug);
+export default async function CategoryPage({ params }: CategoryPageProps) {
+  const { slug } = await params;
+  const category = getCategory(slug);
 
   if (!category) {
     notFound();
