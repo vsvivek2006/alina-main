@@ -70,6 +70,11 @@ export const metadata: Metadata = {
       'ALINA VIP offers premium luxury escort service in Gurgaon. Verified profiles, VIP escorts, Russian call girls, 100% discreet hotel & residence outcalls.',
     images: [`${siteConfig.url}/og-image.jpg`],
   },
+  verification: {
+    other: {
+      seobility: '01d67d85a0cff8389a0210729e64aead',
+    },
+  },
 };
 
 export const viewport: Viewport = {
