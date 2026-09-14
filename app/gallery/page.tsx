@@ -76,7 +76,7 @@ export default function GalleryPage() {
       <Breadcrumb items={[{ name: 'Home', path: '/' }, { name: 'Gallery' }]} />
 
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0a0a1a] via-[#1a1a2e] to-[#2d1b0e] overflow-hidden">
+      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0f0914] via-[#1c0f24] to-[#2a1320] overflow-hidden">
         <div className="absolute inset-0 opacity-10 pointer-events-none">
           <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:24px_24px]" />
         </div>
@@ -250,7 +250,7 @@ export default function GalleryPage() {
       </section>
 
       {/* Popular Escort Services */}
-      <section className="py-16 bg-[#faf6f2] text-gray-800">
+      <section className="py-16 bg-[#faf5f2] text-gray-800">
         <div className="container-luxury">
           <div className="text-center mb-10">
             <h3 className="text-3xl font-bold text-[#1a1a2e] mb-3 font-serif">

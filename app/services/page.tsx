@@ -72,7 +72,7 @@ export default function ServicesPage() {
       <Breadcrumb items={[{ name: 'Home', path: '/' }, { name: 'Our Services' }]} />
 
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0a0a1a] via-[#1a1a2e] to-[#2d1b0e] overflow-hidden">
+      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0f0914] via-[#1c0f24] to-[#2a1320] overflow-hidden">
         <div className="absolute inset-0 opacity-10 pointer-events-none">
           <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:24px_24px]" />
         </div>
@@ -147,7 +147,7 @@ export default function ServicesPage() {
               return (
                 <div
                   key={service.slug}
-                  className="bg-[#faf6f2] p-8 rounded-2xl border border-gold-200/50 hover:border-gold-400 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group flex flex-col justify-between"
+                  className="bg-[#faf5f2] p-8 rounded-2xl border border-gold-200/50 hover:border-gold-400 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group flex flex-col justify-between"
                 >
                   <div>
                     <div className="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center mb-5 text-gold-600 group-hover:scale-110 transition-transform">
@@ -223,7 +223,7 @@ export default function ServicesPage() {
                     </div>
                   </div>
 
-                  <div className="p-6 flex-1 flex flex-col justify-between bg-[#faf6f2]">
+                  <div className="p-6 flex-1 flex flex-col justify-between bg-[#faf5f2]">
                     <p className="text-sm text-gray-600 leading-relaxed mb-4 line-clamp-3">
                       {cat.description}
                     </p>
@@ -239,7 +239,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Section 3: Supporting Guides */}
-      <section className="py-16 bg-[#faf6f2]">
+      <section className="py-16 bg-[#faf5f2]">
         <div className="container-luxury">
           <div className="text-center mb-10">
             <h3 className="text-2xl md:text-3xl font-bold text-[#1a1a2e] font-serif">
@@ -322,7 +322,7 @@ export default function ServicesPage() {
       <section className="py-16 md:py-24 bg-white text-gray-800">
         <div className="container-luxury">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-8 bg-[#faf6f2] rounded-2xl border border-gold-200/50 shadow-sm hover:shadow-md transition-shadow">
+            <div className="text-center p-8 bg-[#faf5f2] rounded-2xl border border-gold-200/50 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-14 h-14 bg-gold-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <ShieldCheck className="w-7 h-7 text-gold-600" />
               </div>
@@ -332,7 +332,7 @@ export default function ServicesPage() {
               </p>
             </div>
 
-            <div className="text-center p-8 bg-[#faf6f2] rounded-2xl border border-gold-200/50 shadow-sm hover:shadow-md transition-shadow">
+            <div className="text-center p-8 bg-[#faf5f2] rounded-2xl border border-gold-200/50 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-14 h-14 bg-gold-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="w-7 h-7 text-gold-600" />
               </div>
@@ -342,7 +342,7 @@ export default function ServicesPage() {
               </p>
             </div>
 
-            <div className="text-center p-8 bg-[#faf6f2] rounded-2xl border border-gold-200/50 shadow-sm hover:shadow-md transition-shadow">
+            <div className="text-center p-8 bg-[#faf5f2] rounded-2xl border border-gold-200/50 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-14 h-14 bg-gold-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="w-7 h-7 text-gold-600" />
               </div>
@@ -356,7 +356,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Section 5: Editorial Overview */}
-      <section className="py-16 md:py-20 bg-[#faf6f2] text-gray-800">
+      <section className="py-16 md:py-20 bg-[#faf5f2] text-gray-800">
         <div className="container-luxury max-w-4xl">
           <div className="prose-luxury bg-white p-8 md:p-12 rounded-2xl border border-gold-200/60 shadow-sm">
             <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6 font-serif">

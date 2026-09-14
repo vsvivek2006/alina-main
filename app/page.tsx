@@ -299,7 +299,7 @@ export default function HomePage() {
       />
 
       {/* 1. Dramatic Luxury Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#0a0a1a] via-[#1a1a2e] to-[#2d1b0e]">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#0f0914] via-[#1c0f24] to-[#2a1320]">
         {/* Ambient Subtle Glows */}
         <div className="absolute inset-0 opacity-30 pointer-events-none">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl animate-float transform-gpu" />
@@ -476,7 +476,7 @@ export default function HomePage() {
       </section>
 
       {/* 4. Why Choose Us (Soft Ivory #faf6f2) */}
-      <section className="py-20 md:py-28 bg-[#faf6f2]">
+      <section className="py-20 md:py-28 bg-[#faf5f2]">
         <div className="container-luxury">
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Why Choose Us</p>
@@ -571,7 +571,7 @@ export default function HomePage() {
       </section>
 
       {/* 6. Tailored Services (Soft Ivory #faf6f2) */}
-      <section className="py-20 md:py-28 bg-[#faf6f2]">
+      <section className="py-20 md:py-28 bg-[#faf5f2]">
         <div className="container-luxury">
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Bespoke Engagements</p>
@@ -688,7 +688,7 @@ export default function HomePage() {
       </section>
 
       {/* 8. Prime Locations (Soft Ivory #faf6f2) */}
-      <section className="py-20 md:py-28 bg-[#faf6f2]">
+      <section className="py-20 md:py-28 bg-[#faf5f2]">
         <div className="container-luxury">
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Service Locations</p>
@@ -766,7 +766,7 @@ export default function HomePage() {
       <TestimonialsSection theme="light" />
 
       {/* 11. Latest Blog Insights (Soft Ivory #faf6f2) */}
-      <section className="py-20 md:py-28 bg-[#faf6f2]">
+      <section className="py-20 md:py-28 bg-[#faf5f2]">
         <div className="container-luxury">
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Editorial &amp; Insights</p>
@@ -875,7 +875,7 @@ export default function HomePage() {
       </section>
 
       {/* 13. Client Information & Quality Overview */}
-      <section className="py-20 md:py-28 bg-[#faf6f2]">
+      <section className="py-20 md:py-28 bg-[#faf5f2]">
         <div className="container-luxury">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6">

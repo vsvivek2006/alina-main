@@ -57,7 +57,7 @@ export default function FAQPage() {
       <Breadcrumb items={[{ name: 'Home', path: '/' }, { name: 'FAQ' }]} />
 
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0a0a1a] via-[#1a1a2e] to-[#2d1b0e] overflow-hidden">
+      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0f0914] via-[#1c0f24] to-[#2a1320] overflow-hidden">
         <div className="absolute inset-0 opacity-10 pointer-events-none">
           <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:24px_24px]" />
         </div>
@@ -135,7 +135,7 @@ export default function FAQPage() {
               </div>
 
               {/* Client Guidelines & Booking Etiquette Guide */}
-              <div className="mt-12 p-8 bg-[#faf6f2] rounded-2xl border border-gold-200/60 shadow-sm space-y-6">
+              <div className="mt-12 p-8 bg-[#faf5f2] rounded-2xl border border-gold-200/60 shadow-sm space-y-6">
                 <div>
                   <h3 className="text-2xl font-bold text-[#1a1a2e] font-serif mb-2">
                     Client Guidelines &amp; Etiquette for Escort Service in Gurgaon
@@ -186,7 +186,7 @@ export default function FAQPage() {
               </div>
 
               {/* Direct Call & Contact Card */}
-              <div className="text-center mt-12 p-8 bg-[#faf6f2] rounded-2xl border border-gold-200/60 shadow-sm">
+              <div className="text-center mt-12 p-8 bg-[#faf5f2] rounded-2xl border border-gold-200/60 shadow-sm">
                 <p className="text-gray-700 font-semibold mb-4 text-base">
                   Still have questions? We&apos;re here to help 24/7.
                 </p>
@@ -254,7 +254,7 @@ export default function FAQPage() {
               </div>
 
               {/* Areas We Serve */}
-              <div className="bg-[#faf6f2] p-6 rounded-2xl border border-gold-200/60 shadow-sm">
+              <div className="bg-[#faf5f2] p-6 rounded-2xl border border-gold-200/60 shadow-sm">
                 <h3 className="font-bold text-[#1a1a2e] text-lg mb-4 flex items-center gap-2 font-serif">
                   <MapPin className="w-5 h-5 text-gold-600" /> Areas We Serve
                 </h3>

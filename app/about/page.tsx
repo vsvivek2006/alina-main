@@ -42,7 +42,7 @@ export default function AboutPage() {
       <Breadcrumb items={[{ name: 'Home', path: '/' }, { name: 'About Us' }]} />
 
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0a0a1a] via-[#1a1a2e] to-[#2d1b0e] overflow-hidden">
+      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0f0914] via-[#1c0f24] to-[#2a1320] overflow-hidden">
         <div className="absolute inset-0 opacity-10 pointer-events-none">
           <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:24px_24px]" />
         </div>
@@ -126,7 +126,7 @@ export default function AboutPage() {
                   Why Choose ALINA VIP for Escort Service in Gurgaon?
                 </h3>
                 <div className="space-y-4">
-                  <div className="flex items-start gap-4 p-5 bg-[#faf6f2] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-4 p-5 bg-[#faf5f2] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
                     <div className="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <ShieldCheck className="w-6 h-6 text-gold-600" />
                     </div>
@@ -138,7 +138,7 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="flex items-start gap-4 p-5 bg-[#faf6f2] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-4 p-5 bg-[#faf5f2] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
                     <div className="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <Lock className="w-6 h-6 text-gold-600" />
                     </div>
@@ -150,7 +150,7 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="flex items-start gap-4 p-5 bg-[#faf6f2] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-4 p-5 bg-[#faf5f2] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
                     <div className="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <Crown className="w-6 h-6 text-gold-600" />
                     </div>
@@ -166,7 +166,7 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="flex items-start gap-4 p-5 bg-[#faf6f2] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-4 p-5 bg-[#faf5f2] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
                     <div className="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <Sparkles className="w-6 h-6 text-gold-600" />
                     </div>
@@ -178,7 +178,7 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="flex items-start gap-4 p-5 bg-[#faf6f2] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-4 p-5 bg-[#faf5f2] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
                     <div className="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <Clock className="w-6 h-6 text-gold-600" />
                     </div>
@@ -190,7 +190,7 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="flex items-start gap-4 p-5 bg-[#faf6f2] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-4 p-5 bg-[#faf5f2] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
                     <div className="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <MapPin className="w-6 h-6 text-gold-600" />
                     </div>
@@ -273,7 +273,7 @@ export default function AboutPage() {
                   </Link>{' '}
                   or view key areas:
                 </p>
-                <div className="bg-[#faf6f2] p-6 rounded-2xl border border-gold-200/50">
+                <div className="bg-[#faf5f2] p-6 rounded-2xl border border-gold-200/50">
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-2.5">
                       <span className="text-gold-600 font-bold mt-0.5">•</span>
@@ -653,7 +653,7 @@ export default function AboutPage() {
               </div>
 
               {/* High-Trust Guarantee Pillars */}
-              <div className="bg-[#faf6f2] p-6 rounded-2xl border border-gold-200/50 space-y-3">
+              <div className="bg-[#faf5f2] p-6 rounded-2xl border border-gold-200/50 space-y-3">
                 <h4 className="text-sm font-bold uppercase tracking-wider text-[#1a1a2e] flex items-center gap-2">
                   <HeartHandshake className="w-4 h-4 text-gold-600" /> ALINA VIP Commitment
                 </h4>

@@ -4,7 +4,7 @@ import { Phone, MessageCircle, ArrowRight, ShieldCheck, Clock, Hotel } from 'luc
 
 export default function CTASection() {
   return (
-    <section className="py-20 md:py-28 relative overflow-hidden bg-gradient-to-br from-[#0a0a1a] via-[#1a1a2e] to-[#2d1b0e] text-white border-t border-gold-500/20">
+    <section className="py-20 md:py-28 relative overflow-hidden bg-gradient-to-br from-[#0f0914] via-[#1c0f24] to-[#2a1320] text-white border-t border-gold-500/20">
       <div className="absolute inset-0 opacity-15 pointer-events-none">
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:24px_24px]" />
       </div>
