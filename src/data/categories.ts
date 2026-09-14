@@ -21,7 +21,7 @@ export const categories: Category[] = [
   {
     slug: 'russian-call-girls',
     name: 'Russian Call Girls',
-    shortDescription: 'Stunning Slavic & European models delivering unmatched charm and sophistication.',
+    shortDescription: 'Captivating Russian and European models offering aristocratic poise, stunning physical elegance, and refined charm for 5-star hotel outcalls.',
     description: 'Our verified Russian call girls in Gurgaon showcase captivating European allure, statuesque elegance, and warm conversational grace. Ideal for private 5-star hotel visits, VIP nightclub hosting, or romantic candlelit dining along Golf Course Road.',
     icon: 'Crown',
     h1Title: 'Russian Call Girls in Gurgaon',
@@ -65,7 +65,7 @@ export const categories: Category[] = [
   {
     slug: 'vip-call-girls',
     name: 'VIP Call Girls',
-    shortDescription: 'Top-tier luxury companions curated for discerning corporate executives and elite patrons.',
+    shortDescription: 'Premier high-profile call girls tailored for C-suite leaders and distinguished gentlemen requiring total discretion and unmatched social acumen.',
     description: 'Our elite VIP call girls in Gurgaon provide an uncompromised standard of VIP call girls and escort girls. Characterized by striking poise, intellect, and worldly etiquette, they accompany distinguished gentlemen to private suite retreats and prestigious social gatherings.',
     icon: 'Star',
     h1Title: 'VIP Call Girls in Gurgaon',
@@ -109,7 +109,7 @@ export const categories: Category[] = [
   {
     slug: 'high-profile-girls',
     name: 'High Profile Girls',
-    shortDescription: 'Cultured, educated companions commanding effortless social poise and executive refinement.',
+    shortDescription: 'Educated, cosmopolitan models from media and corporate circles, offering intellectual conversation and glamorous event presence.',
     description: 'Our high-profile companions in Gurgaon possess university pedigrees, sharp intellect, and polished conversational flair. Perfectly suited for executive business dinners in Cyber City, high-profile galas, and bespoke outstation excursions.',
     icon: 'Gem',
     h1Title: 'High Profile Escorts in Gurgaon',
@@ -153,7 +153,7 @@ export const categories: Category[] = [
   {
     slug: 'college-girls',
     name: 'College Girls',
-    shortDescription: 'Spirited, charismatic young companions bringing genuine enthusiasm and vivacious warmth.',
+    shortDescription: 'Fresh, vibrant, and spontaneous college call girls offering youthful warmth, joyful conversations, and casual evening dates.',
     description: 'Our verified college call girls in Gurgaon offer refreshing exuberance, bubbly charm, and spontaneous warmth. Whether accompanying you on relaxing weekend cafe dates or confidential residential appointments, their playful nature creates an authentic spark.',
     icon: 'GraduationCap',
     h1Title: 'College Call Girls in Gurgaon',
@@ -197,7 +197,7 @@ export const categories: Category[] = [
   {
     slug: 'independent-girls',
     name: 'Independent Girls',
-    shortDescription: 'Empowered, self-managed escorts offering dedicated, private, and tailored escort girls.',
+    shortDescription: 'Empowered, self-managed independent escorts providing authentic romantic chemistry and flexible arrangements with complete privacy.',
     description: 'Our independent call girls in Gurgaon operate with total autonomy, ensuring customized attention, personal rapport, and flexible scheduling. Free from rigid third-party protocols, they focus exclusively on fulfilling your personal itinerary with warmth.',
     icon: 'User',
     h1Title: 'Independent Call Girls in Gurgaon',
@@ -285,7 +285,7 @@ export const categories: Category[] = [
   {
     slug: 'model-escorts',
     name: 'Model Escorts',
-    shortDescription: 'Runway-calibre fashion models and commercial beauties with commanding visual allure.',
+    shortDescription: 'Breathtaking editorial models with runway elegance and flawless presentation, perfect for red carpet gatherings and luxury suites.',
     description: 'Our model escorts in Gurgaon represent active fashion and ramp models featuring striking figures, radiant aesthetics, and photogenic elegance. Elevate your presence at premier cocktail lounges or unwind in private luxury with a companion of breathtaking beauty.',
     icon: 'Camera',
     h1Title: 'Model Escorts in Gurgaon',
@@ -329,7 +329,7 @@ export const categories: Category[] = [
   {
     slug: 'celebrity-escorts',
     name: 'Celebrity Escorts',
-    shortDescription: 'Exclusive, glamorous media personalities and fashion icons for bespoke engagements.',
+    shortDescription: 'Glamorous figures from the entertainment and fashion realm, offering ultra-luxurious private engagements under ironclad secrecy.',
     description: 'Our celebrity call girls in Gurgaon cater exclusively to ultra-high-net-worth individuals, celebrities, and foreign dignitaries. Arranged under the highest tier of confidentiality, these bespoke engagements offer rare encounters with recognized screen and runway personalities.',
     icon: 'Award',
     h1Title: 'Celebrity Escorts in Gurgaon',
@@ -373,7 +373,7 @@ export const categories: Category[] = [
   {
     slug: 'travel-escorts',
     name: 'Travel Escorts',
-    shortDescription: 'Cultured holiday companions and multilingual travel partners for worldwide getaways.',
+    shortDescription: 'Multilingual and worldly companions ready to accompany discerning executives on weekend getaways, yacht cruises, and business tours.',
     description: 'Our travel escorts in Gurgaon are seasoned jet-setters ready to accompany you across domestic luxury resorts, mountain retreats, or overseas business trips. Adaptable, attentive, and globally astute, they ensure every leg of your journey is effortless and memorable.',
     icon: 'Luggage',
     h1Title: 'Travel Escorts in Gurgaon & Delhi NCR',
@@ -417,7 +417,7 @@ export const categories: Category[] = [
   {
     slug: 'housewife-escorts',
     name: 'Housewife Escorts',
-    shortDescription: 'Sensual, mature companions offering heartfelt intimacy, comfort, and emotional connection.',
+    shortDescription: 'Mature, understanding women providing deeply authentic emotional warmth, compassionate understanding, and peaceful evening company.',
     description: 'Our mature housewife call girls in Gurgaon specialize in genuine warmth, empathetic listening, and unhurried romance. Ideal for discerning clients seeking unpretentious, deeply relaxing call girl sessions in a calm, discreet environment.',
     icon: 'User',
     h1Title: 'Housewife Call Girls & Bhabhi Escorts in Gurgaon',
@@ -461,7 +461,7 @@ export const categories: Category[] = [
   {
     slug: 'premium-escorts',
     name: 'Premium Escorts',
-    shortDescription: 'Versatile, five-star companions mastering every facet of upscale VIP call girls and escort girls.',
+    shortDescription: 'The pinnacle of luxury escort services combining intelligence, breathtaking beauty, and bespoke hospitality for any upscale occasion.',
     description: 'Our premium escorts in Gurgaon combine elegance, sensual charm, and impeccable social skills. Whatever your itinerary calls for—from formal corporate functions to intimate hotel suite unwinding—these all-round companions guarantee a flawless 5-star experience.',
     icon: 'Sparkles',
     h1Title: 'Premium Escorts in Gurgaon',
