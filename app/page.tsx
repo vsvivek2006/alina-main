@@ -1,22 +1,25 @@
+import type { Metadata } from 'next';
+import { siteConfig, generalFaqs } from '@/data/siteConfig';
+
 export const metadata: Metadata = {
-  title: 'Escort Service in Gurgaon | VIP Call Girls | ALINA VIP',
+  title: 'Escort Service in Gurgaon (Gurugram) | VIP Escorts Service ALINA VIP',
   description:
-    'ALINA VIP provides elite, verified escort services and VIP call girls across Gurgaon and Delhi NCR. 100% discreet, professional hotel and residential outcalls.',
+    'ALINA VIP provides premier escort service in Gurgaon (Gurugram). Verified VIP call girls, top escorts service, and discreet 20-30 min 5-star hotel outcalls across DLF, Cyber City, and Golf Course Road.',
+  keywords: siteConfig.keywords,
   alternates: {
-    canonical: 'https://escort.alinavip.com',
+    canonical: siteConfig.url,
   },
   openGraph: {
-    title: 'Escort Service in Gurgaon | VIP Call Girls | ALINA VIP',
+    title: 'Escort Service in Gurgaon (Gurugram) | VIP Escorts Service ALINA VIP',
     description:
-      'ALINA VIP provides elite, verified escort services and VIP call girls across Gurgaon and Delhi NCR. 100% discreet, professional hotel and residential outcalls.',
-    url: 'https://escort.alinavip.com',
+      'ALINA VIP provides premier escort service in Gurgaon (Gurugram). Verified VIP call girls, top escorts service, and discreet 20-30 min 5-star hotel outcalls across DLF, Cyber City, and Golf Course Road.',
+    url: siteConfig.url,
     type: 'website',
   },
 };
 
 import Link from 'next/link';
 import Image from 'next/image';
-import type { Metadata } from 'next';
 import HomeBookingForm from '@/components/HomeBookingForm';
 import {
   Phone,
@@ -44,7 +47,6 @@ import {
 } from 'lucide-react';
 import CTASection from '@/components/CTASection';
 import TestimonialsSection from '@/components/TestimonialsSection';
-import { siteConfig, generalFaqs } from '@/data/siteConfig';
 import { categories } from '@/data/categories';
 import { services } from '@/data/content';
 import { blogPosts } from '@/data/blogs';
@@ -177,9 +179,20 @@ export default function HomePage() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: siteConfig.name,
+    alternateName: [
+      'ALINA VIP Escorts Service Gurgaon',
+      'ALINA VIP Escort Service Gurugram',
+    ],
     url: siteConfig.url,
     phone: siteConfig.phone,
     email: siteConfig.email,
+    areaServed: ['Gurgaon', 'Gurugram', 'Delhi NCR', 'DLF Phase 1-5', 'Cyber City', 'Golf Course Road'],
+    knowsAbout: [
+      'Escort Service in Gurgaon',
+      'Escorts Service in Gurgaon',
+      'Escort Service in Gurugram',
+      'VIP Call Girls in Gurgaon',
+    ],
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'DLF Phase 3, Golf Course Road',
@@ -206,14 +219,28 @@ export default function HomePage() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: siteConfig.name,
+    alternateName: 'ALINA VIP Escort Service in Gurgaon Gurugram',
+    description: 'Premier VIP escort service in Gurgaon (Gurugram) providing discreet 5-star hotel outcalls with verified call girls.',
     image: `${siteConfig.url}/og-image.jpg`,
     url: siteConfig.url,
     telephone: siteConfig.phone,
     priceRange: '$$$',
+    currenciesAccepted: 'INR',
+    paymentAccepted: 'Cash, Cash on Delivery',
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Gurgaon',
+      },
+      {
+        '@type': 'City',
+        name: 'Gurugram',
+      },
+    ],
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'DLF Phase 3, Golf Course Road',
-      addressLocality: 'Gurgaon',
+      addressLocality: 'Gurgaon (Gurugram)',
       addressRegion: 'Haryana',
       postalCode: '122002',
       addressCountry: 'IN',
@@ -284,20 +311,18 @@ export default function HomePage() {
 
         <div className="container-luxury relative z-10 text-center pt-24 pb-16">
           <p className="section-subtitle text-gold-400 font-sans text-xs md:text-sm tracking-ultra uppercase mb-4 animate-fade-down">
-            Welcome to ALINA VIP
+            #1 Premier Escort Agency • Gurgaon &amp; Gurugram
           </p>
 
-          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-light text-white leading-none mb-6 animate-fade-up">
-            <span className="shimmer-text font-medium text-gradient-gold">
-              Escort Service in Gurgaon
-            </span>
+          <h1 className="font-serif text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white mb-6 animate-fade-up leading-tight">
+            Escort Service in <span className="text-gradient-gold">Gurgaon</span>
           </h1>
 
           <p
             className="text-charcoal-300 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up"
             style={{ animationDelay: '0.2s' }}
           >
-            Experience refined escort services tailored for discerning executives, international travellers, and private patrons. Authenticated models, elegant profiles, and complete discretion for hotel or private outcalls.
+            Welcome to ALINA VIP, the premier verified <Link href="/services" className="text-gold-400 hover:underline font-medium">escorts service in Gurgaon</Link> (Gurugram). Discover elite <Link href="/category/vip-call-girls" className="text-gold-400 hover:underline font-medium">VIP call girls</Link> and celebrity escort models with 100% genuine photos and prompt 20–30 min outcall dispatch to 5-star hotel suites and private luxury residences.
           </p>
 
           <div
@@ -320,23 +345,23 @@ export default function HomePage() {
             {[
               {
                 icon: ShieldCheck,
-                title: '100% Verified Profiles',
-                desc: 'Real untouched photos',
+                title: 'Certified Real Models',
+                desc: 'Strict zero-catfish policy',
               },
               {
                 icon: Lock,
-                title: 'Ironclad Privacy',
-                desc: 'Total client discretion',
+                title: 'Absolute Secrecy',
+                desc: 'Zero client footprint',
               },
               {
                 icon: Clock,
-                title: '20-30 Min Dispatch',
-                desc: 'Hotel & residence outcalls',
+                title: '20-30 Min Arrival',
+                desc: 'Direct hotel & home dispatch',
               },
               {
                 icon: Star,
-                title: 'Five-Star Experience',
-                desc: 'Top tier VIP hospitality',
+                title: 'Cash On Delivery',
+                desc: 'Verify companion first',
               },
             ].map((item, i) => {
               const Icon = item.icon;
@@ -369,10 +394,10 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="text-center md:text-left">
               <p className="text-gold-500 font-sans text-xs tracking-ultra uppercase mb-2 font-semibold">
-                Available 24/7 Across Gurgaon &amp; Delhi NCR
+                Prompt 20-30 Minute Outcall Across Gurgaon &amp; NCR
               </p>
               <h2 className="font-serif text-2xl md:text-3xl text-white font-light">
-                Discreet Outcall Reservations Across Major Luxury Hotels
+                Bespoke Companion Reservations For Distinguished Hotel Suites &amp; Residences
               </h2>
             </div>
             <div className="flex gap-3">
@@ -392,23 +417,23 @@ export default function HomePage() {
         <div className="container-luxury">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
-              <p className="section-subtitle text-gold-600">About ALINA VIP</p>
+              <p className="section-subtitle text-gold-600">Discover ALINA VIP India</p>
               <h2 className="section-title mb-6 text-[#1a1a2e]">
-                A Legacy of{' '}
+                The Gold Standard of{' '}
                 <span className="text-gradient-gold font-normal">
-                  Discretion &amp; Elegance
+                  Escort Service in Gurgaon
                 </span>
               </h2>
               <div className="gold-divider mb-8" />
               <div className="space-y-4 text-gray-700 leading-relaxed text-base">
                 <p>
-                  <strong className="text-[#1a1a2e]">ALINA VIP</strong> is a premier escort agency established to provide sophisticated gentlemen with exceptional escort services for high-level business functions, dinner dates, travel accompaniment, and private evenings.
+                  <strong className="text-[#1a1a2e]">ALINA VIP India</strong> stands as the definitive luxury <Link href="/services" className="text-gold-600 hover:underline font-medium">escort service in Gurgaon</Link> (Gurugram), dedicated to coordinating exceptional <Link href="/category/vip-call-girls" className="text-gold-600 hover:underline font-medium">call girls</Link> and verified <Link href="/services" className="text-gold-600 hover:underline font-medium">escorts service</Link> for high-profile business dinners, executive celebrations, jet-setting travel, and confidential hotel suite appointments.
                 </p>
                 <p>
-                  With extensive experience across Delhi NCR&apos;s luxury hospitality sector, our agency is built upon strict privacy protocols, punctual coordination, and verified authenticity. We ensure seamless bookings with complete confidentiality.
+                  Rooted in deep familiarity with Gurgaon&apos;s luxury enclaves—from <Link href="/locations/cyber-city" className="text-gold-600 hover:underline font-medium">DLF Cyber City</Link> to the <Link href="/locations/golf-course-road" className="text-gold-600 hover:underline font-medium">Golf Course Road</Link> corridor—our concierge team enforces strict operational secrecy, prompt dispatch times, and transparent zero-advance payment policies across all sectors of Gurugram.
                 </p>
                 <p>
-                  Every profile represented in our portfolio undergoes thorough in-person vetting to evaluate elegance, conversational eloquence, and professional etiquette—guaranteeing that your selected profile matches her portfolio imagery perfectly.
+                  Each model in our roster is personally verified to ensure unmatched poise, engaging intellectual conversation, and impeccable presentation—delivering a 100% photo-accurate experience with top <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-medium">Russian call girls</Link> and elite models every single time.
                 </p>
               </div>
 
@@ -420,7 +445,7 @@ export default function HomePage() {
                   href={siteConfig.url}
                   className="text-gold-600 hover:text-gold-700 font-semibold flex items-center gap-2 text-sm"
                 >
-                  Visit escort.alinavip.com <ArrowRight size={16} />
+                  Visit {siteConfig.domain} <ArrowRight size={16} />
                 </a>
               </div>
             </div>
@@ -854,40 +879,40 @@ export default function HomePage() {
         <div className="container-luxury">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6">
-              A Discerning Guide to VIP Escort Services in Gurgaon
+              The Executive Guide to Escort Service in Gurgaon (Gurugram)
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              As the corporate and financial capital of Northern India, Gurgaon hosts leading multinational corporations, five-star luxury developments, and high-profile travellers from around the world. In this fast-paced environment, gentlemen frequently seek refined escorts capable of seamlessly integrating into high-end social settings, private business celebrations, or relaxed evening dinners.
+              Positioned as India&apos;s leading corporate cyber hub, Gurgaon (officially renamed Gurugram, and often searched as Gurugaon) attracts Fortune 500 executives, venture capitalists, and international travellers demanding premier standards of hospitality. ALINA VIP India provides the top-rated <Link href="/services" className="text-gold-600 hover:underline font-medium">escort service in Gurgaon</Link> and <Link href="/services" className="text-gold-600 hover:underline font-medium">escorts service in Gurgaon</Link>, offering educated, refined <Link href="/services" className="text-gold-600 hover:underline font-medium">escort girls</Link> and verified <Link href="/category/vip-call-girls" className="text-gold-600 hover:underline font-medium">call girls</Link> tailored for five-star hotel suites, dinner parties, and quiet evening intimacy.
             </p>
 
             <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
-              Our Commitment to Authenticity and Safety
+              Verified Escort Service &amp; Absolute Photo Authenticity in Gurugram
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
-              The escort and call girl service landscape often poses challenges with misleading imagery, unverified listings, and inconsistent service standards. ALINA VIP was established to provide an uncompromising alternative built on integrity, verified credentials, and professional concierge management.
+              Navigating the escort market in Delhi NCR requires caution due to fake classifieds and misleading portfolio pictures. At ALINA VIP India, every model in our <Link href="/services" className="text-gold-600 hover:underline font-medium">escort service in Gurugram</Link> is authenticated through a multi-stage background check and in-person photography verification. When you browse our <Link href="/gallery" className="text-gold-600 hover:underline font-medium">verified photo gallery</Link>, you can be 100% confident that the model arriving at your door mirrors her gallery photos precisely.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Every profile listed on our platform completes an in-person vetting process assessing identity, personal security, and social etiquette. When you arrange an engagement through our concierge desk, you can be completely confident that the person who arrives matches her portfolio imagery and maintains the highest standards of decorum.
+              From charming <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-medium">Russian call girls</Link> to cosmopolitan <Link href="/category/air-hostess" className="text-gold-600 hover:underline font-medium">air hostess escorts</Link>, our roster represents verified professionals who understand high-society etiquette, cultural sensitivity, and warm conversational chemistry.
             </p>
 
             <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
-              Discretion &amp; Privacy Protocols
+              Ironclad Discretion with Gurgaon&apos;s #1 Escorts Service
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
-              Discretion is the cornerstone of our service. We respect that our patrons include corporate leaders, high-net-worth visitors, and notable public personalities. Our operational framework incorporates end-to-end communication privacy, non-disclosure protocols, and strict data confidentiality.
+              We operate under an unyielding confidentiality charter. Recognizing that our clientele includes notable public figures, industrialists, and senior professionals, we maintain zero client data logs, practice secure ephemeral communication, and dispatch models in unmarked executive vehicles.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Whether you are hosting at premier hotels such as The Oberoi, The Leela Ambience, ITC Grand Bharat, or a private residence along Golf Course Road, appointments are conducted quietly and respectfully, without drawing unnecessary attention.
+              Whether meeting at The Oberoi, The Leela Ambience, Trident, Grand Hyatt, or upscale condominiums along <Link href="/locations/golf-course-road" className="text-gold-600 hover:underline font-medium">Golf Course Road</Link>, complete anonymity and professional privacy are guaranteed. Learn more in our <Link href="/faq" className="text-gold-600 hover:underline font-medium">escort service FAQ</Link>.
             </p>
 
             <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
-              Seamless Outcall Coordination
+              Lightning 20-30 Minute Outcall Dispatch Across Gurgaon &amp; Gurugram
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
-              Booking an engagement is straightforward and transparent. Browse our curated categories, select your preferred escort, and reach out directly to our 24/7 concierge team via phone or private WhatsApp. Our coordinators confirm timing, location, and specific preferences to guarantee an effortless experience.
+              Your time is invaluable. Our strategically located escorts network across <Link href="/locations/cyber-city" className="text-gold-600 hover:underline font-medium">Cyber City</Link>, DLF Phases 1 through 5, Sohna Road, Golf Course Extension, and Aerocity guarantees swift 20 to 30-minute outcall arrival across all sectors of Gurgaon and Gurugram.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              With swift 20 to 30 minute dispatch across Cyber City, DLF Phase 1–5, Sohna Road, and neighboring Delhi NCR corridors, ALINA VIP remains the preferred choice for sophisticated escort services.
+              No tedious upfront deposits, no deceptive transaction fees—only transparent cash on delivery and verified elite call girls with ALINA VIP India.
             </p>
           </div>
         </div>
@@ -958,7 +983,7 @@ export default function HomePage() {
                   href={siteConfig.url}
                   className="text-gold-600 hover:text-gold-700 font-semibold flex items-center gap-2"
                 >
-                  Visit escort.alinavip.com <ArrowRight size={16} />
+                  Visit {siteConfig.domain} <ArrowRight size={16} />
                 </a>
               </div>
             </div>

@@ -8,19 +8,20 @@ import CTASection from '@/components/CTASection';
 import BlogFilter from '@/components/BlogFilter';
 import NewsletterForm from '@/components/NewsletterForm';
 import { blogPosts, blogCategories } from '@/data/blogs';
+import { siteConfig } from '@/data/siteConfig';
 
 export const metadata: Metadata = {
-  title: 'Escort Service Blog | Call Girls Tips & Lifestyle | ALINA VIP',
+  title: 'Gurgaon Escorts & Call Girls Blog | ALINA VIP India',
   description:
-    'Read our blog for insights on escort service in Gurgaon, VIP call girls, Russian escorts, nightlife, dating tips, and luxury lifestyle. Expert guides and articles for discerning gentlemen.',
+    'Read the official ALINA VIP India blog for insights on VIP call girls, Russian escorts in Gurgaon, five-star hotel guides, escort girls etiquette, and luxury nightlife.',
   alternates: {
-    canonical: 'https://escort.alinavip.com/blog',
+    canonical: `${siteConfig.url}/blog`,
   },
   openGraph: {
-    title: 'Escort Service Blog | Call Girls Tips & Lifestyle | ALINA VIP',
+    title: 'Gurgaon Escorts & Call Girls Blog | ALINA VIP India',
     description:
-      'Read our blog for insights on escort service in Gurgaon, VIP call girls, Russian escorts, nightlife, dating tips, and luxury lifestyle. Expert guides and articles for discerning gentlemen.',
-    url: 'https://escort.alinavip.com/blog',
+      'Read the official ALINA VIP India blog for insights on VIP call girls, Russian escorts in Gurgaon, five-star hotel guides, escort girls etiquette, and luxury nightlife.',
+    url: `${siteConfig.url}/blog`,
     type: 'website',
   },
 };
@@ -51,10 +52,10 @@ export default function BlogPage() {
             ★ Insights &amp; Resources
           </span>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-serif tracking-wide">
-            Escort Service <span className="text-gradient-gold">Blog</span>
+            Gurgaon Call Girls &amp; <span className="text-gradient-gold">Escort Girls Journal</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Expert insights on escort service in Gurgaon, etiquette guidelines, Russian models, nightlife, dating tips, and luxury hospitality.
+            Authoritative insights on luxury escort services in Gurgaon, five-star hotel outcall etiquette, nightlife recommendations, and verified call girls booking advice from ALINA VIP India.
           </p>
           <div className="gold-divider mx-auto mt-8" />
         </div>

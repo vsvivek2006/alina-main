@@ -1,19 +1,3 @@
-export const metadata: Metadata = {
-  title: 'Our Escort Services in Gurgaon | Service Categories | ALINA VIP',
-  description:
-    'Explore our full range of luxury escort services in Gurgaon. Russian call girls, VIP escorts, models, college girls & celebrity escorts. Available 24/7.',
-  alternates: {
-    canonical: 'https://escort.alinavip.com/services',
-  },
-  openGraph: {
-    title: 'Our Escort Services in Gurgaon | Service Categories | ALINA VIP',
-    description:
-      'Explore our full range of luxury escort services in Gurgaon. Russian call girls, VIP escorts, models, college girls & celebrity escorts. Available 24/7.',
-    url: 'https://escort.alinavip.com/services',
-    type: 'website',
-  },
-};
-
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -39,6 +23,23 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import { siteConfig } from '@/data/siteConfig';
 import { services } from '@/data/content';
 import { categories } from '@/data/categories';
+
+export const metadata: Metadata = {
+  title: 'Escorts Service in Gurgaon (Gurugram) | VIP Escort Service ALINA VIP',
+  description:
+    'Browse luxury escort service packages in Gurgaon (Gurugram). Russian call girls, VIP models, independent escorts, and 5-star hotel outcalls available 24/7.',
+  keywords: siteConfig.keywords,
+  alternates: {
+    canonical: `${siteConfig.url}/services`,
+  },
+  openGraph: {
+    title: 'Escorts Service in Gurgaon (Gurugram) | VIP Escort Service ALINA VIP',
+    description:
+      'Browse luxury escort service packages in Gurgaon (Gurugram). Russian call girls, VIP models, independent escorts, and 5-star hotel outcalls available 24/7.',
+    url: `${siteConfig.url}/services`,
+    type: 'website',
+  },
+};
 
 const serviceIcons: Record<string, React.ElementType> = {
   'dinner-escort-service': UtensilsCrossed,
@@ -77,15 +78,15 @@ export default function ServicesPage() {
         </div>
         <div className="container-luxury relative z-10 text-center">
           <span className="inline-block px-6 py-2 border border-gold-500/30 rounded-full text-gold-400 text-sm font-semibold tracking-wider uppercase mb-6 bg-gold-500/10 backdrop-blur-sm">
-            ★ Our Services
+            ★ Services &amp; Packages
           </span>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-serif tracking-wide">
-            Explore Profiles &amp; <span className="text-gradient-gold">Escort Services</span>
+            VIP Escorts Service in <span className="text-gradient-gold">Gurgaon (Gurugram)</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            <strong className="text-gold-400 font-semibold">ALINA VIP</strong> offers tailored escort arrangements across Gurgaon and Delhi NCR. Browse verified profiles across specialized categories including{' '}
+            <strong className="text-gold-400 font-semibold">ALINA VIP India</strong> delivers the premier <Link href="/services" className="text-gold-400 hover:underline font-medium">escort service in Gurgaon</Link> (Gurugram) tailored for elite gentlemen and corporate executives. Browse verified profiles across specialized categories including{' '}
             <Link href="/category/russian-call-girls" className="text-gold-400 hover:underline font-medium">
-              Russian escorts
+              Russian call girls
             </Link>
             ,{' '}
             <Link href="/category/model-escorts" className="text-gold-400 hover:underline font-medium">
@@ -93,9 +94,9 @@ export default function ServicesPage() {
             </Link>
             , and{' '}
             <Link href="/category/vip-call-girls" className="text-gold-400 hover:underline font-medium">
-              VIP escorts
+              VIP call girls
             </Link>
-            . Each rendezvous is delivered with uncompromising discretion and professional hospitality.
+            . Each rendezvous is delivered with uncompromising discretion, zero advance charges, and 20-30 min hotel dispatch.
           </p>
           <div className="gold-divider mx-auto mt-8" />
 
