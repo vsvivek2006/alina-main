@@ -299,7 +299,7 @@ export default function HomePage() {
       />
 
       {/* 1. Dramatic Luxury Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#0f0914] via-[#1c0f24] to-[#2a1320]">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#060812] via-[#0E1326] to-[#18102C]">
         {/* Ambient Subtle Glows */}
         <div className="absolute inset-0 opacity-30 pointer-events-none">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl animate-float transform-gpu" />
@@ -418,7 +418,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <p className="section-subtitle text-gold-600">Discover ALINA VIP India</p>
-              <h2 className="section-title mb-6 text-[#1a1a2e]">
+              <h2 className="section-title mb-6 text-[#0F172A]">
                 The Gold Standard of{' '}
                 <span className="text-gradient-gold font-normal">
                   Escort Service in Gurgaon
@@ -427,7 +427,7 @@ export default function HomePage() {
               <div className="gold-divider mb-8" />
               <div className="space-y-4 text-gray-700 leading-relaxed text-base">
                 <p>
-                  <strong className="text-[#1a1a2e]">ALINA VIP</strong> delivers an elevated standard for <Link href="/services" className="text-gold-600 hover:underline font-medium">escort service in Gurgaon</Link> (Gurugram). We cater exclusively to refined gentlemen, corporate dignitaries, and international travelers seeking captivating <Link href="/category/vip-call-girls" className="text-gold-600 hover:underline font-medium">VIP call girls</Link> and sophisticated <Link href="/services" className="text-gold-600 hover:underline font-medium">escorts service</Link> for private hotel stays, intimate dinner accompaniment, and high-profile social galas.
+                  <strong className="text-[#0F172A]">ALINA VIP</strong> delivers an elevated standard for <Link href="/services" className="text-gold-600 hover:underline font-medium">escort service in Gurgaon</Link> (Gurugram). We cater exclusively to refined gentlemen, corporate dignitaries, and international travelers seeking captivating <Link href="/category/vip-call-girls" className="text-gold-600 hover:underline font-medium">VIP call girls</Link> and sophisticated <Link href="/services" className="text-gold-600 hover:underline font-medium">escorts service</Link> for private hotel stays, intimate dinner accompaniment, and high-profile social galas.
                 </p>
                 <p>
                   With comprehensive outcall coverage spanning from <Link href="/locations/cyber-city" className="text-gold-600 hover:underline font-medium">DLF Cyber City</Link> and One Horizon to the prime <Link href="/locations/golf-course-road" className="text-gold-600 hover:underline font-medium">Golf Course Road</Link> corridor, our private concierge ensures rapid 20-30 minute suite delivery, transparent cash payments, and total anonymity.
@@ -476,11 +476,11 @@ export default function HomePage() {
       </section>
 
       {/* 4. Why Choose Us (Soft Ivory #faf6f2) */}
-      <section className="py-20 md:py-28 bg-[#faf5f2]">
+      <section className="py-20 md:py-28 bg-[#FDFBF7]">
         <div className="container-luxury">
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Why Choose Us</p>
-            <h2 className="section-title mb-4 text-[#1a1a2e]">
+            <h2 className="section-title mb-4 text-[#0F172A]">
               The <span className="text-gradient-gold">ALINA VIP</span> Difference
             </h2>
             <div className="gold-divider" />
@@ -500,7 +500,7 @@ export default function HomePage() {
                   <div className="w-14 h-14 border border-gold-500/30 flex items-center justify-center mb-6 group-hover:border-gold-500 group-hover:bg-gold-50/50 transition-colors rounded-lg">
                     <Icon size={24} className="text-gold-500" />
                   </div>
-                  <h3 className="font-serif text-xl text-[#1a1a2e] mb-3 font-bold">
+                  <h3 className="font-serif text-xl text-[#0F172A] mb-3 font-bold">
                     {item.title}
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed">
@@ -518,7 +518,7 @@ export default function HomePage() {
         <div className="container-luxury">
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Client Confidence</p>
-            <h2 className="section-title mb-4 text-[#1a1a2e]">
+            <h2 className="section-title mb-4 text-[#0F172A]">
               Rigorous <span className="text-gradient-gold">Verification Standards</span>
             </h2>
             <div className="gold-divider" />
@@ -557,7 +557,7 @@ export default function HomePage() {
                   <div className="w-16 h-16 mx-auto border-2 border-gold-500/30 rounded-full flex items-center justify-center mb-6 group-hover:border-gold-500 group-hover:bg-gold-50 transition-colors">
                     <Icon size={28} className="text-gold-500" />
                   </div>
-                  <h3 className="font-serif text-xl text-[#1a1a2e] mb-3 font-bold">
+                  <h3 className="font-serif text-xl text-[#0F172A] mb-3 font-bold">
                     {item.title}
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed">
@@ -571,11 +571,11 @@ export default function HomePage() {
       </section>
 
       {/* 6. Tailored Services (Soft Ivory #faf6f2) */}
-      <section className="py-20 md:py-28 bg-[#faf5f2]">
+      <section className="py-20 md:py-28 bg-[#FDFBF7]">
         <div className="container-luxury">
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Bespoke Engagements</p>
-            <h2 className="section-title mb-4 text-[#1a1a2e]">
+            <h2 className="section-title mb-4 text-[#0F172A]">
               Tailored <span className="text-gradient-gold">VIP Escort</span> Services
             </h2>
             <div className="gold-divider" />
@@ -597,7 +597,7 @@ export default function HomePage() {
                     <div className="w-14 h-14 border border-gold-500/30 flex items-center justify-center mb-6 group-hover:border-gold-500 group-hover:bg-gold-50 transition-colors rounded-lg">
                       <Icon size={24} className="text-gold-500" />
                     </div>
-                    <h3 className="font-serif text-xl text-[#1a1a2e] mb-3 font-bold group-hover:text-gold-600 transition-colors">
+                    <h3 className="font-serif text-xl text-[#0F172A] mb-3 font-bold group-hover:text-gold-600 transition-colors">
                       {service.title}
                     </h3>
                     <p className="text-sm text-gray-600 leading-relaxed mb-4">
@@ -619,7 +619,7 @@ export default function HomePage() {
         <div className="container-luxury">
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Curated Roster</p>
-            <h2 className="section-title mb-4 text-[#1a1a2e]">
+            <h2 className="section-title mb-4 text-[#0F172A]">
               Explore Service <span className="text-gradient-gold">Categories</span>
             </h2>
             <div className="gold-divider" />
@@ -688,11 +688,11 @@ export default function HomePage() {
       </section>
 
       {/* 8. Prime Locations (Soft Ivory #faf6f2) */}
-      <section className="py-20 md:py-28 bg-[#faf5f2]">
+      <section className="py-20 md:py-28 bg-[#FDFBF7]">
         <div className="container-luxury">
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Service Locations</p>
-            <h2 className="section-title mb-4 text-[#1a1a2e]">
+            <h2 className="section-title mb-4 text-[#0F172A]">
               Rapid Outcall Coverage Across <span className="text-gradient-gold">Gurgaon &amp; NCR</span>
             </h2>
             <div className="gold-divider" />
@@ -735,7 +735,7 @@ export default function HomePage() {
         <div className="container-luxury">
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">How It Works</p>
-            <h2 className="section-title mb-4 text-[#1a1a2e]">
+            <h2 className="section-title mb-4 text-[#0F172A]">
               Simple &amp; <span className="text-gradient-gold">Discreet Process</span>
             </h2>
             <div className="gold-divider" />
@@ -750,7 +750,7 @@ export default function HomePage() {
                 <div className="font-serif text-6xl text-gold-500/20 font-light mb-4 group-hover:text-gold-500/40 transition-colors">
                   {item.number}
                 </div>
-                <h3 className="font-serif text-xl text-[#1a1a2e] mb-3 font-bold">
+                <h3 className="font-serif text-xl text-[#0F172A] mb-3 font-bold">
                   {item.title}
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
@@ -766,11 +766,11 @@ export default function HomePage() {
       <TestimonialsSection theme="light" />
 
       {/* 11. Latest Blog Insights (Soft Ivory #faf6f2) */}
-      <section className="py-20 md:py-28 bg-[#faf5f2]">
+      <section className="py-20 md:py-28 bg-[#FDFBF7]">
         <div className="container-luxury">
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Editorial &amp; Insights</p>
-            <h2 className="section-title mb-4 text-[#1a1a2e]">
+            <h2 className="section-title mb-4 text-[#0F172A]">
               Luxury Lifestyle &amp; <span className="text-gradient-gold">Etiquette</span>
             </h2>
             <div className="gold-divider" />
@@ -798,7 +798,7 @@ export default function HomePage() {
                 </div>
                 <div className="p-6 flex-1 flex flex-col justify-between">
                   <div>
-                    <h3 className="font-serif text-lg text-[#1a1a2e] mt-2 mb-3 font-bold leading-tight group-hover:text-gold-600 transition-colors line-clamp-2">
+                    <h3 className="font-serif text-lg text-[#0F172A] mt-2 mb-3 font-bold leading-tight group-hover:text-gold-600 transition-colors line-clamp-2">
                       {post.title}
                     </h3>
                     <p className="text-sm text-gray-600 leading-relaxed line-clamp-2 mb-4">
@@ -836,7 +836,7 @@ export default function HomePage() {
         <div className="container-luxury">
           <div className="text-center mb-14">
             <p className="section-subtitle text-gold-600">Frequently Asked Questions</p>
-            <h2 className="section-title mb-4 text-[#1a1a2e]">
+            <h2 className="section-title mb-4 text-[#0F172A]">
               Help &amp; <span className="text-gradient-gold">Common Inquiries</span>
             </h2>
             <div className="gold-divider" />
@@ -849,7 +849,7 @@ export default function HomePage() {
                 className="bg-gray-50 rounded-2xl border border-gray-100 hover:border-gold-300 transition-all group"
               >
                 <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
-                  <span className="font-semibold text-[#1a1a2e] text-lg pr-4">
+                  <span className="font-semibold text-[#0F172A] text-lg pr-4">
                     {faq.question}
                   </span>
                   <span className="text-gold-600 text-2xl font-light group-open:rotate-45 transition-transform">
@@ -875,27 +875,27 @@ export default function HomePage() {
       </section>
 
       {/* 13. Client Information & Quality Overview */}
-      <section className="py-20 md:py-28 bg-[#faf5f2]">
+      <section className="py-20 md:py-28 bg-[#FDFBF7]">
         <div className="container-luxury">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6">
+            <h2 className="text-3xl font-bold text-[#0F172A] mb-6">
               Comprehensive Guide to Escort Service in Gurgaon (Gurugram)
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
               As the financial and technological epicenter of Northern India, Gurgaon (officially designated Gurugram, and often searched as Gurugaon) welcomes thousands of Fortune 500 executives, startup founders, and global travellers each week. ALINA VIP bridges the demanding pace of corporate business with luxury personal relaxation, curating verified <Link href="/services" className="text-gold-600 hover:underline font-medium">escort service in Gurgaon</Link> and top-rated <Link href="/category/vip-call-girls" className="text-gold-600 hover:underline font-medium">VIP call girls</Link> designed for 5-star hotel suites, executive dinner parties, and quiet evening intimacy.
             </p>
 
-            <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
+            <h3 className="text-2xl font-bold text-[#0F172A] mt-8 mb-4">
               Uncompromising Photo Verification &amp; True-to-Life Profiles
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
-              Finding genuine escort services in Delhi NCR often presents challenges due to recycled stock images and deceptive classified ads. At ALINA VIP, we enforce a strict in-person photography protocol. Every profile listed in our <Link href="/gallery" className="text-gold-600 hover:underline font-medium">verified photo gallery</Link> is authenticated to ensure the companion arriving at your door mirrors her online portfolio exactly, with zero misleading digital filters.
+              Finding genuine escort services in Delhi NCR often presents challenges due to recycled stock images and deceptive classified ads. At ALINA VIP, we enforce a strict in-person photography protocol. Every profile listed in our <Link href="/gallery" className="text-gold-600 hover:underline font-medium">verified photo gallery</Link> is authenticated to ensure the call girl arriving at your door mirrors her online portfolio exactly, with zero misleading digital filters.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
               From sophisticated European <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-medium">Russian call girls</Link> to cosmopolitan <Link href="/category/air-hostess" className="text-gold-600 hover:underline font-medium">air hostess models</Link>, our models understand high-society etiquette, cultural decorum, and seamless conversational poise.
             </p>
 
-            <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
+            <h3 className="text-2xl font-bold text-[#0F172A] mt-8 mb-4">
               Executive Privacy &amp; Zero Data Retention Policy
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
@@ -905,7 +905,7 @@ export default function HomePage() {
               Whether meeting at The Oberoi, The Leela Ambience, Trident Gurgaon, Grand Hyatt, or private penthouses along <Link href="/locations/golf-course-road" className="text-gold-600 hover:underline font-medium">Golf Course Road</Link>, your privacy remains completely uncompromised. Learn more in our <Link href="/faq" className="text-gold-600 hover:underline font-medium">escort service FAQ</Link>.
             </p>
 
-            <h3 className="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">
+            <h3 className="text-2xl font-bold text-[#0F172A] mt-8 mb-4">
               Swift 20-30 Minute Hotel Outcalls Across Gurgaon &amp; Gurugram
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
@@ -924,7 +924,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="section-subtitle text-gold-600">Get In Touch</p>
-              <h2 className="section-title mb-6 text-[#1a1a2e]">
+              <h2 className="section-title mb-6 text-[#0F172A]">
                 Reserve Your <span className="text-gradient-gold">Private Appointment</span>
               </h2>
               <div className="gold-divider mb-8" />
@@ -939,7 +939,7 @@ export default function HomePage() {
                     </h3>
                     <a
                       href={`tel:${siteConfig.phone}`}
-                      className="text-[#1a1a2e] hover:text-gold-600 transition-colors font-bold text-lg"
+                      className="text-[#0F172A] hover:text-gold-600 transition-colors font-bold text-lg"
                     >
                       {siteConfig.phoneDisplay}
                     </a>
@@ -954,7 +954,7 @@ export default function HomePage() {
                     <h3 className="font-sans text-xs tracking-ultra uppercase text-gray-500 mb-1 font-bold">
                       Location
                     </h3>
-                    <p className="text-[#1a1a2e] font-medium">
+                    <p className="text-[#0F172A] font-medium">
                       {siteConfig.address}
                     </p>
                   </div>
@@ -968,7 +968,7 @@ export default function HomePage() {
                     <h3 className="font-sans text-xs tracking-ultra uppercase text-gray-500 mb-1 font-bold">
                       Availability
                     </h3>
-                    <p className="text-[#1a1a2e] font-bold">
+                    <p className="text-[#0F172A] font-bold">
                       24 Hours, 7 Days a Week
                     </p>
                     <p className="text-sm text-gray-500">
@@ -989,7 +989,7 @@ export default function HomePage() {
             </div>
 
             {/* Midnight Luxury Booking Card */}
-            <div className="bg-gradient-to-br from-[#1a1a2e] to-[#2d1b0e] p-8 rounded-3xl shadow-2xl border border-gold-500/20">
+            <div className="bg-gradient-to-br from-[#0F172A] to-[#1E293B] p-8 rounded-3xl shadow-2xl border border-gold-500/20">
               <HomeBookingForm />
             </div>
           </div>

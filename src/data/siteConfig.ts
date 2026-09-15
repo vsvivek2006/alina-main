@@ -91,19 +91,19 @@ export const generalFaqs = [
     answer: 'Yes, 100%. We never ask for deceptive upfront deposits or registration charges. You meet and verify your escort in person before completing payment directly via cash, providing total peace of mind.',
   },
   {
-    question: 'Are companions available for travel or outstation trips?',
+    question: 'Are call girls available for travel or outstation trips?',
     answer: 'Yes. Select models are available for domestic business journeys, vacation retreats, and international travel. Advance coordination with our concierge is recommended to organize travel itineraries and documentation.',
   },
   {
     question: 'What are your operational hours for booking dispatch?',
-    answer: 'Our private concierge desk operates 24 hours a day, 7 days a week, 365 days a year. Whether you need an afternoon companion, dinner accompaniment, or late-night outcall, we are ready to assist.',
+    answer: 'Our private concierge desk operates 24 hours a day, 7 days a week, 365 days a year. Whether you need an afternoon call girl, dinner accompaniment, or late-night outcall, we are ready to assist.',
   },
   {
     question: 'How does ALINA VIP protect clients from online escort scams?',
     answer: 'We eliminate fraud by operating under a strict zero-advance policy. We never request digital gift cards, advance verification payments, or deceptive hotel card fees. You only pay after your verified escort arrives.',
   },
   {
-    question: 'Can I request a companion for social or corporate dinner events?',
+    question: 'Can I request a call girl for social or corporate dinner events?',
     answer: 'Certainly. Many of our models possess exceptional academic backgrounds, multilingual conversational skills, and impeccable high-society etiquette, making them exemplary partners for business dinners and corporate galas.',
   },
 ];
