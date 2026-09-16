@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Phone, AlertCircle } from 'lucide-react';
-import { locations } from '@/data/locations';
+import { primeLocations } from '@/data/locationSummary';
 import { siteConfig } from '@/data/siteConfig';
 import {
   submitBookingRequest,
@@ -10,7 +10,7 @@ import {
   type SubmissionStatus,
 } from '@/lib/formSubmission';
 
-const primeLocations = locations.slice(0, 25);
+
 
 export default function HomeBookingForm() {
   const [submissionStatus, setSubmissionStatus] = useState<SubmissionStatus>('idle');
