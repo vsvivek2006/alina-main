@@ -9,7 +9,7 @@ import {
 import Breadcrumb from '@/components/Breadcrumb';
 import CTASection from '@/components/CTASection';
 import LocationsDirectory, { CompactLocation } from '@/components/LocationsDirectory';
-import { siteConfig } from '@/data/siteConfig';
+import { siteConfig, getAlternateLanguages } from '@/data/siteConfig';
 import { locations } from '@/data/locations';
 import { isLocationRedirect } from '@/data/locationManifest';
 
@@ -18,7 +18,8 @@ export const metadata: Metadata = {
   description:
     'Find premium escort service across prime locations in Gurgaon and Delhi NCR. Cyber City, Golf Course Road, DLF Phases 1-5, Sohna Road, Aerocity & more. Rapid 20-30 min outcall.',
   alternates: {
-    canonical: 'https://alinavip.com/locations',
+    canonical: `${siteConfig.url}/locations`,
+    languages: getAlternateLanguages('/locations'),
   },
   openGraph: {
     title: 'Escort Service Locations in Gurgaon & Delhi NCR | ALINA VIP',

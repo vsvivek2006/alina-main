@@ -107,3 +107,12 @@ export const generalFaqs = [
     answer: 'Certainly. Many of our models possess exceptional academic backgrounds, multilingual conversational skills, and impeccable high-society etiquette, making them exemplary partners for business dinners and corporate galas.',
   },
 ];
+
+export function getAlternateLanguages(path: string = '') {
+  const cleanPath = path ? (path.startsWith('/') ? path : `/${path}`) : '';
+  return {
+    'en-IN': `https://alinavip.in${cleanPath}`,
+    'en': `https://alinavip.com${cleanPath}`,
+    'x-default': `https://alinavip.com${cleanPath}`,
+  };
+}
