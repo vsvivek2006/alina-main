@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 const reviews = [
   {
     name: 'Vikram S.',
@@ -64,8 +66,14 @@ export default function TestimonialsSection() {
               </div>
 
               <div className="pt-4 border-t border-gray-100 flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-[#FCE7EB] text-[#671725] font-bold flex items-center justify-center text-sm">
-                  {rev.name.charAt(0)}
+                <div className="relative w-11 h-11 rounded-full overflow-hidden border border-gray-200 shadow-xs flex-shrink-0">
+                  <Image
+                    src="/images/assets/Dummy.jpg"
+                    alt={rev.name}
+                    fill
+                    sizes="44px"
+                    className="object-cover"
+                  />
                 </div>
                 <div>
                   <h4 className="font-semibold text-sm text-[#111827]">{rev.name}</h4>

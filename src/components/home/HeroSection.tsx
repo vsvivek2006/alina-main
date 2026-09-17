@@ -68,7 +68,7 @@ export default function HeroSection() {
             <div className="grid grid-cols-2 gap-4 sm:gap-6 max-w-md mx-auto">
               <div className="banner-circle-img relative aspect-square">
                 <Image
-                  src="/images/categories/russian-escorts.webp"
+                  src="/images/assets/Gurgaon_Escort.png"
                   alt="Russian Escort in Gurgaon"
                   fill
                   priority
@@ -82,7 +82,7 @@ export default function HeroSection() {
 
               <div className="banner-circle-img relative aspect-square mt-6">
                 <Image
-                  src="/images/categories/vip-escorts.webp"
+                  src="/images/assets/Gurgaon_Escorts.png"
                   alt="VIP Escorts Gurgaon"
                   fill
                   priority
@@ -96,7 +96,7 @@ export default function HeroSection() {
 
               <div className="banner-circle-img relative aspect-square -mt-6">
                 <Image
-                  src="/images/categories/independent-escorts.webp"
+                  src="/images/assets/Karina.jpg"
                   alt="Independent Escorts Gurgaon"
                   fill
                   className="rounded-full object-cover shadow-lg border-4 border-white"
@@ -109,7 +109,7 @@ export default function HeroSection() {
 
               <div className="banner-circle-img relative aspect-square">
                 <Image
-                  src="/images/categories/air-hostess.webp"
+                  src="/images/assets/Tanya.jpg"
                   alt="Air Hostess Escorts Gurgaon"
                   fill
                   className="rounded-full object-cover shadow-lg border-4 border-white"

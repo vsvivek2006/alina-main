@@ -9,37 +9,37 @@ const servicesData = [
     icon: Heart,
     title: 'Girlfriend Experience (GFE)',
     desc: 'Dive into an intimate companionship with our high profile model escorts offering exclusive Girlfriend Experience in Gurgaon.',
-    image: '/images/categories/independent-escorts.webp',
+    image: '/images/assets/Girlfriend_Experience.png',
   },
   {
     icon: Sparkles,
     title: 'Erotic Massage',
     desc: 'Relieve stress and unwind with therapeutic body-to-body sensual massage sessions performed by skilled, beautiful escorts in Gurgaon.',
-    image: '/images/categories/vip-escorts.webp',
+    image: '/images/assets/Erotic_Massage.jpg',
   },
   {
     icon: Building2,
     title: 'In-Call & Out Call Services',
     desc: 'Rapid 20 to 30 minute outcall service to all major hotels, serviced apartments, and private residences across Gurgaon and NCR.',
-    image: '/images/categories/russian-escorts.webp',
+    image: '/images/assets/In_Call_And_Out_Call_Services.png',
   },
   {
     icon: Hotel,
     title: 'Hotel Escort Service',
     desc: 'Seamless, discreet outcall service directly to luxury 4-star and 5-star hotels including Oberoi, Leela, Crowne Plaza, and JW Marriott.',
-    image: '/images/categories/high-profile-girls.webp',
+    image: '/images/assets/Escorts_24x7_Availability.jpg',
   },
   {
     icon: Clock,
     title: '24/ 7 Escort Service',
     desc: 'Our VIP booking desk operates 24 hours a day, 7 days a week, for instant on-demand dispatch or planned future reservations.',
-    image: '/images/categories/air-hostess.webp',
+    image: '/images/assets/24x7_Available_Escorts.jpg',
   },
   {
     icon: Moon,
     title: 'Hourly & Full Night Escort Service',
     desc: 'Select customized booking packages ranging from single-hour romantic encounters to complete overnight full-night engagements.',
-    image: '/images/categories/celebrity-escorts.webp',
+    image: '/images/assets/Independent_Escorts_To_Meet_On_Hourly_Basis.jpg',
   },
 ];
 
