@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     'disclaimer, adult escort terms, legal compliance',
   ],
   alternates: {
-    canonical: 'https://alinavip.com/disclaimer',
+    canonical: `${siteConfig.url}/disclaimer`,
     languages: getAlternateLanguages('/disclaimer'),
   },
   robots: {
