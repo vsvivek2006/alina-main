@@ -46,8 +46,8 @@ export default function ContactPage() {
         <div className="absolute inset-0 opacity-10 pointer-events-none">
           <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:24px_24px]" />
         </div>
-        <div className="container-luxury relative z-10 text-center">
-          <span className="inline-block px-6 py-2 border border-gold-500/30 rounded-full text-gold-400 text-sm font-semibold tracking-wider uppercase mb-6 bg-gold-500/10 backdrop-blur-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+          <span className="inline-block px-6 py-2 border border-luxury-gold/50 rounded-full text-luxury-gold text-sm font-semibold tracking-wider uppercase mb-6 bg-[#FFFDF6]0/10 backdrop-blur-sm">
             ★ 24/7 Concierge Support
           </span>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-sans font-bold tracking-wide">
@@ -55,22 +55,22 @@ export default function ContactPage() {
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Reserve verified escorts,{' '}
-            <Link href="/category/russian-call-girls" className="text-gold-400 hover:underline font-medium">
+            <Link href="/category/russian-call-girls" className="text-luxury-gold hover:underline font-medium">
               Russian models
             </Link>
             , and{' '}
-            <Link href="/category/celebrity-escorts" className="text-gold-400 hover:underline font-medium">
+            <Link href="/category/celebrity-escorts" className="text-luxury-gold hover:underline font-medium">
               elite social escorts
             </Link>{' '}
             with 100% confidentiality and prompt outcall delivery across all Gurgaon luxury hotel suites.
           </p>
-          <div className="gold-divider mx-auto mt-8" />
+          <div className="w-16 h-1 bg-[#671725] rounded-full my-4 mx-auto mt-8" />
         </div>
       </section>
 
       {/* Main Contact Channels & Form */}
       <section className="py-16 md:py-24 bg-white text-gray-800">
-        <div className="container-luxury">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             {/* Left Column: Direct Concierge & Channels */}
             <div className="lg:col-span-5 space-y-6">
@@ -86,7 +86,7 @@ export default function ContactPage() {
               {/* Phone Channel Card */}
               <div className="p-6 bg-[#FFFDF6] rounded-2xl border border-gray-200/60 shadow-sm hover:shadow-md transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-12 h-12 rounded-xl bg-[#FFFDF6]0/10 flex items-center justify-center flex-shrink-0 mt-1">
                     <Phone className="w-6 h-6 text-primary-wine" />
                   </div>
                   <div>
@@ -134,7 +134,7 @@ export default function ContactPage() {
               {/* Location Card */}
               <div className="p-6 bg-[#FFFDF6] rounded-2xl border border-gray-200/60 shadow-sm hover:shadow-md transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-12 h-12 rounded-xl bg-[#FFFDF6]0/10 flex items-center justify-center flex-shrink-0 mt-1">
                     <MapPin className="w-6 h-6 text-primary-wine" />
                   </div>
                   <div>
@@ -154,7 +154,7 @@ export default function ContactPage() {
               {/* Operating Hours Card */}
               <div className="p-6 bg-[#FFFDF6] rounded-2xl border border-gray-200/60 shadow-sm hover:shadow-md transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-12 h-12 rounded-xl bg-[#FFFDF6]0/10 flex items-center justify-center flex-shrink-0 mt-1">
                     <Clock className="w-6 h-6 text-primary-wine" />
                   </div>
                   <div>
@@ -172,7 +172,7 @@ export default function ContactPage() {
               </div>
 
               {/* Privacy & Discretion Card */}
-              <div className="p-6 bg-gradient-to-br from-gold-50 to-amber-50 rounded-2xl border-2 border-gray-200">
+              <div className="p-6 bg-[#FFFDF6] rounded-2xl border-2 border-gray-200">
                 <h4 className="font-bold text-[#0B2154] text-base mb-3 flex items-center gap-2">
                   <ShieldCheck className="w-5 h-5 text-primary-wine" /> ALINA VIP Discretion Guarantee
                 </h4>
@@ -201,7 +201,7 @@ export default function ContactPage() {
 
       {/* Hotel Partners & Coverage Quick Reference */}
       <section className="py-12 bg-[#FFFDF6] border-t border-b border-gray-200/40">
-        <div className="container-luxury">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h3 className="text-xl md:text-2xl font-bold text-[#0B2154] font-sans font-bold">
               Rapid Five-Star Hotel Outcall Coverage
@@ -270,8 +270,8 @@ export default function ContactPage() {
 
       {/* SEO Editorial Guide: How to Book */}
       <section className="py-16 md:py-20 bg-white text-gray-800">
-        <div className="container-luxury max-w-4xl">
-          <div className="prose-luxury bg-[#FFFDF6] p-8 md:p-12 rounded-2xl border border-gray-200/60 shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+          <div className="space-y-6 bg-[#FFFDF6] p-8 md:p-12 rounded-2xl border border-gray-200/60 shadow-sm">
             <h2 className="text-3xl font-bold text-[#0B2154] mb-6 font-sans font-bold">
               How to Book Escort Service in Gurgaon with ALINA VIP
             </h2>

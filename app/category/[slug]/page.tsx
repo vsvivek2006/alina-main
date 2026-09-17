@@ -178,10 +178,10 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         <div className="absolute inset-0 opacity-10 pointer-events-none">
           <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:24px_24px]" />
         </div>
-        <div className="container-luxury relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="inline-block px-6 py-2 border border-gold-500/30 rounded-full text-gold-400 text-sm font-semibold tracking-wider uppercase mb-6 bg-gold-500/10 backdrop-blur-sm">
+              <span className="inline-block px-6 py-2 border border-luxury-gold/50 rounded-full text-luxury-gold text-sm font-semibold tracking-wider uppercase mb-6 bg-[#671725]/10 backdrop-blur-sm">
                 ★ Premium Escort Service
               </span>
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-sans font-bold leading-tight">
@@ -206,13 +206,13 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                 </a>
                 <Link
                   href="/contact"
-                  className="border-2 border-gold-500 hover:bg-gold-500/10 text-gold-400 px-8 py-4 rounded-full font-bold text-base transition-all"
+                  className="border-2 border-primary-wine hover:bg-[#671725]/10 text-luxury-gold px-8 py-4 rounded-full font-bold text-base transition-all"
                 >
                   Contact Us
                 </Link>
                 <a
                   href={siteConfig.url}
-                  className="border-2 border-gold-500/40 hover:bg-gold-500/10 text-gold-300 px-8 py-4 rounded-full font-bold text-base transition-all"
+                  className="border-2 border-luxury-gold/50 hover:bg-[#671725]/10 text-gold-300 px-8 py-4 rounded-full font-bold text-base transition-all"
                 >
                   Visit {siteConfig.domain}
                 </a>
@@ -236,7 +236,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
       {/* Main Content & Sidebar */}
       <section className="py-16 md:py-24 bg-white text-gray-800">
-        <div className="container-luxury">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-3 gap-12 items-start">
             {/* Left Column (2 Cols): Editorial & Value Props */}
             <div className="lg:col-span-2 space-y-8">
@@ -447,37 +447,37 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                 <div className="flex flex-wrap gap-2.5">
                   <Link
                     href="/locations/cyber-city"
-                    className="px-4 py-2 bg-gray-100 hover:bg-gold-100 text-gray-700 hover:text-gold-800 rounded-full text-xs font-semibold transition-colors"
+                    className="px-4 py-2 bg-gray-100 hover:bg-[#F9E1E5] text-gray-700 hover:text-primary-wine rounded-full text-xs font-semibold transition-colors"
                   >
                     Cyber City Call Girls
                   </Link>
                   <Link
                     href="/locations/mg-road"
-                    className="px-4 py-2 bg-gray-100 hover:bg-gold-100 text-gray-700 hover:text-gold-800 rounded-full text-xs font-semibold transition-colors"
+                    className="px-4 py-2 bg-gray-100 hover:bg-[#F9E1E5] text-gray-700 hover:text-primary-wine rounded-full text-xs font-semibold transition-colors"
                   >
                     MG Road Escorts
                   </Link>
                   <Link
                     href="/locations/golf-course-road"
-                    className="px-4 py-2 bg-gray-100 hover:bg-gold-100 text-gray-700 hover:text-gold-800 rounded-full text-xs font-semibold transition-colors"
+                    className="px-4 py-2 bg-gray-100 hover:bg-[#F9E1E5] text-gray-700 hover:text-primary-wine rounded-full text-xs font-semibold transition-colors"
                   >
                     Golf Course Road Escorts
                   </Link>
                   <Link
                     href="/locations/dlf-phase-1"
-                    className="px-4 py-2 bg-gray-100 hover:bg-gold-100 text-gray-700 hover:text-gold-800 rounded-full text-xs font-semibold transition-colors"
+                    className="px-4 py-2 bg-gray-100 hover:bg-[#F9E1E5] text-gray-700 hover:text-primary-wine rounded-full text-xs font-semibold transition-colors"
                   >
                     DLF City Call Girls
                   </Link>
                   <Link
                     href="/locations/sohna-road"
-                    className="px-4 py-2 bg-gray-100 hover:bg-gold-100 text-gray-700 hover:text-gold-800 rounded-full text-xs font-semibold transition-colors"
+                    className="px-4 py-2 bg-gray-100 hover:bg-[#F9E1E5] text-gray-700 hover:text-primary-wine rounded-full text-xs font-semibold transition-colors"
                   >
                     Sohna Road Escorts
                   </Link>
                   <Link
                     href="/locations/sector-29"
-                    className="px-4 py-2 bg-gray-100 hover:bg-gold-100 text-gray-700 hover:text-gold-800 rounded-full text-xs font-semibold transition-colors"
+                    className="px-4 py-2 bg-gray-100 hover:bg-[#F9E1E5] text-gray-700 hover:text-primary-wine rounded-full text-xs font-semibold transition-colors"
                   >
                     Sector 29 Call Girls
                   </Link>
@@ -485,7 +485,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               </div>
 
               {/* Call Card */}
-              <div className="p-6 bg-gradient-to-r from-gold-50 via-amber-50 to-gold-50 rounded-2xl border-2 border-gray-200 text-center shadow-sm">
+              <div className="p-6 bg-[#FFFDF6] rounded-2xl border-2 border-gray-200 text-center shadow-sm">
                 <p className="text-xl font-bold text-[#0B2154] font-sans font-bold">
                   📞 Book Your {category.name} Today
                 </p>
@@ -507,8 +507,8 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             {/* Right Column: Sticky Sidebar */}
             <div className="space-y-6 lg:sticky lg:top-24">
               {/* Category Highlight Card */}
-              <div className="bg-gradient-to-br from-gold-50 to-amber-50 p-8 rounded-2xl text-center border-2 border-gray-200 shadow-sm">
-                <div className="w-16 h-16 rounded-full bg-gold-500/10 flex items-center justify-center mx-auto mb-4 text-primary-wine">
+              <div className="bg-[#FFFDF6] p-8 rounded-2xl text-center border-2 border-gray-200 shadow-sm">
+                <div className="w-16 h-16 rounded-full bg-[#671725]/10 flex items-center justify-center mx-auto mb-4 text-primary-wine">
                   <IconComponent className="w-8 h-8" />
                 </div>
                 <h3 className="text-xl font-bold text-[#0B2154] font-sans font-bold">{category.name}</h3>
@@ -536,7 +536,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                 </a>
                 <Link
                   href="/contact"
-                  className="block mt-3 text-gold-400 hover:underline text-xs"
+                  className="block mt-3 text-luxury-gold hover:underline text-xs"
                 >
                   Or Request Online &rarr;
                 </Link>
@@ -605,10 +605,10 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               )}
 
               {/* 4.9/5 Rating Card */}
-              <div className="bg-gold-50 p-6 rounded-2xl border border-gray-200 text-center shadow-sm">
+              <div className="bg-[#FFFDF6] p-6 rounded-2xl border border-gray-200 text-center shadow-sm">
                 <div className="flex justify-center gap-1 mb-2">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-gold-500 text-luxury-gold" />
+                    <Star key={i} className="w-4 h-4 fill-luxury-gold text-luxury-gold" />
                   ))}
                 </div>
                 <p className="font-bold text-[#0B2154] text-base font-sans font-bold">4.9/5 Rating</p>

@@ -47,33 +47,33 @@ export default function AboutPage() {
         <div className="absolute inset-0 opacity-10 pointer-events-none">
           <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:24px_24px]" />
         </div>
-        <div className="container-luxury relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
-            <span className="inline-block px-6 py-2 border border-gold-500/30 rounded-full text-gold-400 text-sm font-semibold tracking-wider uppercase mb-6 bg-gold-500/10 backdrop-blur-sm">
+            <span className="inline-block px-6 py-2 border border-luxury-gold/50 rounded-full text-luxury-gold text-sm font-semibold tracking-wider uppercase mb-6 bg-[#671725]/10 backdrop-blur-sm">
               ★ About ALINA VIP India
             </span>
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-sans font-bold tracking-wide">
               The Story of <span className="text-gradient-gold">ALINA VIP India</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Gurgaon (Gurugram)&apos;s leading high-end <Link href="/services" className="text-gold-400 hover:underline font-medium">escorts service</Link>, connecting discerning executives and travellers with authenticated call girls,{' '}
-              <Link href="/category/russian-call-girls" className="text-gold-400 hover:underline font-medium">
+              Gurgaon (Gurugram)&apos;s leading high-end <Link href="/services" className="text-luxury-gold hover:underline font-medium">escorts service</Link>, connecting discerning executives and travellers with authenticated call girls,{' '}
+              <Link href="/category/russian-call-girls" className="text-luxury-gold hover:underline font-medium">
                 Russian call girls
               </Link>
               , and{' '}
-              <Link href="/category/model-escorts" className="text-gold-400 hover:underline font-medium">
+              <Link href="/category/model-escorts" className="text-luxury-gold hover:underline font-medium">
                 elite models
               </Link>{' '}
               under unconditional privacy standards.
             </p>
-            <div className="gold-divider mx-auto mt-8" />
+            <div className="w-16 h-1 bg-[#671725] rounded-full my-4 mx-auto mt-8" />
           </div>
         </div>
       </section>
 
       {/* Main Content Section */}
       <section className="py-16 md:py-24 bg-white text-gray-800">
-        <div className="container-luxury">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             {/* Left Column: Full Editorial Story */}
             <div className="lg:col-span-7 space-y-10">
@@ -128,7 +128,7 @@ export default function AboutPage() {
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-start gap-4 p-5 bg-[#FFFDF6] rounded-2xl border border-gray-200/50 hover:shadow-md transition-shadow">
-                    <div className="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <div className="w-10 h-10 rounded-xl bg-[#671725]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <ShieldCheck className="w-6 h-6 text-primary-wine" />
                     </div>
                     <div>
@@ -140,7 +140,7 @@ export default function AboutPage() {
                   </div>
 
                   <div className="flex items-start gap-4 p-5 bg-[#FFFDF6] rounded-2xl border border-gray-200/50 hover:shadow-md transition-shadow">
-                    <div className="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <div className="w-10 h-10 rounded-xl bg-[#671725]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <Lock className="w-6 h-6 text-primary-wine" />
                     </div>
                     <div>
@@ -152,7 +152,7 @@ export default function AboutPage() {
                   </div>
 
                   <div className="flex items-start gap-4 p-5 bg-[#FFFDF6] rounded-2xl border border-gray-200/50 hover:shadow-md transition-shadow">
-                    <div className="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <div className="w-10 h-10 rounded-xl bg-[#671725]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <Crown className="w-6 h-6 text-primary-wine" />
                     </div>
                     <div>
@@ -168,7 +168,7 @@ export default function AboutPage() {
                   </div>
 
                   <div className="flex items-start gap-4 p-5 bg-[#FFFDF6] rounded-2xl border border-gray-200/50 hover:shadow-md transition-shadow">
-                    <div className="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <div className="w-10 h-10 rounded-xl bg-[#671725]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <Sparkles className="w-6 h-6 text-primary-wine" />
                     </div>
                     <div>
@@ -180,7 +180,7 @@ export default function AboutPage() {
                   </div>
 
                   <div className="flex items-start gap-4 p-5 bg-[#FFFDF6] rounded-2xl border border-gray-200/50 hover:shadow-md transition-shadow">
-                    <div className="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <div className="w-10 h-10 rounded-xl bg-[#671725]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <Clock className="w-6 h-6 text-primary-wine" />
                     </div>
                     <div>
@@ -192,7 +192,7 @@ export default function AboutPage() {
                   </div>
 
                   <div className="flex items-start gap-4 p-5 bg-[#FFFDF6] rounded-2xl border border-gray-200/50 hover:shadow-md transition-shadow">
-                    <div className="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <div className="w-10 h-10 rounded-xl bg-[#671725]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <MapPin className="w-6 h-6 text-primary-wine" />
                     </div>
                     <div>
@@ -228,7 +228,7 @@ export default function AboutPage() {
                   Our Core Values in Escort Service
                 </h3>
                 <div className="grid sm:grid-cols-2 gap-5">
-                  <div className="p-6 bg-gold-50/70 rounded-2xl border border-gray-200/80 hover:shadow-md transition-shadow">
+                  <div className="p-6 bg-[#FFFDF6]/70 rounded-2xl border border-gray-200/80 hover:shadow-md transition-shadow">
                     <Lock className="w-8 h-8 text-primary-wine mb-3" />
                     <h4 className="font-bold text-[#0B2154] text-lg mb-2">Discretion</h4>
                     <p className="text-gray-600 text-sm leading-relaxed">
@@ -236,7 +236,7 @@ export default function AboutPage() {
                     </p>
                   </div>
 
-                  <div className="p-6 bg-gold-50/70 rounded-2xl border border-gray-200/80 hover:shadow-md transition-shadow">
+                  <div className="p-6 bg-[#FFFDF6]/70 rounded-2xl border border-gray-200/80 hover:shadow-md transition-shadow">
                     <Star className="w-8 h-8 text-primary-wine mb-3" />
                     <h4 className="font-bold text-[#0B2154] text-lg mb-2">Quality</h4>
                     <p className="text-gray-600 text-sm leading-relaxed">
@@ -244,7 +244,7 @@ export default function AboutPage() {
                     </p>
                   </div>
 
-                  <div className="p-6 bg-gold-50/70 rounded-2xl border border-gray-200/80 hover:shadow-md transition-shadow">
+                  <div className="p-6 bg-[#FFFDF6]/70 rounded-2xl border border-gray-200/80 hover:shadow-md transition-shadow">
                     <CheckCircle2 className="w-8 h-8 text-primary-wine mb-3" />
                     <h4 className="font-bold text-[#0B2154] text-lg mb-2">Authenticity</h4>
                     <p className="text-gray-600 text-sm leading-relaxed">
@@ -252,7 +252,7 @@ export default function AboutPage() {
                     </p>
                   </div>
 
-                  <div className="p-6 bg-gold-50/70 rounded-2xl border border-gray-200/80 hover:shadow-md transition-shadow">
+                  <div className="p-6 bg-[#FFFDF6]/70 rounded-2xl border border-gray-200/80 hover:shadow-md transition-shadow">
                     <Award className="w-8 h-8 text-primary-wine mb-3" />
                     <h4 className="font-bold text-[#0B2154] text-lg mb-2">Professionalism</h4>
                     <p className="text-gray-600 text-sm leading-relaxed">
@@ -525,7 +525,7 @@ export default function AboutPage() {
                 {/* CTAs */}
                 <div className="flex flex-wrap gap-4">
                   <Link href="/contact"
-                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-neutral-900 font-bold px-8 py-4 rounded-full text-base transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+                    className="inline-flex items-center justify-center gap-2 bg-[#671725] hover:bg-[#50121d] text-white font-bold px-8 py-4 rounded-full text-base transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
                   >
                     Reserve Now <ArrowRight className="w-5 h-5" />
                   </Link>
@@ -543,7 +543,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* 24/7 Banner Card */}
-                <div className="mt-8 p-6 bg-gradient-to-r from-gold-50 via-amber-50 to-gold-50 rounded-2xl border-2 border-gray-200/80 shadow-sm text-center">
+                <div className="mt-8 p-6 bg-[#FFFDF6] rounded-2xl border-2 border-gray-200/80 shadow-sm text-center">
                   <p className="text-xl font-bold text-[#0B2154]">
                     📞 Call us 24/7:{' '}
                     <a href={`tel:${siteConfig.phone}`} className="text-primary-wine hover:underline font-extrabold ml-1">
@@ -581,7 +581,7 @@ export default function AboutPage() {
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6">
-                    <span className="inline-block px-3 py-1 bg-gold-500/90 text-neutral-950 font-bold text-xs uppercase tracking-wider rounded-full mb-2 w-max">
+                    <span className="inline-block px-3 py-1 bg-[#FFFDF6]0/90 text-neutral-950 font-bold text-xs uppercase tracking-wider rounded-full mb-2 w-max">
                       Gurgaon&apos;s Flagship
                     </span>
                     <h3 className="text-white text-xl font-bold font-sans font-bold">
@@ -632,9 +632,9 @@ export default function AboutPage() {
               </div>
 
               {/* 4.9/5 Star Rating Card */}
-              <div className="bg-gradient-to-br from-gold-50 via-white to-amber-50/60 p-6 rounded-2xl border border-gray-200/80 text-center shadow-md">
-                <div className="w-12 h-12 rounded-full bg-gold-500/10 flex items-center justify-center mx-auto mb-3">
-                  <Star className="w-7 h-7 text-primary-wine fill-gold-500" />
+              <div className="bg-[#FFFDF6] p-6 rounded-2xl border border-gray-200/80 text-center shadow-md">
+                <div className="w-12 h-12 rounded-full bg-[#671725]/10 flex items-center justify-center mx-auto mb-3">
+                  <Star className="w-7 h-7 text-primary-wine fill-luxury-gold" />
                 </div>
                 <p className="font-bold text-[#0B2154] text-2xl font-sans font-bold">4.9 / 5 Star Rating</p>
                 <p className="text-gray-600 text-sm mt-1">
@@ -642,7 +642,7 @@ export default function AboutPage() {
                 </p>
                 <div className="flex justify-center gap-1.5 mt-3">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-gold-500 text-luxury-gold" />
+                    <Star key={i} className="w-5 h-5 fill-luxury-gold text-luxury-gold" />
                   ))}
                 </div>
                 <p className="text-xs text-gray-500 mt-4 pt-3 border-t border-gray-200/50">

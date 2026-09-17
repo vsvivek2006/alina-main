@@ -147,7 +147,7 @@ export default function FeaturedProfilesSection() {
                 <div>
                   {/* Photo Container */}
                   <div className="profile-img bg-gray-100">
-                    <Link href={"/category/" + profile.categorySlug}>
+                    <Link href={"/escorts/" + profile.id}>
                       <Image
                         src={profile.image}
                         alt={profile.name + " - " + profile.category + " in Gurgaon"}
@@ -165,8 +165,7 @@ export default function FeaturedProfilesSection() {
                       <div>
                         <div className="name">
                           <h3>
-                            <Link href={"/category/" + profile.categorySlug} className="hover:text-[#671725]">
-                              {profile.name}
+                            <Link href={"/escorts/" + profile.id} className="hover:text-[#671725]">{profile.name}
                             </Link>
                           </h3>
                         </div>
@@ -177,11 +176,7 @@ export default function FeaturedProfilesSection() {
                       </div>
 
                       <div className="view-profile-btn">
-                        <Link
-                          href={"/category/" + profile.categorySlug}
-                          className="tm-button"
-                        >
-                          <span>View Profile</span>
+                        <Link href={"/escorts/" + profile.id} className="tm-button"><span>View Profile</span>
                           <ArrowRight size={12} />
                         </Link>
                       </div>

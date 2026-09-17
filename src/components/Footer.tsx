@@ -1,24 +1,24 @@
 'use client';
 
 import Link from 'next/link';
-import { Phone, MessageCircle, Mail, MapPin, Clock } from 'lucide-react';
+import { Phone } from 'lucide-react';
 import { siteConfig } from '@/data/siteConfig';
 
 export default function Footer() {
   return (
     <footer className="bg-[#121212] text-gray-300 pt-16 pb-8 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
 
           {/* Col 1: About ALINA VIP */}
-          <div className="space-y-4">
+          <div className="space-y-4 lg:col-span-2">
             <h3 className="font-sans font-black text-2xl tracking-wide text-white">
               ALINA <span className="text-[#FFD700] font-light">VIP</span>
             </h3>
             <p className="text-xs md:text-sm text-gray-400 leading-relaxed">
-              ALINA VIP is Gurgaon’s top-rated luxury escort agency. We offer in-person verified Indian, Russian, and independent models for 5-star hotel and suite rendezvous across Cyber City, Golf Course Road, and Delhi NCR.
+              ALINA VIP is Gurgaon’s premier luxury escort agency. We offer in-person verified Indian, Russian, and independent models for 5-star hotel and suite rendezvous across Cyber City, Golf Course Road, and Delhi NCR.
             </p>
-            <div className="pt-2">
+            <div className="pt-2 flex flex-wrap gap-4 items-center">
               <a
                 href={"tel:" + siteConfig.phone}
                 className="inline-flex items-center gap-2 text-sm font-bold text-[#FFD700] hover:underline"
@@ -26,18 +26,21 @@ export default function Footer() {
                 <Phone size={15} />
                 <span>{siteConfig.phoneDisplay}</span>
               </a>
+              <Link href="/rates" className="text-xs font-bold text-rose-300 hover:text-white underline">
+                Check Rates &amp; Pricing &rarr;
+              </Link>
             </div>
           </div>
 
           {/* Col 2: Categories */}
           <div>
-            <h4 className="font-bold text-white text-base mb-5 border-b border-gray-800 pb-2">
+            <h4 className="font-bold text-white text-base mb-4 border-b border-gray-800 pb-2">
               Categories
             </h4>
-            <ul className="space-y-2.5 text-xs md:text-sm">
+            <ul className="space-y-2 text-xs">
               <li>
                 <Link href="/category/russian-call-girls" className="text-gray-400 hover:text-white transition-colors">
-                  Russian Call Girls
+                  Russian Escorts
                 </Link>
               </li>
               <li>
@@ -47,7 +50,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/category/high-profile-girls" className="text-gray-400 hover:text-white transition-colors">
-                  High Profile Call Girls
+                  High Profile Escorts
                 </Link>
               </li>
               <li>
@@ -66,93 +69,97 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-[#FFD700] font-semibold hover:underline">
+                <Link href="/categories" className="text-[#FFD700] font-semibold hover:underline">
                   View All Categories &rarr;
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Col 3: Locations */}
+          {/* Col 3: Services & Hotels */}
           <div>
-            <h4 className="font-bold text-white text-base mb-5 border-b border-gray-800 pb-2">
-              Locations
+            <h4 className="font-bold text-white text-base mb-4 border-b border-gray-800 pb-2">
+              Services &amp; Hotels
             </h4>
-            <ul className="space-y-2.5 text-xs md:text-sm">
+            <ul className="space-y-2 text-xs">
               <li>
-                <Link href="/locations/aerocity" className="text-gray-400 hover:text-white transition-colors">
-                  Aerocity Escorts
+                <Link href="/services/1-2-3-hours" className="text-gray-400 hover:text-white transition-colors">
+                  1/2/3 Hours Escorts
                 </Link>
               </li>
               <li>
-                <Link href="/locations/cyber-city" className="text-gray-400 hover:text-white transition-colors">
-                  Cyber City Escorts
+                <Link href="/services/full-night" className="text-gray-400 hover:text-white transition-colors">
+                  Full Night Escorts
                 </Link>
               </li>
               <li>
-                <Link href="/locations/golf-course-road" className="text-gray-400 hover:text-white transition-colors">
-                  Golf Course Road Escorts
+                <Link href="/services/sensual-massage" className="text-gray-400 hover:text-white transition-colors">
+                  Sensual Massage
                 </Link>
               </li>
               <li>
-                <Link href="/locations/mg-road" className="text-gray-400 hover:text-white transition-colors">
-                  MG Road Call Girls
+                <Link href="/services/girlfriend-experience" className="text-gray-400 hover:text-white transition-colors">
+                  GFE Experience
                 </Link>
               </li>
               <li>
-                <Link href="/locations/dwarka" className="text-gray-400 hover:text-white transition-colors">
-                  Dwarka Escorts
+                <Link href="/hotels" className="text-gray-400 hover:text-white transition-colors">
+                  5-Star Hotel Escorts
                 </Link>
               </li>
               <li>
-                <Link href="/locations/mahipalpur" className="text-gray-400 hover:text-white transition-colors">
-                  Mahipalpur Escorts
+                <Link href="/rates" className="text-gray-400 hover:text-white transition-colors">
+                  Rates &amp; Packages
                 </Link>
               </li>
               <li>
-                <Link href="/locations" className="text-[#FFD700] font-semibold hover:underline">
-                  View All Locations &rarr;
+                <Link href="/phone-number" className="text-[#FFD700] font-semibold hover:underline">
+                  VIP Booking Hotline &rarr;
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Col 4: Contact Details */}
-          <div className="space-y-3">
-            <h4 className="font-bold text-white text-base mb-5 border-b border-gray-800 pb-2">
-              Contact Details
+          {/* Col 4: Locations */}
+          <div>
+            <h4 className="font-bold text-white text-base mb-4 border-b border-gray-800 pb-2">
+              Top Locations
             </h4>
-            <ul className="space-y-3 text-xs md:text-sm">
-              <li className="flex items-start gap-2.5 text-gray-400">
-                <MapPin size={16} className="text-[#FFD700] flex-shrink-0 mt-0.5" />
-                <span>{siteConfig.address}</span>
+            <ul className="space-y-2 text-xs">
+              <li>
+                <Link href="/locations/cyber-city" className="text-gray-400 hover:text-white transition-colors">
+                  Cyber City
+                </Link>
               </li>
-              <li className="flex items-center gap-2.5 text-gray-400">
-                <Phone size={16} className="text-[#FFD700] flex-shrink-0" />
-                <a href={"tel:" + siteConfig.phone} className="hover:text-white transition-colors">
-                  {siteConfig.phoneDisplay}
-                </a>
+              <li>
+                <Link href="/locations/golf-course-road" className="text-gray-400 hover:text-white transition-colors">
+                  Golf Course Road
+                </Link>
               </li>
-              <li className="flex items-center gap-2.5 text-gray-400">
-                <MessageCircle size={16} className="text-[#25D366] flex-shrink-0" />
-                <a
-                  href={"https://wa.me/" + siteConfig.whatsapp}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-white transition-colors"
-                >
-                  WhatsApp Concierge
-                </a>
+              <li>
+                <Link href="/locations/mg-road" className="text-gray-400 hover:text-white transition-colors">
+                  MG Road
+                </Link>
               </li>
-              <li className="flex items-center gap-2.5 text-gray-400">
-                <Mail size={16} className="text-[#FFD700] flex-shrink-0" />
-                <a href={"mailto:" + siteConfig.email} className="hover:text-white transition-colors">
-                  {siteConfig.email}
-                </a>
+              <li>
+                <Link href="/locations/aerocity" className="text-gray-400 hover:text-white transition-colors">
+                  Aerocity
+                </Link>
               </li>
-              <li className="flex items-center gap-2.5 text-gray-400">
-                <Clock size={16} className="text-[#FFD700] flex-shrink-0" />
-                <span>24/7 Available Everyday</span>
+              <li>
+                <Link href="/locations/dwarka" className="text-gray-400 hover:text-white transition-colors">
+                  Dwarka
+                </Link>
+              </li>
+              <li>
+                <Link href="/locations/sohna-road" className="text-gray-400 hover:text-white transition-colors">
+                  Sohna Road
+                </Link>
+              </li>
+              <li>
+                <Link href="/locations" className="text-[#FFD700] font-semibold hover:underline">
+                  View All Sectors &rarr;
+                </Link>
               </li>
             </ul>
           </div>

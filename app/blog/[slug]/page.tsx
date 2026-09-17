@@ -131,7 +131,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
       {/* Main Article Body */}
       <article className="py-16 md:py-24 bg-white text-gray-800">
-        <div className="container-luxury max-w-4xl">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Article Header */}
           <div className="mb-8">
             <div className="flex items-center gap-3 mb-4">
@@ -185,7 +185,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
           {/* Article Content / Paragraphs */}
           <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
-            <p className="text-xl font-sans font-bold text-gray-900 leading-relaxed italic border-l-4 border-gold-500 pl-6 my-8">
+            <p className="text-xl font-sans font-bold text-gray-900 leading-relaxed italic border-l-4 border-primary-wine pl-6 my-8">
               {post.excerpt}
             </p>
 
@@ -217,8 +217,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
       {/* Related Articles Strip */}
       {displayRelated.length > 0 && (
-        <section className="py-16 bg-[#faf6f2] border-t border-gray-200/60">
-          <div className="container-luxury max-w-6xl">
+        <section className="py-16 bg-white border-t border-gray-200/60">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
             <div className="text-center mb-12">
               <span className="text-xs font-bold text-primary-wine uppercase tracking-wider block mb-2">
                 Continue Reading
