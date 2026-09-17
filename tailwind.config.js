@@ -4,59 +4,52 @@ export default {
   theme: {
     extend: {
       colors: {
+        wine: {
+          50: '#FDF2F4',
+          100: '#FCE7EB',
+          200: '#F9D0D8',
+          300: '#F4A9B8',
+          400: '#E8728A',
+          500: '#D63B5D',
+          600: '#B82344',
+          700: '#8C1B33',
+          800: '#671725', // Roshni Khanna signature wine
+          900: '#4A101A',
+        },
+        navy: {
+          50: '#EEF2F9',
+          100: '#DCE5F3',
+          200: '#BDCEE8',
+          500: '#1D4ED8',
+          800: '#0F2A66',
+          900: '#0B2154', // Roshni Khanna signature royal navy
+        },
         gold: {
-          50: '#FFFDF0',
-          100: '#FFF9C4',
-          200: '#FFF176',
-          300: '#FFD54F',
-          400: '#FFCA28',
-          500: '#FFB300',
-          600: '#FFA000',
-          700: '#FF8F00',
-          800: '#E65100',
-          900: '#BF360C',
+          300: '#FFE066',
+          400: '#FFDF00',
+          500: '#FFD700', // Gold stars
+          600: '#D4AF37',
         },
-        charcoal: {
-          50: '#F8FAFC',
-          100: '#F1F5F9',
-          200: '#E2E8F0',
-          300: '#CBD5E1',
-          400: '#94A3B8',
-          500: '#64748B',
-          600: '#334155',
-          700: '#1E293B',
-          800: '#0F172A',
-          900: '#07090E',
+        cream: {
+          50: '#FFFDF6',
+          100: '#FDFBF7',
+          200: '#F7F3E9',
         },
-        ruby: {
-          400: '#FF4D79',
-          500: '#FF1E56',
-          600: '#E11D48',
+        blush: {
+          50: '#FFF0F2',
+          100: '#F9E1E5',
+          200: '#F5CBD0',
         },
       },
       fontFamily: {
-        serif: ['var(--font-playfair)', '"Playfair Display"', 'Georgia', 'serif'],
-        sans: ['var(--font-jost)', '"Jost"', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-poppins)', 'Poppins', 'system-ui', 'sans-serif'],
+        serif: ['var(--font-playfair)', 'Georgia', 'serif'],
+        display: ['var(--font-poppins)', 'Poppins', 'sans-serif'],
       },
-      letterSpacing: {
-        widest: '0.2em',
-        ultra: '0.35em',
-      },
-      animation: {
-        'fade-in': 'fadeIn 0.8s ease-out forwards',
-        'fade-up': 'fadeUp 0.8s ease-out forwards',
-        'fade-down': 'fadeDown 0.8s ease-out forwards',
-        'scale-in': 'scaleIn 0.6s ease-out forwards',
-        'shimmer': 'shimmer 3s linear infinite',
-        'float': 'float 6s ease-in-out infinite',
-      },
-      keyframes: {
-        fadeIn: { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
-        fadeUp: { '0%': { opacity: '0', transform: 'translateY(30px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
-        fadeDown: { '0%': { opacity: '0', transform: 'translateY(-30px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
-        scaleIn: { '0%': { opacity: '0', transform: 'scale(0.95)' }, '100%': { opacity: '1', transform: 'scale(1)' } },
-        shimmer: { '0%': { backgroundPosition: '-200% center' }, '100%': { backgroundPosition: '200% center' } },
-        float: { '0%, 100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-10px)' } },
+      boxShadow: {
+        'profile': '0px 10px 15px -3px rgba(0, 0, 0, 0.1)',
+        'profile-hover': '0px 25px 50px -12px rgba(0, 0, 0, 0.14)',
+        'testimonial': '0px 10px 15px -3px rgba(0, 0, 0, 0.1)',
       },
     },
   },

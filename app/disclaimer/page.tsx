@@ -1,3 +1,4 @@
+import { siteConfig } from '@/data/siteConfig';
 import type { Metadata } from 'next';
 import { DisclaimerPage } from '@/components/LegalPages';
 import { getAlternateLanguages } from '@/data/siteConfig';
