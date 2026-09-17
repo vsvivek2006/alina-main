@@ -12,7 +12,7 @@ export default function Footer() {
 
           {/* Col 1: About ALINA VIP */}
           <div className="space-y-4">
-            <h3 className="font-serif font-black text-2xl tracking-wide text-white">
+            <h3 className="font-sans font-black text-2xl tracking-wide text-white">
               ALINA <span className="text-[#FFD700] font-light">VIP</span>
             </h3>
             <p className="text-xs md:text-sm text-gray-400 leading-relaxed">

@@ -86,7 +86,28 @@ export default function EditorialGuideSection() {
           </div>
 
           {/* 3 Experience Image Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div className="bg-white/10 rounded-xl overflow-hidden border border-white/10 flex flex-col justify-between group">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/images/assets/Full_Body_Sensual_Massage.jpg"
+                  alt="Full Body Sensual Massage Gurgaon"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 380px"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+              </div>
+              <div className="p-5">
+                <h4 className="font-bold text-white text-base mb-1.5 flex items-center gap-2">
+                  <Sparkles size={16} className="text-[#FFD700]" /> Sensual Massage
+                </h4>
+                <p className="text-xs text-gray-200 leading-relaxed">
+                  Full-body therapeutic touch designed to dissolve executive tension in complete privacy.
+                </p>
+              </div>
+            </div>
+
             <div className="bg-white/10 rounded-xl overflow-hidden border border-white/10 flex flex-col justify-between group">
               <div className="relative h-48 w-full overflow-hidden">
                 <Image
@@ -178,8 +199,30 @@ export default function EditorialGuideSection() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {/* Couple and Duo */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        {/* Special Requests */}
+            <div className="bg-white rounded-xl overflow-hidden border border-gray-200/80 shadow-sm hover:shadow-lg transition-all duration-300">
+              <div className="relative h-52 w-full overflow-hidden">
+                <Image
+                  src="/images/assets/Special_Requests_And_Customized_Experiences.png"
+                  alt="Special Requests and Tailored Experiences"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 380px"
+                  className="object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div className="p-5">
+                <h3 className="font-bold text-[#111827] text-lg mb-2">Tailored Experiences</h3>
+                <p className="text-xs md:text-sm text-gray-600 leading-relaxed mb-4">
+                  Custom-tailored rendezvous tailored precisely to your private desires, personal fantasies, and schedule.
+                </p>
+                <Link href="/services" className="inline-flex items-center gap-1.5 text-xs font-bold text-[#671725]">
+                  Learn More <ArrowRight size={13} />
+                </Link>
+              </div>
+            </div>
+{/* Couple and Duo */}
             <div className="bg-white rounded-xl overflow-hidden border border-gray-200/80 shadow-sm hover:shadow-lg transition-all duration-300">
               <div className="relative h-52 w-full overflow-hidden">
                 <Image
