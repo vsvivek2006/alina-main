@@ -1,687 +1,208 @@
-import type { Metadata } from 'next';
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
-import {
-  ShieldCheck,
-  Lock,
-  Crown,
-  Sparkles,
-  Clock,
-  MapPin,
-  Star,
-  CheckCircle2,
-  Award,
-  Phone,
-  ArrowRight,
-  HeartHandshake,
-} from 'lucide-react';
+import { Shield, Star, Clock, Heart, Award, ArrowRight, Phone } from 'lucide-react';
 import Breadcrumb from '@/components/Breadcrumb';
 import CTASection from '@/components/CTASection';
-import { siteConfig, getAlternateLanguages } from '@/data/siteConfig';
-
-export const metadata: Metadata = {
-  title: 'About ALINA VIP India | Escort Service in Gurgaon (Gurugram)',
-  description:
-    'Discover the legacy of ALINA VIP India. Over a decade of excellence providing premier escort service in Gurgaon (Gurugram) with verified call girls, VIP escort girls, and 5-star hotel outcalls.',
-  keywords: siteConfig.keywords,
-  alternates: {
-    canonical: `${siteConfig.url}/about`,
-    languages: getAlternateLanguages('/about'),
-  },
-  openGraph: {
-    title: 'About ALINA VIP India | Escort Service in Gurgaon (Gurugram)',
-    description:
-      'Discover the legacy of ALINA VIP India. Over a decade of excellence providing premier escort service in Gurgaon (Gurugram) with verified call girls, VIP escort girls, and 5-star hotel outcalls.',
-    url: `${siteConfig.url}/about`,
-    type: 'website',
-  },
-};
+import { siteConfig } from '@/data/siteConfig';
 
 export default function AboutPage() {
   return (
-    <>
-      <Breadcrumb items={[{ name: 'Home', path: '/' }, { name: 'About Us' }]} />
-
-      {/* Hero Section */}
-      <section className="relative bg-[#671725] text-white py-14 px-4 sm:px-6 lg:px-8 border-b-4 border-luxury-gold shadow-md">
-        <div className="absolute inset-0 opacity-10 pointer-events-none">
-          <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:24px_24px]" />
+    <div className="min-h-screen bg-[#FFFDF6] text-[#333333]">
+      {/* Page Title Bar */}
+      <div className="bg-[#671725] text-white py-12 px-4 sm:px-6 lg:px-8 shadow-inner">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-3">
+            <Breadcrumb
+              items={[
+                { label: 'Home', href: '/' },
+                { label: 'About Us' },
+              ]}
+            />
+          </div>
+          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight">
+            {siteConfig.name} Gurgaon Escort Agency – Your Place To Seek 100% Satisfaction
+          </h1>
+          <p className="mt-3 text-sm sm:text-base text-rose-100 font-light max-w-3xl">
+            Our Gurgaon escort agency is the leading destination for exotic fun and pleasure. It is the one stop destination for men seeking women for love making and adult entertainment.
+          </p>
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="text-center">
-            <span className="inline-block px-6 py-2 border border-luxury-gold/50 rounded-full text-luxury-gold text-sm font-semibold tracking-wider uppercase mb-6 bg-[#671725]/10 backdrop-blur-sm">
-              ★ About ALINA VIP India
-            </span>
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-sans font-bold tracking-wide">
-              The Story of <span className="text-gradient-gold">ALINA VIP India</span>
-            </h1>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Gurgaon (Gurugram)&apos;s leading high-end <Link href="/services" className="text-luxury-gold hover:underline font-medium">escorts service</Link>, connecting discerning executives and travellers with authenticated call girls,{' '}
-              <Link href="/category/russian-call-girls" className="text-luxury-gold hover:underline font-medium">
-                Russian call girls
-              </Link>
-              , and{' '}
-              <Link href="/category/model-escorts" className="text-luxury-gold hover:underline font-medium">
-                elite models
-              </Link>{' '}
-              under unconditional privacy standards.
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-16">
+        {/* Intro Section */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+          <div className="lg:col-span-7 space-y-5 text-sm sm:text-base text-gray-700 leading-relaxed">
+            <span className="text-xs font-bold text-[#671725] uppercase tracking-widest block">Years of Industry Experience</span>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0B2154]">
+              A Long-Standing Escort Agency You Can Trust
+            </h2>
+            <p>
+              Our escort agency has years of experience in the adult entertainment industry. We have been dealing with clients for many years and have always satisfied them. That is the reason clients love to return to our services again and again. So you are in safe hands with us.
             </p>
-            <div className="w-16 h-1 bg-[#671725] rounded-full my-4 mx-auto mt-8" />
+            <p>
+              You don&apos;t have to worry about anything when you book our female escorts. They are very friendly and will make sure you have the best experience of your life. Whether you are looking for a girlfriend experience, a dinner date companion, or someone to accompany you to a high-end corporate party in DLF Cyber City or Golf Course Road, we have the perfect partner for you.
+            </p>
           </div>
-        </div>
-      </section>
-
-      {/* Main Content Section */}
-      <section className="py-16 md:py-24 bg-white text-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-12 gap-12 items-start">
-            {/* Left Column: Full Editorial Story */}
-            <div className="lg:col-span-7 space-y-10">
-              {/* Welcome Section */}
-              <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#0B2154] mb-5 font-sans font-bold">
-                  Welcome to ALINA VIP –{' '}
-                  <span className="text-primary-wine">Gurgaon&apos;s Premier Escort Agency</span>
-                </h2>
-                <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                  <strong>ALINA VIP</strong> is Gurgaon&apos;s leading escort agency, offering a curated{' '}
-                  <Link href="/services" className="text-primary-wine hover:underline font-medium">
-                    service portfolio
-                  </Link>{' '}
-                  of VIP call girls,{' '}
-                  <Link href="/category/russian-call-girls" className="text-primary-wine hover:underline font-medium">
-                    Russian escorts
-                  </Link>
-                  , and{' '}
-                  <Link href="/category/model-escorts" className="text-primary-wine hover:underline font-medium">
-                    elite models
-                  </Link>
-                  . Our agency is designed for discerning gentlemen who value discretion, quality, and professionalism.
-                </p>
-                <p className="text-gray-700 text-lg leading-relaxed">
-                  Founded with a vision to redefine escort services in Gurgaon, we have established ourselves as the city&apos;s most trusted name in luxury hospitality and escort service. Our verified profiles, rigorous screening process, and unwavering commitment to privacy set us apart.
-                </p>
-              </div>
-
-              {/* Our Story */}
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0B2154] mb-4 font-sans font-bold">
-                  Our Story – Redefining High-End Escort Services
-                </h3>
-                <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
-                  <p>
-                    <strong>ALINA VIP</strong> was founded with a singular vision: to elevate the escort service experience in Gurgaon by providing a service that is sophisticated, professional, and uncompromising in its commitment to quality and discretion. In an industry often characterised by inconsistency and a lack of professionalism, we saw an opportunity to create something different — an agency that operates with the standards of a luxury hospitality brand.
-                  </p>
-                  <p>
-                    Our journey began with a simple observation: discerning gentlemen in Gurgaon deserved an escort service that matched their lifestyle and expectations. The city had become one of India&apos;s most cosmopolitan centres, home to business leaders, entrepreneurs, and global executives. Yet the options for verified, quality escorts were limited. <strong>ALINA VIP</strong> was created to fill this gap.
-                  </p>
-                  <p>
-                    From the outset, we made several key decisions that would shape our service philosophy. We decided that every profile in our portfolio would undergo a thorough verification process, ensuring that profiles were genuine and accurate. We committed to complete discretion in all client interactions, recognising that privacy is a fundamental need for our clientele. And we chose to focus on quality over quantity, maintaining a curated selection rather than an exhaustive but inconsistent roster.
-                  </p>
-                </div>
-              </div>
-
-              {/* Why Choose ALINA VIP */}
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0B2154] mb-6 font-sans font-bold">
-                  Why Choose ALINA VIP for Escort Service in Gurgaon?
-                </h3>
-                <div className="space-y-4">
-                  <div className="flex items-start gap-4 p-5 bg-[#FFFDF6] rounded-2xl border border-gray-200/50 hover:shadow-md transition-shadow">
-                    <div className="w-10 h-10 rounded-xl bg-[#671725]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <ShieldCheck className="w-6 h-6 text-primary-wine" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-[#0B2154] text-lg mb-1">Verified Call Girls &amp; Escorts</h4>
-                      <p className="text-gray-600 text-sm leading-relaxed">
-                        Every profile is verified through ID checks, photo authentication, and personal screening for your safety and peace of mind.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4 p-5 bg-[#FFFDF6] rounded-2xl border border-gray-200/50 hover:shadow-md transition-shadow">
-                    <div className="w-10 h-10 rounded-xl bg-[#671725]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <Lock className="w-6 h-6 text-primary-wine" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-[#0B2154] text-lg mb-1">100% Discreet Escort Service</h4>
-                      <p className="text-gray-600 text-sm leading-relaxed">
-                        Your privacy is our priority. All client inquiries and bookings remain strictly confidential with zero digital footprint.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4 p-5 bg-[#FFFDF6] rounded-2xl border border-gray-200/50 hover:shadow-md transition-shadow">
-                    <div className="w-10 h-10 rounded-xl bg-[#671725]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <Crown className="w-6 h-6 text-primary-wine" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-[#0B2154] text-lg mb-1">VIP &amp; Premium Call Girls</h4>
-                      <p className="text-gray-600 text-sm leading-relaxed">
-                        Our curated selection includes{' '}
-                        <Link href="/category/russian-call-girls" className="text-primary-wine hover:underline font-medium">Russian escorts</Link>,{' '}
-                        <Link href="/category/model-escorts" className="text-primary-wine hover:underline font-medium">model escorts</Link>,{' '}
-                        <Link href="/category/housewife-escorts" className="text-primary-wine hover:underline font-medium">housewife escorts</Link>, and{' '}
-                        <Link href="/category/college-girls" className="text-primary-wine hover:underline font-medium">college call girls</Link> – all verified and elite.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4 p-5 bg-[#FFFDF6] rounded-2xl border border-gray-200/50 hover:shadow-md transition-shadow">
-                    <div className="w-10 h-10 rounded-xl bg-[#671725]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <Sparkles className="w-6 h-6 text-primary-wine" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-[#0B2154] text-lg mb-1">Premium Escort Experience</h4>
-                      <p className="text-gray-600 text-sm leading-relaxed">
-                        From luxury hotel room visits to outcall appointments at private residences, we ensure a seamless, high-end experience every time.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4 p-5 bg-[#FFFDF6] rounded-2xl border border-gray-200/50 hover:shadow-md transition-shadow">
-                    <div className="w-10 h-10 rounded-xl bg-[#671725]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <Clock className="w-6 h-6 text-primary-wine" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-[#0B2154] text-lg mb-1">24/7 Concierge Service</h4>
-                      <p className="text-gray-600 text-sm leading-relaxed">
-                        Our booking desk operates around the clock. Coordinate verified escorts anytime – day or night.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4 p-5 bg-[#FFFDF6] rounded-2xl border border-gray-200/50 hover:shadow-md transition-shadow">
-                    <div className="w-10 h-10 rounded-xl bg-[#671725]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <MapPin className="w-6 h-6 text-primary-wine" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-[#0B2154] text-lg mb-1">All Gurgaon Locations</h4>
-                      <p className="text-gray-600 text-sm leading-relaxed">
-                        We provide discreet outcall across{' '}
-                        <Link href="/locations/cyber-city" className="text-primary-wine hover:underline font-medium">Cyber City</Link>,{' '}
-                        <Link href="/locations/mg-road" className="text-primary-wine hover:underline font-medium">MG Road</Link>,{' '}
-                        <Link href="/locations/golf-course-road" className="text-primary-wine hover:underline font-medium">Golf Course Road</Link>,{' '}
-                        <Link href="/locations/dlf-phase-1" className="text-primary-wine hover:underline font-medium">DLF</Link>, and all major NCR corridors.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Our Mission */}
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0B2154] mb-4 font-sans font-bold">
-                  Our Mission – Excellence in Escort Service
-                </h3>
-                <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                  Our mission is to provide the finest escort services in Gurgaon, characterised by verified profiles, exceptional conversational skills, and unwavering discretion. We strive to create experiences that are memorable, sophisticated, and tailored to the unique preferences of each client.
-                </p>
-                <p className="text-gray-700 text-lg leading-relaxed">
-                  We believe that great escort service is about more than just physical beauty. It is about the complete experience of spending time with someone who is cultured, articulate, and genuinely engaging. It is about the comfort of knowing that your privacy is protected and your expectations are consistently met.
-                </p>
-              </div>
-
-              {/* Core Values */}
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0B2154] mb-6 font-sans font-bold">
-                  Our Core Values in Escort Service
-                </h3>
-                <div className="grid sm:grid-cols-2 gap-5">
-                  <div className="p-6 bg-[#FFFDF6]/70 rounded-2xl border border-gray-200/80 hover:shadow-md transition-shadow">
-                    <Lock className="w-8 h-8 text-primary-wine mb-3" />
-                    <h4 className="font-bold text-[#0B2154] text-lg mb-2">Discretion</h4>
-                    <p className="text-gray-600 text-sm leading-relaxed">
-                      Complete confidentiality and protected data for all client reservations and interactions.
-                    </p>
-                  </div>
-
-                  <div className="p-6 bg-[#FFFDF6]/70 rounded-2xl border border-gray-200/80 hover:shadow-md transition-shadow">
-                    <Star className="w-8 h-8 text-primary-wine mb-3" />
-                    <h4 className="font-bold text-[#0B2154] text-lg mb-2">Quality</h4>
-                    <p className="text-gray-600 text-sm leading-relaxed">
-                      Exacting standards in profile curation, background verification, and personalized service delivery.
-                    </p>
-                  </div>
-
-                  <div className="p-6 bg-[#FFFDF6]/70 rounded-2xl border border-gray-200/80 hover:shadow-md transition-shadow">
-                    <CheckCircle2 className="w-8 h-8 text-primary-wine mb-3" />
-                    <h4 className="font-bold text-[#0B2154] text-lg mb-2">Authenticity</h4>
-                    <p className="text-gray-600 text-sm leading-relaxed">
-                      Verified profiles with authentic photos. No bait-and-switch tactics or unverified imagery.
-                    </p>
-                  </div>
-
-                  <div className="p-6 bg-[#FFFDF6]/70 rounded-2xl border border-gray-200/80 hover:shadow-md transition-shadow">
-                    <Award className="w-8 h-8 text-primary-wine mb-3" />
-                    <h4 className="font-bold text-[#0B2154] text-lg mb-2">Professionalism</h4>
-                    <p className="text-gray-600 text-sm leading-relaxed">
-                      Luxury hospitality standards, punctual dispatch, and respectful communication in every engagement.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Areas We Serve */}
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0B2154] mb-4 font-sans font-bold">
-                  Areas We Serve – Escort Service in Gurgaon
-                </h3>
-                <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                  Our agency provides discreet outcall service across major sectors and commercial hubs. Explore our complete{' '}
-                  <Link href="/locations" className="text-primary-wine hover:underline font-semibold">
-                    Gurgaon location directory
-                  </Link>{' '}
-                  or view key areas:
-                </p>
-                <div className="bg-[#FFFDF6] p-6 rounded-2xl border border-gray-200/50">
-                  <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-primary-wine font-bold mt-0.5">•</span>
-                      <div>
-                        <Link href="/locations/cyber-city" className="text-primary-wine hover:underline font-semibold">Cyber City Escorts</Link>
-                        {' '}– Escorts for executive events, business dining, and corporate hotel visits
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-primary-wine font-bold mt-0.5">•</span>
-                      <div>
-                        <Link href="/locations/mg-road" className="text-primary-wine hover:underline font-semibold">MG Road Call Girls</Link>
-                        {' '}– Call girls near central Gurgaon shopping and leisure destinations
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-primary-wine font-bold mt-0.5">•</span>
-                      <div>
-                        <Link href="/locations/golf-course-road" className="text-primary-wine hover:underline font-semibold">Golf Course Road Escorts</Link>
-                        {' '}– Elite models for luxury residential complexes and high-end hotels
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-primary-wine font-bold mt-0.5">•</span>
-                      <div>
-                        <Link href="/locations/dlf-phase-1" className="text-primary-wine hover:underline font-semibold">DLF City Escorts</Link>
-                        {' '}– Discreet escort coordination across DLF Phase 1 through Phase 5
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-primary-wine font-bold mt-0.5">•</span>
-                      <div>
-                        <Link href="/locations/sohna-road" className="text-primary-wine hover:underline font-semibold">Sohna Road Call Girls</Link>
-                        {' '}– Rapid outcall escorts along the southern Gurgaon business corridor
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-primary-wine font-bold mt-0.5">•</span>
-                      <div>
-                        <Link href="/locations/sushant-lok" className="text-primary-wine hover:underline font-semibold">Sushant Lok Escorts</Link>
-                        {' '}– Refined call girls in established central residential colonies
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-primary-wine font-bold mt-0.5">•</span>
-                      <div>
-                        <Link href="/locations/sector-29" className="text-primary-wine hover:underline font-semibold">Sector 29 Call Girls</Link>
-                        {' '}– Vibrant escorts near Gurgaon&apos;s culinary and nightlife district
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-primary-wine font-bold mt-0.5">•</span>
-                      <div>
-                        <Link href="/locations/huda-city-centre" className="text-primary-wine hover:underline font-semibold">HUDA City Centre Escorts</Link>
-                        {' '}– Rapid hotel dispatch near central transit and commercial centers
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-primary-wine font-bold mt-0.5">•</span>
-                      <div>
-                        <Link href="/locations/manesar" className="text-primary-wine hover:underline font-semibold">Manesar Call Girls</Link>
-                        {' '}– Premium escorts for corporate stays in IMT Manesar
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-primary-wine font-bold mt-0.5">•</span>
-                      <div>
-                        <Link href="/locations/dwarka" className="text-primary-wine hover:underline font-semibold">Dwarka Escorts</Link>
-                        {' '}– Verified call girls serving southwest Delhi and airport hotels
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-primary-wine font-bold mt-0.5">•</span>
-                      <div>
-                        <Link href="/locations/aerocity" className="text-primary-wine hover:underline font-semibold">Aerocity Escorts</Link>
-                        {' '}– Luxury airport transit escorts at five-star hospitality suites
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* Our Call Girls & Escort Categories */}
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0B2154] mb-6 font-sans font-bold">
-                  Our Call Girls &amp; Escort Categories
-                </h3>
-                <div className="grid sm:grid-cols-3 gap-4">
-                  <Link href="/category/russian-call-girls"
-                    className="p-4 bg-gradient-to-br from-gold-50/60 to-white rounded-2xl border border-gray-200/80 text-center hover:shadow-lg hover:-translate-y-0.5 transition-all group"
-                  >
-                    <span className="block font-bold text-[#0B2154] text-base group-hover:text-primary-wine transition-colors">
-                      Russian Escorts
-                    </span>
-                    <span className="text-xs text-gray-600 mt-1 block">
-                      Exclusive European call girls
-                    </span>
-                  </Link>
-
-                  <Link href="/category/model-escorts"
-                    className="p-4 bg-gradient-to-br from-gold-50/60 to-white rounded-2xl border border-gray-200/80 text-center hover:shadow-lg hover:-translate-y-0.5 transition-all group"
-                  >
-                    <span className="block font-bold text-[#0B2154] text-base group-hover:text-primary-wine transition-colors">
-                      Model Escorts
-                    </span>
-                    <span className="text-xs text-gray-600 mt-1 block">
-                      Professional fashion models
-                    </span>
-                  </Link>
-
-                  <Link href="/category/housewife-escorts"
-                    className="p-4 bg-gradient-to-br from-gold-50/60 to-white rounded-2xl border border-gray-200/80 text-center hover:shadow-lg hover:-translate-y-0.5 transition-all group"
-                  >
-                    <span className="block font-bold text-[#0B2154] text-base group-hover:text-primary-wine transition-colors">
-                      Housewife Escorts
-                    </span>
-                    <span className="text-xs text-gray-600 mt-1 block">
-                      Mature, experienced profiles
-                    </span>
-                  </Link>
-
-                  <Link href="/category/college-girls"
-                    className="p-4 bg-gradient-to-br from-gold-50/60 to-white rounded-2xl border border-gray-200/80 text-center hover:shadow-lg hover:-translate-y-0.5 transition-all group"
-                  >
-                    <span className="block font-bold text-[#0B2154] text-base group-hover:text-primary-wine transition-colors">
-                      College Girls
-                    </span>
-                    <span className="text-xs text-gray-600 mt-1 block">
-                      Young, vibrant profiles
-                    </span>
-                  </Link>
-
-                  <Link href="/category/independent-girls"
-                    className="p-4 bg-gradient-to-br from-gold-50/60 to-white rounded-2xl border border-gray-200/80 text-center hover:shadow-lg hover:-translate-y-0.5 transition-all group"
-                  >
-                    <span className="block font-bold text-[#0B2154] text-base group-hover:text-primary-wine transition-colors">
-                      Independent Escorts
-                    </span>
-                    <span className="text-xs text-gray-600 mt-1 block">
-                      Self-employed professional call girls
-                    </span>
-                  </Link>
-
-                  <Link href="/category/vip-call-girls"
-                    className="p-4 bg-gradient-to-br from-gold-50/60 to-white rounded-2xl border border-gray-200/80 text-center hover:shadow-lg hover:-translate-y-0.5 transition-all group"
-                  >
-                    <span className="block font-bold text-[#0B2154] text-base group-hover:text-primary-wine transition-colors">
-                      VIP Escorts
-                    </span>
-                    <span className="text-xs text-gray-600 mt-1 block">
-                      High-profile elite models
-                    </span>
-                  </Link>
-
-                  <Link href="/category/air-hostess"
-                    className="p-4 bg-gradient-to-br from-gold-50/60 to-white rounded-2xl border border-gray-200/80 text-center hover:shadow-lg hover:-translate-y-0.5 transition-all group"
-                  >
-                    <span className="block font-bold text-[#0B2154] text-base group-hover:text-primary-wine transition-colors">
-                      Air Hostess Escorts
-                    </span>
-                    <span className="text-xs text-gray-600 mt-1 block">
-                      Groomed, elegant models
-                    </span>
-                  </Link>
-
-                  <Link href="/category/celebrity-escorts"
-                    className="p-4 bg-gradient-to-br from-gold-50/60 to-white rounded-2xl border border-gray-200/80 text-center hover:shadow-lg hover:-translate-y-0.5 transition-all group"
-                  >
-                    <span className="block font-bold text-[#0B2154] text-base group-hover:text-primary-wine transition-colors">
-                      Celebrity Escorts
-                    </span>
-                    <span className="text-xs text-gray-600 mt-1 block">
-                      Exclusive entertainment profiles
-                    </span>
-                  </Link>
-
-                  <Link href="/category/travel-escorts"
-                    className="p-4 bg-gradient-to-br from-gold-50/60 to-white rounded-2xl border border-gray-200/80 text-center hover:shadow-lg hover:-translate-y-0.5 transition-all group"
-                  >
-                    <span className="block font-bold text-[#0B2154] text-base group-hover:text-primary-wine transition-colors">
-                      Travel Escorts
-                    </span>
-                    <span className="text-xs text-gray-600 mt-1 block">
-                      Cultured luxury travel escorts
-                    </span>
-                  </Link>
-                </div>
-              </div>
-
-              {/* What Makes ALINA VIP Different */}
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0B2154] mb-4 font-sans font-bold">
-                  What Makes ALINA VIP Different
-                </h3>
-                <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
-                  <p>
-                    In a competitive market, <strong>ALINA VIP</strong> stands apart through a combination of factors that together create a service experience unlike any other in Gurgaon. Our rigorous verification process ensures that every profile is genuine, giving our clients confidence in their choices.
-                  </p>
-                  <p>
-                    Our commitment to discretion is comprehensive and multi-layered. We protect client information at every stage of the booking process, train our models in privacy protocols, and design our digital presence without persistent logs. Our 24/7 availability ensures prompt coordination whether for a planned evening or an urgent request.
-                  </p>
-                </div>
-              </div>
-
-              {/* Safety & Discretion */}
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0B2154] mb-4 font-sans font-bold">
-                  Our Commitment to Safety &amp; Discretion
-                </h3>
-                <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
-                  <p>
-                    Safety is a priority at <strong>ALINA VIP</strong>, both for our clients and escorts. Our verification process is designed not only to ensure authenticity but also to establish a secure and respectful environment for all parties.
-                  </p>
-                  <p>
-                    For our clients, we provide a trustworthy channel to reserve high-profile escorts. Verified photos give you confidence in your selection, and our concierge ensures clear, professional arrangements.
-                  </p>
-                </div>
-              </div>
-
-              {/* Why Gurgaon is the Perfect City */}
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0B2154] mb-4 font-sans font-bold">
-                  Why Gurgaon Demands High Standards
-                </h3>
-                <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
-                  <p>
-                    Gurgaon has transformed into one of India&apos;s most dynamic financial and corporate capitals. It hosts dozens of Fortune 500 regional headquarters, five-star luxury hotels, high-end dining, and world-class commercial developments.
-                  </p>
-                  <p>
-                    This cosmopolitan character attracts sophisticated professionals, entrepreneurs, and global travelers who expect exceptional quality. <strong>ALINA VIP</strong> was created to meet this standard, delivering escort services that match the luxury benchmarks of the city itself.
-                  </p>
-                </div>
-              </div>
-
-              {/* Book Your Escort Service Today */}
-              <div className="pt-4">
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0B2154] mb-4 font-sans font-bold">
-                  Reserve VIP Escort Service Today
-                </h3>
-                <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                  Experience verified escort services with <strong>ALINA VIP</strong>. Explore our{' '}
-                  <Link href="/services" className="text-primary-wine hover:underline font-semibold">
-                    escort services
-                  </Link>{' '}
-                  or speak directly with our concierge desk to arrange an outcall to your hotel suite or residence.
-                </p>
-
-                {/* CTAs */}
-                <div className="flex flex-wrap gap-4">
-                  <Link href="/contact"
-                    className="inline-flex items-center justify-center gap-2 bg-[#671725] hover:bg-[#50121d] text-white font-bold px-8 py-4 rounded-full text-base transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-                  >
-                    Reserve Now <ArrowRight className="w-5 h-5" />
-                  </Link>
-                  <Link href="/services"
-                    className="inline-flex items-center justify-center gap-2 bg-[#0B2154] hover:bg-[#2d2d44] text-white px-8 py-4 rounded-full font-bold text-base transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-                  >
-                    View All Services
-                  </Link>
-                  <a
-                    href={`tel:${siteConfig.phone}`}
-                    className="inline-flex items-center justify-center gap-2 border-2 border-primary-wine text-primary-wine hover:bg-primary-wine hover:text-white px-8 py-4 rounded-full font-bold text-base transition-all"
-                  >
-                    <Phone className="w-5 h-5" /> Call Now
-                  </a>
-                </div>
-
-                {/* 24/7 Banner Card */}
-                <div className="mt-8 p-6 bg-[#FFFDF6] rounded-2xl border-2 border-gray-200/80 shadow-sm text-center">
-                  <p className="text-xl font-bold text-[#0B2154]">
-                    📞 Call us 24/7:{' '}
-                    <a href={`tel:${siteConfig.phone}`} className="text-primary-wine hover:underline font-extrabold ml-1">
-                      {siteConfig.phoneDisplay}
-                    </a>
-                  </p>
-                  <p className="text-gray-600 mt-2 text-sm">
-                    Prompt outcall dispatch across all Gurgaon luxury hotels &amp; private residences.
-                  </p>
-                  <p className="text-xs text-gray-500 mt-2">
-                    Official Portal:{' '}
-                    <a
-                      href={siteConfig.url}
-                      className="text-primary-wine hover:underline font-semibold"
-                    >
-                      {siteConfig.domain}
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Column: Sticky Visual Showcase & Rating Badge */}
-            <div className="lg:col-span-5 space-y-6 lg:sticky lg:top-24">
-              {/* Main Hero Card */}
-              <div className="rounded-2xl overflow-hidden shadow-2xl border border-neutral-200/80 bg-neutral-900 group">
-                <div className="relative aspect-[4/3] overflow-hidden">
-                  <Image
-                    src="/images/assets/Diverse_Portfolio.jpg"
-                    alt="ALINA VIP - Luxury Escort Agency Gurgaon"
-                    title="ALINA VIP - Luxury Escort Agency Gurgaon"
-                    fill
-                    sizes="(max-width: 1024px) 100vw, 450px"
-                    className="object-cover group-hover:scale-105 transition-transform duration-700"
-                    loading="lazy"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6">
-                    <span className="inline-block px-3 py-1 bg-[#FFFDF6]0/90 text-neutral-950 font-bold text-xs uppercase tracking-wider rounded-full mb-2 w-max">
-                      Gurgaon&apos;s Flagship
-                    </span>
-                    <h3 className="text-white text-xl font-bold font-sans font-bold">
-                      Excellence &amp; Supreme Discretion
-                    </h3>
-                    <p className="text-gray-300 text-xs mt-1">
-                      Setting the benchmark for luxury hospitality and escort services.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* 2-Grid Secondary Images */}
-              <div className="grid grid-cols-2 gap-4">
-                <div className="rounded-xl overflow-hidden shadow-lg border border-neutral-200/80 bg-neutral-900 group">
-                  <div className="relative h-48 overflow-hidden">
-                    <Image
-                      src="/images/assets/Benefits_of_Booking_Through_a_Professional_Escort_.jpg"
-                      alt="Verified VIP Escorts in Gurgaon"
-                      title="Verified VIP Escorts in Gurgaon"
-                      fill
-                      sizes="(max-width: 1024px) 50vw, 220px"
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      loading="lazy"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-3">
-                      <span className="text-xs font-semibold text-white">VIP Escorts</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="rounded-xl overflow-hidden shadow-lg border border-neutral-200/80 bg-neutral-900 group">
-                  <div className="relative h-48 overflow-hidden">
-                    <Image
-                      src="/images/assets/High_Profile_Escorts_Girl_In_Delhi.jpg"
-                      alt="Luxury Outcall Service Gurgaon"
-                      title="Luxury Outcall Service Gurgaon"
-                      fill
-                      sizes="(max-width: 1024px) 50vw, 220px"
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      loading="lazy"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-3">
-                      <span className="text-xs font-semibold text-white">Five-Star Outcall</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* 4.9/5 Star Rating Card */}
-              <div className="bg-[#FFFDF6] p-6 rounded-2xl border border-gray-200/80 text-center shadow-md">
-                <div className="w-12 h-12 rounded-full bg-[#671725]/10 flex items-center justify-center mx-auto mb-3">
-                  <Star className="w-7 h-7 text-primary-wine fill-luxury-gold" />
-                </div>
-                <p className="font-bold text-[#0B2154] text-2xl font-sans font-bold">4.9 / 5 Star Rating</p>
-                <p className="text-gray-600 text-sm mt-1">
-                  Based on 500+ verified client reviews across Gurgaon
-                </p>
-                <div className="flex justify-center gap-1.5 mt-3">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-luxury-gold text-luxury-gold" />
-                  ))}
-                </div>
-                <p className="text-xs text-gray-500 mt-4 pt-3 border-t border-gray-200/50">
-                  Verified platform:{' '}
-                  <a
-                    href={siteConfig.url}
-                    className="text-primary-wine hover:underline font-semibold"
-                  >
-                    {siteConfig.domain}
-                  </a>
-                </p>
-              </div>
-
-              {/* High-Trust Guarantee Pillars */}
-              <div className="bg-[#FFFDF6] p-6 rounded-2xl border border-gray-200/50 space-y-3">
-                <h4 className="text-sm font-bold uppercase tracking-wider text-[#0B2154] flex items-center gap-2">
-                  <HeartHandshake className="w-4 h-4 text-primary-wine" /> ALINA VIP Commitment
-                </h4>
-                <ul className="text-xs text-gray-600 space-y-2">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-primary-wine flex-shrink-0" />
-                    <span>Real photos &amp; in-person verified profiles</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-primary-wine flex-shrink-0" />
-                    <span>Strict confidentiality &amp; zero digital trace</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-primary-wine flex-shrink-0" />
-                    <span>Prompt arrival at top-tier hotels across Gurgaon</span>
-                  </li>
-                </ul>
-              </div>
+          <div className="lg:col-span-5">
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+              <Image
+                src="/images/assets/High_Profile_Escorts_Girl_In_Delhi.jpg"
+                alt="About ALINA VIP Gurgaon Escorts"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
         </div>
-      </section>
+
+        {/* Why Choose Our Escort Agency */}
+        <div className="bg-white rounded-2xl border border-gray-100 p-8 sm:p-12 shadow-sm">
+          <div className="max-w-3xl mb-10">
+            <span className="text-xs font-bold text-[#671725] uppercase tracking-widest">Client Satisfaction Guarantee</span>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0B2154] mt-1">
+              Why Choose Our Gurgaon Escort Agency For Love Making?
+            </h2>
+            <p className="text-gray-600 text-sm mt-2">
+              Before you book an escort, it is important to know about the agency and why they are the best choice. Here are the core values that make our agency number one in Gurgaon:
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm text-gray-700">
+            <div className="bg-[#FFFDF6] p-6 rounded-xl border border-rose-100/70 space-y-2">
+              <h3 className="text-lg font-bold text-[#0B2154] flex items-center gap-2">
+                <Star className="text-[#671725]" size={18} />
+                24/7 Availability and Customer Support
+              </h3>
+              <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                Our clients never face time barriers when hiring our escort services. We bring our ultimate range of services to you 24 by seven. Our female escorts in Gurgaon are there to accompany you at any hour of the day. You get round the clock customer support and instant response to your every query.
+              </p>
+            </div>
+
+            <div className="bg-[#FFFDF6] p-6 rounded-xl border border-rose-100/70 space-y-2">
+              <h3 className="text-lg font-bold text-[#0B2154] flex items-center gap-2">
+                <Shield className="text-[#671725]" size={18} />
+                Easy Hiring and Payments
+              </h3>
+              <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                Hiring our Gurgaon escort service is the easiest thing because we have made our services available to you with a simple process. All you need to do is to contact our team via WhatsApp or a phone call to book your appointment. Different payment methods are available, including cash on delivery, card payments, and online bank transfers with UPI.
+              </p>
+            </div>
+
+            <div className="bg-[#FFFDF6] p-6 rounded-xl border border-rose-100/70 space-y-2">
+              <h3 className="text-lg font-bold text-[#0B2154] flex items-center gap-2">
+                <Award className="text-[#671725]" size={18} />
+                Variety of Escort Services and Premium Fun
+              </h3>
+              <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                We have hand-selected high profile escorts available to accompany you. These high profile escorts in Gurgaon are 100 percent verified. Their background is verified, and they belong to high society families. Moreover, they are educated and bring every service with utmost sophistication and professionalism.
+              </p>
+            </div>
+
+            <div className="bg-[#FFFDF6] p-6 rounded-xl border border-rose-100/70 space-y-2">
+              <h3 className="text-lg font-bold text-[#0B2154] flex items-center gap-2">
+                <Heart className="text-[#671725]" size={18} />
+                100% Private Experience Assured
+              </h3>
+              <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                Our escort agency in Gurgaon always prioritises the privacy and security of clients. We give 100 percent confidential experience to all. Your information remains safe with us. We never reveal it to anybody else. Our girls are also professionally trained. Therefore, you can trust us for a reliable experience. Everything is secure and 100 percent confidentiality is guaranteed.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* 1000+ Profiles & Fair Pricing */}
+        <div className="bg-white rounded-2xl border border-gray-100 p-8 sm:p-12 shadow-sm">
+          <div className="max-w-3xl mb-8">
+            <span className="text-xs font-bold text-[#671725] uppercase tracking-widest">Transparent Pricing</span>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0B2154] mt-1">
+              1000+ Gurgaon Escort Profiles for the Best Experience at Fair Pricing
+            </h2>
+            <p className="text-gray-700 text-sm sm:text-base mt-4 leading-relaxed">
+              Never hesitate reaching out to our ultimate escort agency if you want to Make Love with the finest independent escorts in Gurgaon. We have more than 1000 profiles of different escorts who are 100% genuine and reliable. Their real photos are also available on our platform. See their pictures and choose your girl for adult dating and excitement.
+            </p>
+            <p className="text-gray-700 text-sm sm:text-base mt-3 leading-relaxed">
+              Every experience you have with our girls is secure. Moreover, all our prices are fair and transparent. We do not charge any hidden costs from you. The rates are reasonable and competitive. You get a budget friendly experience every time you reach out to us. So indulge in the best experience with our Gurgaon independent escorts. Schedule your appointment today!
+            </p>
+          </div>
+
+          <div className="flex flex-wrap gap-4 pt-4 border-t border-gray-100">
+            <Link
+              href="/rates"
+              className="px-6 py-3 bg-[#671725] hover:bg-[#52121d] text-white text-xs font-bold rounded-lg shadow transition-colors"
+            >
+              Check Rates &amp; Pricing &rarr;
+            </Link>
+            <Link
+              href="/gallery"
+              className="px-6 py-3 bg-gray-900 hover:bg-black text-white text-xs font-bold rounded-lg shadow transition-colors"
+            >
+              Browse Escort Profiles &rarr;
+            </Link>
+          </div>
+        </div>
+
+        {/* How to Book FAQ (Exact Roshni Khanna questions) */}
+        <div className="bg-white rounded-2xl border border-gray-100 p-8 sm:p-12 shadow-sm space-y-6">
+          <div className="max-w-3xl mb-6">
+            <span className="text-xs font-bold text-[#671725] uppercase tracking-widest">Booking Protocol</span>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0B2154] mt-1">
+              How to Book – Frequently Asked Questions
+            </h2>
+          </div>
+
+          <div className="space-y-5 text-sm text-gray-700 divide-y divide-gray-100">
+            <div className="pt-4">
+              <h3 className="font-bold text-[#0B2154] text-base mb-1.5">
+                How long in advance should you book an escort model in Delhi / Gurgaon?
+              </h3>
+              <p className="text-gray-600 leading-relaxed text-xs sm:text-sm">
+                Our Escorts service is available 24×7 in Delhi NCR. Our agency is famous for one of its many features where we make last-minute bookings. So, no matter whether you want to book an escort in advance or at the last minute, we are here for you. All you need to make sure is that you give us a call or drop us a message and leave the rest to us! For bookings with VIP models and High Profile escorts, we recommend booking in advance.
+              </p>
+            </div>
+
+            <div className="pt-4">
+              <h3 className="font-bold text-[#0B2154] text-base mb-1.5">
+                Do we offer both in-call and outcall services?
+              </h3>
+              <p className="text-gray-600 leading-relaxed text-xs sm:text-sm">
+                Our aim is to cater to all your needs. That is why we offer both in-call and outcall escorts in Gurgaon and Delhi NCR. Our in-call service is where you visit the escort at the venue she decides. Whereas, outcall service is where the escort visits you at the location of your choice. So, whether you want us to pick a place for you or pick a place yourself, you have both options available 24×7.
+              </p>
+            </div>
+
+            <div className="pt-4">
+              <h3 className="font-bold text-[#0B2154] text-base mb-1.5">
+                Can I book an escort service for a tour and/or an outing?
+              </h3>
+              <p className="text-gray-600 leading-relaxed text-xs sm:text-sm">
+                Yes, you absolutely can! You can choose to go for an outing with one or more of our escorts as long as you have discussed this before. Rest assured, no matter where you go, these girls will give you the girlfriend experience exactly the way you want, where you want, and when you want it.
+              </p>
+            </div>
+
+            <div className="pt-4">
+              <h3 className="font-bold text-[#0B2154] text-base mb-1.5">
+                If the girl is not the same as in the picture, then?
+              </h3>
+              <p className="text-gray-600 leading-relaxed text-xs sm:text-sm">
+                We believe in showing only what we can deliver. We share original profiles and photos before you book. There is less than a 1% chance that someone other than the one you selected will show up. However, if this happens, you can call us immediately and we will replace her with zero hassle or cancel your booking with zero fees.
+              </p>
+            </div>
+
+            <div className="pt-4">
+              <h3 className="font-bold text-[#0B2154] text-base mb-1.5">
+                How many escort models can I book for a single session?
+              </h3>
+              <p className="text-gray-600 leading-relaxed text-xs sm:text-sm">
+                You can book a meeting with as many escorts as you wish! The same applies to our special Russian Escorts and high profile model Escorts. For more than 2 companions, we recommend booking a few hours in advance to guarantee coordinated arrival.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <CTASection />
-    </>
+    </div>
   );
 }
