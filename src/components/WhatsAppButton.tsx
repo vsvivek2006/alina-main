@@ -1,71 +1,32 @@
-'use client';
-
-import { Phone, MessageCircle } from 'lucide-react';
+import { MessageCircle, Phone } from 'lucide-react';
 import { siteConfig } from '@/data/siteConfig';
 
 export default function WhatsAppButton() {
-  // fixed bottom contact bar
-
-  
-
   return (
-    <>
-      {/* 1. Desktop Side Floating Icons (Right edge, vertically centered) */}
-      <aside
-        aria-label="Quick Contact Options"
-        className="hidden md:flex fixed right-0 top-1/2 -translate-y-1/2 z-50 flex-col gap-2 p-1.5 bg-black/40 backdrop-blur-md rounded-l-2xl border-l-2 border-y-2 border-primary-wine/40 shadow-2xl transition-all duration-300"
+    <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3 items-end">
+      {/* Phone Hotline Float */}
+      <a
+        href={`tel:${siteConfig.phone}`}
+        className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-r from-gold-500 to-gold-600 text-neutral-900 rounded-full flex items-center justify-center shadow-xl shadow-gold-900/30 hover:scale-110 transition-transform duration-300 group"
+        aria-label="Call ALINA VIP Concierge"
+        title="Direct VIP Call"
       >
-        <a
-          href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(
-            'Hello ALINA VIP, I want to book an escort in Gurgaon.'
-          )}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-12 h-12 bg-[#13bc18] hover:bg-[#0fa814] text-white rounded-xl flex items-center justify-center shadow-lg hover:scale-110 transition-all duration-200 group"
-          aria-label="Chat on WhatsApp"
-          title="WhatsApp Concierge"
-        >
-          <MessageCircle size={24} className="fill-white/20 group-hover:scale-110 transition-transform" />
-        </a>
+        <Phone size={22} className="text-neutral-950" />
+      </a>
 
-        <a
-          href={`tel:${siteConfig.phone}`}
-          className="w-12 h-12 bg-[#0b2154] hover:bg-[#07173b] text-white rounded-xl flex items-center justify-center shadow-lg hover:scale-110 transition-all duration-200 group"
-          aria-label="Direct Phone Hotline"
-          title="Direct Phone Hotline"
-        >
-          <Phone size={22} className="group-hover:scale-110 transition-transform text-luxury-gold" />
-        </a>
-      </aside>
-
-      {/* 2. Mobile Sticky Bottom Bar (Exact Roshni Khanna fix-icon2 layout: 50% WhatsApp + 50% Call Now) */}
-      <nav
-        id="callButton"
-        aria-label="Mobile Contact Actions"
-        className="md:hidden fixed bottom-0 left-0 right-0 z-50 flex items-stretch h-14 shadow-[0_-4px_20px_rgba(0,0,0,0.3)] transition-transform duration-300"
+      {/* WhatsApp Chat Float */}
+      <a
+        href={`https://wa.me/${siteConfig.whatsapp}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="relative w-12 h-12 md:w-14 md:h-14 bg-gradient-to-r from-[#25D366] to-[#128C7E] rounded-full flex items-center justify-center shadow-xl shadow-emerald-950/40 hover:scale-110 transition-transform duration-300"
+        aria-label="Chat on WhatsApp"
+        title="WhatsApp"
       >
-        <a
-          href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(
-            'Hello ALINA VIP, I need Escort Service in Gurgaon.'
-          )}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-1/2 bg-[#13bc18] hover:bg-[#0fa814] active:bg-[#0e9612] text-white flex items-center justify-center gap-2 text-[15px] font-semibold tracking-wide border-r border-white/20 transition-colors"
-          aria-label="Chat on WhatsApp"
-        >
-          <MessageCircle size={20} className="fill-white/20" />
-          <span>WhatsApp</span>
-        </a>
-
-        <a
-          href={`tel:${siteConfig.phone}`}
-          className="w-1/2 bg-[#0b2154] hover:bg-[#07173b] active:bg-[#05112c] text-white flex items-center justify-center gap-2 text-[15px] font-semibold tracking-wide transition-colors"
-          aria-label="Call Hotline Now"
-        >
-          <Phone size={19} className="text-luxury-gold" />
-          <span>Call Now</span>
-        </a>
-      </nav>
-    </>
+        <MessageCircle size={26} className="text-white" />
+        <span className="absolute -top-1 -right-1 w-3.5 h-3.5 bg-gold-400 rounded-full animate-ping" />
+        <span className="absolute -top-1 -right-1 w-3.5 h-3.5 bg-gold-400 rounded-full" />
+      </a>
+    </div>
   );
 }
