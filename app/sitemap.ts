@@ -48,9 +48,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   addUrl('/disclaimer', 0.3, 'monthly');
 
   // High-Priority Alias Pages
-  addUrl('/gurgaon-escorts-rates', 0.9, 'daily');
-  addUrl('/escorts-categories', 0.9, 'daily');
-  addUrl('/gurgaon-escorts-phone-number', 0.85, 'weekly');
   addUrl('/phone-number', 0.85, 'weekly');
   addUrl('/escort-service-for-1-2-3-hours', 0.85, 'weekly');
   addUrl('/escort-service-full-night', 0.85, 'weekly');
@@ -63,9 +60,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     slug: string;
   }
 
-  // 2. All 207 Pages from page-sitemap.xml
+    // 2. All catalog Pages (exclude redirect-destination slugs — they 308 redirect, not canonical)
+  const sitemapExcludedSlugs = new Set(['about-us', 'contact-us', 'faqs', 'escorts-categories', 'gurgaon-escorts-rates', 'gurgaon-escorts-phone-number', 'sitemap']);
   (pagesData as SimpleSlug[]).forEach((p) => {
-    if (p.slug) {
+    if (p.slug && !sitemapExcludedSlugs.has(p.slug)) {
       addUrl(`/${p.slug}`, 0.85, 'weekly');
     }
   });
