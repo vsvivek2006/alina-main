@@ -61,7 +61,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
     // 2. All catalog Pages (exclude redirect-destination slugs — they 308 redirect, not canonical)
-  const sitemapExcludedSlugs = new Set(['about-us', 'contact-us', 'faqs', 'escorts-categories', 'gurgaon-escorts-rates', 'gurgaon-escorts-phone-number', 'sitemap']);
+  const sitemapExcludedSlugs = new Set(['about-us', 'contact-us', 'faqs', 'escorts-categories', 'gurgaon-escorts-rates', 'gurgaon-escorts-phone-number', 'sitemap', 'location', 'terms-and-conditions']);
   (pagesData as SimpleSlug[]).forEach((p) => {
     if (p.slug && !sitemapExcludedSlugs.has(p.slug)) {
       addUrl(`/${p.slug}`, 0.85, 'weekly');
