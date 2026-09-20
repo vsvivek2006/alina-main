@@ -73,6 +73,7 @@ export const metadata: Metadata = {
     images: [`${siteConfig.url}/og-image.jpg`],
   },
   verification: {
+    google: 'MBuc5dAGr1kW7cEzwjKMWRf1c14edIIbX1hKiYEh6Lw',
     other: {
       seobility: '01d67d85a0cff8389a0210729e64aead',
     },
@@ -130,6 +131,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${poppins.variable}`}>
       <head>
+        <meta name="google-site-verification" content="MBuc5dAGr1kW7cEzwjKMWRf1c14edIIbX1hKiYEh6Lw" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
